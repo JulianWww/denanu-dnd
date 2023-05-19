@@ -253,13 +253,13 @@ export default class EncounterInitiative extends React.Component<Props, State> {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item xs={3} className="growable">
-        {/*mob ?
+      <Grid item xs={3} >
+        {mob ?
           mob.mob ? 
             <StatsSheet character={character ? character : default_Character} conditionsRef={mob?.conditionsRef} upload={uploadCharacter}/>
             :
             null
-          : null*/
+          :
           <PlayerSheet player={{
             name: "test",
             file: "https://wandhoven.ddns.net/friendlyAI.pdf",

@@ -85,7 +85,7 @@ class EncounterVerviewCLS extends React.Component<Props & {params: Readonly<Para
           <TextWraper>
             <ComponentSwap open={editingCampain || encounter.campain === undefined} style={{minWidth: "400px"}}>
               <h3 onClick={()=>this.setState({editingCampain: true})} style={{marginTop: "20px"}}>{encounter.campain}</h3>
-              <CampainSelector {...this.props} onValueChange={(a: string | null) => {
+              <CampainSelector {...this.props} onValueStringChange={(a: string | null) => {
                 encounter.campain = a ? a : undefined;
               }} fullWidth onBlur={()=>{
                 this.setState({editingCampain: false});
@@ -94,7 +94,7 @@ class EncounterVerviewCLS extends React.Component<Props & {params: Readonly<Para
             </ComponentSwap>
             
           </TextWraper>
-          <TabBar labels={["Encounter Builder", "Initative", "df dd "]} childProps={{1: {className: "growable"}}}>
+          <TabBar labels={["Encounter Builder", "Initative"]} childProps={{1: {className: "growable"}}}>
             <EncounterPlanerModule {...this.props} encounter={encounter} fileName={this.props.params.name}/>
             <EncounterInitiative {...this.props} encounter={encounter}/>
           </TabBar>

@@ -130,7 +130,7 @@ export default function EncounterPlanerInterface(props: Props) {
             <TextField label="name" value={name} variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>) => setName(e.target.value)}/>
           </DialogActions>
           <DialogActions>
-            <CampainSelector {...props} value={campain} onValueChange={(e: string | null) => {
+            <CampainSelector {...props} value={campain} onValueStringChange={(e: string | null) => {
               setCampain(e ? e: undefined);
             }}/>
           </DialogActions>

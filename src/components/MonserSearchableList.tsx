@@ -63,7 +63,7 @@ export default class SearchableMonsterList extends SearchableList {
   }
 
   customElements(): ReactNode {
-    console.log("Hi")
+    
     return <>
     <div className="row">
       <TextField select label="Min Cr" value={this.minCr} variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>) => {this.minCr = eval(e.target.value); this.maxCr = Math.max(this.minCr, this.maxCr); this.update()}}>

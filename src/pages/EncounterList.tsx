@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Container } from "@mui/material";
+import { Button, ButtonGroup, Container } from "@mui/material";
 import {IToken} from "../Login/UseToken";
 import MainMenu from "../components/MainMenu";
 import SearchableList, { Element } from "../components/SearchableList";
@@ -8,6 +8,8 @@ import { loadEncounters } from "../components/encounters/Utils";
 import { EncounterIndex } from "../components/encounters/Encounter";
 import EncounterListElement from "../components/encounters/EncounterListElement";
 import EncountersSearchableList, { EncounterElement } from "../components/EncountersSearchableList";
+import NavigateButton from "../components/NavitageButton";
+import RightAlign from "../components/RightAlign";
 
 interface Props extends IToken {
 }
@@ -51,7 +53,14 @@ export default class EncounterList extends React.Component<Props, State> {
     return <Container>
       {
         loading ? <Loader/> :
-        <EncountersSearchableList elements={encounters} {...this.props}/>
+        <>
+          <RightAlign>
+            <NavigateButton url="/encounter-planer">
+              Add
+            </NavigateButton>
+          </RightAlign>
+          <EncountersSearchableList elements={encounters} {...this.props}/>
+        </>
       }
     </Container>
   }

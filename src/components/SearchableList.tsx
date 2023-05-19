@@ -1,7 +1,7 @@
 import * as React from "react";
 import {levenshteinEditDistance} from 'levenshtein-edit-distance';
 import ListItem from '@mui/material/ListItem';
-import { Card, TextField } from "@mui/material";
+import { Card, CardProps, TextField } from "@mui/material";
 import { FixedSizeList, ListChildComponentProps } from 'react-window';
 
 export interface Element{
@@ -10,7 +10,7 @@ export interface Element{
   distance?: number
 }
 
-export interface SearchableListProps{
+export interface SearchableListProps extends CardProps {
   fluid?: boolean;
   elements: Element[];
   height?: number;
@@ -76,9 +76,9 @@ export default class SearchableList<P={}> extends React.Component<SearchableList
   render(){
     this.filterList();
 
-    const { elements, fluid, ...listProps } = this.props;
+    const { elements, fluid, height, itemSize, ...other } = this.props;
     return (
-      <Card variant="outlined">
+      <Card variant="outlined" {...other}>
         <div className="searchListOutline">
          <TextField fullWidth label="Search"
             placeholder='Search...'
@@ -90,7 +90,7 @@ export default class SearchableList<P={}> extends React.Component<SearchableList
           {this.customElements()}
           <Card className="fluid seachListList" variant="outlined">
             <div className="searchListOutline inner">
-              <FixedList list={this} {...listProps}/>
+              <FixedList list={this} height={height} itemSize={itemSize}/>
             </div>
           </Card>
         </div>

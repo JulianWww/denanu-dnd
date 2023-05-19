@@ -4,7 +4,7 @@ import CampainList from "./CampainList";
 
 interface Props extends StandardTextFieldProps {
   value?: string | null,
-  onValueChange: (a: string|null)=>void;
+  onValueStringChange: (a: string|null)=>void;
 }
 
 export default class CampainSelector extends CampainList<Props> {
@@ -17,7 +17,7 @@ export default class CampainSelector extends CampainList<Props> {
     }) === -1} {...this.props}/>}
       options={names}
       fullWidth
-      onChange={(event: React.SyntheticEvent, value: string | null)=> {this.props.onValueChange(value)}}
+      onChange={(event: React.SyntheticEvent, value: string | null)=> {this.props.onValueStringChange(value)}}
     />
   }
 }

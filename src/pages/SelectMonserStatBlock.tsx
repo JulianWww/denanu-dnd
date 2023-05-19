@@ -3,7 +3,7 @@ import {IToken, Token} from "../Login/UseToken";
 import { Container, Button, CircularProgress, Box } from '@mui/material';
 import { MonsterForwardingListElement, loadMonsters } from "../components/monsters/MonsterSearchListElement";
 import {Element} from "../components/SearchableList";
-import { Index, randomFileName, writePrivateData } from "../Login/ServerApi";
+import { Index, randomFileName, toUrl, writePrivateData } from "../Login/ServerApi";
 import Character, { default_Character } from '../components/monsters/Character';
 import { useNavigate } from 'react-router-dom';
 import SearchableMonsterList from '../components/MonserSearchableList';
@@ -57,7 +57,11 @@ export default class StatBlockSelector extends React.Component<Props, State>{
   }
 
   loadMonsters = async () => {
-    this.setState({loading: false, monsters: (await loadMonsters((val: MonsterIndex) => <MonsterForwardingListElement {...val} target={val.file}/>, this.props.token))});
+    this.setState({loading: false, monsters: (await loadMonsters((val: MonsterIndex) => {
+      console.log(val);
+      return <MonsterForwardingListElement {...val} target={toUrl(val.idx)}/>
+    }, this.props.token)
+      )});
   }
 
 

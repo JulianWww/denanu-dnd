@@ -24,6 +24,7 @@ interface DesktopContainerProps {
 const pages = [
   "monsters",
   "encounters",
+  "encounter-planer",
   "campains",
   "spells"
 ]
@@ -33,14 +34,12 @@ function DesktopContainer(props: DesktopContainerProps) {
   const loc = useLocation();
   const [,base] = loc.pathname.split("/", 2)
 
-  console.log(base, loc);
-
 
   return <AppBar>
     <Toolbar>
       <Tabs value={pages.indexOf(base)} sx={{ flexGrow: 1, alignSelf: 'flex-end' }}>
         {
-          pages.map((val: string)=> <Tab key={val} label={val} onClick={()=>nav("/" + val)}/>)
+          pages.map((val: string)=> <Tab key={val} label={val.replace("-", " ")} onClick={()=>nav("/" + val)}/>)
         }
       </Tabs>
       <>

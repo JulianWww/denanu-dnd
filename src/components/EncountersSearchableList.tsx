@@ -37,7 +37,7 @@ export default class EncountersSearchableList extends SearchableList<Props> {
 
   customElements() {
     return <div className="row">
-      <CampainSelector {...this.props} onValueChange={(val: string | null) => {
+      <CampainSelector token={this.props.token} setToken={this.props.setToken} onValueStringChange={(val: string | null) => {
           this.campain = val;
           this.update();
         }}

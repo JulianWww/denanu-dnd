@@ -49,7 +49,7 @@ export default class StatsSheet extends React.Component<Props, State> {
     this.state = {
       mdOpen: false,
       loading: false,
-      blockEditing: true,
+      blockEditing: false,
       conditions: []
     }
 

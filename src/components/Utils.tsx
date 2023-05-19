@@ -148,6 +148,9 @@ export function NewCustomItemCreator(props: NewCustomItemCreatorProps) {
   if (token) {
     return (
       <RightAlign>
+        <Button onClick={() => nav("/encounter-planer")} sx={{mr: 1}}>
+          Build Encounter
+        </Button>
         <Button 
           onClick={() => {
             if(token) {

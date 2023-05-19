@@ -100,8 +100,14 @@ export async function readPrivateIndex<T extends ServerApiIndex>(group: string, 
     return [];
   }
   const data = (await readPrivateData(token, group, "_index") as T[]).map((val: T) => {
-    val.file = "private/" + token.username + "/" + val.file;
-    return val;
+    return {
+      ...val,
+      idx: {
+        name: val.file,
+        group: "private",
+        source: group,
+      }
+    };
   });
   return data;
 }

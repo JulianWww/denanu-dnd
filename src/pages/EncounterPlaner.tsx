@@ -59,7 +59,7 @@ export class EncounterPlanerModule extends React.Component<Props, State> {
 
     return <>
       <ControllSection encounter={encounter} {...this.props}/>
-      <SearchableMonsterList fluid elements={monsters}/>
+      <SearchableMonsterList fluid elements={monsters} sx={{mt: 1}}/>
     </>
   }
 }
