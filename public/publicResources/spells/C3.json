@@ -1,0 +1,37 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.",
+	"availableClasses": [
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Elemental Evil",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d4"
+	],
+	"damageTypes": [
+		"acid"
+	],
+	"description": "You point at a location within range, and a glowing, 1-foot-diameter ball of emerald acid streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 10d4 acid damage and another 5d4 acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 4,
+	"materialComponents": "a drop of giant slug bile",
+	"name": "Vitriolic Sphere",
+	"range": "150 feet",
+	"ritual": false,
+	"savingThrows": [
+		"dexterity"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 23  from EE Players Companion",
+	"urlFriendlyName": "vitriolic-sphere"
+}

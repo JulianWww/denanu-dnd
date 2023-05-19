@@ -1,0 +1,32 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd.",
+	"availableClasses": [
+		"Bard",
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Xanathars Guide To Everything",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": false
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the spell\u2019s duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can\u2019t be affected by this spell again until it finishes a long rest.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 3,
+	"materialComponents": "a pinch of sand",
+	"name": "Catnap",
+	"range": "30 feet",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Enchantment",
+	"sourcePage": "Page: 151  from Xanathar's Guide To Everything",
+	"urlFriendlyName": "catnap"
+}

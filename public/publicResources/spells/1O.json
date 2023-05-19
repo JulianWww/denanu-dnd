@@ -1,0 +1,30 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Paladin"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you.  Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects.   Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throws.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 5,
+	"materialComponents": null,
+	"name": "Circle of Power",
+	"range": "Self (30-foot radius)",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Abjuration",
+	"sourcePage": "Page: 221  Players Handbook",
+	"urlFriendlyName": "circle-of-power"
+}

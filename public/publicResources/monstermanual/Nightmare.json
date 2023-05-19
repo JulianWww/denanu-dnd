@@ -1,0 +1,59 @@
+{
+	"Armor_Class": "13 (Natural Armor)",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage.",
+			"name": "Hooves"
+		},
+		{
+			"description": "The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa.",
+			"name": "Ethereal Stride"
+		}
+	],
+	"alignment": "neutral evil",
+	"cha": 15,
+	"con": 16,
+	"condition_immunities": [],
+	"cr": "3",
+	"damage_immunities": [
+		"Fire"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 15,
+	"hp": 68,
+	"hp_gen": "8d10 + 24",
+	"int": 10,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Common  and Infernal but can't speak",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Nightmare",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Passive Perception 11",
+	"size": "Large",
+	"skills": [],
+	"speed": "60 ft., fly 90 ft.",
+	"str": 18,
+	"traits": [
+		{
+			"description": "The nightmare can grant resistance to fire damage to anyone riding it.",
+			"name": "Confer Fire Resistance"
+		},
+		{
+			"description": "The nightmare sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+			"name": "Illumination"
+		}
+	],
+	"type": "fiend",
+	"wis": 13,
+	"xp": 700
+}

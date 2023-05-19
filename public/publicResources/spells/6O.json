@@ -1,0 +1,33 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+	"availableClasses": [
+		"Bard",
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target\u2019s person. The spell ends for a target that attacks or casts a spell.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 2,
+	"materialComponents": "an eyelash encased in gum arabic",
+	"name": "Invisibility",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Illusion",
+	"sourcePage": "Page: 254  Players Handbook",
+	"urlFriendlyName": "invisibility"
+}

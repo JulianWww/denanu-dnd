@@ -1,0 +1,31 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Cleric",
+		"Paladin"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Bonus Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 1,
+	"materialComponents": "a small parchment with a bit of holy text written on it",
+	"name": "Shield of Faith",
+	"range": "60 feet",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Abjuration",
+	"sourcePage": "Page: 275  Players Handbook",
+	"urlFriendlyName": "shield-of-faith"
+}

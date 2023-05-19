@@ -1,0 +1,31 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Druid",
+		"Ranger"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": false
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast's eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 2,
+	"materialComponents": null,
+	"name": "Beast Sense",
+	"range": "Touch",
+	"ritual": true,
+	"savingThrows": [],
+	"school": "Divination",
+	"sourcePage": "Page: 217  Players Handbook",
+	"urlFriendlyName": "beast-sense"
+}

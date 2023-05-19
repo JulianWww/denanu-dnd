@@ -1,0 +1,36 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Cleric",
+		"Druid",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "10 Minutes",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d4"
+	],
+	"damageTypes": [
+		"cold"
+	],
+	"description": "You take control of the weather within 5 miles of you for the duration.  You must be outdoors to cast this spell. Moving to a place where you don\u2019t have a clear path to the sky ends the spell early.   When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. It takes 1d4 x 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.   When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.   Precipitation  Stage 1 \u2013 Clear,  Stage 2 \u2013 Light clouds,  Stage 3 \u2013 Overcast or ground fog,  Stage 4 \u2013 Rain, hail or snow,  Stage 5 \u2013 Torrential rain, driving hail or blizzard   Temperature  Stage 1 \u2013 Unbearable heat,  Stage 2 \u2013 Hot,  Stage 3 \u2013 Warm,  Stage 4 \u2013 Cool,  Stage 5 \u2013 Cold,  Stage 6 \u2013 Arctic cold   Wind  Stage 1 \u2013 Calm,  Stage 2 \u2013 Moderate wind,  Stage 3 \u2013 Strong wind,  Stage 4 \u2013 Gale,  Stage 5 \u2013 Storm",
+	"duration": 28800,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 8,
+	"materialComponents": null,
+	"name": "Control Weather",
+	"range": "Self (5-mile radius)",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Transmutation",
+	"sourcePage": "Page: 228  Players Handbook",
+	"urlFriendlyName": "control-weather"
+}

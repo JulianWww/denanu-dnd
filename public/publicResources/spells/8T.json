@@ -1,0 +1,33 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You utter a word of power that can compel one creature you can see within range to die instantly. If the creature you chose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": false,
+	"language": "en",
+	"level": 9,
+	"materialComponents": null,
+	"name": "Power Word Kill",
+	"range": "60 feet",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Enchantment",
+	"sourcePage": "Page: 266  Players Handbook",
+	"urlFriendlyName": "power-word-kill"
+}

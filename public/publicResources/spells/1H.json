@@ -1,0 +1,37 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 7th level or higher, one additional bolt leaps from the first target to another target for each slot level above 6th.",
+	"availableClasses": [
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d8"
+	],
+	"damageTypes": [
+		"lightning"
+	],
+	"description": "You create a bolt of lightning that arcs toward a target of your choice that you can see within range. Three bolts then leap from that target to as many as three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.   A target must make a Dexterity saving throw. The target takes 10d8 lightning damage on a failed save, or half as much on a successful one.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 6,
+	"materialComponents": "a bit of fur; a piece of amber glass, or a crystal rod; and three silver pins",
+	"name": "Chain Lightning",
+	"range": "150 feet",
+	"ritual": false,
+	"savingThrows": [
+		"dexterity"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 221  Players Handbook",
+	"urlFriendlyName": "chain-lightning"
+}

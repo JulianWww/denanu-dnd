@@ -1,0 +1,37 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Xanathars Guide To Everything",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d8"
+	],
+	"damageTypes": [
+		"psychic"
+	],
+	"description": "Magical darkness spreads from a point you choose within range to fill a 60\u2014foot\u2014radius sphere until the spell ends. The darkness spreads around corners. A creature with darkvision can\u2019t see through this darkness. Nonmagical light, as well as light created by spells of 8th level or lower, can't illuminate the area. Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking 8d8 psychic damage on a failed save, or half as much damage on a successful one.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 8,
+	"materialComponents": "a drop of pitch mixed with a drop of mercury",
+	"name": "Maddening Darkness",
+	"range": "150 feet",
+	"ritual": false,
+	"savingThrows": [
+		"wisdom"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 160  from Xanathar's Guide To Everything",
+	"urlFriendlyName": "maddening-darkness"
+}

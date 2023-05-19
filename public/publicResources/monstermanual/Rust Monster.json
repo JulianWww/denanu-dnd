@@ -1,0 +1,57 @@
+{
+	"Armor_Class": "14 (Natural Armor)",
+	"ac": 14,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d8 + 1) piercing damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "The rust monster corrodes a nonmagical ferrous metal object it can see within 5 feet of it. If the object isn't being worn or carried, the touch destroys a 1-foot cube of it. If the object is being worn or carried by a creature, the creature can make a DC 11 Dexterity saving throw to avoid the rust monster's touch.<br/><br/>If the object touched is either metal armor or a metal shield being worn or carried, it takes a permanent and cumulative \u22121 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed. If the object touched is a held metal weapon, it rusts as described in the Rust Metal trait.",
+			"name": "Antennae"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 6,
+	"con": 13,
+	"condition_immunities": [],
+	"cr": "1/2",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 12,
+	"hp": 27,
+	"hp_gen": "5d8 + 5",
+	"int": 2,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Rust Monster",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 11",
+	"size": "Medium",
+	"skills": [],
+	"speed": "40 ft.",
+	"str": 13,
+	"traits": [
+		{
+			"description": "The rust monster can pinpoint, by scent, the location of ferrous metal within 30 feet of it.",
+			"name": "Iron Scent"
+		},
+		{
+			"description": "Any nonmagical weapon made of metal that hits the rust monster corrodes. After dealing damage, the weapon takes a permanent and cumulative \u22121 penalty to damage rolls. If its penalty drops to \u22125, the weapon is destroyed. Nonmagical ammunition made of metal that hits the rust monster is destroyed after dealing damage.",
+			"name": "Rust Metal"
+		}
+	],
+	"type": "monstrosity",
+	"wis": 13,
+	"xp": 100
+}

@@ -1,0 +1,33 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Druid",
+		"Ranger",
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You touch a creature. The creature\u2019s jump distance is tripled until the spell ends.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 1,
+	"materialComponents": "a grasshopper's hind leg",
+	"name": "Jump",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Transmutation",
+	"sourcePage": "Page: 254  Players Handbook",
+	"urlFriendlyName": "jump"
+}

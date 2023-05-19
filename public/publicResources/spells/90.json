@@ -1,0 +1,36 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Druid"
+	],
+	"bookSource": "Xanathars Guide To Everything",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [
+		"acid",
+		"cold",
+		"fire",
+		"lightning",
+		"thunder"
+	],
+	"description": "You have resistance to acid, cold, fire, lightning, and thunder damage for the spell\u2019s duration. When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 6,
+	"materialComponents": null,
+	"name": "Primordial Ward",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Abjuration",
+	"sourcePage": "Page: 21  from EE Players Companion",
+	"urlFriendlyName": "primordial-ward"
+}

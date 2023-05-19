@@ -1,0 +1,33 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Warlock"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 8,
+	"materialComponents": null,
+	"name": "Glibness",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [
+		"charisma"
+	],
+	"school": "Transmutation",
+	"sourcePage": "Page: 245  Players Handbook",
+	"urlFriendlyName": "glibness"
+}

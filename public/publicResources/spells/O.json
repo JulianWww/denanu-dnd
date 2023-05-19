@@ -1,0 +1,32 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Paladin"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d6"
+	],
+	"damageTypes": [],
+	"description": "Healing energy radiates from you in an aura with a 30-foot radius.  Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 3,
+	"materialComponents": null,
+	"name": "Aura of Vitality",
+	"range": "Self (30-foot radius)",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Evocation",
+	"sourcePage": "Page: 216  Players Handbook",
+	"urlFriendlyName": "aura-of-vitality"
+}

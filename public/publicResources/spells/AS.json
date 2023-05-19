@@ -1,0 +1,36 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Paladin"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Bonus Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d6"
+	],
+	"damageTypes": [
+		"psychic"
+	],
+	"description": "The next time you hit a creature with a melee weapon attack during this spell's duration, your weapon pierces both body and mind, and the attack deals an extra 4d6 psychic damage to the target. The target must make a Wisdom saving throw. On a failed save, it has disadvantage on attack rolls and ability checks, and can't take reactions, until the end of its next turn.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 4,
+	"materialComponents": null,
+	"name": "Staggering Smite",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [
+		"wisdom"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 278  Players Handbook",
+	"urlFriendlyName": "staggering-smite"
+}

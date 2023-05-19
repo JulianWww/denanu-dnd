@@ -1,0 +1,32 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Paladin"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [
+		"necrotic"
+	],
+	"description": "Life-preserving energy radiates from you in an aura with a 30-foot radius.  Until the spll ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can\u2019t be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the arua with 0 hit points.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 4,
+	"materialComponents": null,
+	"name": "Aura of Life",
+	"range": "Self (30-foot radius)",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Abjuration",
+	"sourcePage": "Page: 216  Players Handbook",
+	"urlFriendlyName": "aura-of-life"
+}

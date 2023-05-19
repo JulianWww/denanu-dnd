@@ -1,0 +1,32 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Xanathars Guide To Everything",
+	"castingTime": "1 Bonus Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a bonus action to teleport in this way again.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 5,
+	"materialComponents": null,
+	"name": "Far Step",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Conjuration",
+	"sourcePage": "Page: 155  from Xanathar's Guide To Everything",
+	"urlFriendlyName": "far-step"
+}

@@ -1,0 +1,34 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Druid",
+		"Ranger"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM\u2019s discretion.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 1,
+	"materialComponents": null,
+	"name": "Speak with Animals",
+	"range": "Self",
+	"ritual": true,
+	"savingThrows": [
+		"intelligence"
+	],
+	"school": "Divination",
+	"sourcePage": "Page: 277  Players Handbook",
+	"urlFriendlyName": "speak-with-animals"
+}

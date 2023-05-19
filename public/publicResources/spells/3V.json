@@ -1,0 +1,38 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.",
+	"availableClasses": [
+		"Paladin"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d4"
+	],
+	"damageTypes": [
+		"acid",
+		"cold",
+		"fire",
+		"lightning",
+		"thunder"
+	],
+	"description": "A nonmagical weapon you touch becomes a magic weapon.  Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 3,
+	"materialComponents": null,
+	"name": "Elemental Weapon",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Transmutation",
+	"sourcePage": "Page: 237  Players Handbook",
+	"urlFriendlyName": "elemental-weapon"
+}

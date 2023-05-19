@@ -1,0 +1,34 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Cleric",
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 3,
+	"materialComponents": "a small clay model of a ziggurat",
+	"name": "Tongues",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Divination",
+	"sourcePage": "Page: 283  Players Handbook",
+	"urlFriendlyName": "tongues"
+}

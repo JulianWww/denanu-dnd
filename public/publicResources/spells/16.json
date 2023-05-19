@@ -1,0 +1,31 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesnt rely on sight, as with blindsight, or can see through illusions, as with truesight.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 2,
+	"materialComponents": null,
+	"name": "Blur",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Illusion",
+	"sourcePage": "Page: 219  Players Handbook",
+	"urlFriendlyName": "blur"
+}

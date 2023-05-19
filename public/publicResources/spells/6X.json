@@ -1,0 +1,35 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.",
+	"availableClasses": [
+		"Cleric",
+		"Wizard"
+	],
+	"bookSource": "Xanathars Guide To Everything",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d8"
+	],
+	"damageTypes": [
+		"necrotic"
+	],
+	"description": "You sacrifice some of your health to mend another creature\u2019s injuries. You take 4d8 necrotic damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 3,
+	"materialComponents": null,
+	"name": "Life Transference",
+	"range": "30 feet",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Necromancy",
+	"sourcePage": "Page: 160  from Xanathar's Guide To Everything",
+	"urlFriendlyName": "life-transference"
+}

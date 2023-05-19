@@ -1,0 +1,54 @@
+{
+	"Armor_Class": "13 (Natural Armor)",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "The giant makes two greatclub attacks.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 18 (3d8 + 5) bludgeoning damage.",
+			"name": "Greatclub"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +8 to hit, range 60/240 ft., one target. <em>Hit:</em> 21 (3d10 + 5) bludgeoning damage.",
+			"name": "Rock"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 6,
+	"con": 19,
+	"condition_immunities": [],
+	"cr": "5",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 8,
+	"hp": 105,
+	"hp_gen": "10d12 + 40",
+	"int": 5,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Giant",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Hill Giant",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Passive Perception 12",
+	"size": "Huge",
+	"skills": {
+		"perception": 3
+	},
+	"speed": "40 ft.",
+	"str": 21,
+	"traits": [],
+	"type": "giant",
+	"wis": 9,
+	"xp": 1800
+}

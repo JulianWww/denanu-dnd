@@ -1,0 +1,37 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Druid",
+		"Ranger",
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [
+		"bludgeoning",
+		"piercing",
+		"slashing"
+	],
+	"description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 4,
+	"materialComponents": "diamond dust worth 100 gp which the spell consumes",
+	"name": "Stoneskin",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Abjuration",
+	"sourcePage": "Page: 278  Players Handbook",
+	"urlFriendlyName": "stoneskin"
+}

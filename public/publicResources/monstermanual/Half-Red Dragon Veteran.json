@@ -1,0 +1,65 @@
+{
+	"Armor_Class": "18 (Plate)",
+	"ac": 18,
+	"actions": [
+		{
+			"description": "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+			"name": "Longsword"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.",
+			"name": "Shortsword"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +3 to hit, range 100/400 ft., one target. <em>Hit:</em> 6 (1d10 + 1) piercing damage.",
+			"name": "Heavy Crossbow"
+		},
+		{
+			"description": "The veteran exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one.",
+			"name": "Fire Breath (Recharge 5\u20136)"
+		}
+	],
+	"alignment": "any",
+	"cha": 10,
+	"con": 14,
+	"condition_immunities": [],
+	"cr": "5",
+	"damage_immunities": [],
+	"damage_resistances": [
+		"Fire"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 13,
+	"hp": 65,
+	"hp_gen": "10d8 + 20",
+	"int": 10,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Common, Draconic",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Half-Red Dragon Veteran",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Blindsight 10 ft., Darkvision 60 ft.,  Passive Perception 12",
+	"size": "Medium",
+	"skills": {
+		"athletics": 2,
+		"perception": 2
+	},
+	"speed": "30 ft.",
+	"str": 16,
+	"traits": [],
+	"type": "humanoid",
+	"wis": 11,
+	"xp": 1800
+}

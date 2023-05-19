@@ -1,0 +1,48 @@
+{
+	"Armor_Class": "12 (Leather Armor)",
+	"ac": 12,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d6 + 1) slashing damage.",
+			"name": "Scimitar"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +3 to hit, range 80 ft./320 ft., one target. <em>Hit:</em> 5 (1d8 + 1) piercing damage.",
+			"name": "Light Crossbow"
+		}
+	],
+	"alignment": "any",
+	"cha": 10,
+	"con": 12,
+	"condition_immunities": [],
+	"cr": "1/8",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 12,
+	"hp": 11,
+	"hp_gen": "2d8 + 2",
+	"int": 10,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Any one language (usually Common)",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Bandit",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Passive Perception 10",
+	"size": "Medium",
+	"skills": [],
+	"speed": "30 ft.",
+	"str": 11,
+	"traits": [],
+	"type": "humanoid",
+	"wis": 10,
+	"xp": 25
+}

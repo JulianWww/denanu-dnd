@@ -1,0 +1,36 @@
+{
+	"atHigherLevels": "The spell\u2019s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+	"availableClasses": [
+		"Cleric"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d8"
+	],
+	"damageTypes": [
+		"radiant"
+	],
+	"description": "Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 0,
+	"materialComponents": null,
+	"name": "Sacred Flame",
+	"range": "60 feet",
+	"ritual": false,
+	"savingThrows": [
+		"dexterity"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 272  Players Handbook",
+	"urlFriendlyName": "sacred-flame"
+}

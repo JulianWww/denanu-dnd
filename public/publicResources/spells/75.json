@@ -1,0 +1,33 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
+	"availableClasses": [
+		"Bard",
+		"Druid",
+		"Ranger",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You touch a creature. The target\u2019s speed increases by 10 feet until the spell ends.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 1,
+	"materialComponents": "a pinch of dirt",
+	"name": "Longstrider",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Transmutation",
+	"sourcePage": "Page: 256  Players Handbook",
+	"urlFriendlyName": "longstrider"
+}

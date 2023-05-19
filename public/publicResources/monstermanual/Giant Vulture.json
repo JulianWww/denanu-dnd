@@ -1,0 +1,63 @@
+{
+	"Armor_Class": "10 ",
+	"ac": 10,
+	"actions": [
+		{
+			"description": "The vulture makes two attacks: one with its beak and one with its talons.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (2d4 + 2) piercing damage.",
+			"name": "Beak"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (2d6 + 2) slashing damage.",
+			"name": "Talons"
+		}
+	],
+	"alignment": "neutral",
+	"cha": 7,
+	"con": 15,
+	"condition_immunities": [],
+	"cr": "1",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 10,
+	"hp": 22,
+	"hp_gen": "3d10 + 6",
+	"int": 6,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Understands Common but can't speak  it",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Giant Vulture",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Passive Perception 13",
+	"size": "Large",
+	"skills": {
+		"perception": 2
+	},
+	"speed": "10 ft., fly 60 ft.",
+	"str": 15,
+	"traits": [
+		{
+			"description": "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.",
+			"name": "Keen Sight and Smell"
+		},
+		{
+			"description": "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+			"name": "Pack Tactics"
+		}
+	],
+	"type": "beast",
+	"wis": 12,
+	"xp": 200
+}

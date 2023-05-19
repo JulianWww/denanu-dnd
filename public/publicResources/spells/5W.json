@@ -1,0 +1,37 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
+	"availableClasses": [
+		"Bard",
+		"Druid"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d8"
+	],
+	"damageTypes": [
+		"fire"
+	],
+	"description": "Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 fire damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again.  If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn\u2019t drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 2,
+	"materialComponents": "a piece of iron and a flame",
+	"name": "Heat Metal",
+	"range": "60 feet",
+	"ritual": false,
+	"savingThrows": [
+		"constitution"
+	],
+	"school": "Transmutation",
+	"sourcePage": "Page: 250  Players Handbook",
+	"urlFriendlyName": "heat-metal"
+}

@@ -1,0 +1,66 @@
+{
+	"Armor_Class": "15 Natural",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "The nothic makes two claw attacks.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) slashing damage.",
+			"name": "Claw"
+		},
+		{
+			"description": "The nothic targets one creature it can see within 30 feet of it. The target must succeed on a DC 12 Constitution saving throw against this magic or take 10 (3d6) necrotic damage.",
+			"name": "Rotting Gaze"
+		},
+		{
+			"description": "The nothic targets one creature it can see within 30 feet of it. The target must contest its Charisma (Deception) check against the nothic\u2019s Wisdom (Insight) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being charmed.",
+			"name": "Weird Insight"
+		}
+	],
+	"alignment": "neutral evil",
+	"cha": 8,
+	"con": 16,
+	"condition_immunities": [],
+	"cr": "2",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 16,
+	"hp": 45,
+	"hp_gen": "6d8 + 18",
+	"int": 13,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Undercommon",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Nothic",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Truesight 120 ft.,  Passive Perception 12",
+	"size": "Medium",
+	"skills": {
+		"arcana": 2,
+		"insight": 4,
+		"perception": 2,
+		"stealth": 2
+	},
+	"speed": "30 ft.",
+	"str": 14,
+	"traits": [
+		{
+			"description": "The nothic has advantage on Wisdom (Perception) checks that rely on sight.",
+			"name": "Keen Sight"
+		}
+	],
+	"type": "aberration",
+	"wis": 10,
+	"xp": 450
+}

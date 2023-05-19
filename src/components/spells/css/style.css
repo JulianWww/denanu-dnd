@@ -1,0 +1,37 @@
+.spellHeader {
+  text-align: center;
+  width: 100%;
+}
+
+.classNameIcon {
+  object-fit: contain;
+  height: 32px;
+  width: 32px;
+}
+
+
+.fade-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.fade-enter-active,
+.fade-exit-active {
+  transition: opacity 500ms, transform 500ms;
+}
+
+.pageSlider-enter.pageSlider-enter-active {
+  transform: translate3d(0, 0, 0);
+  transition: all 800ms ease-in-out;
+}

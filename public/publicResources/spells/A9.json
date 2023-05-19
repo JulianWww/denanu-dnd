@@ -1,0 +1,34 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Cleric",
+		"Ranger"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [
+		"thunder"
+	],
+	"description": "For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 2,
+	"materialComponents": null,
+	"name": "Silence",
+	"range": "120 feet",
+	"ritual": true,
+	"savingThrows": [],
+	"school": "Illusion",
+	"sourcePage": "Page: 275  Players Handbook",
+	"urlFriendlyName": "silence"
+}

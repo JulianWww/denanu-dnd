@@ -1,0 +1,37 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+	"availableClasses": [
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d6"
+	],
+	"damageTypes": [
+		"fire"
+	],
+	"description": "A bright streak flashes from your pointing finger to a point you choose within range then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot radius must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren\u2019t being worn or carried.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 3,
+	"materialComponents": "a tiny ball of bat guano and sulfur",
+	"name": "Fireball",
+	"range": "150 feet",
+	"ritual": false,
+	"savingThrows": [
+		"dexterity"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 241  Players Handbook",
+	"urlFriendlyName": "fireball"
+}

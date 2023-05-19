@@ -1,0 +1,36 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+	"availableClasses": [
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d6"
+	],
+	"damageTypes": [
+		"force",
+		"necrotic"
+	],
+	"description": "The touch of your shadow-wreathed hand can siphon force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 3,
+	"materialComponents": null,
+	"name": "Vampiric Touch",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Necromancy",
+	"sourcePage": "Page: 285  Players Handbook",
+	"urlFriendlyName": "vampiric-touch"
+}

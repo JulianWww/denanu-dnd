@@ -1,0 +1,63 @@
+{
+	"Armor_Class": "15 (Natural Armor)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft., one creature. <em>Hit:</em> 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one.",
+			"name": "Bite"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 16,
+	"con": 14,
+	"condition_immunities": [
+		"Charmed",
+		"Poisoned"
+	],
+	"cr": "8",
+	"damage_immunities": [
+		"Poison"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 17,
+	"hp": 75,
+	"hp_gen": "10d10 + 20",
+	"int": 16,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Abyssal, Common",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Spirit Naga",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": {
+		"cha": 6,
+		"con": 5,
+		"dex": 6,
+		"wis": 5
+	},
+	"senses": "Darkvision 60 ft.,  Passive Perception 12",
+	"size": "Large",
+	"skills": [],
+	"speed": "40 ft.",
+	"str": 18,
+	"traits": [
+		{
+			"description": "If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.",
+			"name": "Rejuvenation"
+		},
+		{
+			"description": "The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:<br/><br/>Cantrips (at will): mage hand, minor illusion, ray of frost<br/><br/>1st level (4 slots): charm person, detect magic, sleep<br/><br/>2nd level (3 slots): detect thoughts, hold person<br/><br/>3rd level (3 slots): lightning bolt, water breathing<br/><br/>4th level (3 slots): blight, dimension door<br/><br/>5th level (2 slots): dominate person",
+			"name": "Spellcasting"
+		}
+	],
+	"type": "monstrosity",
+	"wis": 15,
+	"xp": 3900
+}

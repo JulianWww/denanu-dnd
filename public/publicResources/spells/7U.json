@@ -1,0 +1,38 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d6"
+	],
+	"damageTypes": [
+		"bludgeoning",
+		"fire"
+	],
+	"description": "Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a Dexterity saving throw. The sphere spreads around corners. A creature takes 20d6 fire damage and 20d6 bludgeoning damage on a failed save, or half as much damage on a sucessful one. A creature in the area of more than one fiery burst is affected only once.  The spell damages objects in the area and ignites flammable objects that aren\u2019t being worn or carried.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 9,
+	"materialComponents": null,
+	"name": "Meteor Swarm",
+	"range": "1 mile",
+	"ritual": false,
+	"savingThrows": [
+		"dexterity"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 259  Players Handbook",
+	"urlFriendlyName": "meteor-swarm"
+}

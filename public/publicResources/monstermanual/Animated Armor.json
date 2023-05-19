@@ -1,0 +1,69 @@
+{
+	"Armor_Class": "18 (Natural Armor)",
+	"ac": 18,
+	"actions": [
+		{
+			"description": "The armor makes two melee attacks.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) bludgeoning damage.",
+			"name": "Slam"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 1,
+	"con": 13,
+	"condition_immunities": [
+		"Blinded",
+		"Charmed",
+		"Deafened",
+		"Exhaustion",
+		"Frightened",
+		"Paralyzed",
+		"Petrified",
+		"Poisoned"
+	],
+	"cr": "1",
+	"damage_immunities": [
+		"Poison",
+		"Psychic"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 11,
+	"hp": 33,
+	"hp_gen": "6d8 + 6",
+	"int": 1,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Animated Armor",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Blindsight 60 ft.,  Passive Perception 6",
+	"size": "Medium",
+	"skills": [],
+	"speed": "25 ft.",
+	"str": 14,
+	"traits": [
+		{
+			"description": "The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.",
+			"name": "Antimagic Susceptibility"
+		},
+		{
+			"description": "While the armor remains motionless, it is indistinguishable from a normal suit of armor.",
+			"name": "False Appearance"
+		}
+	],
+	"type": "construct",
+	"wis": 3,
+	"xp": 200
+}

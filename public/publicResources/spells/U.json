@@ -1,0 +1,32 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Cleric"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 3,
+	"materialComponents": null,
+	"name": "Beacon of Hope",
+	"range": "30 feet",
+	"ritual": false,
+	"savingThrows": [
+		"wisdom"
+	],
+	"school": "Abjuration",
+	"sourcePage": "Page: 217  Players Handbook",
+	"urlFriendlyName": "beacon-of-hope"
+}

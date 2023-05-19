@@ -1,0 +1,34 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.",
+	"availableClasses": [
+		"Cleric"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d10"
+	],
+	"damageTypes": [
+		"necrotic"
+	],
+	"description": "Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 1,
+	"materialComponents": null,
+	"name": "Inflict Wounds",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Necromancy",
+	"sourcePage": "Page: 253  Players Handbook",
+	"urlFriendlyName": "inflict-wounds"
+}

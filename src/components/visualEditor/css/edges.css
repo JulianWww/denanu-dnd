@@ -1,0 +1,16 @@
+.react-flow__edge-path.exec {
+  stroke: green;
+  stroke-width: 5px;
+}
+
+.react-flow__edge-path.boolean {
+  stroke: rgb(164, 0, 0);
+}
+
+.react-flow__edge-path.number {
+  stroke: rgb(10, 126, 0);
+}
+
+.react-flow__edge-path.string {
+  stroke: rgb(2, 67, 172);
+}

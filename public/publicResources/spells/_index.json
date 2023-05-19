@@ -1,0 +1,3698 @@
+[
+	{
+		"concentration": false,
+		"file": "0",
+		"lvl": 8,
+		"name": "Abi-Dalzim's Horrid Wilting",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "1",
+		"lvl": 1,
+		"name": "Absorb Elements",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "2",
+		"lvl": 0,
+		"name": "Acid Splash",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "3",
+		"lvl": 2,
+		"name": "Aganazzar's Scorcher",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "4",
+		"lvl": 2,
+		"name": "Aid",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "5",
+		"lvl": 1,
+		"name": "Alarm",
+		"ritual": true,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "6",
+		"lvl": 2,
+		"name": "Alter Self",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "7",
+		"lvl": 1,
+		"name": "Animal Friendship",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "8",
+		"lvl": 2,
+		"name": "Animal Messenger",
+		"ritual": true,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "9",
+		"lvl": 8,
+		"name": "Animal Shapes",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "A",
+		"lvl": 3,
+		"name": "Animate Dead",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "B",
+		"lvl": 5,
+		"name": "Animate Objects",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "C",
+		"lvl": 5,
+		"name": "Antilife Shell",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "D",
+		"lvl": 8,
+		"name": "Antimagic Field",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "E",
+		"lvl": 8,
+		"name": "Antipathy/Sympathy",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "F",
+		"lvl": 4,
+		"name": "Arcane Eye",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "G",
+		"lvl": 6,
+		"name": "Arcane Gate",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "H",
+		"lvl": 2,
+		"name": "Arcane Lock",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "I",
+		"lvl": 1,
+		"name": "Armor of Agathys",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "J",
+		"lvl": 1,
+		"name": "Arms of Hadar",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "K",
+		"lvl": 9,
+		"name": "Astral Projection",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "L",
+		"lvl": 2,
+		"name": "Augury",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "M",
+		"lvl": 4,
+		"name": "Aura of Life",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "N",
+		"lvl": 4,
+		"name": "Aura of Purity",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "O",
+		"lvl": 3,
+		"name": "Aura of Vitality",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "P",
+		"lvl": 5,
+		"name": "Awaken",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "Q",
+		"lvl": 1,
+		"name": "Bane",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "R",
+		"lvl": 5,
+		"name": "Banishing Smite",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "S",
+		"lvl": 4,
+		"name": "Banishment",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "T",
+		"lvl": 2,
+		"name": "Barkskin",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "U",
+		"lvl": 3,
+		"name": "Beacon of Hope",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "V",
+		"lvl": 1,
+		"name": "Beast Bond",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "W",
+		"lvl": 2,
+		"name": "Beast Sense",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "X",
+		"lvl": 3,
+		"name": "Bestow Curse",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "Y",
+		"lvl": 5,
+		"name": "Bigby's Hand",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "Z",
+		"lvl": 6,
+		"name": "Blade Barrier",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "10",
+		"lvl": 0,
+		"name": "Blade Ward",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "11",
+		"lvl": 1,
+		"name": "Bless",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "12",
+		"lvl": 4,
+		"name": "Blight",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "13",
+		"lvl": 3,
+		"name": "Blinding Smite",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "14",
+		"lvl": 2,
+		"name": "Blindness/Deafness",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "15",
+		"lvl": 3,
+		"name": "Blink",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "16",
+		"lvl": 2,
+		"name": "Blur",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "17",
+		"lvl": 6,
+		"name": "Bones of the Earth",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "18",
+		"lvl": 0,
+		"name": "Booming Blade",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "19",
+		"lvl": 2,
+		"name": "Branding Smite",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "1A",
+		"lvl": 1,
+		"name": "Burning Hands",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "1B",
+		"lvl": 3,
+		"name": "Call Lightning",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "1C",
+		"lvl": 2,
+		"name": "Calm Emotions",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "1D",
+		"lvl": 1,
+		"name": "Catapult",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "1E",
+		"lvl": 3,
+		"name": "Catnap",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "1F",
+		"lvl": 1,
+		"name": "Cause Fear",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "1G",
+		"lvl": 1,
+		"name": "Ceremony",
+		"ritual": true,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "1H",
+		"lvl": 6,
+		"name": "Chain Lightning",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "1I",
+		"lvl": 1,
+		"name": "Chaos Bolt",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "1J",
+		"lvl": 4,
+		"name": "Charm Monster",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "1K",
+		"lvl": 1,
+		"name": "Charm Person",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "1L",
+		"lvl": 0,
+		"name": "Chill Touch",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "1M",
+		"lvl": 1,
+		"name": "Chromatic Orb",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "1N",
+		"lvl": 6,
+		"name": "Circle of Death",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "1O",
+		"lvl": 5,
+		"name": "Circle of Power",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "1P",
+		"lvl": 3,
+		"name": "Clairvoyance",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "1Q",
+		"lvl": 8,
+		"name": "Clone",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "1R",
+		"lvl": 2,
+		"name": "Cloud of Daggers",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "1S",
+		"lvl": 5,
+		"name": "Cloudkill",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "1T",
+		"lvl": 1,
+		"name": "Color Spray",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "1U",
+		"lvl": 1,
+		"name": "Command",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "1V",
+		"lvl": 5,
+		"name": "Commune",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "1W",
+		"lvl": 5,
+		"name": "Commune with Nature",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "1X",
+		"lvl": 1,
+		"name": "Compelled Duel",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "1Y",
+		"lvl": 1,
+		"name": "Comprehend Languages",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "1Z",
+		"lvl": 4,
+		"name": "Compulsion",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "20",
+		"lvl": 5,
+		"name": "Cone of Cold",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "21",
+		"lvl": 4,
+		"name": "Confusion",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "22",
+		"lvl": 3,
+		"name": "Conjure Animals",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "23",
+		"lvl": 3,
+		"name": "Conjure Barrage",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "24",
+		"lvl": 7,
+		"name": "Conjure Celestial",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "25",
+		"lvl": 5,
+		"name": "Conjure Elemental",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "26",
+		"lvl": 6,
+		"name": "Conjure Fey",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "27",
+		"lvl": 4,
+		"name": "Conjure Minor Elementals",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "28",
+		"lvl": 5,
+		"name": "Conjure Volley",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "29",
+		"lvl": 4,
+		"name": "Conjure Woodland Beings",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "2A",
+		"lvl": 5,
+		"name": "Contact Other Plane",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "2B",
+		"lvl": 5,
+		"name": "Contagion",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "2C",
+		"lvl": 6,
+		"name": "Contingency",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "2D",
+		"lvl": 2,
+		"name": "Continual Flame",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "2E",
+		"lvl": 0,
+		"name": "Control Flames",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "2F",
+		"lvl": 4,
+		"name": "Control Water",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "2G",
+		"lvl": 8,
+		"name": "Control Weather",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "2H",
+		"lvl": 5,
+		"name": "Control Winds",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "2I",
+		"lvl": 2,
+		"name": "Cordon of Arrows",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "2J",
+		"lvl": 3,
+		"name": "Counterspell",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "2K",
+		"lvl": 0,
+		"name": "Create Bonfire",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "2L",
+		"lvl": 3,
+		"name": "Create Food and Water",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "2M",
+		"lvl": 6,
+		"name": "Create Homunculus",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "2N",
+		"lvl": 1,
+		"name": "Create or Destroy Water",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "2O",
+		"lvl": 6,
+		"name": "Create Undead",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "2P",
+		"lvl": 5,
+		"name": "Creation",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "2Q",
+		"lvl": 2,
+		"name": "Crown of Madness",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "2R",
+		"lvl": 7,
+		"name": "Crown of Stars",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "2S",
+		"lvl": 3,
+		"name": "Crusader's Mantle",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "2T",
+		"lvl": 1,
+		"name": "Cure Wounds",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "2U",
+		"lvl": 0,
+		"name": "Dancing Lights",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "2V",
+		"lvl": 5,
+		"name": "Danse Macabre",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "2W",
+		"lvl": 2,
+		"name": "Darkness",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "2X",
+		"lvl": 2,
+		"name": "Darkvision",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "2Y",
+		"lvl": 5,
+		"name": "Dawn",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "2Z",
+		"lvl": 3,
+		"name": "Daylight",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "30",
+		"lvl": 4,
+		"name": "Death Ward",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "31",
+		"lvl": 7,
+		"name": "Delayed Blast Fireball",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "32",
+		"lvl": 8,
+		"name": "Demiplane",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "33",
+		"lvl": 5,
+		"name": "Destructive Wave",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "34",
+		"lvl": 1,
+		"name": "Detect Evil and Good",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "35",
+		"lvl": 1,
+		"name": "Detect Magic",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "36",
+		"lvl": 1,
+		"name": "Detect Poison and Disease",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "37",
+		"lvl": 2,
+		"name": "Detect Thoughts",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "38",
+		"lvl": 4,
+		"name": "Dimension Door",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "39",
+		"lvl": 1,
+		"name": "Disguise Self",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "3A",
+		"lvl": 6,
+		"name": "Disintegrate",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "3B",
+		"lvl": 5,
+		"name": "Dispel Evil and Good",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "3C",
+		"lvl": 3,
+		"name": "Dispel Magic",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "3D",
+		"lvl": 1,
+		"name": "Dissonant Whispers",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "3E",
+		"lvl": 4,
+		"name": "Divination",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "3F",
+		"lvl": 1,
+		"name": "Divine Favor",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "3G",
+		"lvl": 7,
+		"name": "Divine Word",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "3H",
+		"lvl": 4,
+		"name": "Dominate Beast",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "3I",
+		"lvl": 8,
+		"name": "Dominate Monster",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "3J",
+		"lvl": 5,
+		"name": "Dominate Person",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "3K",
+		"lvl": 2,
+		"name": "Dragon' Breath",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "3L",
+		"lvl": 6,
+		"name": "Drawmij's Instant Summons",
+		"ritual": true,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "3M",
+		"lvl": 5,
+		"name": "Dream",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "3N",
+		"lvl": 6,
+		"name": "Druid Grove",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "3O",
+		"lvl": 0,
+		"name": "Druidcraft",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "3P",
+		"lvl": 2,
+		"name": "Dust Devil",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "3Q",
+		"lvl": 1,
+		"name": "Earth Tremor",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "3R",
+		"lvl": 2,
+		"name": "Earthbind",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "3S",
+		"lvl": 8,
+		"name": "Earthquake",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "3T",
+		"lvl": 0,
+		"name": "Eldritch Blast",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "3U",
+		"lvl": 4,
+		"name": "Elemental Bane",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "3V",
+		"lvl": 3,
+		"name": "Elemental Weapon",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "3W",
+		"lvl": 3,
+		"name": "Enemies abound",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "3X",
+		"lvl": 5,
+		"name": "Enervation",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "3Y",
+		"lvl": 2,
+		"name": "Enhance Ability",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "3Z",
+		"lvl": 2,
+		"name": "Enlarge/Reduce",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "40",
+		"lvl": 1,
+		"name": "Ensnaring Strike",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "41",
+		"lvl": 1,
+		"name": "Entangle",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "42",
+		"lvl": 2,
+		"name": "Enthrall",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "43",
+		"lvl": 3,
+		"name": "Erupting Earth",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "44",
+		"lvl": 7,
+		"name": "Etherealness",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "45",
+		"lvl": 4,
+		"name": "Evard's Black Tentacles",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "46",
+		"lvl": 1,
+		"name": "Expeditious Retreat",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "47",
+		"lvl": 6,
+		"name": "Eyebite",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "48",
+		"lvl": 4,
+		"name": "Fabricate",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "49",
+		"lvl": 1,
+		"name": "Faerie Fire",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "4A",
+		"lvl": 1,
+		"name": "False Life",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "4B",
+		"lvl": 5,
+		"name": "Far Step",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "4C",
+		"lvl": 3,
+		"name": "Fear",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "4D",
+		"lvl": 1,
+		"name": "Feather Fall",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "4E",
+		"lvl": 8,
+		"name": "Feeblemind",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "4F",
+		"lvl": 3,
+		"name": "Feign Death",
+		"ritual": true,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "4G",
+		"lvl": 1,
+		"name": "Find Familiar",
+		"ritual": true,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "4H",
+		"lvl": 4,
+		"name": "Find Greater Steed",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "4I",
+		"lvl": 2,
+		"name": "Find Steed",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "4J",
+		"lvl": 6,
+		"name": "Find the Path",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "4K",
+		"lvl": 2,
+		"name": "Find Traps",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "4L",
+		"lvl": 7,
+		"name": "Finger of Death",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "4M",
+		"lvl": 0,
+		"name": "Fire Bolt",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "4N",
+		"lvl": 4,
+		"name": "Fire Shield",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "4O",
+		"lvl": 7,
+		"name": "Fire Storm",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "4P",
+		"lvl": 3,
+		"name": "Fireball",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "4Q",
+		"lvl": 3,
+		"name": "Flame Arrows",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "4R",
+		"lvl": 2,
+		"name": "Flame Blade",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "4S",
+		"lvl": 5,
+		"name": "Flame Strike",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "4T",
+		"lvl": 2,
+		"name": "Flaming Sphere",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "4U",
+		"lvl": 6,
+		"name": "Flesh to Stone",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "4V",
+		"lvl": 3,
+		"name": "Fly",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "4W",
+		"lvl": 1,
+		"name": "Fog Cloud",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "4X",
+		"lvl": 6,
+		"name": "Forbiddance",
+		"ritual": true,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "4Y",
+		"lvl": 7,
+		"name": "Forcecage",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "4Z",
+		"lvl": 9,
+		"name": "Foresight",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "50",
+		"lvl": 4,
+		"name": "Freedom of Movement",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "51",
+		"lvl": 0,
+		"name": "Friends",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "52",
+		"lvl": 0,
+		"name": "Frostbite",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "53",
+		"lvl": 3,
+		"name": "Gaseous Form",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "54",
+		"lvl": 9,
+		"name": "Gate",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "55",
+		"lvl": 5,
+		"name": "Geas",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "56",
+		"lvl": 2,
+		"name": "Gentle Repose",
+		"ritual": true,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "57",
+		"lvl": 4,
+		"name": "Giant Insect",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "58",
+		"lvl": 8,
+		"name": "Glibness",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "59",
+		"lvl": 6,
+		"name": "Globe of Invulnerability",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "5A",
+		"lvl": 3,
+		"name": "Glyph of Warding",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "5B",
+		"lvl": 1,
+		"name": "Goodberry",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "5C",
+		"lvl": 4,
+		"name": "Grasping Vine",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "5D",
+		"lvl": 1,
+		"name": "Grease",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "5E",
+		"lvl": 4,
+		"name": "Greater Invisibility",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "5F",
+		"lvl": 5,
+		"name": "Greater Restoration",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "5G",
+		"lvl": 0,
+		"name": "Green-Flame Blade",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "5H",
+		"lvl": 4,
+		"name": "Guardian of Faith",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "5I",
+		"lvl": 4,
+		"name": "Guardian of Nature",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "5J",
+		"lvl": 6,
+		"name": "Guards and Wards",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "5K",
+		"lvl": 0,
+		"name": "Guidance",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "5L",
+		"lvl": 1,
+		"name": "Guiding Bolt",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "5M",
+		"lvl": 0,
+		"name": "Gust",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "5N",
+		"lvl": 2,
+		"name": "Gust of Wind",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "5O",
+		"lvl": 1,
+		"name": "Hail of Thorns",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "5P",
+		"lvl": 5,
+		"name": "Hallow",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "5Q",
+		"lvl": 4,
+		"name": "Hallucinatory Terrain",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "5R",
+		"lvl": 6,
+		"name": "Harm",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "5S",
+		"lvl": 3,
+		"name": "Haste",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "5T",
+		"lvl": 6,
+		"name": "Heal",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "5U",
+		"lvl": 2,
+		"name": "Healing Spirit",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "5V",
+		"lvl": 1,
+		"name": "Healing Word",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "5W",
+		"lvl": 2,
+		"name": "Heat Metal",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "5X",
+		"lvl": 1,
+		"name": "Hellish Rebuke",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "5Y",
+		"lvl": 6,
+		"name": "Heroes' Feast",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "5Z",
+		"lvl": 1,
+		"name": "Heroism",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "60",
+		"lvl": 1,
+		"name": "Hex",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "61",
+		"lvl": 5,
+		"name": "Hold Monster",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "62",
+		"lvl": 2,
+		"name": "Hold Person",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "63",
+		"lvl": 8,
+		"name": "Holy Aura",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "64",
+		"lvl": 5,
+		"name": "Holy Weapon",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "65",
+		"lvl": 3,
+		"name": "Hunger of Hadar",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "66",
+		"lvl": 1,
+		"name": "Hunter's Mark",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "67",
+		"lvl": 3,
+		"name": "Hypnotic Pattern",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "68",
+		"lvl": 1,
+		"name": "Ice Knife",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "69",
+		"lvl": 4,
+		"name": "Ice Storm",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "6A",
+		"lvl": 1,
+		"name": "Identify",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "6B",
+		"lvl": 8,
+		"name": "Illusory Dragon",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "6C",
+		"lvl": 1,
+		"name": "Illusory Script",
+		"ritual": true,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "6D",
+		"lvl": 5,
+		"name": "Immolation",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "6E",
+		"lvl": 9,
+		"name": "Imprisonment",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "6F",
+		"lvl": 8,
+		"name": "Incendiary Cloud",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "6G",
+		"lvl": 5,
+		"name": "Infernal Calling",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "6H",
+		"lvl": 0,
+		"name": "Infestation",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "6I",
+		"lvl": 1,
+		"name": "Inflict Wounds",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "6J",
+		"lvl": 5,
+		"name": "Insect Plague",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "6K",
+		"lvl": 6,
+		"name": "Investiture of Flame",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "6L",
+		"lvl": 6,
+		"name": "Investiture of Ice",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "6M",
+		"lvl": 6,
+		"name": "Investiture of Stone",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "6N",
+		"lvl": 6,
+		"name": "Investiture of Wind",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "6O",
+		"lvl": 2,
+		"name": "Invisibility",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "6P",
+		"lvl": 9,
+		"name": "Invulnerability",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "6Q",
+		"lvl": 1,
+		"name": "Jump",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "6R",
+		"lvl": 2,
+		"name": "Knock",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "6S",
+		"lvl": 5,
+		"name": "Legend Lore",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "6T",
+		"lvl": 4,
+		"name": "Leomund's Secret Chest",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "6U",
+		"lvl": 3,
+		"name": "Leomund's Tiny Hut",
+		"ritual": true,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "6V",
+		"lvl": 2,
+		"name": "Lesser Restoration",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "6W",
+		"lvl": 2,
+		"name": "Levitate",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "6X",
+		"lvl": 3,
+		"name": "Life Transference",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "6Y",
+		"lvl": 0,
+		"name": "Light",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "6Z",
+		"lvl": 3,
+		"name": "Lightning Arrow",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "70",
+		"lvl": 3,
+		"name": "Lightning Bolt",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "71",
+		"lvl": 0,
+		"name": "Lightning Lure",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "72",
+		"lvl": 2,
+		"name": "Locate Animals or Plants",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "73",
+		"lvl": 4,
+		"name": "Locate Creature",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "74",
+		"lvl": 2,
+		"name": "Locate Object",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "75",
+		"lvl": 1,
+		"name": "Longstrider",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "76",
+		"lvl": 8,
+		"name": "Maddening Darkness",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "77",
+		"lvl": 5,
+		"name": "Maelstrom",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "78",
+		"lvl": 1,
+		"name": "Mage Armor",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "79",
+		"lvl": 0,
+		"name": "Mage Hand",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "7A",
+		"lvl": 3,
+		"name": "Magic Circle",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "7B",
+		"lvl": 6,
+		"name": "Magic Jar",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "7C",
+		"lvl": 1,
+		"name": "Magic Missile",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "7D",
+		"lvl": 2,
+		"name": "Magic Mouth",
+		"ritual": true,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "7E",
+		"lvl": 0,
+		"name": "Magic Stone",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "7F",
+		"lvl": 2,
+		"name": "Magic Weapon",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "7G",
+		"lvl": 3,
+		"name": "Major Image",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "7H",
+		"lvl": 5,
+		"name": "Mass Cure Wounds",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "7I",
+		"lvl": 9,
+		"name": "Mass Heal",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "7J",
+		"lvl": 3,
+		"name": "Mass Healing Word",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "7K",
+		"lvl": 9,
+		"name": "Mass Polymorph",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "7L",
+		"lvl": 6,
+		"name": "Mass Suggestion",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "7M",
+		"lvl": 2,
+		"name": "Maximilian's Earthen Grasp",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "7N",
+		"lvl": 8,
+		"name": "Maze",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "7O",
+		"lvl": 3,
+		"name": "Meld into Stone",
+		"ritual": true,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "7P",
+		"lvl": 2,
+		"name": "Melf's Acid Arrow",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "7Q",
+		"lvl": 3,
+		"name": "Melf's Minute Meteors",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "7R",
+		"lvl": 0,
+		"name": "Mending",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "7S",
+		"lvl": 6,
+		"name": "Mental Prison",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "7T",
+		"lvl": 0,
+		"name": "Message",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "7U",
+		"lvl": 9,
+		"name": "Meteor Swarm",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "7V",
+		"lvl": 8,
+		"name": "Mighty Fortress",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "7W",
+		"lvl": 8,
+		"name": "Mind Blank",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "7X",
+		"lvl": 2,
+		"name": "Mind Spike",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "7Y",
+		"lvl": 0,
+		"name": "Minor Illusion",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "7Z",
+		"lvl": 7,
+		"name": "Mirage Arcane",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "80",
+		"lvl": 2,
+		"name": "Mirror Image",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "81",
+		"lvl": 5,
+		"name": "Mislead",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "82",
+		"lvl": 2,
+		"name": "Misty Step",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "83",
+		"lvl": 5,
+		"name": "Modify Memory",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "84",
+		"lvl": 0,
+		"name": "Mold earth",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "85",
+		"lvl": 2,
+		"name": "Moonbeam",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "86",
+		"lvl": 4,
+		"name": "Mordenkainen's Faithful Hound",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "87",
+		"lvl": 7,
+		"name": "Mordenkainen's Magnificent Mansion",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "88",
+		"lvl": 4,
+		"name": "Mordenkainen's Private Sanctum",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "89",
+		"lvl": 7,
+		"name": "Mordenkainen's Sword",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "8A",
+		"lvl": 6,
+		"name": "Move Earth",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "8B",
+		"lvl": 5,
+		"name": "Negative Energy Flood",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "8C",
+		"lvl": 3,
+		"name": "Nondetection",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "8D",
+		"lvl": 2,
+		"name": "Nystul's Magic Aura",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "8E",
+		"lvl": 6,
+		"name": "Otiluke's Freezing Sphere",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "8F",
+		"lvl": 4,
+		"name": "Otiluke's Resilient Sphere",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "8G",
+		"lvl": 6,
+		"name": "Otto's Irresistible Dance",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "8H",
+		"lvl": 2,
+		"name": "Pass Without Trace",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "8I",
+		"lvl": 5,
+		"name": "Passwall",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "8J",
+		"lvl": 2,
+		"name": "Phantasmal Force",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "8K",
+		"lvl": 4,
+		"name": "Phantasmal Killer",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "8L",
+		"lvl": 3,
+		"name": "Phantom Steed",
+		"ritual": true,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "8M",
+		"lvl": 6,
+		"name": "Planar Ally",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "8N",
+		"lvl": 5,
+		"name": "Planar Binding",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "8O",
+		"lvl": 7,
+		"name": "Plane Shift",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "8P",
+		"lvl": 3,
+		"name": "Plant Growth",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "8Q",
+		"lvl": 0,
+		"name": "Poison Spray",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "8R",
+		"lvl": 4,
+		"name": "Polymorph",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "8S",
+		"lvl": 9,
+		"name": "Power Word Heal",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "8T",
+		"lvl": 9,
+		"name": "Power Word Kill",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "8U",
+		"lvl": 7,
+		"name": "Power Word Pain",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "8V",
+		"lvl": 8,
+		"name": "Power Word Stun",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "8W",
+		"lvl": 2,
+		"name": "Prayer of Healing",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "8X",
+		"lvl": 0,
+		"name": "Prestidigitation",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "8Y",
+		"lvl": 0,
+		"name": "Primal Savagery",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "8Z",
+		"lvl": 6,
+		"name": "Primordial Ward",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "90",
+		"lvl": 6,
+		"name": "Primordial Ward",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "91",
+		"lvl": 7,
+		"name": "Prismatic Spray",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "92",
+		"lvl": 9,
+		"name": "Prismatic Wall",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "93",
+		"lvl": 0,
+		"name": "Produce Flame",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "94",
+		"lvl": 6,
+		"name": "Programmed Illusion",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "95",
+		"lvl": 7,
+		"name": "Project Image",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "96",
+		"lvl": 3,
+		"name": "Protection from Energy",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "97",
+		"lvl": 1,
+		"name": "Protection from Evil and Good",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "98",
+		"lvl": 2,
+		"name": "Protection from Poison",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "99",
+		"lvl": 9,
+		"name": "Psychic Scream",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "9A",
+		"lvl": 1,
+		"name": "Purify Food and Drink",
+		"ritual": true,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "9B",
+		"lvl": 2,
+		"name": "Pyrotechnics",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "9C",
+		"lvl": 5,
+		"name": "Raise Dead",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "9D",
+		"lvl": 5,
+		"name": "Rary's Telepathic Bond",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "9E",
+		"lvl": 2,
+		"name": "Ray of Enfeeblement",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "9F",
+		"lvl": 0,
+		"name": "Ray of Frost",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "9G",
+		"lvl": 1,
+		"name": "Ray of Sickness",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "9H",
+		"lvl": 7,
+		"name": "Regenerate",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "9I",
+		"lvl": 5,
+		"name": "Reincarnate",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "9J",
+		"lvl": 3,
+		"name": "Remove Curse",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "9K",
+		"lvl": 0,
+		"name": "Resistance",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "9L",
+		"lvl": 7,
+		"name": "Resurrection",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": true,
+		"file": "9M",
+		"lvl": 7,
+		"name": "Reverse Gravity",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "9N",
+		"lvl": 3,
+		"name": "Revivify",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "9O",
+		"lvl": 2,
+		"name": "Rope Trick",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "9P",
+		"lvl": 0,
+		"name": "Sacred Flame",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "9Q",
+		"lvl": 1,
+		"name": "Sanctuary",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "9R",
+		"lvl": 6,
+		"name": "Scatter",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "9S",
+		"lvl": 2,
+		"name": "Scorching Ray",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "9T",
+		"lvl": 5,
+		"name": "Scrying",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "9U",
+		"lvl": 1,
+		"name": "Searing Smite",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "9V",
+		"lvl": 2,
+		"name": "See invisibility",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "9W",
+		"lvl": 5,
+		"name": "Seeming",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "9X",
+		"lvl": 3,
+		"name": "Sending",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "9Y",
+		"lvl": 7,
+		"name": "Sequester",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "9Z",
+		"lvl": 2,
+		"name": "Shadow Blade",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "A0",
+		"lvl": 4,
+		"name": "Shadow of Moil",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "A1",
+		"lvl": 0,
+		"name": "Shape Water",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "A2",
+		"lvl": 9,
+		"name": "Shapechange",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "A3",
+		"lvl": 2,
+		"name": "Shatter",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "A4",
+		"lvl": 1,
+		"name": "Shield",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "A5",
+		"lvl": 1,
+		"name": "Shield of Faith",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "A6",
+		"lvl": 0,
+		"name": "Shillelagh",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "A7",
+		"lvl": 0,
+		"name": "Shocking Grasp",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "A8",
+		"lvl": 4,
+		"name": "Sickening Radiance",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "A9",
+		"lvl": 2,
+		"name": "Silence",
+		"ritual": true,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "AA",
+		"lvl": 1,
+		"name": "Silent Image",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": false,
+		"file": "AB",
+		"lvl": 7,
+		"name": "Simulacrum",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "AC",
+		"lvl": 5,
+		"name": "Skill Empowerment",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "AD",
+		"lvl": 2,
+		"name": "Skywrite",
+		"ritual": true,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "AE",
+		"lvl": 1,
+		"name": "Sleep",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "AF",
+		"lvl": 3,
+		"name": "Sleet Storm",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "AG",
+		"lvl": 3,
+		"name": "Slow",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "AH",
+		"lvl": 1,
+		"name": "Snare",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "AI",
+		"lvl": 2,
+		"name": "Snilloc's Snowball Swarm",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "AJ",
+		"lvl": 6,
+		"name": "Soul Cage",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "AK",
+		"lvl": 0,
+		"name": "Spare the Dying",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "AL",
+		"lvl": 1,
+		"name": "Speak with Animals",
+		"ritual": true,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "AM",
+		"lvl": 3,
+		"name": "Speak with Dead",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "AN",
+		"lvl": 3,
+		"name": "Speak with Plants",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "AO",
+		"lvl": 2,
+		"name": "Spider Climb",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "AP",
+		"lvl": 2,
+		"name": "Spike Growth",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "AQ",
+		"lvl": 3,
+		"name": "Spirit Guardians",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "AR",
+		"lvl": 2,
+		"name": "Spiritual Weapon",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "AS",
+		"lvl": 4,
+		"name": "Staggering Smite",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "AT",
+		"lvl": 5,
+		"name": "Steel Wind Strike",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "AU",
+		"lvl": 3,
+		"name": "Stinking Cloud",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "AV",
+		"lvl": 4,
+		"name": "Stone Shape",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "AW",
+		"lvl": 4,
+		"name": "Stoneskin",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "AX",
+		"lvl": 9,
+		"name": "Storm of Vengeance",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "AY",
+		"lvl": 4,
+		"name": "Storm Sphere",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "AZ",
+		"lvl": 2,
+		"name": "Suggestion",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "B0",
+		"lvl": 4,
+		"name": "Summon Greater Demon",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "B1",
+		"lvl": 3,
+		"name": "Summon Lesser Demons",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "B2",
+		"lvl": 6,
+		"name": "Sunbeam",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "B3",
+		"lvl": 8,
+		"name": "Sunburst",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "B4",
+		"lvl": 5,
+		"name": "Swift Quiver",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "B5",
+		"lvl": 0,
+		"name": "Sword Burst",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "B6",
+		"lvl": 7,
+		"name": "Symbol",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": false,
+		"file": "B7",
+		"lvl": 5,
+		"name": "Synaptic Static",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "B8",
+		"lvl": 1,
+		"name": "Tasha's Hideous Laughter",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": true,
+		"file": "B9",
+		"lvl": 5,
+		"name": "Telekinesis",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "BA",
+		"lvl": 8,
+		"name": "Telepathy",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "BB",
+		"lvl": 7,
+		"name": "Teleport",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "BC",
+		"lvl": 5,
+		"name": "Teleportation Circle",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "BD",
+		"lvl": 7,
+		"name": "Temple of the Gods",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "BE",
+		"lvl": 1,
+		"name": "Tenser's Floating Disk",
+		"ritual": true,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "BF",
+		"lvl": 6,
+		"name": "Tenser's Transformation",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "BG",
+		"lvl": 0,
+		"name": "Thaumaturgy",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "BH",
+		"lvl": 0,
+		"name": "Thorn Whip",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "BI",
+		"lvl": 3,
+		"name": "Thunder Step",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "BJ",
+		"lvl": 0,
+		"name": "Thunderclap",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "BK",
+		"lvl": 1,
+		"name": "Thunderous Smite",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "BL",
+		"lvl": 1,
+		"name": "Thunderwave",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "BM",
+		"lvl": 3,
+		"name": "Tidal Wave",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "BN",
+		"lvl": 9,
+		"name": "Time Stop",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "BO",
+		"lvl": 3,
+		"name": "Tiny Servant",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "BP",
+		"lvl": 0,
+		"name": "Toll the Dead",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "BQ",
+		"lvl": 3,
+		"name": "Tongues",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": false,
+		"file": "BR",
+		"lvl": 5,
+		"name": "Transmute Rock",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "BS",
+		"lvl": 6,
+		"name": "Transport via Plants",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "BT",
+		"lvl": 8,
+		"name": "Trap the Soul",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "BU",
+		"lvl": 5,
+		"name": "Tree Stride",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "BV",
+		"lvl": 9,
+		"name": "True Polymorph",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "BW",
+		"lvl": 9,
+		"name": "True Resurrection",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "BX",
+		"lvl": 6,
+		"name": "True Seeing",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "BY",
+		"lvl": 0,
+		"name": "True Strike",
+		"ritual": false,
+		"school": "Divination"
+	},
+	{
+		"concentration": true,
+		"file": "BZ",
+		"lvl": 8,
+		"name": "Tsunami",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": false,
+		"file": "C0",
+		"lvl": 1,
+		"name": "Unseen Servant",
+		"ritual": true,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "C1",
+		"lvl": 3,
+		"name": "Vampiric Touch",
+		"ritual": false,
+		"school": "Necromancy"
+	},
+	{
+		"concentration": false,
+		"file": "C2",
+		"lvl": 0,
+		"name": "Vicious Mockery",
+		"ritual": false,
+		"school": "Enchantment"
+	},
+	{
+		"concentration": false,
+		"file": "C3",
+		"lvl": 4,
+		"name": "Vitriolic Sphere",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "C4",
+		"lvl": 4,
+		"name": "Wall of Fire",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "C5",
+		"lvl": 5,
+		"name": "Wall of Force",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "C6",
+		"lvl": 6,
+		"name": "Wall of Ice",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "C7",
+		"lvl": 5,
+		"name": "Wall of Light",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "C8",
+		"lvl": 3,
+		"name": "Wall of Sand",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "C9",
+		"lvl": 5,
+		"name": "Wall of Stone",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "CA",
+		"lvl": 6,
+		"name": "Wall of Thorns",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "CB",
+		"lvl": 3,
+		"name": "Wall of Water",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "CC",
+		"lvl": 2,
+		"name": "Warding Bond",
+		"ritual": false,
+		"school": "Abjuration"
+	},
+	{
+		"concentration": true,
+		"file": "CD",
+		"lvl": 2,
+		"name": "Warding Wind",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "CE",
+		"lvl": 3,
+		"name": "Water Breathing",
+		"ritual": true,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "CF",
+		"lvl": 3,
+		"name": "Water Walk",
+		"ritual": true,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "CG",
+		"lvl": 4,
+		"name": "Watery Sphere",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "CH",
+		"lvl": 2,
+		"name": "Web",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "CI",
+		"lvl": 9,
+		"name": "Weird",
+		"ritual": false,
+		"school": "Illusion"
+	},
+	{
+		"concentration": true,
+		"file": "CJ",
+		"lvl": 7,
+		"name": "Whirlwind",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "CK",
+		"lvl": 6,
+		"name": "Wind Walk",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": true,
+		"file": "CL",
+		"lvl": 3,
+		"name": "Wind Wall",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "CM",
+		"lvl": 9,
+		"name": "Wish",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "CN",
+		"lvl": 1,
+		"name": "Witch Bolt",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "CO",
+		"lvl": 0,
+		"name": "Word of Radiance",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": false,
+		"file": "CP",
+		"lvl": 6,
+		"name": "Word of Recall",
+		"ritual": false,
+		"school": "Conjuration"
+	},
+	{
+		"concentration": true,
+		"file": "CQ",
+		"lvl": 5,
+		"name": "Wrath of Nature",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "CR",
+		"lvl": 1,
+		"name": "Wrathful Smite",
+		"ritual": false,
+		"school": "Evocation"
+	},
+	{
+		"concentration": true,
+		"file": "CS",
+		"lvl": 1,
+		"name": "Zephyr Strike",
+		"ritual": false,
+		"school": "Transmutation"
+	},
+	{
+		"concentration": false,
+		"file": "CT",
+		"lvl": 2,
+		"name": "Zone of Truth",
+		"ritual": false,
+		"school": "Enchantment"
+	}
+]

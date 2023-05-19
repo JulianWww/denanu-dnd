@@ -1,0 +1,36 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.",
+	"availableClasses": [
+		"Bard",
+		"Cleric",
+		"Druid",
+		"Paladin",
+		"Ranger"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d8"
+	],
+	"damageTypes": [],
+	"description": "A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 1,
+	"materialComponents": null,
+	"name": "Cure Wounds",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Evocation",
+	"sourcePage": "Page: 230  Players Handbook",
+	"urlFriendlyName": "cure-wounds"
+}

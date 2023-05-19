@@ -1,0 +1,42 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+	"availableClasses": [
+		"Bard",
+		"Cleric",
+		"Druid",
+		"Sorcerer"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d6"
+	],
+	"damageTypes": [],
+	"description": "You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects: the target gains the effect until the spell ends. - Bear\u2019s Endurance. The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends. - Bull\u2019s Strength. The target has advantage on Strength checks, and his or her carrying capacity doubles. - Cat\u2019s Grace. The target has advantage on Dexterity checks. It also doesn\u2019t take damage from falling 20 feet or less if it isn\u2019t incapacitated. - Eagle\u2019s Splendor. The target has advantage on Charisma checks. - Fox\u2019s Cunning. The target thas advantage on Intelligence checks. - Owl\u2019s Wisdom. The target has advantage on Wisdom checks.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 2,
+	"materialComponents": "fur or a feather from a beast",
+	"name": "Enhance Ability",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [
+		"strength",
+		"dexterity",
+		"constitution",
+		"intelligence",
+		"wisdom",
+		"charisma"
+	],
+	"school": "Transmutation",
+	"sourcePage": "Page: 237  Players Handbook",
+	"urlFriendlyName": "enhance-ability"
+}

@@ -1,0 +1,33 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Druid",
+		"Ranger",
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.",
+	"duration": 86400,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 3,
+	"materialComponents": "a short reed or piece of straw",
+	"name": "Water Breathing",
+	"range": "30 feet",
+	"ritual": true,
+	"savingThrows": [],
+	"school": "Transmutation",
+	"sourcePage": "Page: 287  Players Handbook",
+	"urlFriendlyName": "water-breathing"
+}

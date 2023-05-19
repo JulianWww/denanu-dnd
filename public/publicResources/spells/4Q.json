@@ -1,0 +1,37 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.",
+	"availableClasses": [
+		"Druid",
+		"Ranger",
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Elemental Evil",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d6"
+	],
+	"damageTypes": [
+		"fire"
+	],
+	"description": "You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell\u2019s magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 3,
+	"materialComponents": null,
+	"name": "Flame Arrows",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Transmutation",
+	"sourcePage": "Page: 18  from EE Players Companion",
+	"urlFriendlyName": "flame-arrows"
+}

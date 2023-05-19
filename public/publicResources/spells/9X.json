@@ -1,0 +1,34 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Cleric",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You send a short message of twenty-five words or less to a creature with you are familiar. The creature hears the message in its mind, regonizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.  You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn\u2019t arrive.",
+	"duration": 1,
+	"duration_type": 2,
+	"isDamaging": false,
+	"language": "en",
+	"level": 3,
+	"materialComponents": "a short piece of fine copper wire",
+	"name": "Sending",
+	"range": "Unlimited",
+	"ritual": false,
+	"savingThrows": [
+		"intelligence"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 274  Players Handbook",
+	"urlFriendlyName": "sending"
+}

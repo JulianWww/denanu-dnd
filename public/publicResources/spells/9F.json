@@ -1,0 +1,35 @@
+{
+	"atHigherLevels": "The spell\u2019s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+	"availableClasses": [
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d8"
+	],
+	"damageTypes": [
+		"cold"
+	],
+	"description": "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 0,
+	"materialComponents": null,
+	"name": "Ray of Frost",
+	"range": "60 feet",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Evocation",
+	"sourcePage": "Page: 271  Players Handbook",
+	"urlFriendlyName": "ray-of-frost"
+}

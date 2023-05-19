@@ -1,0 +1,39 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Xanathars Guide To Everything",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": false
+	},
+	"concentration": false,
+	"damageDices": [
+		"d6"
+	],
+	"damageTypes": [
+		"psychic"
+	],
+	"description": "You unleash the power of your mind to blast the intellect of up to ten creatures of your choice that you can see within range. Creatures that have an Intelligence score of 2 or lower are unaffected. Each target must make an Intelligence saving throw. On a failed save, a target takes 14d6 psychic damage and is stunned. On a successful save, a target takes half as much damage and isn\u2019t stunned. If a target is killed by this damage, its head explodes, assuming it has one. A stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 9,
+	"materialComponents": null,
+	"name": "Psychic Scream",
+	"range": "90 feet",
+	"ritual": false,
+	"savingThrows": [
+		"intelligence"
+	],
+	"school": "Enchantment",
+	"sourcePage": "Page: 163  from Xanathar's Guide To Everything",
+	"urlFriendlyName": "psychic-scream"
+}

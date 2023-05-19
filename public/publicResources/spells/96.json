@@ -1,0 +1,40 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Cleric",
+		"Druid",
+		"Ranger",
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [
+		"acid",
+		"cold",
+		"fire",
+		"lightning",
+		"thunder"
+	],
+	"description": "For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 3,
+	"materialComponents": null,
+	"name": "Protection from Energy",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Abjuration",
+	"sourcePage": "Page: 270  Players Handbook",
+	"urlFriendlyName": "protection-from-energy"
+}

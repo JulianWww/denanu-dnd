@@ -1,0 +1,56 @@
+{
+	"Armor_Class": "11 ",
+	"ac": 11,
+	"actions": [
+		{
+			"description": "The harpy makes two attacks: one with its claws and one with its club.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (2d4 + 1) slashing damage.",
+			"name": "Claws"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d4 + 1) bludgeoning damage.",
+			"name": "Club"
+		},
+		{
+			"description": "The harpy sings a magical melody. Every humanoid and giant within 300 feet of the harpy that can hear the song must succeed on a DC 11 Wisdom saving throw or be charmed until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is incapacitated.<br/><br/>While charmed by the harpy, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 feet away from the harpy, the target must move on its turn toward the harpy by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, the target can repeat the saving throw. A charmed target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it.<br/><br/>A target that successfully saves is immune to this harpy's song for the next 24 hours.",
+			"name": "Luring Song"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 13,
+	"con": 12,
+	"condition_immunities": [],
+	"cr": "1",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 13,
+	"hp": 38,
+	"hp_gen": "7d8 + 7",
+	"int": 7,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Common",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Harpy",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Passive Perception 10",
+	"size": "Medium",
+	"skills": [],
+	"speed": "20 ft., fly 40 ft.",
+	"str": 12,
+	"traits": [],
+	"type": "monstrosity",
+	"wis": 10,
+	"xp": 200
+}

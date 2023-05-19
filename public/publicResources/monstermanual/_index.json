@@ -1,0 +1,2618 @@
+[
+	{
+		"alignment": "lawful evil",
+		"cr": "10",
+		"file": "Aboleth",
+		"name": "Aboleth",
+		"size": "Large",
+		"type": "aberration"
+	},
+	{
+		"alignment": "any",
+		"cr": "1/4",
+		"file": "Acolyte",
+		"name": "Acolyte",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "14",
+		"file": "Adult Black Dragon",
+		"name": "Adult Black Dragon",
+		"size": "Huge",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "16",
+		"file": "Adult Blue Dragon",
+		"name": "Adult Blue Dragon",
+		"size": "Huge",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "13",
+		"file": "Adult Brass Dragon",
+		"name": "Adult Brass Dragon",
+		"size": "Huge",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "15",
+		"file": "Adult Bronze Dragon",
+		"name": "Adult Bronze Dragon",
+		"size": "Huge",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "14",
+		"file": "Adult Copper Dragon",
+		"name": "Adult Copper Dragon",
+		"size": "Huge",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "17",
+		"file": "Adult Gold Dragon",
+		"name": "Adult Gold Dragon",
+		"size": "Huge",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "15",
+		"file": "Adult Green Dragon",
+		"name": "Adult Green Dragon",
+		"size": "Huge",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "17",
+		"file": "Adult Red Dragon",
+		"name": "Adult Red Dragon",
+		"size": "Huge",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "16",
+		"file": "Adult Silver Dragon",
+		"name": "Adult Silver Dragon",
+		"size": "Huge",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "13",
+		"file": "Adult White Dragon",
+		"name": "Adult White Dragon",
+		"size": "Huge",
+		"type": "dragon"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "5",
+		"file": "Air Elemental",
+		"name": "Air Elemental",
+		"size": "Large",
+		"type": "elemental"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Allosaurus",
+		"name": "Allosaurus",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "21",
+		"file": "Ancient Black Dragon",
+		"name": "Ancient Black Dragon",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "23",
+		"file": "Ancient Blue Dragon",
+		"name": "Ancient Blue Dragon",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "20",
+		"file": "Ancient Brass Dragon",
+		"name": "Ancient Brass Dragon",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "22",
+		"file": "Ancient Bronze Dragon",
+		"name": "Ancient Bronze Dragon",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "21",
+		"file": "Ancient Copper Dragon",
+		"name": "Ancient Copper Dragon",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "24",
+		"file": "Ancient Gold Dragon",
+		"name": "Ancient Gold Dragon",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "22",
+		"file": "Ancient Green Dragon",
+		"name": "Ancient Green Dragon",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "24",
+		"file": "Ancient Red Dragon",
+		"name": "Ancient Red Dragon",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "23",
+		"file": "Ancient Silver Dragon",
+		"name": "Ancient Silver Dragon",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "20",
+		"file": "Ancient White Dragon",
+		"name": "Ancient White Dragon",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful neutral",
+		"cr": "17",
+		"file": "Androsphinx",
+		"name": "Androsphinx",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Animated Armor",
+		"name": "Animated Armor",
+		"size": "Medium",
+		"type": "construct"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Ankheg",
+		"name": "Ankheg",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "3",
+		"file": "Ankylosaurus",
+		"name": "Ankylosaurus",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Ape",
+		"name": "Ape",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "any",
+		"cr": "12",
+		"file": "Archmage",
+		"name": "Archmage",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "any",
+		"cr": "8",
+		"file": "Assassin",
+		"name": "Assassin",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Awakened Shrub",
+		"name": "Awakened Shrub",
+		"size": "Small",
+		"type": "plant"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Awakened Tree",
+		"name": "Awakened Tree",
+		"size": "Huge",
+		"type": "plant"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Axe Beak",
+		"name": "Axe Beak",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful neutral",
+		"cr": "2",
+		"file": "Azer",
+		"name": "Azer",
+		"size": "Medium",
+		"type": "elemental"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Baboon",
+		"name": "Baboon",
+		"size": "Small",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Badger",
+		"name": "Badger",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "19",
+		"file": "Balor",
+		"name": "Balor",
+		"size": "Huge",
+		"type": "fiend"
+	},
+	{
+		"alignment": "any",
+		"cr": "1/8",
+		"file": "Bandit",
+		"name": "Bandit",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "any",
+		"cr": "2",
+		"file": "Bandit Captain",
+		"name": "Bandit Captain",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "4",
+		"file": "Banshee",
+		"name": "Banshee",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "5",
+		"file": "Barbed Devil",
+		"name": "Barbed Devil",
+		"size": "Medium",
+		"type": "fiend"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "3",
+		"file": "Basilisk",
+		"name": "Basilisk",
+		"size": "Medium",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Bat",
+		"name": "Bat",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "3",
+		"file": "Bearded Devil",
+		"name": "Bearded Devil",
+		"size": "Medium",
+		"type": "fiend"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "11",
+		"file": "Behir",
+		"name": "Behir",
+		"size": "Huge",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "any",
+		"cr": "2",
+		"file": "Berserker",
+		"name": "Berserker",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Black Bear",
+		"name": "Black Bear",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "2",
+		"file": "Black Dragon Wyrmling",
+		"name": "Black Dragon Wyrmling",
+		"size": "Medium",
+		"type": "dragon"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "4",
+		"file": "Black Pudding",
+		"name": "Black Pudding",
+		"size": "Large",
+		"type": "ooze"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "1/4",
+		"file": "Blink Dog",
+		"name": "Blink Dog",
+		"size": "Medium",
+		"type": "fey"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Blood Hawk",
+		"name": "Blood Hawk",
+		"size": "Small",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "3",
+		"file": "Blue Dragon Wyrmling",
+		"name": "Blue Dragon Wyrmling",
+		"size": "Medium",
+		"type": "dragon"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Boar",
+		"name": "Boar",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "9",
+		"file": "Bone Devil",
+		"name": "Bone Devil",
+		"size": "Large",
+		"type": "fiend"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "1",
+		"file": "Brass Dragon Wyrmling",
+		"name": "Brass Dragon Wyrmling",
+		"size": "Medium",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "2",
+		"file": "Bronze Dragon Wyrmling",
+		"name": "Bronze Dragon Wyrmling",
+		"size": "Medium",
+		"type": "dragon"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Brown Bear",
+		"name": "Brown Bear",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "1",
+		"file": "Bugbear",
+		"name": "Bugbear",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "5",
+		"file": "Bulette",
+		"name": "Bulette",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Camel",
+		"name": "Camel",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Cat",
+		"name": "Cat",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral good",
+		"cr": "2",
+		"file": "Centaur",
+		"name": "Centaur",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "8",
+		"file": "Chain Devil",
+		"name": "Chain Devil",
+		"size": "Medium",
+		"type": "fiend"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "6",
+		"file": "Chimera",
+		"name": "Chimera",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "4",
+		"file": "Chuul",
+		"name": "Chuul",
+		"size": "Large",
+		"type": "aberration"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "9",
+		"file": "Clay Golem",
+		"name": "Clay Golem",
+		"size": "Large",
+		"type": "construct"
+	},
+	{
+		"alignment": "chaotic neutral",
+		"cr": "8",
+		"file": "Cloaker",
+		"name": "Cloaker",
+		"size": "Large",
+		"type": "aberration"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "9",
+		"file": "Cloud Giant",
+		"name": "Cloud Giant",
+		"size": "Huge",
+		"type": "giant"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Cockatrice",
+		"name": "Cockatrice",
+		"size": "Small",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "any",
+		"cr": "0",
+		"file": "Commoner",
+		"name": "Commoner",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Constrictor Snake",
+		"name": "Constrictor Snake",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "1",
+		"file": "Copper Dragon Wyrmling",
+		"name": "Copper Dragon Wyrmling",
+		"size": "Medium",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "4",
+		"file": "Couatl",
+		"name": "Couatl",
+		"size": "Medium",
+		"type": "celestial"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Crab",
+		"name": "Crab",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Crocodile",
+		"name": "Crocodile",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "any",
+		"cr": "2",
+		"file": "Cult Fanatic",
+		"name": "Cult Fanatic",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "any",
+		"cr": "1/8",
+		"file": "Cultist",
+		"name": "Cultist",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "chaotic neutral",
+		"cr": "6",
+		"file": "Cyclops",
+		"name": "Cyclops",
+		"size": "Huge",
+		"type": "giant"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Darkmantle",
+		"name": "Darkmantle",
+		"size": "Small",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1",
+		"file": "Death Dog",
+		"name": "Death Dog",
+		"size": "Medium",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "neutral good",
+		"cr": "1/2",
+		"file": "Deep Gnome (Svirfneblin)",
+		"name": "Deep Gnome (Svirfneblin)",
+		"size": "Small",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Deer",
+		"name": "Deer",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "10",
+		"file": "Deva",
+		"name": "Deva",
+		"size": "Medium",
+		"type": "celestial"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Dire Wolf",
+		"name": "Dire Wolf",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "11",
+		"file": "Djinni",
+		"name": "Djinni",
+		"size": "Large",
+		"type": "elemental"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "3",
+		"file": "Doppelganger",
+		"name": "Doppelganger",
+		"size": "Medium",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Draft Horse",
+		"name": "Draft Horse",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "17",
+		"file": "Dragon Turtle",
+		"name": "Dragon Turtle",
+		"size": "Gargantuan",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "1/4",
+		"file": "Dretch",
+		"name": "Dretch",
+		"size": "Small",
+		"type": "fiend"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "6",
+		"file": "Drider",
+		"name": "Drider",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1/4",
+		"file": "Drow",
+		"name": "Drow",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "any",
+		"cr": "2",
+		"file": "Druid",
+		"name": "Druid",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "1",
+		"file": "Dryad",
+		"name": "Dryad",
+		"size": "Medium",
+		"type": "fey"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "1",
+		"file": "Duergar",
+		"name": "Duergar",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1/2",
+		"file": "Dust Mephit",
+		"name": "Dust Mephit",
+		"size": "Small",
+		"type": "elemental"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Eagle",
+		"name": "Eagle",
+		"size": "Small",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "5",
+		"file": "Earth Elemental",
+		"name": "Earth Elemental",
+		"size": "Large",
+		"type": "elemental"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "11",
+		"file": "Efreeti",
+		"name": "Efreeti",
+		"size": "Large",
+		"type": "elemental"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "4",
+		"file": "Elephant",
+		"name": "Elephant",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Elk",
+		"name": "Elk",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "12",
+		"file": "Erinyes",
+		"name": "Erinyes",
+		"size": "Medium",
+		"type": "fiend"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "2",
+		"file": "Ettercap",
+		"name": "Ettercap",
+		"size": "Medium",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "4",
+		"file": "Ettin",
+		"name": "Ettin",
+		"size": "Large",
+		"type": "giant"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "5",
+		"file": "Fire Elemental",
+		"name": "Fire Elemental",
+		"size": "Large",
+		"type": "elemental"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "9",
+		"file": "Fire Giant",
+		"name": "Fire Giant",
+		"size": "Huge",
+		"type": "giant"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "4",
+		"file": "Flameskull",
+		"name": "Flameskull",
+		"size": "Tiny",
+		"type": "undead"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "5",
+		"file": "Flesh Golem",
+		"name": "Flesh Golem",
+		"size": "Medium",
+		"type": "construct"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Flying Snake",
+		"name": "Flying Snake",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Flying Sword",
+		"name": "Flying Sword",
+		"size": "Small",
+		"type": "construct"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Frog",
+		"name": "Frog",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "8",
+		"file": "Frost Giant",
+		"name": "Frost Giant",
+		"size": "Huge",
+		"type": "giant"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "2",
+		"file": "Gargoyle",
+		"name": "Gargoyle",
+		"size": "Medium",
+		"type": "elemental"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Gelatinous Cube",
+		"name": "Gelatinous Cube",
+		"size": "Large",
+		"type": "ooze"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "2",
+		"file": "Ghast",
+		"name": "Ghast",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "any",
+		"cr": "4",
+		"file": "Ghost",
+		"name": "Ghost",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "1",
+		"file": "Ghoul",
+		"name": "Ghoul",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "7",
+		"file": "Giant Ape",
+		"name": "Giant Ape",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Giant Badger",
+		"name": "Giant Badger",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Giant Bat",
+		"name": "Giant Bat",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Giant Boar",
+		"name": "Giant Boar",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Giant Centipede",
+		"name": "Giant Centipede",
+		"size": "Small",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Giant Constrictor Snake",
+		"name": "Giant Constrictor Snake",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Giant Crab",
+		"name": "Giant Crab",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "5",
+		"file": "Giant Crocodile",
+		"name": "Giant Crocodile",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral good",
+		"cr": "1",
+		"file": "Giant Eagle",
+		"name": "Giant Eagle",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Giant Elk",
+		"name": "Giant Elk",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Giant Fire Beetle",
+		"name": "Giant Fire Beetle",
+		"size": "Small",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Giant Frog",
+		"name": "Giant Frog",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Giant Goat",
+		"name": "Giant Goat",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Giant Hyena",
+		"name": "Giant Hyena",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Giant Lizard",
+		"name": "Giant Lizard",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Giant Octopus",
+		"name": "Giant Octopus",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "1/4",
+		"file": "Giant Owl",
+		"name": "Giant Owl",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Giant Poisonous Snake",
+		"name": "Giant Poisonous Snake",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Giant Rat",
+		"name": "Giant Rat",
+		"size": "Small",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "3",
+		"file": "Giant Scorpion",
+		"name": "Giant Scorpion",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Giant Sea Horse",
+		"name": "Giant Sea Horse",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "5",
+		"file": "Giant Shark",
+		"name": "Giant Shark",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Giant Spider",
+		"name": "Giant Spider",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Giant Toad",
+		"name": "Giant Toad",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "1",
+		"file": "Giant Vulture",
+		"name": "Giant Vulture",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Giant Wasp",
+		"name": "Giant Wasp",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Giant Weasel",
+		"name": "Giant Weasel",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Giant Wolf Spider",
+		"name": "Giant Wolf Spider",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "2",
+		"file": "Gibbering Mouther",
+		"name": "Gibbering Mouther",
+		"size": "Medium",
+		"type": "aberration"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "9",
+		"file": "Glabrezu",
+		"name": "Glabrezu",
+		"size": "Large",
+		"type": "fiend"
+	},
+	{
+		"alignment": "any",
+		"cr": "5",
+		"file": "Gladiator",
+		"name": "Gladiator",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "1/2",
+		"file": "Gnoll",
+		"name": "Gnoll",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Goat",
+		"name": "Goat",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1/4",
+		"file": "Goblin",
+		"name": "Goblin",
+		"size": "Small",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "3",
+		"file": "Gold Dragon Wyrmling",
+		"name": "Gold Dragon Wyrmling",
+		"size": "Medium",
+		"type": "dragon"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "5",
+		"file": "Gorgon",
+		"name": "Gorgon",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Gray Ooze",
+		"name": "Gray Ooze",
+		"size": "Medium",
+		"type": "ooze"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "2",
+		"file": "Green Dragon Wyrmling",
+		"name": "Green Dragon Wyrmling",
+		"size": "Medium",
+		"type": "dragon"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "3",
+		"file": "Green Hag",
+		"name": "Green Hag",
+		"size": "Medium",
+		"type": "fey"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "2",
+		"file": "Grick",
+		"name": "Grick",
+		"size": "Medium",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Griffon",
+		"name": "Griffon",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1/4",
+		"file": "Grimlock",
+		"name": "Grimlock",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "any",
+		"cr": "1/8",
+		"file": "Guard",
+		"name": "Guard",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "10",
+		"file": "Guardian Naga",
+		"name": "Guardian Naga",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "lawful neutral",
+		"cr": "11",
+		"file": "Gynosphinx",
+		"name": "Gynosphinx",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "any",
+		"cr": "5",
+		"file": "Half-Red Dragon Veteran",
+		"name": "Half-Red Dragon Veteran",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "1",
+		"file": "Harpy",
+		"name": "Harpy",
+		"size": "Medium",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Hawk",
+		"name": "Hawk",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "3",
+		"file": "Hell Hound",
+		"name": "Hell Hound",
+		"size": "Medium",
+		"type": "fiend"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "8",
+		"file": "Hezrou",
+		"name": "Hezrou",
+		"size": "Large",
+		"type": "fiend"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "5",
+		"file": "Hill Giant",
+		"name": "Hill Giant",
+		"size": "Huge",
+		"type": "giant"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Hippogriff",
+		"name": "Hippogriff",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "1/2",
+		"file": "Hobgoblin",
+		"name": "Hobgoblin",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "0",
+		"file": "Homunculus",
+		"name": "Homunculus",
+		"size": "Tiny",
+		"type": "construct"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "11",
+		"file": "Horned Devil",
+		"name": "Horned Devil",
+		"size": "Large",
+		"type": "fiend"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Hunter Shark",
+		"name": "Hunter Shark",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "8",
+		"file": "Hydra",
+		"name": "Hydra",
+		"size": "Huge",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Hyena",
+		"name": "Hyena",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "14",
+		"file": "Ice Devil",
+		"name": "Ice Devil",
+		"size": "Large",
+		"type": "fiend"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1/2",
+		"file": "Ice Mephit",
+		"name": "Ice Mephit",
+		"size": "Small",
+		"type": "elemental"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "1",
+		"file": "Imp",
+		"name": "Imp",
+		"size": "Tiny",
+		"type": "fiend"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "6",
+		"file": "Invisible Stalker",
+		"name": "Invisible Stalker",
+		"size": "Medium",
+		"type": "elemental"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "16",
+		"file": "Iron Golem",
+		"name": "Iron Golem",
+		"size": "Large",
+		"type": "construct"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Jackal",
+		"name": "Jackal",
+		"size": "Small",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "3",
+		"file": "Killer Whale",
+		"name": "Killer Whale",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "any",
+		"cr": "3",
+		"file": "Knight",
+		"name": "Knight",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "1/8",
+		"file": "Kobold",
+		"name": "Kobold",
+		"size": "Small",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "23",
+		"file": "Kraken",
+		"name": "Kraken",
+		"size": "Gargantuan",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "4",
+		"file": "Lamia",
+		"name": "Lamia",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "0",
+		"file": "Lemure",
+		"name": "Lemure",
+		"size": "Medium",
+		"type": "fiend"
+	},
+	{
+		"alignment": "any evil alignment",
+		"cr": "21",
+		"file": "Lich",
+		"name": "Lich",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Lion",
+		"name": "Lion",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Lizard",
+		"name": "Lizard",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "1/2",
+		"file": "Lizardfolk",
+		"name": "Lizardfolk",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "any",
+		"cr": "6",
+		"file": "Mage",
+		"name": "Mage",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1/2",
+		"file": "Magma Mephit",
+		"name": "Magma Mephit",
+		"size": "Small",
+		"type": "elemental"
+	},
+	{
+		"alignment": "chaotic neutral",
+		"cr": "1/2",
+		"file": "Magmin",
+		"name": "Magmin",
+		"size": "Small",
+		"type": "elemental"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "6",
+		"file": "Mammoth",
+		"name": "Mammoth",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "3",
+		"file": "Manticore",
+		"name": "Manticore",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "16",
+		"file": "Marilith",
+		"name": "Marilith",
+		"size": "Large",
+		"type": "fiend"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Mastiff",
+		"name": "Mastiff",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "6",
+		"file": "Medusa",
+		"name": "Medusa",
+		"size": "Medium",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "1/8",
+		"file": "Merfolk",
+		"name": "Merfolk",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "2",
+		"file": "Merrow",
+		"name": "Merrow",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "2",
+		"file": "Mimic",
+		"name": "Mimic",
+		"size": "Medium",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "3",
+		"file": "Minotaur",
+		"name": "Minotaur",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "2",
+		"file": "Minotaur Skeleton",
+		"name": "Minotaur Skeleton",
+		"size": "Large",
+		"type": "undead"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Mule",
+		"name": "Mule",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "3",
+		"file": "Mummy",
+		"name": "Mummy",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "15",
+		"file": "Mummy Lord",
+		"name": "Mummy Lord",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "13",
+		"file": "Nalfeshnee",
+		"name": "Nalfeshnee",
+		"size": "Large",
+		"type": "fiend"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "5",
+		"file": "Night Hag",
+		"name": "Night Hag",
+		"size": "Medium",
+		"type": "fiend"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "3",
+		"file": "Nightmare",
+		"name": "Nightmare",
+		"size": "Large",
+		"type": "fiend"
+	},
+	{
+		"alignment": "any",
+		"cr": "1/8",
+		"file": "Noble",
+		"name": "Noble",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "2",
+		"file": "Nothic",
+		"name": "Nothic",
+		"size": "Medium",
+		"type": "aberration"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Ochre Jelly",
+		"name": "Ochre Jelly",
+		"size": "Large",
+		"type": "ooze"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Octopus",
+		"name": "Octopus",
+		"size": "Small",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "2",
+		"file": "Ogre",
+		"name": "Ogre",
+		"size": "Large",
+		"type": "giant"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "2",
+		"file": "Ogre Zombie",
+		"name": "Ogre Zombie",
+		"size": "Large",
+		"type": "undead"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "7",
+		"file": "Oni",
+		"name": "Oni",
+		"size": "Large",
+		"type": "giant"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "1/2",
+		"file": "Orc",
+		"name": "Orc",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "5",
+		"file": "Otyugh",
+		"name": "Otyugh",
+		"size": "Large",
+		"type": "aberration"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Owl",
+		"name": "Owl",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "3",
+		"file": "Owlbear",
+		"name": "Owlbear",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Panther",
+		"name": "Panther",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "2",
+		"file": "Pegasus",
+		"name": "Pegasus",
+		"size": "Large",
+		"type": "celestial"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "3",
+		"file": "Phase Spider",
+		"name": "Phase Spider",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "20",
+		"file": "Pit Fiend",
+		"name": "Pit Fiend",
+		"size": "Large",
+		"type": "fiend"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "16",
+		"file": "Planetar",
+		"name": "Planetar",
+		"size": "Large",
+		"type": "celestial"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Plesiosaurus",
+		"name": "Plesiosaurus",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Poisonous Snake",
+		"name": "Poisonous Snake",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Polar Bear",
+		"name": "Polar Bear",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Pony",
+		"name": "Pony",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "any",
+		"cr": "2",
+		"file": "Priest",
+		"name": "Priest",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral good",
+		"cr": "1/4",
+		"file": "Pseudodragon",
+		"name": "Pseudodragon",
+		"size": "Tiny",
+		"type": "dragon"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Pteranodon",
+		"name": "Pteranodon",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "15",
+		"file": "Purple Worm",
+		"name": "Purple Worm",
+		"size": "Gargantuan",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "1",
+		"file": "Quasit",
+		"name": "Quasit",
+		"size": "Tiny",
+		"type": "fiend"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Quipper",
+		"name": "Quipper",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "13",
+		"file": "Rakshasa",
+		"name": "Rakshasa",
+		"size": "Medium",
+		"type": "fiend"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Rat",
+		"name": "Rat",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Raven",
+		"name": "Raven",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "4",
+		"file": "Red Dragon Wyrmling",
+		"name": "Red Dragon Wyrmling",
+		"size": "Medium",
+		"type": "dragon"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Reef Shark",
+		"name": "Reef Shark",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "11",
+		"file": "Remorhaz",
+		"name": "Remorhaz",
+		"size": "Huge",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Rhinoceros",
+		"name": "Rhinoceros",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Riding Horse",
+		"name": "Riding Horse",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "11",
+		"file": "Roc",
+		"name": "Roc",
+		"size": "Gargantuan",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "5",
+		"file": "Roper",
+		"name": "Roper",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Rug of Smothering",
+		"name": "Rug of Smothering",
+		"size": "Large",
+		"type": "construct"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Rust Monster",
+		"name": "Rust Monster",
+		"size": "Medium",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Saber-Toothed Tiger",
+		"name": "Saber-Toothed Tiger",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "1/2",
+		"file": "Sahuagin",
+		"name": "Sahuagin",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "5",
+		"file": "Salamander",
+		"name": "Salamander",
+		"size": "Large",
+		"type": "elemental"
+	},
+	{
+		"alignment": "chaotic neutral",
+		"cr": "1/2",
+		"file": "Satyr",
+		"name": "Satyr",
+		"size": "Medium",
+		"type": "fey"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Scorpion",
+		"name": "Scorpion",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "any",
+		"cr": "1/2",
+		"file": "Scout",
+		"name": "Scout",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "2",
+		"file": "Sea Hag",
+		"name": "Sea Hag",
+		"size": "Medium",
+		"type": "fey"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Sea Horse",
+		"name": "Sea Horse",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "1/2",
+		"file": "Shadow",
+		"name": "Shadow",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "5",
+		"file": "Shambling Mound",
+		"name": "Shambling Mound",
+		"size": "Large",
+		"type": "plant"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "7",
+		"file": "Shield Guardian",
+		"name": "Shield Guardian",
+		"size": "Large",
+		"type": "construct"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Shrieker",
+		"name": "Shrieker",
+		"size": "Medium",
+		"type": "plant"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "2",
+		"file": "Silver Dragon Wyrmling",
+		"name": "Silver Dragon Wyrmling",
+		"size": "Medium",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "1/4",
+		"file": "Skeleton",
+		"name": "Skeleton",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "21",
+		"file": "Solar",
+		"name": "Solar",
+		"size": "Large",
+		"type": "celestial"
+	},
+	{
+		"alignment": "lawful neutral",
+		"cr": "3",
+		"file": "Spectator",
+		"name": "Spectator",
+		"size": "Medium",
+		"type": "aberration"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "1",
+		"file": "Specter",
+		"name": "Specter",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Spider",
+		"name": "Spider",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "8",
+		"file": "Spirit Naga",
+		"name": "Spirit Naga",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "neutral good",
+		"cr": "1/4",
+		"file": "Sprite",
+		"name": "Sprite",
+		"size": "Tiny",
+		"type": "fey"
+	},
+	{
+		"alignment": "any",
+		"cr": "1",
+		"file": "Spy",
+		"name": "Spy",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1/4",
+		"file": "Steam Mephit",
+		"name": "Steam Mephit",
+		"size": "Small",
+		"type": "elemental"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/8",
+		"file": "Stirge",
+		"name": "Stirge",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "7",
+		"file": "Stone Giant",
+		"name": "Stone Giant",
+		"size": "Huge",
+		"type": "giant"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "10",
+		"file": "Stone Golem",
+		"name": "Stone Golem",
+		"size": "Large",
+		"type": "construct"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "13",
+		"file": "Storm Giant",
+		"name": "Storm Giant",
+		"size": "Huge",
+		"type": "giant"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "4",
+		"file": "Succubus_Incubus",
+		"name": "Succubus/Incubus",
+		"size": "Medium",
+		"type": "fiend"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Swarm of Bats",
+		"name": "Swarm of Bats",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Swarm of Insects",
+		"name": "Swarm of Insects",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "2",
+		"file": "Swarm of Poisonous Snakes",
+		"name": "Swarm of Poisonous Snakes",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Swarm of Quippers",
+		"name": "Swarm of Quippers",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Swarm of Rats",
+		"name": "Swarm of Rats",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Swarm of Ravens",
+		"name": "Swarm of Ravens",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "30",
+		"file": "Tarrasque",
+		"name": "Tarrasque",
+		"size": "Gargantuan",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "any",
+		"cr": "1/2",
+		"file": "Thug",
+		"name": "Thug",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1",
+		"file": "Tiger",
+		"name": "Tiger",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "9",
+		"file": "Treant",
+		"name": "Treant",
+		"size": "Huge",
+		"type": "plant"
+	},
+	{
+		"alignment": "any",
+		"cr": "1/8",
+		"file": "Tribal Warrior",
+		"name": "Tribal Warrior",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "5",
+		"file": "Triceratops",
+		"name": "Triceratops",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "5",
+		"file": "Troll",
+		"name": "Troll",
+		"size": "Large",
+		"type": "giant"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1/8",
+		"file": "Twig Blight",
+		"name": "Twig Blight",
+		"size": "Small",
+		"type": "plant"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "8",
+		"file": "Tyrannosaurus Rex",
+		"name": "Tyrannosaurus Rex",
+		"size": "Huge",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "5",
+		"file": "Unicorn",
+		"name": "Unicorn",
+		"size": "Large",
+		"type": "celestial"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "13",
+		"file": "Vampire",
+		"name": "Vampire",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "5",
+		"file": "Vampire Spawn",
+		"name": "Vampire Spawn",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "any",
+		"cr": "3",
+		"file": "Veteran",
+		"name": "Veteran",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Violet Fungus",
+		"name": "Violet Fungus",
+		"size": "Medium",
+		"type": "plant"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "6",
+		"file": "Vrock",
+		"name": "Vrock",
+		"size": "Large",
+		"type": "fiend"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Vulture",
+		"name": "Vulture",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/2",
+		"file": "Warhorse",
+		"name": "Warhorse",
+		"size": "Large",
+		"type": "beast"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "1/2",
+		"file": "Warhorse Skeleton",
+		"name": "Warhorse Skeleton",
+		"size": "Large",
+		"type": "undead"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "5",
+		"file": "Water Elemental",
+		"name": "Water Elemental",
+		"size": "Large",
+		"type": "elemental"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "0",
+		"file": "Weasel",
+		"name": "Weasel",
+		"size": "Tiny",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral good",
+		"cr": "5",
+		"file": "Werebear",
+		"name": "Werebear",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "4",
+		"file": "Wereboar",
+		"name": "Wereboar",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "2",
+		"file": "Wererat",
+		"name": "Wererat",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "4",
+		"file": "Weretiger",
+		"name": "Weretiger",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "3",
+		"file": "Werewolf",
+		"name": "Werewolf",
+		"size": "Medium",
+		"type": "humanoid"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "2",
+		"file": "White Dragon Wyrmling",
+		"name": "White Dragon Wyrmling",
+		"size": "Medium",
+		"type": "dragon"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "3",
+		"file": "Wight",
+		"name": "Wight",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "2",
+		"file": "Will-o'-Wisp",
+		"name": "Will-o'-Wisp",
+		"size": "Tiny",
+		"type": "undead"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "3",
+		"file": "Winter Wolf",
+		"name": "Winter Wolf",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "1/4",
+		"file": "Wolf",
+		"name": "Wolf",
+		"size": "Medium",
+		"type": "beast"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1/2",
+		"file": "Worg",
+		"name": "Worg",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "5",
+		"file": "Wraith",
+		"name": "Wraith",
+		"size": "Medium",
+		"type": "undead"
+	},
+	{
+		"alignment": "unaligned",
+		"cr": "6",
+		"file": "Wyvern",
+		"name": "Wyvern",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "neutral",
+		"cr": "5",
+		"file": "Xorn",
+		"name": "Xorn",
+		"size": "Medium",
+		"type": "elemental"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "3",
+		"file": "Yeti",
+		"name": "Yeti",
+		"size": "Large",
+		"type": "monstrosity"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "7",
+		"file": "Young Black Dragon",
+		"name": "Young Black Dragon",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "9",
+		"file": "Young Blue Dragon",
+		"name": "Young Blue Dragon",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "6",
+		"file": "Young Brass Dragon",
+		"name": "Young Brass Dragon",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "8",
+		"file": "Young Bronze Dragon",
+		"name": "Young Bronze Dragon",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic good",
+		"cr": "7",
+		"file": "Young Copper Dragon",
+		"name": "Young Copper Dragon",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "10",
+		"file": "Young Gold Dragon",
+		"name": "Young Gold Dragon",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful evil",
+		"cr": "8",
+		"file": "Young Green Dragon",
+		"name": "Young Green Dragon",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "10",
+		"file": "Young Red Dragon",
+		"name": "Young Red Dragon",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "lawful good",
+		"cr": "9",
+		"file": "Young Silver Dragon",
+		"name": "Young Silver Dragon",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "chaotic evil",
+		"cr": "6",
+		"file": "Young White Dragon",
+		"name": "Young White Dragon",
+		"size": "Large",
+		"type": "dragon"
+	},
+	{
+		"alignment": "neutral evil",
+		"cr": "1/4",
+		"file": "Zombie",
+		"name": "Zombie",
+		"size": "Medium",
+		"type": "undead"
+	}
+]

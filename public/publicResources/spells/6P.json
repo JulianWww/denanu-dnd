@@ -1,0 +1,30 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Wizard"
+	],
+	"bookSource": "Xanathars Guide To Everything",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You are immune to all damage until the spell ends.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 9,
+	"materialComponents": "a small piece of adamantine worth at least 500 gp which the spell consumes",
+	"name": "Invulnerability",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Abjuration",
+	"sourcePage": "Page: 160  from Xanathar's Guide To Everything",
+	"urlFriendlyName": "invulnerability"
+}

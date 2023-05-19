@@ -1,0 +1,51 @@
+{
+	"Armor_Class": "11 ",
+	"ac": 11,
+	"actions": [
+		{
+			"description": "<em>Melee or <em>Ranged Weapon Attack:</em></em> +2 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.",
+			"name": "Spear"
+		}
+	],
+	"alignment": "neutral",
+	"cha": 12,
+	"con": 12,
+	"condition_immunities": [],
+	"cr": "1/8",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 13,
+	"hp": 11,
+	"hp_gen": "2d8 + 2",
+	"int": 11,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Aquan, Common",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Merfolk",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Passive Perception 12",
+	"size": "Medium",
+	"skills": {
+		"perception": 2
+	},
+	"speed": "10 ft., swim 40 ft.",
+	"str": 10,
+	"traits": [
+		{
+			"description": "The merfolk can breathe air and water.",
+			"name": "Amphibious"
+		}
+	],
+	"type": "humanoid",
+	"wis": 11,
+	"xp": 25
+}

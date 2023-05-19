@@ -1,0 +1,32 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Druid",
+		"Ranger"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": false,
+	"language": "en",
+	"level": 2,
+	"materialComponents": "a bit of fur from a bloodhound",
+	"name": "Locate Animals or Plants",
+	"range": "Self",
+	"ritual": true,
+	"savingThrows": [],
+	"school": "Divination",
+	"sourcePage": "Page: 256  Players Handbook",
+	"urlFriendlyName": "locate-animals-or-plants"
+}

@@ -1,0 +1,30 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Cleric"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.  You must designate a sanctuary by casting this spell within a location, such as a temple, dedicated to or strongly linked to your deity. If you attempt to cast the spell in this manner in an area that isn\u2019t dedicated to your deity, the spell has no effect.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": false,
+	"language": "en",
+	"level": 6,
+	"materialComponents": null,
+	"name": "Word of Recall",
+	"range": "5 feet",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Conjuration",
+	"sourcePage": "Page: 289  Players Handbook",
+	"urlFriendlyName": "word-of-recall"
+}

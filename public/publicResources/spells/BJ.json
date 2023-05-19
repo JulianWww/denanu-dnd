@@ -1,0 +1,40 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Druid",
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Elemental Evil",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": false
+	},
+	"concentration": false,
+	"damageDices": [
+		"d6"
+	],
+	"damageTypes": [
+		"thunder"
+	],
+	"description": "You create a burst of thunderous sound, which can be heard 100 feet away.  Each creature other than you within 5 feet of you must make a Constitution saving throw. On a failed save, the creature takes 1d6 thunder damage.  The spell\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 0,
+	"materialComponents": null,
+	"name": "Thunderclap",
+	"range": "5 feet",
+	"ritual": false,
+	"savingThrows": [
+		"constitution"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 22  from EE Players Companion",
+	"urlFriendlyName": "thunderclap"
+}

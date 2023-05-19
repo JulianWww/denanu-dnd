@@ -1,0 +1,68 @@
+{
+	"Armor_Class": "18 (Natural Armor)",
+	"ac": 18,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one creature. <em>Hit:</em> 8 (1d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +8 to hit, range 15/30 ft., one creature. <em>Hit:</em> The target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.",
+			"name": "Spit Poison"
+		}
+	],
+	"alignment": "lawful good",
+	"cha": 18,
+	"con": 16,
+	"condition_immunities": [
+		"Charmed",
+		"Poisoned"
+	],
+	"cr": "10",
+	"damage_immunities": [
+		"Poison"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 18,
+	"hp": 127,
+	"hp_gen": "15d10 + 45",
+	"int": 16,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Celestial, Common",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Guardian Naga",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": {
+		"cha": 8,
+		"con": 7,
+		"dex": 8,
+		"int": 7,
+		"wis": 8
+	},
+	"senses": "Darkvision 60 ft.,  Passive Perception 14",
+	"size": "Large",
+	"skills": [],
+	"speed": "40 ft.",
+	"str": 19,
+	"traits": [
+		{
+			"description": "If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.",
+			"name": "Rejuvenation"
+		},
+		{
+			"description": "The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared:<br/><br/>Cantrips (at will): mending, sacred flame, thaumaturgy<br/><br/>1st level (4 slots): command, cure wounds, shield of faith<br/><br/>2nd level (3 slots): calm emotions, hold person<br/><br/>3rd level (3 slots): bestow curse, clairvoyance<br/><br/>4th level (3 slots): banishment, freedom of movement<br/><br/>5th level (2 slots): flame strike, geas<br/><br/>6th level (1 slot): true seeing",
+			"name": "Spellcasting"
+		}
+	],
+	"type": "monstrosity",
+	"wis": 19,
+	"xp": 5900
+}

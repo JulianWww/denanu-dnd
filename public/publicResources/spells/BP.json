@@ -1,0 +1,39 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Cleric",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Xanathars Guide To Everything",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d8",
+		"d12"
+	],
+	"damageTypes": [
+		"necrotic"
+	],
+	"description": "You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take 1d8 necrotic damage. If the target is missing any of its hit points, it instead takes 1d12 necrotic damage. The spell\u2019s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 0,
+	"materialComponents": null,
+	"name": "Toll the Dead",
+	"range": "60 feet",
+	"ritual": false,
+	"savingThrows": [
+		"wisdom"
+	],
+	"school": "Necromancy",
+	"sourcePage": "Page: 169  from Xanathar's Guide To Everything",
+	"urlFriendlyName": "toll-the-dead"
+}

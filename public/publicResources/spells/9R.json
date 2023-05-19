@@ -1,0 +1,34 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Xanathars Guide To Everything",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "The air quivers around up to five creatures of your choice that you can see within range. An unwilling creature must succeed on a Wisdom saving throw to resist this spell. You teleport each affected target to an unoccupied space that you can see within 120 feet of you. That space must be on the ground or on a floor.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": false,
+	"language": "en",
+	"level": 6,
+	"materialComponents": null,
+	"name": "Scatter",
+	"range": "30 feet",
+	"ritual": false,
+	"savingThrows": [
+		"wisdom"
+	],
+	"school": "Conjuration",
+	"sourcePage": "Page: 164  from Xanathar's Guide To Everything",
+	"urlFriendlyName": "scatter"
+}

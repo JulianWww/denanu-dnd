@@ -1,0 +1,36 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.",
+	"availableClasses": [
+		"Warlock"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "Special",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d10"
+	],
+	"damageTypes": [
+		"fire"
+	],
+	"description": "Reaction: you are being damaged by a creature within 60 feet of you that you can see.  You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 1,
+	"materialComponents": null,
+	"name": "Hellish Rebuke",
+	"range": "60 feet",
+	"ritual": false,
+	"savingThrows": [
+		"dexterity"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 250  Players Handbook",
+	"urlFriendlyName": "hellish-rebuke"
+}

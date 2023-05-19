@@ -1,0 +1,39 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Druid",
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Elemental Evil",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [
+		"bludgeoning",
+		"piercing",
+		"slashing"
+	],
+	"description": "Until the spell ends, bits of rock spread across your body, and you gain the following benefits: \u2022 You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons. \u2022 You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone. \u2022 You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can\u2019t end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are stunned until the end of your next turn.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 6,
+	"materialComponents": null,
+	"name": "Investiture of Stone",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [
+		"dexterity"
+	],
+	"school": "Transmutation",
+	"sourcePage": "Page: 19  from EE Players Companion",
+	"urlFriendlyName": "investiture-of-stone"
+}

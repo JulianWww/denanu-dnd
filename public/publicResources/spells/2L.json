@@ -1,0 +1,31 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Cleric",
+		"Paladin"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn\u2019t go bad.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": false,
+	"language": "en",
+	"level": 3,
+	"materialComponents": null,
+	"name": "Create Food and Water",
+	"range": "30 feet",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Conjuration",
+	"sourcePage": "Page: 229  Players Handbook",
+	"urlFriendlyName": "create-food-and-water"
+}

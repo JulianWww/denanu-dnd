@@ -1,0 +1,481 @@
+.stat-block {
+  text-align: left;
+  font-size: 12.5px;
+  line-height: 1.2em;
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  background: #FDF1DC;
+  background-size: cover;
+background-position: center; 
+  background-image: url('https://raw.githubusercontent.com/Tetra-cube/Tetra-cube.github.io/master/dnd/dndimages/statblockparch.jpg');
+  padding: 10px 10px 20px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+}
+
+.stat-block.wide {
+  width: 100%;
+  text-align: center;
+}
+
+.stat-block.wide .section-left,
+.stat-block.wide .section-right {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  text-align: left;
+}
+
+.stat-block.wide .section-left {
+  margin-right: 1.5%;
+}
+
+.stat-block.wide .section-right {
+  margin-left: 1.5%;
+}
+
+/* @media screen and (max-width: 675px) { */
+/* .stat-block.wide { */
+/* min-width: 280px; */
+/* } */
+/* .stat-block.wide .section-left, */
+/* .stat-block.wide .section-right { */
+/* display: block; */
+/* width: 100%; */
+/* } */
+/* .stat-block.wide .section-left { */
+/* margin: 0; */
+/* } */
+/* .stat-block.wide .section-right { */
+/* margin: 0; */
+/* } */
+/* } */
+.orange-border {
+  display: block;
+  background: #E69A28;
+  background-size: cover;
+background-position: center; 
+  background-image: url('https://raw.githubusercontent.com/Tetra-cube/Tetra-cube.github.io/master/dnd/dndimages/statblockbar.jpg');
+  border: 1px solid #000;
+  height: 5px;
+  padding: 0 10px 0;
+  margin: -10px -10px 0;
+  box-sizing: initial;
+}
+
+.orange-border.bottom {
+  margin: 15px -10px -20px;
+}
+
+.tapered-rule {
+  display: block;
+  width: 100%;
+  height: 5px;
+  border: none;
+  color: #922610;
+  fill: #922610;
+}
+
+.creature-heading {
+  margin: 0 0 10px;
+}
+
+
+.creature-heading h1 {
+  font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  color: #922610;
+  font-size: 21px;
+  line-height: 1.2em;
+  margin: 10px 0 0;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.creature-heading h2 {
+  font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+.property-line h4,
+.property-line p {
+  display: inline;
+  margin: 0;
+  color: #922610;
+  font-size: 12.5px;
+  line-height: 1.2em;
+}
+
+
+.property-line h4 {
+  color: #7A200D;
+}
+
+.property-line {
+  text-indent: -1em;
+  padding-left: 1.1em;
+  line-height: 1.4em;
+}
+
+.property-line:first-child {
+  margin: 8px 0 0;
+}
+
+.property-line.last {
+  margin: 0 0 10px;
+}
+
+.scores {
+  text-align: center;
+  color: #922610;
+}
+
+.scores>div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15.5%;
+  min-width: 40px;
+  font-size: 12px;
+  line-height: 1em;
+}
+
+.scores h4 {
+  margin: 10px 0 2px;
+  font-size: 14px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  color: #7A200D;
+}
+
+.scores p {
+  margin: 0 0 10px;
+  line-height: 1.2em;
+}
+
+.property-block h4,
+.property-block p {
+  font-size: 12.5px;
+  line-height: 1.2em;
+  display: inline;
+  margin: 0;
+}
+
+.property-block h4 {
+  font-style: italic;
+}
+
+.property-block {
+  padding: 10px 2px 0;
+}
+
+.legendary {
+  padding-top: 0;
+}
+
+.legendary h4 {
+  padding-left: 2px;
+  font-style: normal;
+}
+
+.legendary p {
+  font-style: normal;
+}
+
+#traits-list-right> :first-child.property-block.legendary {
+  /* for a rare edge case where a legendary action is the first item in the second column */
+  padding-top: 10px;
+}
+
+.lairregional {
+  padding-top: 0;
+}
+
+.lairregional p {
+  font-style: normal;
+}
+
+#traits-list-right> :first-child.property-block.lairregional {
+  /* for a rare edge case where a lair action is the first item in the second column */
+  padding-top: 10px;
+}
+
+.actions h3 {
+  border-bottom: 2px solid #7A200D;
+  color: #7A200D;
+  font-size: 21px;
+  font-variant: small-caps;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin: 20px 0 0;
+  padding: 0 0 10px;
+  text-indent: 5px;
+}
+
+.actions {
+  margin: 0 0 20px;
+}
+
+.actions:last-child {
+  margin: 0;
+}
+
+.indent {
+  text-indent: 1em;
+}
+
+.reverse-indent {
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.top-stats {
+  /* Fix for a weird bug that I can't figure out the cause of */
+  margin: 0 0 10px;
+}
+
+#print-block h1,
+#print-block h3,
+#print-block h4,
+#print-block p {
+  color: black;
+}
+
+#print-block h3 {
+  border-bottom-color: black;
+}
+
+#print-block .tapered-rule {
+  color: black;
+  fill: black;
+}
+
+#print-block .stat-block {
+  background: none;
+}
+
+#print-block .orange-border {
+  display: none;
+}
+
+#stat-block-editing-wraper {
+  margin-top: 2em;
+  width: 100% !important;
+  margin-bottom: 5em;
+}
+#stat-block-editing-wraper>table{
+  width: 100%;
+  table-layout: fixed;
+  text-align: left;
+  width: 100% !important;
+}
+
+.dnd-condIcon {
+  width: 20px;
+}
+
+.dnd-condIcon-wraper {
+  position: absolute;
+  right: 0;
+  margin-right: -35px;
+}
+
+.dnd-condIcon>.dnd-condIcon-inner>img {
+  width: 100%
+}
+.inlienImg {
+  height: 1em;
+}
+
+.dnd-condIcon>.dnd-condIcon-inner>.level {
+  margin-top: -10px;
+  margin-left: 19px;
+}
+
+.positioning-wraper {
+  position: relative;
+
+}
+
+.cond-description-list {
+  padding-left: 1em;
+}
+
+.cond-description-wraper{
+  line-height: normal;
+  font-size: 0.875rem;
+}
+
+.cond-description-wraper>.duration{
+  font-size: 1.2em;
+}
+
+.dnd-condIcon>button{
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+}
+
+.fixed, .fullWidth{
+  width: 100% !important;
+}
+
+.searchlist-element {
+  padding: 16px!important;
+}
+
+.vital {
+  color: magenta;
+}
+
+.Advantage {
+  color: green !important;
+}
+
+.Disadvantage {
+  color: red !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected.roll-type {
+  background-color: rgba(25, 118, 210, 0.8);
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected.roll-type:hover {
+  background-color: rgba(25, 118, 210, 0.9);
+}
+
+.death-message{
+  text-align: right;
+}
+
+.death-message>h1 {
+  font-size: 33px!important;
+}
+
+.party-player {
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.MuiTextField-root.party-selector {
+  width: 37%;
+  margin-right: 5%;
+}
+
+.heightFlex {
+  height: fit-content;
+}
+
+.ui.card>.content.tight,
+.ui.cards>.card>.content.tight {
+  padding-top: 2px;
+  padding-bottom: 2px;;
+}
+
+.right {
+  display: flex !important;
+  justify-content: right !important;
+}
+
+.seachListList {
+  margin-top: 10px;
+  border-width: 2px !important;
+}
+
+.fitContent {
+  width: fit-content!important;
+}
+
+.inline-display-element.fullWidth {
+  width: auto!important;
+  flex-direction: column;
+}
+
+.inline-display-element:first-child {
+  margin-left: 0px;
+}
+
+.inline-display-element {
+  margin-left: 10px;
+}
+
+.NoMonstersWrapper {
+  padding: 16px!important;
+}
+
+.dark.difficulty-trivial {
+  background-color: #2d74af!important;
+}
+.dark.difficulty-easy{
+  background-color: #095694!important;
+}
+.dark.difficulty-medium {
+  background-color: #4caf50!important;
+}
+.dark.difficulty-hard{
+  background-color: #f4511e!important;
+}
+.dark.difficulty-deadly {
+  background-color: #b71c1c!important;
+}
+.light.difficulty-trivial {
+  background-color: rgb(0, 187, 255)!important;
+}
+.light.difficulty-easy{
+  background-color: #268bdd!important;
+}
+.light.difficulty-medium {
+  background-color: #54cd58!important;
+}
+.light.difficulty-hard{
+  background-color: #f47e1e!important;
+}
+.light.difficulty-deadly {
+  background-color: #f15050!important;
+}
+
+.fitContnetHeight{
+  height: fit-content!important;
+}
+
+.growable{
+  display: flex;
+  flex-grow: 1;
+}
+
+.not-growable {
+  height: fit-content;
+  width: 100%;
+}
+
+.swipablew-view-growable > div > div:has(.growable) {
+  display: flex;
+}
+
+.action-card-content-fix-size{
+  height: 100%;
+  height: -webkit-calc(100% - 50px);
+  height: -moz-calc(100% - 50px);
+  height: calc(100% - 50px);
+
+  max-height: 100%;
+  max-height: -webkit-calc(100% - 50px);
+  max-height: -moz-calc(100% - 50px);
+  max-height: calc(100% - 50px);
+}
+
+.headerWithSubheader {
+  padding-bottom: 0px !important;
+}
+
+.centered {
+  text-align: center;
+}
+
+.moveAnimation {
+  transition: transform 1s;
+}

@@ -1,0 +1,32 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Druid",
+		"Wizard"
+	],
+	"bookSource": "Elemental Evil",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell\u2019s duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 2,
+	"materialComponents": null,
+	"name": "Skywrite",
+	"range": "Sight",
+	"ritual": true,
+	"savingThrows": [],
+	"school": "Transmutation",
+	"sourcePage": "Page: 22  from EE Players Companion",
+	"urlFriendlyName": "skywrite"
+}

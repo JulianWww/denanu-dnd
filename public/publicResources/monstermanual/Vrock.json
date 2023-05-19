@@ -1,0 +1,78 @@
+{
+	"Armor_Class": "15 (Natural Armor)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "The vrock makes two attacks: one with its beak and one with its talons.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage.",
+			"name": "Beak"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 14 (2d10 + 3) slashing damage.",
+			"name": "Talons"
+		},
+		{
+			"description": "A 15\u00ad-foot\u00ad-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it.",
+			"name": "Spores (Recharge 6)"
+		},
+		{
+			"description": "The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a demon must succeed on a DC 14 Constitution saving throw or be stunned until the end of the vrock's next turn.",
+			"name": "Stunning Screech (1/Day)"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 8,
+	"con": 18,
+	"condition_immunities": [
+		"Poisoned"
+	],
+	"cr": "6",
+	"damage_immunities": [
+		"Poison"
+	],
+	"damage_resistances": [
+		"Cold",
+		"Fire",
+		"Lightning",
+		"Bludgeoning, Piercing, and Slashing from Nonmagical Attacks"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 15,
+	"hp": 104,
+	"hp_gen": "11d10 + 44",
+	"int": 8,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Abyssal, Telepathy 120 ft.",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Vrock",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": {
+		"cha": 2,
+		"dex": 5,
+		"wis": 4
+	},
+	"senses": "Darkvision 120 ft.,  Passive Perception 11",
+	"size": "Large",
+	"skills": [],
+	"speed": "40 ft., fly 60 ft.",
+	"str": 17,
+	"traits": [
+		{
+			"description": "The vrock has advantage on saving throws against spells and other magical effects.",
+			"name": "Magic Resistance"
+		}
+	],
+	"type": "fiend",
+	"wis": 13,
+	"xp": 2300
+}

@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.invisible-input {
+  outline: 0px;
+}
+
+.thirdwidth {
+  width: 33% !important;
+}
+
+.outer .smallpad {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.outertightgrid{
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+}
+
+.smallpad {
+  padding-left: 0.5em !important;
+  padding-right: 0.5em !important;
+}
+
+.tightgrid {
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+  margin-bottom:0.5em !important;
+}
+
+.fifthwidth {
+  width: 20% !important;
+}
+
+.twothirdwidth {
+  width: 67% !important;
+}
+
+.thin.card{
+  margin-left: 30% !important;
+  width: 40% !important;
+  margin-right: 30% !important;
+}
+
+.loginForm {
+  padding: 10px;
+}
+
+.loginButton {
+  background:#282c34 !important;
+}
+
+
+.searchListOutline {
+  width: 100%;
+  padding: 10px;
+}
+.searchListOutline > .row {
+  display: flex;
+  margin-top: 6px;
+}
+.searchListOutline > .row > div {
+  margin-left: 16px;
+  flex: auto;
+}
+.searchListOutline > .row > div:first-child {
+  margin-left: 0px;
+}
+
+.socket.number{
+    background: #96b38a
+}
+
+#reteEditor {
+  height: 500px !important;
+}
+
+.main {
+  background-image: url('https://raw.githubusercontent.com/Tetra-cube/Tetra-cube.github.io/master/dnd/dndimages/statblockparch.jpg');
+}
+
+.list-length-indicator{
+  text-align: right;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 0.9em;
+}
+
+.thinNumber {
+  max-width: 40px;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.textRight {
+  text-align: right;
+  vertical-align: "center";
+}

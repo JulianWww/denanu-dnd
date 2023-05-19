@@ -1,0 +1,92 @@
+{
+	"Armor_Class": "19 (Natural Armor)",
+	"ac": 19,
+	"actions": [
+		{
+			"description": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +14 to hit, reach 10 ft., one target. <em>Hit:</em> 19 (2d10 + 8) piercing damage plus 7 (2d6) fire damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +14 to hit, reach 5 ft., one target. <em>Hit:</em> 15 (2d6 + 8) slashing damage.",
+			"name": "Claw"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +14 to hit, reach 15 ft., one target. <em>Hit:</em> 17 (2d8 + 8) bludgeoning damage.",
+			"name": "Tail"
+		},
+		{
+			"description": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+			"name": "Frightful Presence"
+		},
+		{
+			"description": "The dragon exhales fire in a 60-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 63 (18d6) fire damage on a failed save, or half as much damage on a successful one.",
+			"name": "Fire Breath (Recharge 5\u20136)"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 21,
+	"con": 25,
+	"condition_immunities": [],
+	"cr": "17",
+	"damage_immunities": [
+		"Fire"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 10,
+	"hp": 256,
+	"hp_gen": "19d12 + 133",
+	"int": 16,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Common, Draconic",
+	"legendary_actions": [
+		{
+			"description": "The dragon makes a Wisdom (Perception) check.",
+			"name": "Detect."
+		},
+		{
+			"description": "The dragon makes a tail attack.",
+			"name": "Tail Attack."
+		},
+		{
+			"description": "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+			"name": "Wing Attack (Costs 2 Actions)."
+		}
+	],
+	"legendary_description": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Adult Red Dragon",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": {
+		"cha": 11,
+		"con": 13,
+		"dex": 6,
+		"wis": 7
+	},
+	"senses": "Blindsight 60 ft., Darkvision 120 ft.,  Passive Perception 23",
+	"size": "Huge",
+	"skills": {
+		"perception": 12,
+		"stealth": 6
+	},
+	"speed": "40 ft., climb 40 ft., fly 80 ft.",
+	"str": 27,
+	"traits": [
+		{
+			"description": "If the dragon fails a saving throw, it can choose to succeed instead.",
+			"name": "Legendary Resistance (3/Day)"
+		}
+	],
+	"type": "dragon",
+	"wis": 13,
+	"xp": 18000
+}

@@ -1,0 +1,33 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Cleric",
+		"Druid"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d4"
+	],
+	"damageTypes": [],
+	"description": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 0,
+	"materialComponents": null,
+	"name": "Guidance",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Divination",
+	"sourcePage": "Page: 248  Players Handbook",
+	"urlFriendlyName": "guidance"
+}

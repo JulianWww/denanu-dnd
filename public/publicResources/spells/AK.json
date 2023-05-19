@@ -1,0 +1,30 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Cleric"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": false,
+	"language": "en",
+	"level": 0,
+	"materialComponents": null,
+	"name": "Spare the Dying",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Necromancy",
+	"sourcePage": "Page: 277  Players Handbook",
+	"urlFriendlyName": "spare-the-dying"
+}

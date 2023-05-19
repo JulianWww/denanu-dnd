@@ -1,0 +1,54 @@
+{
+	"Armor_Class": "13 (Natural Armor)",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "The tyrannosaurus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can't bite another target.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 20 (3d8 + 7) bludgeoning damage.",
+			"name": "Tail"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 9,
+	"con": 19,
+	"condition_immunities": [],
+	"cr": "8",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 10,
+	"hp": 136,
+	"hp_gen": "13d12 + 52",
+	"int": 2,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Tyrannosaurus Rex",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Passive Perception 14",
+	"size": "Huge",
+	"skills": {
+		"perception": 3
+	},
+	"speed": "50 ft.",
+	"str": 25,
+	"traits": [],
+	"type": "beast",
+	"wis": 12,
+	"xp": 3900
+}

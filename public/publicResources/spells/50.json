@@ -1,0 +1,33 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Cleric",
+		"Druid",
+		"Ranger"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You touch a willing creature. For the duration, the target\u2019s movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target\u2019s speed nor cause the target to be paralyzed or restrained.  The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target\u2019s movement or attacks.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 4,
+	"materialComponents": "a leather strap bound around the arm or a similar appendage",
+	"name": "Freedom of Movement",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Abjuration",
+	"sourcePage": "Page: 244  Players Handbook",
+	"urlFriendlyName": "freedom-of-movement"
+}

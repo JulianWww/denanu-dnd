@@ -1,0 +1,35 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Cleric",
+		"Druid",
+		"Paladin",
+		"Ranger"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [
+		"poison"
+	],
+	"description": "For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.   The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 1,
+	"materialComponents": "a yew leaf",
+	"name": "Detect Poison and Disease",
+	"range": "Self",
+	"ritual": true,
+	"savingThrows": [],
+	"school": "Divination",
+	"sourcePage": "Page: 231  Players Handbook",
+	"urlFriendlyName": "detect-poison-and-disease"
+}

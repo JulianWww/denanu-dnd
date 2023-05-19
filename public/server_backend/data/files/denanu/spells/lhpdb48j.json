@@ -1,0 +1,25 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [],
+	"bookSource": "",
+	"castingTime": "",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": false
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "",
+	"duration": "",
+	"isDamaging": true,
+	"level": 0,
+	"materialComponents": "",
+	"name": "",
+	"range": "",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "",
+	"sourcePage": ""
+}

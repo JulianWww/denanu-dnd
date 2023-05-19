@@ -1,0 +1,59 @@
+{
+	"Armor_Class": "15 (Leather Armor)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 1 slashing damage.",
+			"name": "Longsword"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +6 to hit, range 40/160 ft., one target. <em>Hit:</em> 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.",
+			"name": "Shortbow"
+		},
+		{
+			"description": "The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a DC 10 Charisma saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.",
+			"name": "Heart Sight"
+		},
+		{
+			"description": "The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.",
+			"name": "Invisibility"
+		}
+	],
+	"alignment": "neutral good",
+	"cha": 11,
+	"con": 10,
+	"condition_immunities": [],
+	"cr": "1/4",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 18,
+	"hp": 2,
+	"hp_gen": "1d4",
+	"int": 14,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Common, Elvish, Sylvan",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Sprite",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Passive Perception 13",
+	"size": "Tiny",
+	"skills": {
+		"perception": 2,
+		"stealth": 4
+	},
+	"speed": "10 ft., fly 40 ft.",
+	"str": 3,
+	"traits": [],
+	"type": "fey",
+	"wis": 13,
+	"xp": 50
+}

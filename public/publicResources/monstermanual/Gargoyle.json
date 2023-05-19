@@ -1,0 +1,67 @@
+{
+	"Armor_Class": "15 (Natural Armor)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "The gargoyle makes two attacks: one with its bite and one with its claws.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) slashing damage.",
+			"name": "Claws"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 7,
+	"con": 16,
+	"condition_immunities": [
+		"Exhaustion",
+		"Petrified",
+		"Poisoned"
+	],
+	"cr": "2",
+	"damage_immunities": [
+		"Poison"
+	],
+	"damage_resistances": [
+		"Bludgeoning",
+		"Piercing",
+		"and Slashing from Nonmagical Attacks that aren't Adamantine"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 11,
+	"hp": 52,
+	"hp_gen": "7d8 + 21",
+	"int": 6,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Terran",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Gargoyle",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 10",
+	"size": "Medium",
+	"skills": [],
+	"speed": "30 ft., fly 60 ft.",
+	"str": 15,
+	"traits": [
+		{
+			"description": "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue.",
+			"name": "False Appearance"
+		}
+	],
+	"type": "elemental",
+	"wis": 11,
+	"xp": 450
+}

@@ -1,0 +1,59 @@
+{
+	"Armor_Class": "17 (Splint)",
+	"ac": 17,
+	"actions": [
+		{
+			"description": "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+			"name": "Longsword"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.",
+			"name": "Shortsword"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +3 to hit, range 100/400 ft., one target. <em>Hit:</em> 6 (1d10 + 1) piercing damage.",
+			"name": "Heavy Crossbow"
+		}
+	],
+	"alignment": "any",
+	"cha": 10,
+	"con": 14,
+	"condition_immunities": [],
+	"cr": "3",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 13,
+	"hp": 58,
+	"hp_gen": "9d8 + 18",
+	"int": 10,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Any one language (usually Common)",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Veteran",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Passive Perception 12",
+	"size": "Medium",
+	"skills": {
+		"athletics": 2,
+		"perception": 2
+	},
+	"speed": "30 ft.",
+	"str": 16,
+	"traits": [],
+	"type": "humanoid",
+	"wis": 11,
+	"xp": 700
+}

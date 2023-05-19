@@ -1,0 +1,33 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": false
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended.",
+	"duration": 1,
+	"duration_type": 2,
+	"isDamaging": false,
+	"language": "en",
+	"level": 0,
+	"materialComponents": null,
+	"name": "True Strike",
+	"range": "30 feet",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Divination",
+	"sourcePage": "Page: 284  Players Handbook",
+	"urlFriendlyName": "true-strike"
+}

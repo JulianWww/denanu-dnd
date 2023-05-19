@@ -1,0 +1,35 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": false
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn\u2019t hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM\u2019s discretion), depending on the nature of your interaction with it.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 0,
+	"materialComponents": "a small amount of makeup applied to the face as this spell is cast",
+	"name": "Friends",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [
+		"charisma"
+	],
+	"school": "Enchantment",
+	"sourcePage": "Page: 244  Players Handbook",
+	"urlFriendlyName": "friends"
+}

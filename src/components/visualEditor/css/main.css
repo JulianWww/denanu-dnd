@@ -1,0 +1,151 @@
+.editor.wraper {
+  height: 100vh;
+}
+
+.node-selection-menu {
+  position: fixed !important;
+  z-index: 1000000 !important;
+  top: 0;
+  left: 0;
+}
+
+.ui.popup.warning {
+  background-color: orange!important;
+  border: 1px solid #000000;
+}
+.warning::before {
+  background: orange!important;
+}
+
+.ui.grid.bound {
+  margin:0px
+}
+
+.ui.grid.bound>.row{
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+.node {
+  width: max-content !important;
+  padding: 0px!important;
+}
+
+.node>.event {
+  background-color: #c20000 !important;
+}
+.node>.event>.header {
+  color: rgb(242, 242, 242)!important;
+}
+
+.node>.propcess {
+  background-color: darkgreen!important;
+}
+
+.node>.function {
+	background-color: rgb(0, 98, 255) !important;
+}
+.node>.function>.header {
+  color: rgb(242, 242, 242)!important;
+}
+
+.node>.data {
+	padding: 0px 0px 5px 0px!important;
+}
+
+.mathematics-operation {
+  width: 105px!important;
+}
+
+.mathematics-operation>.content>.grid>.row>.column>.button {
+  padding: 0.67em;
+}
+
+.react-flow__handle {
+  margin: 0px !important;
+  position: absolute;
+}
+
+.react-flow__handle {
+	position: absolute;
+  margin-right: 10px!important;
+  margin-left: 10px!important;
+	background-color: transparent;
+  margin-top: 15px;
+  min-height: 20px;
+}
+.execution {
+  width: 0; 
+  height: 0; 
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  
+  border-left: 15px solid green;
+	border-radius: 0;
+}
+
+.boolean {
+  min-height:0px;
+  height: 10px;
+  width: 10px;
+  margin-top: -2.5px!important;
+  background-color: #8a0b0b;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.number {
+  min-height:0px;
+  height: 10px;
+  width: 10px;
+  margin-top: -2.5px!important;
+  background-color: rgb(10, 126, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.string {
+  min-height:0px;
+  height: 10px;
+  width: 10px;
+  margin-top: -2.5px!important;
+  background-color: rgb(2, 67, 172);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.wildcard {
+  min-height:0px;
+  height: 10px;
+  width: 10px;
+  margin-top: -2.5px!important;
+  background-color: rgb(119, 119, 119);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dataprop {
+  padding: 10px !important;
+  padding-bottom: 0px!important;
+}
+
+.react-flow__handle-left {
+  left:0;
+}
+
+.rightalign {
+  text-align: right;
+}
+
+.node>.data>.grid>.row>.column {
+  min-height: 20px;
+}
+
+.node>.data>.grid>.row>.column>.rightalign {
+  margin-right: 15px;
+}
+
+.node>.data>.grid>.row>.column>.leftalign {
+  margin-left: 15px;
+}
+

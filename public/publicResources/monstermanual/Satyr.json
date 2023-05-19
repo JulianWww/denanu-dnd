@@ -1,0 +1,61 @@
+{
+	"Armor_Class": "14 (Leather Armor)",
+	"ac": 14,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (2d4 + 1) bludgeoning damage.",
+			"name": "Ram"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.",
+			"name": "Shortsword"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +5 to hit, range 80/320 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.",
+			"name": "Shortbow"
+		}
+	],
+	"alignment": "chaotic neutral",
+	"cha": 14,
+	"con": 11,
+	"condition_immunities": [],
+	"cr": "1/2",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 16,
+	"hp": 31,
+	"hp_gen": "7d8",
+	"int": 12,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Common, Elvish, Sylvan",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Satyr",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Passive Perception 12",
+	"size": "Medium",
+	"skills": {
+		"perception": 2,
+		"performance": 4,
+		"stealth": 2
+	},
+	"speed": "40 ft.",
+	"str": 12,
+	"traits": [
+		{
+			"description": "The satyr has advantage on saving throws against spells and other magical effects.",
+			"name": "Magic Resistance"
+		}
+	],
+	"type": "fey",
+	"wis": 10,
+	"xp": 100
+}

@@ -1,0 +1,32 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Bard",
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person.",
+	"duration": 60,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 4,
+	"materialComponents": null,
+	"name": "Greater Invisibility",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Illusion",
+	"sourcePage": "Page: 246  Players Handbook",
+	"urlFriendlyName": "greater-invisibility"
+}

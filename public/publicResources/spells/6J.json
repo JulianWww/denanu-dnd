@@ -1,0 +1,38 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.",
+	"availableClasses": [
+		"Cleric",
+		"Druid",
+		"Sorcerer"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [
+		"d10"
+	],
+	"damageTypes": [
+		"piercing"
+	],
+	"description": "Swarming, biting locusts fill a 20-foot-radius sphere centered on a point you choose within range. The sphere spreads around corners. The sphere remains for the duration, and its area is lightly obscured. The sphere\u2019s area is difficult terrain.  When the area appears, each creature in it must make a Constitution saving throw. A creature takes 4d10 piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell\u2019s area for the first time on a turn or ends its turn there.",
+	"duration": 600,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 5,
+	"materialComponents": "a few grains of sugar some kernels of grain, and a smear of fat",
+	"name": "Insect Plague",
+	"range": "300 feet",
+	"ritual": false,
+	"savingThrows": [
+		"constitution"
+	],
+	"school": "Conjuration",
+	"sourcePage": "Page: 254  Players Handbook",
+	"urlFriendlyName": "insect-plague"
+}

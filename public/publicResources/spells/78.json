@@ -1,0 +1,35 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [
+		"force"
+	],
+	"description": "You touch a willing creature who isn\u2019t wearing armor, and a protective magical force surrounds it until the spell ends. The target\u2019s base AC becomes 13 + its Dexterity modifier. The spell ends it if the target dons armor or if you dismiss the spell as an action.",
+	"duration": 28800,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 1,
+	"materialComponents": "a piece of cured leather",
+	"name": "Mage Armor",
+	"range": "Touch",
+	"ritual": false,
+	"savingThrows": [
+		"dexterity"
+	],
+	"school": "Abjuration",
+	"sourcePage": "Page: 256  Players Handbook",
+	"urlFriendlyName": "mage-armor"
+}

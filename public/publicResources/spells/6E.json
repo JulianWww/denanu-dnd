@@ -1,0 +1,35 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Minute",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [],
+	"damageTypes": [
+		"force"
+	],
+	"description": "You create a magical restraint to hold a creature thatyou can see within range. The target must succeed ona Wisdom saving throw or be bound by the spell; if itsucceeds, it is immune to this spell if you cast it again. While affected by this spell, the creature doesn't needto breathe, eat, or drink, and it doesn\u2019t age. Divinationspells can\u2019t locate or perceive the target.  When you cast the spell, you choose one of thefollowing forms of imprisonment.  Burial The target is entombed far beneath the earthin a sphere of magical force that is just large enough tocontain the target. Nothing can pass through the sphere,nor can any creature teleport or use planar travel to getinto or out of it. The special component for this version of the spell is asmall mithral orb.  Chaining Heavy chains, firmly rooted in the ground,hold the target in place. The target is restrained until the spell ends, and it can\u2019t move or be moved by anymeans until then. The special component for this version of the spell is afine chain of precious metal.  Hedged Prison The spell transports the target intoa tiny demiplane that is warded against teleportationand planar travel. The demiplane can be a labyrinth, acage, a tower, or any similar confined structure or areaof your choice. The special component for this version of the spell is aminiature representation of the prison made from jade.  Minimus Containment The target shrinks to a heightof 1 inch and is imprisoned inside a gemstone or similarobject. Light can pass through the gemstone normally(allowing the target to see out and other creatures to seein), but nothing else can pass through, even by means ofteleportation or planar travel. The gemstone can\u2019t be cutor broken while the spell remains in effect. The special component for this version of the spellis a large, transparent gemstone, such as a corundum,diamond, or ruby.  Slumber The target falls asleep and can\u2019t be awoken. The special component for this version of the spellconsists of rare soporific herbs.  Ending the Spell During the casting of the spell,in any of its versions, you can specify a condition thatwill cause the spell to end and release the target. Thecondition can be as specific or as elaborate as youchoose, but the DM must agree that the condition isreasonable and has a likelihood of coming to pass. Theconditions can be based on a creature\u2019s name, identity,or deity but otherwise must be based on observableactions or qualities and not based on intangibles such aslevel, class, or hit points.  A dispel magic spell can end the spell only if it is castas a 9th-level spell, targeting either the prison or thespecial component used to create it.  You can use a particular special component to createonly one prison at a time. If you cast the spell againusing the same component, the target of the first casting is immediately freed from its binding.",
+	"duration": 0,
+	"duration_type": 4,
+	"isDamaging": false,
+	"language": "en",
+	"level": 9,
+	"materialComponents": "a vellum depiction or a carved statuette in the likeness of the target and a special component that varies according to the version of the spell you choose, worth at least 500 gp per Hit Die of the target",
+	"name": "Imprisonment",
+	"range": "30 feet",
+	"ritual": false,
+	"savingThrows": [
+		"wisdom"
+	],
+	"school": "Abjuration",
+	"sourcePage": "Page: 252  Players Handbook",
+	"urlFriendlyName": "imprisonment"
+}

@@ -1,0 +1,71 @@
+{
+	"Armor_Class": "17 (Natural Armor)",
+	"ac": 17,
+	"actions": [
+		{
+			"description": "The elemental makes two slam attacks.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 14 (2d8 + 5) bludgeoning damage.",
+			"name": "Slam"
+		}
+	],
+	"alignment": "neutral",
+	"cha": 5,
+	"con": 20,
+	"condition_immunities": [
+		"Exhaustion",
+		"Paralyzed",
+		"Petrified",
+		"Poisoned",
+		"Unconscious"
+	],
+	"cr": "5",
+	"damage_immunities": [
+		"Poison"
+	],
+	"damage_resistances": [
+		"Bludgeoning",
+		"Piercing",
+		"and Slashing from Nonmagical Attacks"
+	],
+	"damage_vulnerabilities": [
+		"Thunder"
+	],
+	"dex": 8,
+	"hp": 126,
+	"hp_gen": "12d10 + 60",
+	"int": 5,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Terran",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Earth Elemental",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft., Tremorsense 60 ft.,  Passive Perception 10",
+	"size": "Large",
+	"skills": [],
+	"speed": "30 ft., burrow 30 ft.",
+	"str": 20,
+	"traits": [
+		{
+			"description": "The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.",
+			"name": "Earth Glide"
+		},
+		{
+			"description": "The elemental deals double damage to objects and structures.",
+			"name": "Siege Monster"
+		}
+	],
+	"type": "elemental",
+	"wis": 10,
+	"xp": 1800
+}

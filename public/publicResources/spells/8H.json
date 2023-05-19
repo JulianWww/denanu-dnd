@@ -1,0 +1,33 @@
+{
+	"atHigherLevels": "",
+	"availableClasses": [
+		"Druid",
+		"Ranger"
+	],
+	"bookSource": "Players Handbook",
+	"castingTime": "1 Action",
+	"components": {
+		"material": true,
+		"somatic": true,
+		"verbal": true
+	},
+	"concentration": true,
+	"damageDices": [],
+	"damageTypes": [],
+	"description": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can\u2019t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": false,
+	"language": "en",
+	"level": 2,
+	"materialComponents": "ashes from a burned leaf of mistletoe and a sprig of spruce",
+	"name": "Pass Without Trace",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [
+		"dexterity"
+	],
+	"school": "Abjuration",
+	"sourcePage": "Page: 264  Players Handbook",
+	"urlFriendlyName": "pass-without-trace"
+}

@@ -1,0 +1,38 @@
+{
+	"atHigherLevels": "This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+	"availableClasses": [
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Sword Coast adv. guide",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": false,
+		"verbal": true
+	},
+	"concentration": false,
+	"damageDices": [
+		"d8"
+	],
+	"damageTypes": [
+		"lightning"
+	],
+	"description": "You create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.",
+	"duration": 0,
+	"duration_type": 0,
+	"isDamaging": true,
+	"language": "en",
+	"level": 0,
+	"materialComponents": null,
+	"name": "Lightning Lure",
+	"range": "15 feet",
+	"ritual": false,
+	"savingThrows": [
+		"strength"
+	],
+	"school": "Evocation",
+	"sourcePage": "Page: 143  from Sword Coast Adventure's Guide",
+	"urlFriendlyName": "lightning-lure"
+}

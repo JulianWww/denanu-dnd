@@ -1,0 +1,70 @@
+{
+	"Armor_Class": "13 ",
+	"ac": 13,
+	"actions": [
+		{
+			"description": ". <em>Melee Weapon Attack:</em> +5 to hit, reach 0 ft., one creature in the swarm's space. <em>Hit:</em> 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.",
+			"name": "Bite"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 2,
+	"con": 9,
+	"condition_immunities": [
+		"Charmed",
+		"Frightened",
+		"Grappled",
+		"Paralyzed",
+		"Petrified",
+		"Prone",
+		"Restrained",
+		"Stunned"
+	],
+	"cr": "1",
+	"damage_immunities": [],
+	"damage_resistances": [
+		"Bludgeoning",
+		"Piercing",
+		"Slashing"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 16,
+	"hp": 28,
+	"hp_gen": "8d8 - 8",
+	"int": 1,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Swarm of Quippers",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 8",
+	"size": "Medium",
+	"skills": [],
+	"speed": "0 ft., swim 40 ft.",
+	"str": 13,
+	"traits": [
+		{
+			"description": "The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points.",
+			"name": "Blood Frenzy"
+		},
+		{
+			"description": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points.",
+			"name": "Swarm"
+		},
+		{
+			"description": "The swarm can breathe only underwater.",
+			"name": "Water Breathing"
+		}
+	],
+	"type": "beast",
+	"wis": 7,
+	"xp": 200
+}

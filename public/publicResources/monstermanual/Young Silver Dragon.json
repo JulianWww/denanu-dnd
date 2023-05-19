@@ -1,0 +1,76 @@
+{
+	"Armor_Class": "18 (Natural Armor)",
+	"ac": 18,
+	"actions": [
+		{
+			"description": "The dragon makes three attacks: one with its bite and two with its claws.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 17 (2d10 + 6) piercing damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d6 + 6) slashing damage.",
+			"name": "Claw"
+		},
+		{
+			"description": "The dragon uses one of the following breath weapons.",
+			"name": "Breath Weapons (Recharge 5\u20136)"
+		},
+		{
+			"description": "The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one.",
+			"name": "Cold Breath"
+		},
+		{
+			"description": "The dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+			"name": "Paralyzing Breath"
+		}
+	],
+	"alignment": "lawful good",
+	"cha": 19,
+	"con": 21,
+	"condition_immunities": [],
+	"cr": "9",
+	"damage_immunities": [
+		"Cold"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 10,
+	"hp": 168,
+	"hp_gen": "16d10 + 80",
+	"int": 14,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Common, Draconic",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Young Silver Dragon",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": {
+		"cha": 8,
+		"con": 9,
+		"dex": 4,
+		"wis": 4
+	},
+	"senses": "Blindsight 30 ft., Darkvision 120 ft.,  Passive Perception 18",
+	"size": "Large",
+	"skills": {
+		"arcana": 4,
+		"history": 4,
+		"perception": 8,
+		"stealth": 4
+	},
+	"speed": "40 ft., fly 80 ft.",
+	"str": 23,
+	"traits": [],
+	"type": "dragon",
+	"wis": 11,
+	"xp": 5000
+}

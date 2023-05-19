@@ -1,0 +1,54 @@
+{
+	"Armor_Class": "13 (Natural Armor)",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be poisoned for 1 minute. If the saving throw fails by 5 or more, the target is instead poisoned for 5 (1d10) minutes and unconscious while poisoned in this way.",
+			"name": "Bite"
+		}
+	],
+	"alignment": "neutral",
+	"cha": 7,
+	"con": 11,
+	"condition_immunities": [
+		"Charmed",
+		"Poisoned"
+	],
+	"cr": "0",
+	"damage_immunities": [
+		"Poison"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 15,
+	"hp": 5,
+	"hp_gen": "2d4",
+	"int": 10,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Understands the languages of its creator but can't speak",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Homunculus",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 10",
+	"size": "Tiny",
+	"skills": [],
+	"speed": "20 ft., fly 40 ft.",
+	"str": 4,
+	"traits": [
+		{
+			"description": "While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically.",
+			"name": "Telepathic Bond"
+		}
+	],
+	"type": "construct",
+	"wis": 10,
+	"xp": 10
+}

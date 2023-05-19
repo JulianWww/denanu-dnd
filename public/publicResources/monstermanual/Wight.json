@@ -1,0 +1,72 @@
+{
+	"Armor_Class": "14 (Studded Leather)",
+	"ac": 14,
+	"actions": [
+		{
+			"description": "The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.<br/><br/>A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time. ",
+			"name": "Life Drain"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands.",
+			"name": "Longsword"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +4 to hit, range 150/600 ft., one target. <em>Hit:</em> 6 (1d8 + 2) piercing damage.",
+			"name": "Longbow"
+		}
+	],
+	"alignment": "neutral evil",
+	"cha": 15,
+	"con": 16,
+	"condition_immunities": [
+		"Exhaustion",
+		"Poisoned"
+	],
+	"cr": "3",
+	"damage_immunities": [
+		"Poison"
+	],
+	"damage_resistances": [
+		"Necrotic",
+		"Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't Silvered"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 14,
+	"hp": 45,
+	"hp_gen": "6d8 + 18",
+	"int": 10,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "The languages it knew in life",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Wight",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 13",
+	"size": "Medium",
+	"skills": {
+		"perception": 2,
+		"stealth": 2
+	},
+	"speed": "30 ft.",
+	"str": 15,
+	"traits": [
+		{
+			"description": "While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+			"name": "Sunlight Sensitivity"
+		}
+	],
+	"type": "undead",
+	"wis": 13,
+	"xp": 700
+}

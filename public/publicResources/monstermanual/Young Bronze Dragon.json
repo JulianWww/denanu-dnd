@@ -1,0 +1,80 @@
+{
+	"Armor_Class": "18 (Natural Armor)",
+	"ac": 18,
+	"actions": [
+		{
+			"description": "The dragon makes three attacks: one with its bite and two with its claws.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 16 (2d10 + 5) piercing damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d6 + 5) slashing damage.",
+			"name": "Claw"
+		},
+		{
+			"description": "The dragon uses one of the following breath weapons.",
+			"name": "Breath Weapons (Recharge 5\u20136)"
+		},
+		{
+			"description": "The dragon exhales lightning in a 60- foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one.",
+			"name": "Lightning Breath"
+		},
+		{
+			"description": "The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw. On a failed save, the creature is pushed 40 feet away from the dragon.",
+			"name": "Repulsion Breath"
+		}
+	],
+	"alignment": "lawful good",
+	"cha": 17,
+	"con": 19,
+	"condition_immunities": [],
+	"cr": "8",
+	"damage_immunities": [
+		"Lightning"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 10,
+	"hp": 142,
+	"hp_gen": "15d10 + 60",
+	"int": 14,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Common, Draconic",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Young Bronze Dragon",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": {
+		"cha": 6,
+		"con": 7,
+		"dex": 3,
+		"wis": 4
+	},
+	"senses": "Blindsight 30 ft., Darkvision 120 ft.,  Passive Perception 17",
+	"size": "Large",
+	"skills": {
+		"insight": 3,
+		"perception": 6,
+		"stealth": 3
+	},
+	"speed": "40 ft., fly 80 ft., swim 40 ft.",
+	"str": 21,
+	"traits": [
+		{
+			"description": "The dragon can breathe air and water.",
+			"name": "Amphibious"
+		}
+	],
+	"type": "dragon",
+	"wis": 13,
+	"xp": 3900
+}

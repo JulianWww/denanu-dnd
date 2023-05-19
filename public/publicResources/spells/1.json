@@ -1,0 +1,41 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.",
+	"availableClasses": [
+		"Druid",
+		"Ranger",
+		"Sorcerer",
+		"Wizard"
+	],
+	"bookSource": "Elemental Evil",
+	"castingTime": "Special",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": false
+	},
+	"concentration": false,
+	"damageDices": [
+		"d6"
+	],
+	"damageTypes": [
+		"acid",
+		"cold",
+		"fire",
+		"lightning",
+		"thunder"
+	],
+	"description": "1 Reaction, which you take when you take acid, cold, fire, lightning, or thunder damage  The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.",
+	"duration": 1,
+	"duration_type": 2,
+	"isDamaging": true,
+	"language": "en",
+	"level": 1,
+	"materialComponents": null,
+	"name": "Absorb Elements",
+	"range": "Self",
+	"ritual": false,
+	"savingThrows": [],
+	"school": "Abjuration",
+	"sourcePage": "Page: 15  from EE Players Companion",
+	"urlFriendlyName": "absorb-elements"
+}

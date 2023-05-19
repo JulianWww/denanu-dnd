@@ -1,0 +1,63 @@
+{
+	"Armor_Class": "14 (Natural Armor)",
+	"ac": 14,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 17 (2d12 + 4) slashing damage.",
+			"name": "Greataxe"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d8 + 4) piercing damage.",
+			"name": "Gore"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 9,
+	"con": 16,
+	"condition_immunities": [],
+	"cr": "3",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 11,
+	"hp": 76,
+	"hp_gen": "9d10 + 27",
+	"int": 6,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Abyssal",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Minotaur",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 17",
+	"size": "Large",
+	"skills": {
+		"perception": 4
+	},
+	"speed": "40 ft.",
+	"str": 18,
+	"traits": [
+		{
+			"description": "If the minotaur moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked prone.",
+			"name": "Charge"
+		},
+		{
+			"description": "The minotaur can perfectly recall any path it has traveled.",
+			"name": "Labyrinthine Recall"
+		},
+		{
+			"description": "At the start of its turn, the minotaur can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.",
+			"name": "Reckless"
+		}
+	],
+	"type": "monstrosity",
+	"wis": 16,
+	"xp": 700
+}

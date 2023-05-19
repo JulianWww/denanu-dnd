@@ -1,0 +1,69 @@
+{
+	"Armor_Class": "15 (Natural Armor)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "The salamander makes two attacks: one with its spear and one with its tail.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee or <em>Ranged Weapon Attack:</em></em> +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. <em>Hit:</em> 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.",
+			"name": "Spear"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft., one target. <em>Hit:</em> 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets.",
+			"name": "Tail"
+		}
+	],
+	"alignment": "neutral evil",
+	"cha": 12,
+	"con": 15,
+	"condition_immunities": [],
+	"cr": "5",
+	"damage_immunities": [
+		"Fire"
+	],
+	"damage_resistances": [
+		"Bludgeoning",
+		"Piercing",
+		"and Slashing from Nonmagical Attacks"
+	],
+	"damage_vulnerabilities": [
+		"Cold"
+	],
+	"dex": 14,
+	"hp": 90,
+	"hp_gen": "12d10 + 24",
+	"int": 11,
+	"lair_actions": [],
+	"lair_description": "",
+	"lair_description_end": "",
+	"languages": "Ignan",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"mythic_description": "",
+	"name": "Salamander",
+	"regional_actions": [],
+	"regional_description": "",
+	"regional_description_end": "",
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 10",
+	"size": "Large",
+	"skills": [],
+	"speed": "30 ft.",
+	"str": 18,
+	"traits": [
+		{
+			"description": "A creature that touches the salamander or hits it with a melee attack while within 5 feet of it takes 7 (2d6) fire damage.",
+			"name": "Heated Body"
+		},
+		{
+			"description": "Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire damage on a hit (included in the attack).",
+			"name": "Heated Weapons"
+		}
+	],
+	"type": "elemental",
+	"wis": 10,
+	"xp": 1800
+}

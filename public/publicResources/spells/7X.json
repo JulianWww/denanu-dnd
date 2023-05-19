@@ -1,0 +1,38 @@
+{
+	"atHigherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
+	"availableClasses": [
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	],
+	"bookSource": "Xanathars Guide To Everything",
+	"castingTime": "1 Action",
+	"components": {
+		"material": false,
+		"somatic": true,
+		"verbal": false
+	},
+	"concentration": true,
+	"damageDices": [
+		"d8"
+	],
+	"damageTypes": [
+		"psychic"
+	],
+	"description": "You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking 3d8 psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can\u2019t become hidden from you, and if it\u2019s invisible, it gains no benefit from that condition against you.",
+	"duration": 3600,
+	"duration_type": 1,
+	"isDamaging": true,
+	"language": "en",
+	"level": 2,
+	"materialComponents": null,
+	"name": "Mind Spike",
+	"range": "60 feet",
+	"ritual": false,
+	"savingThrows": [
+		"wisdom"
+	],
+	"school": "Divination",
+	"sourcePage": "Page: 162  from Xanathar's Guide To Everything",
+	"urlFriendlyName": "mind-spike"
+}
