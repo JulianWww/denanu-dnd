@@ -1,4 +1,4 @@
-import { randomFileName } from "../../Login/ServerApi";
+import { Index, randomFileName, toUrl } from "../../Login/ServerApi";
 import { MonsterIndex } from "../../pages/SelectMonserStatBlock";
 import { Party } from "./PartyData";
 import { IXP } from "./xpCalculation";
@@ -17,7 +17,7 @@ export default interface Encounter {
   campain?: string;
 }
 
-export interface EncounterIndex {
+export interface EncounterIndex extends Index {
   name: string,
   file: string,
   campain?: string
@@ -39,11 +39,12 @@ export function EncounterDefault(){
 }
 
 export function addMonster(encounter: Encounter, mob: MonsterIndex) {
-  if (encounter.monsters[mob.file]) {
-    encounter.monsters[mob.file].count += 1;
+  const idx = toUrl(mob.idx);
+  if (encounter.monsters[idx]) {
+    encounter.monsters[idx].count += 1;
   }
   else {
-    encounter.monsters[mob.file] = {
+    encounter.monsters[idx] = {
       count: 1,
       mob: mob,
     };

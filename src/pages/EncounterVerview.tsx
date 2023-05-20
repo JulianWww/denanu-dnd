@@ -95,7 +95,7 @@ class EncounterVerviewCLS extends React.Component<Props & {params: Readonly<Para
             
           </TextWraper>
           <TabBar labels={["Encounter Builder", "Initative"]} childProps={{1: {className: "growable"}}}>
-            <EncounterPlanerModule {...this.props} encounter={encounter} fileName={this.props.params.name}/>
+            <EncounterPlanerModule {...this.props} encounter={encounter} fileName={this.props.params.name} update={(e: Encounter) => this.setState({encounter: e})}/>
             <EncounterInitiative {...this.props} encounter={encounter}/>
           </TabBar>
         </>

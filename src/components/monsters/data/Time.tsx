@@ -24,12 +24,33 @@ export function renderTime(data: TimeData) {
   return spellDurations[data.duration_type]
 }
 
+interface SplitTime {
+  day: number;
+  hour: number;
+  minute: number;
+  second: number;
+}
+
+export function splitTime(s: number) : SplitTime  {
+  return {
+      day: Math.floor(s / 86400),
+      hour: Math.floor(s / 3600) % 24,
+      minute: Math.floor(s / 60) % 60,
+      second: s % 60,
+  };
+}
+
+export function combineTimes(times: SplitTime) {
+  return times.day * 86400 + times.hour * 3600 + times.minute * 60 + times.second
+}
+
 function sformat(s: number) {
+  const split = splitTime(s)
   var fm = [
-        [Math.floor(s / 60 / 60 / 24), "day", "days"],
-        [Math.floor(s / 60 / 60) % 24, "hour", "hours"],
-        [Math.floor(s / 60) % 60, , "minute", "minutes"],
-        [s % 60, "second", "seconds"],
+        [split.day, "day", "days"],
+        [split.hour, "hour", "hours"],
+        [split.minute , "minute", "minutes"],
+        [split.second, "second", "seconds"],
   ];
   var out = ""
   for (const [time, label, plural] of fm) {
@@ -58,4 +79,3 @@ export function toTime(duration: number, type: DurationTypes) {
     default: return "Error";
   }
 }
-

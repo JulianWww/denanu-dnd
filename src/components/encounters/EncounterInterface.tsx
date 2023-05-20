@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ButtonGroup, Card, CardContent, Divider, Button, Grid, Chip, Stack, useTheme, IconButton, Dialog, DialogTitle, DialogActions, TextField, DialogContent, List, ListItem } from "@mui/material";
+import { ButtonGroup, Card, CardContent, Divider, Button, Grid, Chip, Stack, useTheme, IconButton, Dialog, DialogTitle, DialogActions, TextField, DialogContent, List, ListItem, Collapse } from "@mui/material";
 import Encounter, { EncounterMonster, getEncounterIndex } from "./Encounter";
 import { IXP, ajustXp, calcBaseEncounterXp, calcMobXp, estimateDifficulty } from "./xpCalculation";
 import { PaletteMode } from "@mui/material";
@@ -8,7 +8,7 @@ import NumberInput from "../visualEditor/Nodes/Utility/NumberInput";
 import { randomFileName, writePrivateData } from "../../Login/ServerApi";
 import { IToken, Token } from "../../Login/UseToken";
 import { NavigateFunction, useNavigate } from "react-router-dom";
-import { TransitionGroup } from 'react-transition-group';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import CampainSelector from "../campain/CamapaingSelector";
 
 interface Props extends IToken {
@@ -60,50 +60,55 @@ export default function EncounterPlanerInterface(props: Props) {
         <h3>Encounter</h3>
       </CardContent>
       <Divider/>
-      {mobs.length > 0 ?
-        <>
-          {mobs.map((mob => {
-            return <>
-                <CardContent className="fullWidth">
-                  {renderMob(mob, encounter, encounter.xpThreshhold, theme, update)}
-                </CardContent>
-                <Divider/>
-              </>
-          }))}
-          <CardContent>
-            <Grid container columns={3} className="fullWidth" textAlign={"center"}>
-              <Grid item xs>
-                Difficulty
-              </Grid>
-              <Grid item xs>
-                Total Xp
-              </Grid>
-              <Grid item xs>
-                Ajusted Xp
-              </Grid>
-            </Grid>
-          </CardContent>
-          <Divider/>
-          <CardContent>
-            <Grid container columns={3} className="fullWidth" textAlign={"center"}>
-              <Grid item xs>
-                <Chip className={difficultyClass} label={difficulty}/>
-              </Grid>
-              <Grid item xs>
-                {xp}
-              </Grid>
-              <Grid item xs>
-                {ajustedXp}
-              </Grid>
-            </Grid>
-          </CardContent>
-        </>
-        :
-        
-        <CardContent>
-          {noMonsters}
-        </CardContent>
-      }
+            <Collapse in={mobs.length > 0}>
+              <TransitionGroup>
+                {mobs.map((mob => {
+                  const ref = React.createRef<HTMLDivElement>();
+
+                  return <CSSTransition key={mob[0]} timeout={500} classNames="item" nodeRef={ref}>
+                      <div ref={ref}>
+                        <CardContent className="fullWidth">
+                          {renderMob(mob, encounter, encounter.xpThreshhold, theme, update)}
+                        </CardContent>
+                        <Divider/>
+                      </div>
+                    </CSSTransition>
+                }))}
+              </TransitionGroup>
+              <CardContent>
+                <Grid container columns={3} className="fullWidth" textAlign={"center"}>
+                  <Grid item xs>
+                    Difficulty
+                  </Grid>
+                  <Grid item xs>
+                    Total Xp
+                  </Grid>
+                  <Grid item xs>
+                    Ajusted Xp
+                  </Grid>
+                </Grid>
+              </CardContent>
+              <Divider/>
+              <CardContent>
+                <Grid container columns={3} className="fullWidth" textAlign={"center"}>
+                  <Grid item xs>
+                    <Chip className={difficultyClass} label={difficulty}/>
+                  </Grid>
+                  <Grid item xs>
+                    {xp}
+                  </Grid>
+                  <Grid item xs>
+                    {ajustedXp}
+                  </Grid>
+                </Grid>
+              </CardContent>
+            </Collapse>
+            <Collapse in={mobs.length===0}>
+              <CardContent>
+                {noMonsters}
+              </CardContent>
+            </Collapse>
+      
       <Divider/>
       <CardContent>
         <ButtonGroup className="right">

@@ -14,6 +14,7 @@ import SearchableMonsterList from "../components/MonserSearchableList";
 interface Props extends IToken {
   encounter?: Encounter;
   fileName?: string;
+  update?: (e: Encounter) => void;
 }
 
 interface State {
@@ -38,7 +39,10 @@ export class EncounterPlanerModule extends React.Component<Props, State> {
   }
 
   updateFunc() {
-    this.setState({});
+    if (this.props.update) 
+      this.props.update(this.state.encounter);
+    else
+      this.setState({});
   }
 
   addMonster = (monster: MonsterIndex) => {

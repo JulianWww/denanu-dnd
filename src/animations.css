@@ -1,0 +1,15 @@
+.item-enter {
+  max-height: 0;
+  overflow: hidden;
+}
+.item-enter-active, .item-exit {
+  max-height: 100px;
+  overflow: hidden;
+}
+.item-exit-active {
+  max-height: 0px;
+}
+.item-enter-active,
+.item-exit-active {
+  transition: max-height 500ms;
+}

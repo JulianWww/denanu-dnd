@@ -35,7 +35,7 @@ export default class SpellRenderer extends React.Component<Props, State> {
 
     this.state = {
       location: props.location,
-      editing: true,
+      editing: false,
     }
   }
 

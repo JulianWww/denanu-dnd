@@ -10,6 +10,7 @@ import useToken from './Login/UseToken';
 import StatBlockSelector from "./pages/SelectMonserStatBlock";
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import "./animations.css";
 import { ThemeOptions, ThemeProvider, createTheme } from '@mui/material/styles';
 import EncounterPlaner from './pages/EncounterPlaner';
 import EncounterList from './pages/EncounterList';

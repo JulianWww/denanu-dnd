@@ -36,7 +36,7 @@ export default class EncounterList extends React.Component<Props, State> {
   async load() {
     this.setState({loading: false,
       encounters: (await loadEncounters(this.props.token)).map((val: EncounterIndex) => {
-        console.log(val.file);
+        console.log(val);
         return {
           item: <EncounterListElement {...val}/>,
           key: val.name,

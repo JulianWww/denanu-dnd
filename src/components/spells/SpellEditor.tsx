@@ -1,7 +1,7 @@
-import { Collapse, FormGroup, Grid, TextField } from "@mui/material";
+import { Button, Collapse, FormGroup, Grid, TextField } from "@mui/material";
 import TextWraper from "../TextWraper";
 import Spell from "./Spell";
-import { ChangeEvent } from "react";
+import { ChangeEvent, useState } from "react";
 import { strSelect, strSelectIdxValue } from "../monsters/BlockEditor";
 import { range } from "../visualEditor/Nodes/Utils";
 import { actions } from "../monsters/data/Actions";
@@ -12,6 +12,10 @@ import magicSchools from "./data/magicSchools";
 import MultiSelectString, { MultiSelect, MultiSelectRecord } from "../MultiSelect";
 import { attributes } from "../monsters/Attributes";
 import { damage_inputs } from "../monsters/Utility/Damage";
+import classes from "./data/classes";
+import CollapseExchanger from "../CollapseExchanger";
+import { SlideTransition } from "../SlideTransition";
+import TimeDialog from "../monsters/data/TimeDialog";
 
 interface Props {
   spell: Spell;
@@ -21,6 +25,42 @@ interface Props {
 export default function SpellEditor(props: Props) {
   const { spell, update } = props;
 
+  const [timeEditing, setTimeEditing] = useState(false);
+
+  var durationInput = (
+  <TextField label="duration" fullWidth value={spell.duration_type} select onChange={(e: ChangeEvent<HTMLInputElement>) => {
+    spell.duration_type = Number(e.target.value);
+    update();
+  }}>
+    {strSelectIdxValue(spellDurations)}
+  </TextField>)
+
+  var durationEdit = 0;
+  if (spell.duration_type < 3) durationEdit = spell.duration_type
+
+  if (durationEdit === 1)
+    durationInput = <Grid container alignItems="flex-end" columnSpacing={1}>
+      <Grid item flexGrow={1}>
+        {durationInput}
+      </Grid>
+      <Grid item>
+        <Button onClick={()=>setTimeEditing(true)}> Edit </Button>
+      </Grid>
+    </Grid>
+  
+  else if (durationEdit === 2) 
+    durationInput = <Grid container columns={2} alignItems="flex-end" columnSpacing={1}>
+      <Grid item xs={1}>
+        <NumberInput val={spell.duration} setNumber={(num: number) => {
+          spell.duration = num;
+          update();
+        }} sx={{height: "100%"}}/>
+      </Grid>
+      <Grid item xs={1}>
+        {durationInput}
+      </Grid>
+    </Grid>
+  
   return <TextWraper>
     <div className="row">
       <TextField fullWidth label="name" value={spell.name} onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -83,18 +123,9 @@ export default function SpellEditor(props: Props) {
         </Grid>
       </Grid>
       <Grid item xs={1}>
-        <Collapse in={spell.duration_type == 2}>
-          <NumberInput value={spell.duration} setNumber={(num: number) => {
-            spell.duration = num;
-            update();
-          }}/>
-        </Collapse>
-        <TextField label="duration" fullWidth value={spell.duration_type} select onChange={(e: ChangeEvent<HTMLInputElement>) => {
-          spell.duration_type = Number(e.target.value);
-          update();
-        }}>
-          {strSelectIdxValue(spellDurations)}
-        </TextField>
+        <SlideTransition id={durationEdit.toString()} variant="vertical-swap">
+          {durationInput}
+        </SlideTransition>
       </Grid>
       <Grid item xs={1}>
         <TextField label="School" fullWidth value={spell.school.toLocaleLowerCase()} select onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -137,6 +168,18 @@ export default function SpellEditor(props: Props) {
       spell.atHigherLevels = e.target.value;
       update();
     }}/>
+
+    <MultiSelectString
+      value={spell.availableClasses} 
+      options={classes} 
+      onChange={(val: string[]) => {
+        spell.availableClasses = val;
+        update()
+      }}
+      label="Classes"
+    />
+
+    <TimeDialog open={timeEditing} close={()=>setTimeEditing(false)} setTime={(val: number)=> {spell.duration = val; update()}} time={0}/>
 
   </TextWraper>
 }
