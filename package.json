@@ -1,6 +1,7 @@
 {
   "name": "denanu-dnd",
   "version": "0.1.0",
+  "homepage": "https://wandhoven.ddns.net/RPG/denanu-dnd",
   "private": true,
   "dependencies": {
     "@artsy/fresnel": "^6.1.0",
