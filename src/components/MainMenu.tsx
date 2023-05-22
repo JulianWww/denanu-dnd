@@ -75,20 +75,8 @@ interface ResponsiveContainerProps extends DesktopContainerProps{
 
 class MainMenu extends React.Component<ResponsiveContainerProps, {}>{
 
-  render = () => (<Box sx={{
-            backgroundColor: (theme) =>
-              theme.palette.mode === 'light'
-                ? theme.palette.grey[100]
-                : theme.palette.grey[900],
-            flexGrow: 1,
-            height: '100vh',
-            overflow: 'auto',
-          }}>
+  render = () => (
         <DesktopContainer token={this.props.token} setToken={this.props.setToken}>{}</DesktopContainer>
-        <main style={{marginTop: "80px"}}>
-          {this.props.children}
-        </main>
-      </Box>
   )
 }
 

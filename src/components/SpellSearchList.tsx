@@ -5,6 +5,7 @@ import NumberInput from "./visualEditor/Nodes/Utility/NumberInput";
 import MultiSelectString from "./MultiSelect";
 import { SpellElement } from "../pages/SpellList";
 import magicSchools from "./spells/data/magicSchools";
+import { arrayCast, unique } from "./Utils";
 
 interface Props {
 }
@@ -16,6 +17,9 @@ export default class SpellSearchableList extends SearchableList<Props> {
   schools: string[];
   ritual?: boolean;
   concentration?: boolean;
+  selectedSources: string[];
+
+  sources: string[];
 
   constructor(props: SearchableListProps & Props) {
     super(props);
@@ -23,6 +27,9 @@ export default class SpellSearchableList extends SearchableList<Props> {
     this.min_lvl = 0;
     this.max_lvl = 9;
     this.schools = [];
+    this.selectedSources = [];
+
+    this.sources = unique(arrayCast<SpellElement, Element>(props.elements).map((val: SpellElement) => val.source))
   }
 
   update = () => this.setState({});
@@ -50,6 +57,12 @@ export default class SpellSearchableList extends SearchableList<Props> {
       filtered = filtered.filter((val: SpellElement) =>
         val.concentration === this.concentration
       );
+    }
+
+    if (this.selectedSources?.length > 0) {
+      filtered = filtered.filter((val: SpellElement) =>
+        this.selectedSources.indexOf(val.source) > -1
+      )
     }
 
     this.filtered = filtered    
@@ -116,6 +129,17 @@ export default class SpellSearchableList extends SearchableList<Props> {
             Concentration: { SpellSearchableList.tripleCycleText(this.concentration) }
         </Button>
         </ButtonGroup>
+      </div>
+      <div className="row">
+        <MultiSelectString
+          options={this.sources}
+          label="Sources"
+          onChange={(val: string[]) => {
+            this.selectedSources = val;
+            this.update();
+          }}
+          value={this.selectedSources}
+        />
       </div>
     </>;
   }

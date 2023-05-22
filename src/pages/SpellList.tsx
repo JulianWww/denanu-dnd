@@ -78,22 +78,17 @@ export default class SpellList extends React.Component<Props, State>{
 
     return (
       <Container sx={{maxWidth: "3000px"}}>
-        {this.state.loading ? 
-          <Loading/> :
-          <>
-            <NewSpellCreator {...this.props}/>
-            <Grid container columns={2}>
-              <Grid item xs={1}>
-                <SpellSearchableList fluid elements={spells}/>
-              </Grid>
-              <Grid item xs={1}>
-                <Collapse in={spellOpen}>
-                  <SpellRenderer {...this.props} location={spellLocation} open={true}/>
-                </Collapse>
-              </Grid>
-            </Grid>
-          </>
-        }
+        <NewSpellCreator {...this.props}/>
+        <Grid container columns={2}>
+          <Grid item xs={1}>
+            <SpellSearchableList fluid elements={spells}/>
+          </Grid>
+          <Grid item xs={1}>
+            <Collapse in={spellOpen}>
+              <SpellRenderer {...this.props} location={spellLocation} open={true}/>
+            </Collapse>
+          </Grid>
+        </Grid>
       </Container>
     );
   }

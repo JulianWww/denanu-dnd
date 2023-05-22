@@ -4,7 +4,10 @@ interface Props {
   conditions: [string, number, string[]][]
 }
 
-export function toList(arr: string[], seperator?: string) {
+export function toList(arr?: string[], seperator?: string) {
+  if (arr === undefined) {
+    return null;
+  }
   return arr.map((val: string, idx: number, arr: string[]) => {
     if (idx === arr.length-1) {
       return val

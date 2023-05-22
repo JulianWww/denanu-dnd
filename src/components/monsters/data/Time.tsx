@@ -18,7 +18,8 @@ export const spellDurations = [
   "Until dispelled",
 ]
 
-export function renderTime(data: TimeData) {
+export function renderTime(data?: TimeData) {
+  if (!data) return null;
   if (data.duration_type == 2) return data.duration.toString() + " " + (data.duration < 2 ? "round" : "rounds")
   if (data.duration_type == 1) return sformat(data.duration)
   return spellDurations[data.duration_type]

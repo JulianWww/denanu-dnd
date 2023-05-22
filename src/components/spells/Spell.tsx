@@ -32,6 +32,7 @@ export interface SpellIndex extends Index {
 	school: string;
 	ritual: boolean;
 	concentration: boolean;
+  source: string;
 }
 
 export function calcSpellIdx(spell: Spell) {

@@ -34,7 +34,6 @@ export function getMonsterIndex(char: Character) {
 }
 
 interface State {
-  loading: boolean;
   monsters: Element[];
 }
 
@@ -45,20 +44,19 @@ export default class StatBlockSelector extends React.Component<Props, State>{
     super(props)
 
     this.state = {
-      loading: true,
       monsters: [],
     }
     this.loading = false;
   }
 
   componentDidMount(): void {
-    if (this.state.loading && !this.loading)
+    if (!this.loading)
       this.loadMonsters();
   }
 
   loadMonsters = async () => {
-    this.setState({loading: false, monsters: (await loadMonsters((val: MonsterIndex) => {
-      console.log(val);
+    this.setState({monsters: (await loadMonsters((val: MonsterIndex) => {
+
       return <MonsterForwardingListElement {...val} target={toUrl(val.idx)}/>
     }, this.props.token)
       )});
@@ -68,13 +66,9 @@ export default class StatBlockSelector extends React.Component<Props, State>{
   render() {
     return (
       <Container>
-        {this.state.loading ? 
-          <CircularProgress/> :
-          <>
-            <NewMonsterCreator {...this.props}/>
-            <SearchableMonsterList fluid elements={this.state.monsters}/>
-          </>
-        }
+        <NewMonsterCreator {...this.props}/>
+        <SearchableMonsterList fluid elements={this.state.monsters}/>
+
       </Container>
     );
   }

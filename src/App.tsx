@@ -1,7 +1,8 @@
 import React from 'react';
-import { Route, Routes, useNavigate, PathRouteProps } from 'react-router-dom';
+import { Route, Routes, useNavigate, PathRouteProps, useLocation, BrowserRouter } from 'react-router-dom';
 import { NotFound } from './components/notFound';
 import logo from './logo.svg';
+import { useContext } from "react";
 import './App.css';
 import StatBlock from './pages/CharacterSheet';
 import Login from './Login/Login';
@@ -19,6 +20,8 @@ import Campains from './pages/Campains';
 import MainMenu from './components/MainMenu';
 import SpellList from './pages/SpellList';
 import SpellPage from './pages/SpellPage';
+import { PageTransition } from '@steveeeie/react-page-transition';
+import { Box } from '@mui/material';
 
 const themeProps: ThemeOptions = {
   typography: {
@@ -74,27 +77,50 @@ export const lightTheme = createTheme({
 function App() {
   const token = useToken();
   const navigate = useNavigate();
-  return (<>
-    <ThemeProvider theme={darkTheme}>
-      <MainMenu {...token}>
-        <Routes>
-          <Route path="/login" element={<Login {...token} nav={navigate}/>}/>
-          <Route path="/signup" element={<SignUp {...token} nav={navigate}/>}/>
-          <Route path="/monsters" element={<StatBlockSelector {...token}/>}/>
-          <Route path="/monsters/:group/:source/:name" element={<StatBlock {...token}/>}/>
-          <Route path="/encounters" element={<EncounterList {...token}/>}/>
-          <Route path="/encounters/:group/:source/:name" element={<EncounterVerview {...token}/>}/>
-          <Route path="/encounter-planer/" element={<EncounterPlaner {...token}/>}/>
-          <Route path="/campains" element={<Campains {...token}/>}/>
-          <Route path="/spells" element={<SpellList {...token}/>}/>
-          <Route path="/spells/:group/:source/:name" element={<SpellPage {...token}></SpellPage>}/>
-          <Route path="*" element={<NotFound item="page" id="unknown" />}/>
-        </Routes>
-        <ToastContainer />
-      </MainMenu>
-    </ThemeProvider>
-    </>
-  );
+  const location = useLocation();
+  console.log(location);
+  if (true)
+    return (<>
+      <ThemeProvider theme={darkTheme}>
+        <MainMenu {...token}/>
+        <Box sx={{
+          backgroundColor: (theme) =>
+            theme.palette.mode === 'light'
+              ? theme.palette.grey[100]
+              : theme.palette.grey[900],
+          flexGrow: 1,
+          height: '100vh',
+          overflow: 'auto',
+        }}>
+          <PageTransition
+              preset="carouselToTop"
+              transitionKey={location.pathname}
+              enterAnimation=""
+              exitAnimation=""
+            >
+            <main style={{marginTop: "80px"}}>
+              <Routes location={location}>
+                <Route path="/login" element={<Login {...token} nav={navigate}/>}/>
+                <Route path="/signup" element={<SignUp {...token} nav={navigate}/>}/>
+                <Route path="/monsters" element={<StatBlockSelector {...token}/>}/>
+                <Route path="/monsters/:group/:source/:name" element={<StatBlock {...token}/>}/>
+                <Route path="/encounters" element={<EncounterList {...token}/>}/>
+                <Route path="/encounters/:group/:source/:name" element={<EncounterVerview {...token}/>}/>
+                <Route path="/encounter-planer/" element={<EncounterPlaner {...token}/>}/>
+                <Route path="/campains" element={<Campains {...token}/>}/>
+                <Route path="/spells" element={<SpellList {...token}/>}/>
+                <Route path="/spells/:group/:source/:name" element={<SpellPage {...token}></SpellPage>}/>
+                <Route path="*" element={<NotFound item="page" id="unknown" />}/>
+              </Routes>
+            </main>
+            </PageTransition>
+          <ToastContainer />
+        </Box>
+      </ThemeProvider>
+      </>
+    );
+
+  return null;
 }
 
 export default App;

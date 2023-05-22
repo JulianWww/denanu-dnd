@@ -59,26 +59,25 @@ export default class SpellRenderer extends React.Component<Props, State> {
     const { spell, editing } = this.state;
     const { open } = this.props;
 
-    if (!spell) return <Loading/>
-
 
     if (!locationDataEquals(this.state.location, this.props.location)) {
       this.load();
     }
 
-    const { material, verbal, somatic } = spell.components;
-
-    const components = []
-    if (verbal) components.push("V");
-    if (somatic) components.push("S");
-    if (material) components.push("M");
+    const components = [];
+    if (spell) {
+      const { material, verbal, somatic } = spell.components;
+      if (verbal) components.push("V");
+      if (somatic) components.push("S");
+      if (material) components.push("M");
+    }
 
     return (
       <SlideTransition id={toUrl(this.props.location)}>
       <Card sx={{ml:0.5}}>
         <CardContent>
           <TextWraper>
-            <h2 className="spellHeader">{spell.name}</h2>
+            <h2 className="spellHeader">{spell?.name}</h2>
           </TextWraper>
         </CardContent>
         <Divider/>
@@ -87,15 +86,15 @@ export default class SpellRenderer extends React.Component<Props, State> {
             <Grid.Row>
               <Grid.Column width={4}>
                 <Subheader>Level</Subheader>
-                {ordinal_suffix_of(spell.level)}
+                {ordinal_suffix_of(spell?.level)}
               </Grid.Column>
               <Grid.Column width={4}>
                 <Subheader>Casting Time</Subheader>
-                {spell.castingTime}
+                {spell?.castingTime}
               </Grid.Column>
               <Grid.Column width={4}>
                 <Subheader>Range</Subheader>
-                {spell.range}
+                {spell?.range}
               </Grid.Column>
               <Grid.Column width={4}>
                 <Subheader>Components</Subheader>
@@ -109,29 +108,29 @@ export default class SpellRenderer extends React.Component<Props, State> {
               </Grid.Column>
               <Grid.Column width={4}>
                 <Subheader>School</Subheader>
-                {spell.school}
+                {spell?.school}
               </Grid.Column>
               <Grid.Column width={4}>
                 <Subheader>Save</Subheader>
-                {toList(spell.savingThrows)}
+                {toList(spell?.savingThrows)}
               </Grid.Column>
               <Grid.Column width={4}>
                 <Subheader>Damge Type</Subheader>
-                {toList(spell.damageTypes)}
+                {toList(spell?.damageTypes)}
               </Grid.Column>
             </Grid.Row>
           </Grid>
         </CardContent>
         <Divider/>
         <CardContent>
-          <Markup content={spell.description}/>
+          <Markup content={spell?.description}/>
           {
-            spell.atHigherLevels !== "" ?
+            spell?.atHigherLevels !== "" ?
             <>
               <TextWraper>
                 <h4 className="spellHeader">At Higher Levels</h4>
               </TextWraper>
-              <Markup content={spell.atHigherLevels}/>
+              <Markup content={spell?.atHigherLevels}/>
             </>
             : null
           }
@@ -141,11 +140,11 @@ export default class SpellRenderer extends React.Component<Props, State> {
             textAlign: "center",
             fontSize: "0.8em"
           }}>
-            {spell.sourcePage}
+            {spell?.sourcePage}
           </Typography>
           <Center>
             {
-              spell.availableClasses.map((cls: string) => <ClassChip key={cls} name={cls}/>)
+              spell?.availableClasses.map((cls: string) => <ClassChip key={cls} name={cls}/>)
             }
           </Center>
         </CardContent>
@@ -160,8 +159,13 @@ export default class SpellRenderer extends React.Component<Props, State> {
           }
         </ButtonGroup>
       </RightAlign>
-      <Collapse in={editing}>
-        <SpellEditor spell={spell} update={()=>this.setState({})}/>
+      <Collapse in={editing && spell !== undefined}>
+        {
+          spell ?
+          <SpellEditor spell={spell} update={()=>this.setState({})}/>
+          :
+          null
+        }
       </Collapse>
       </SlideTransition>
     )

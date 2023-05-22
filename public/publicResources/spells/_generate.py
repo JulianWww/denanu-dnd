@@ -14,6 +14,9 @@ def getTime(s: str):
   return int(sub(r'[^0-9]', '', s))
 
 for (idx, spell) in enumerate(data):  
+  #with open("_tmp.json", "w") as file:
+  #  dump(spell, file, indent="\t", sort_keys=True)
+
   components = {
     "verbal": False,
     "material": False,
@@ -72,6 +75,7 @@ for (idx, spell) in enumerate(data):
     "school": spell["school"],
     "ritual": spell["ritual"],
     "concentration": spell["concentration"],
+    "source": spell["bookSource"],
     "file": name
   })
 

@@ -115,7 +115,8 @@ export function toPng(ref: RefObject<HTMLElement>, name: string) {
 }
 
 
-export function ordinal_suffix_of(i: number) {
+export function ordinal_suffix_of(i?: number) {
+  if (i === undefined) {return null}
   var j = i % 10,
       k = i % 100;
   if (j == 1 && k != 11) {
@@ -166,4 +167,14 @@ export function NewCustomItemCreator(props: NewCustomItemCreatorProps) {
     )
   }
   return null;
+}
+
+export function unique<T>(arr: T[]) {
+  return Array.from(new Set(arr));
+}
+
+export function arrayCast<T extends F, F>(arr: F[]) {
+  return arr.map((val: F) => {
+    return val as T
+  })
 }

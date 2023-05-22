@@ -5,7 +5,8 @@
 		"lvl": 8,
 		"name": "Abi-Dalzim's Horrid Wilting",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -13,7 +14,8 @@
 		"lvl": 1,
 		"name": "Absorb Elements",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -21,7 +23,8 @@
 		"lvl": 0,
 		"name": "Acid Splash",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -29,7 +32,8 @@
 		"lvl": 2,
 		"name": "Aganazzar's Scorcher",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -37,7 +41,8 @@
 		"lvl": 2,
 		"name": "Aid",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -45,7 +50,8 @@
 		"lvl": 1,
 		"name": "Alarm",
 		"ritual": true,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -53,7 +59,8 @@
 		"lvl": 2,
 		"name": "Alter Self",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -61,7 +68,8 @@
 		"lvl": 1,
 		"name": "Animal Friendship",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -69,7 +77,8 @@
 		"lvl": 2,
 		"name": "Animal Messenger",
 		"ritual": true,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -77,7 +86,8 @@
 		"lvl": 8,
 		"name": "Animal Shapes",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -85,7 +95,8 @@
 		"lvl": 3,
 		"name": "Animate Dead",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -93,7 +104,8 @@
 		"lvl": 5,
 		"name": "Animate Objects",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -101,7 +113,8 @@
 		"lvl": 5,
 		"name": "Antilife Shell",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -109,7 +122,8 @@
 		"lvl": 8,
 		"name": "Antimagic Field",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -117,7 +131,8 @@
 		"lvl": 8,
 		"name": "Antipathy/Sympathy",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -125,7 +140,8 @@
 		"lvl": 4,
 		"name": "Arcane Eye",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -133,7 +149,8 @@
 		"lvl": 6,
 		"name": "Arcane Gate",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -141,7 +158,8 @@
 		"lvl": 2,
 		"name": "Arcane Lock",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -149,7 +167,8 @@
 		"lvl": 1,
 		"name": "Armor of Agathys",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -157,7 +176,8 @@
 		"lvl": 1,
 		"name": "Arms of Hadar",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -165,7 +185,8 @@
 		"lvl": 9,
 		"name": "Astral Projection",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -173,7 +194,8 @@
 		"lvl": 2,
 		"name": "Augury",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -181,7 +203,8 @@
 		"lvl": 4,
 		"name": "Aura of Life",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -189,7 +212,8 @@
 		"lvl": 4,
 		"name": "Aura of Purity",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -197,7 +221,8 @@
 		"lvl": 3,
 		"name": "Aura of Vitality",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -205,7 +230,8 @@
 		"lvl": 5,
 		"name": "Awaken",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -213,7 +239,8 @@
 		"lvl": 1,
 		"name": "Bane",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -221,7 +248,8 @@
 		"lvl": 5,
 		"name": "Banishing Smite",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -229,7 +257,8 @@
 		"lvl": 4,
 		"name": "Banishment",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -237,7 +266,8 @@
 		"lvl": 2,
 		"name": "Barkskin",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -245,7 +275,8 @@
 		"lvl": 3,
 		"name": "Beacon of Hope",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -253,7 +284,8 @@
 		"lvl": 1,
 		"name": "Beast Bond",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -261,7 +293,8 @@
 		"lvl": 2,
 		"name": "Beast Sense",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -269,7 +302,8 @@
 		"lvl": 3,
 		"name": "Bestow Curse",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -277,7 +311,8 @@
 		"lvl": 5,
 		"name": "Bigby's Hand",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -285,7 +320,8 @@
 		"lvl": 6,
 		"name": "Blade Barrier",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -293,7 +329,8 @@
 		"lvl": 0,
 		"name": "Blade Ward",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -301,7 +338,8 @@
 		"lvl": 1,
 		"name": "Bless",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -309,7 +347,8 @@
 		"lvl": 4,
 		"name": "Blight",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -317,7 +356,8 @@
 		"lvl": 3,
 		"name": "Blinding Smite",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -325,7 +365,8 @@
 		"lvl": 2,
 		"name": "Blindness/Deafness",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -333,7 +374,8 @@
 		"lvl": 3,
 		"name": "Blink",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -341,7 +383,8 @@
 		"lvl": 2,
 		"name": "Blur",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -349,7 +392,8 @@
 		"lvl": 6,
 		"name": "Bones of the Earth",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -357,7 +401,8 @@
 		"lvl": 0,
 		"name": "Booming Blade",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Sword Coast adv. guide"
 	},
 	{
 		"concentration": true,
@@ -365,7 +410,8 @@
 		"lvl": 2,
 		"name": "Branding Smite",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -373,7 +419,8 @@
 		"lvl": 1,
 		"name": "Burning Hands",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -381,7 +428,8 @@
 		"lvl": 3,
 		"name": "Call Lightning",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -389,7 +437,8 @@
 		"lvl": 2,
 		"name": "Calm Emotions",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -397,7 +446,8 @@
 		"lvl": 1,
 		"name": "Catapult",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -405,7 +455,8 @@
 		"lvl": 3,
 		"name": "Catnap",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -413,7 +464,8 @@
 		"lvl": 1,
 		"name": "Cause Fear",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -421,7 +473,8 @@
 		"lvl": 1,
 		"name": "Ceremony",
 		"ritual": true,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -429,7 +482,8 @@
 		"lvl": 6,
 		"name": "Chain Lightning",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -437,7 +491,8 @@
 		"lvl": 1,
 		"name": "Chaos Bolt",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -445,7 +500,8 @@
 		"lvl": 4,
 		"name": "Charm Monster",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -453,7 +509,8 @@
 		"lvl": 1,
 		"name": "Charm Person",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -461,7 +518,8 @@
 		"lvl": 0,
 		"name": "Chill Touch",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -469,7 +527,8 @@
 		"lvl": 1,
 		"name": "Chromatic Orb",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -477,7 +536,8 @@
 		"lvl": 6,
 		"name": "Circle of Death",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -485,7 +545,8 @@
 		"lvl": 5,
 		"name": "Circle of Power",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -493,7 +554,8 @@
 		"lvl": 3,
 		"name": "Clairvoyance",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -501,7 +563,8 @@
 		"lvl": 8,
 		"name": "Clone",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -509,7 +572,8 @@
 		"lvl": 2,
 		"name": "Cloud of Daggers",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -517,7 +581,8 @@
 		"lvl": 5,
 		"name": "Cloudkill",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -525,7 +590,8 @@
 		"lvl": 1,
 		"name": "Color Spray",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -533,7 +599,8 @@
 		"lvl": 1,
 		"name": "Command",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -541,7 +608,8 @@
 		"lvl": 5,
 		"name": "Commune",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -549,7 +617,8 @@
 		"lvl": 5,
 		"name": "Commune with Nature",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -557,7 +626,8 @@
 		"lvl": 1,
 		"name": "Compelled Duel",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -565,7 +635,8 @@
 		"lvl": 1,
 		"name": "Comprehend Languages",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -573,7 +644,8 @@
 		"lvl": 4,
 		"name": "Compulsion",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -581,7 +653,8 @@
 		"lvl": 5,
 		"name": "Cone of Cold",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -589,7 +662,8 @@
 		"lvl": 4,
 		"name": "Confusion",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -597,7 +671,8 @@
 		"lvl": 3,
 		"name": "Conjure Animals",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -605,7 +680,8 @@
 		"lvl": 3,
 		"name": "Conjure Barrage",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -613,7 +689,8 @@
 		"lvl": 7,
 		"name": "Conjure Celestial",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -621,7 +698,8 @@
 		"lvl": 5,
 		"name": "Conjure Elemental",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -629,7 +707,8 @@
 		"lvl": 6,
 		"name": "Conjure Fey",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -637,7 +716,8 @@
 		"lvl": 4,
 		"name": "Conjure Minor Elementals",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -645,7 +725,8 @@
 		"lvl": 5,
 		"name": "Conjure Volley",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -653,7 +734,8 @@
 		"lvl": 4,
 		"name": "Conjure Woodland Beings",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -661,7 +743,8 @@
 		"lvl": 5,
 		"name": "Contact Other Plane",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -669,7 +752,8 @@
 		"lvl": 5,
 		"name": "Contagion",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -677,7 +761,8 @@
 		"lvl": 6,
 		"name": "Contingency",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -685,7 +770,8 @@
 		"lvl": 2,
 		"name": "Continual Flame",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -693,7 +779,8 @@
 		"lvl": 0,
 		"name": "Control Flames",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -701,7 +788,8 @@
 		"lvl": 4,
 		"name": "Control Water",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -709,7 +797,8 @@
 		"lvl": 8,
 		"name": "Control Weather",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -717,7 +806,8 @@
 		"lvl": 5,
 		"name": "Control Winds",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -725,7 +815,8 @@
 		"lvl": 2,
 		"name": "Cordon of Arrows",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -733,7 +824,8 @@
 		"lvl": 3,
 		"name": "Counterspell",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -741,7 +833,8 @@
 		"lvl": 0,
 		"name": "Create Bonfire",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -749,7 +842,8 @@
 		"lvl": 3,
 		"name": "Create Food and Water",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -757,7 +851,8 @@
 		"lvl": 6,
 		"name": "Create Homunculus",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -765,7 +860,8 @@
 		"lvl": 1,
 		"name": "Create or Destroy Water",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -773,7 +869,8 @@
 		"lvl": 6,
 		"name": "Create Undead",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -781,7 +878,8 @@
 		"lvl": 5,
 		"name": "Creation",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -789,7 +887,8 @@
 		"lvl": 2,
 		"name": "Crown of Madness",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -797,7 +896,8 @@
 		"lvl": 7,
 		"name": "Crown of Stars",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -805,7 +905,8 @@
 		"lvl": 3,
 		"name": "Crusader's Mantle",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -813,7 +914,8 @@
 		"lvl": 1,
 		"name": "Cure Wounds",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -821,7 +923,8 @@
 		"lvl": 0,
 		"name": "Dancing Lights",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -829,7 +932,8 @@
 		"lvl": 5,
 		"name": "Danse Macabre",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -837,7 +941,8 @@
 		"lvl": 2,
 		"name": "Darkness",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -845,7 +950,8 @@
 		"lvl": 2,
 		"name": "Darkvision",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -853,7 +959,8 @@
 		"lvl": 5,
 		"name": "Dawn",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -861,7 +968,8 @@
 		"lvl": 3,
 		"name": "Daylight",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -869,7 +977,8 @@
 		"lvl": 4,
 		"name": "Death Ward",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -877,7 +986,8 @@
 		"lvl": 7,
 		"name": "Delayed Blast Fireball",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -885,7 +995,8 @@
 		"lvl": 8,
 		"name": "Demiplane",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -893,7 +1004,8 @@
 		"lvl": 5,
 		"name": "Destructive Wave",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -901,7 +1013,8 @@
 		"lvl": 1,
 		"name": "Detect Evil and Good",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -909,7 +1022,8 @@
 		"lvl": 1,
 		"name": "Detect Magic",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -917,7 +1031,8 @@
 		"lvl": 1,
 		"name": "Detect Poison and Disease",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -925,7 +1040,8 @@
 		"lvl": 2,
 		"name": "Detect Thoughts",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -933,7 +1049,8 @@
 		"lvl": 4,
 		"name": "Dimension Door",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -941,7 +1058,8 @@
 		"lvl": 1,
 		"name": "Disguise Self",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -949,7 +1067,8 @@
 		"lvl": 6,
 		"name": "Disintegrate",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -957,7 +1076,8 @@
 		"lvl": 5,
 		"name": "Dispel Evil and Good",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -965,7 +1085,8 @@
 		"lvl": 3,
 		"name": "Dispel Magic",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -973,7 +1094,8 @@
 		"lvl": 1,
 		"name": "Dissonant Whispers",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -981,7 +1103,8 @@
 		"lvl": 4,
 		"name": "Divination",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -989,7 +1112,8 @@
 		"lvl": 1,
 		"name": "Divine Favor",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -997,7 +1121,8 @@
 		"lvl": 7,
 		"name": "Divine Word",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1005,7 +1130,8 @@
 		"lvl": 4,
 		"name": "Dominate Beast",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1013,7 +1139,8 @@
 		"lvl": 8,
 		"name": "Dominate Monster",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1021,7 +1148,8 @@
 		"lvl": 5,
 		"name": "Dominate Person",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1029,7 +1157,8 @@
 		"lvl": 2,
 		"name": "Dragon' Breath",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -1037,7 +1166,8 @@
 		"lvl": 6,
 		"name": "Drawmij's Instant Summons",
 		"ritual": true,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1045,7 +1175,8 @@
 		"lvl": 5,
 		"name": "Dream",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1053,7 +1184,8 @@
 		"lvl": 6,
 		"name": "Druid Grove",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -1061,7 +1193,8 @@
 		"lvl": 0,
 		"name": "Druidcraft",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1069,7 +1202,8 @@
 		"lvl": 2,
 		"name": "Dust Devil",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -1077,7 +1211,8 @@
 		"lvl": 1,
 		"name": "Earth Tremor",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -1085,7 +1220,8 @@
 		"lvl": 2,
 		"name": "Earthbind",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -1093,7 +1229,8 @@
 		"lvl": 8,
 		"name": "Earthquake",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1101,7 +1238,8 @@
 		"lvl": 0,
 		"name": "Eldritch Blast",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1109,7 +1247,8 @@
 		"lvl": 4,
 		"name": "Elemental Bane",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -1117,7 +1256,8 @@
 		"lvl": 3,
 		"name": "Elemental Weapon",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1125,7 +1265,8 @@
 		"lvl": 3,
 		"name": "Enemies abound",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -1133,7 +1274,8 @@
 		"lvl": 5,
 		"name": "Enervation",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -1141,7 +1283,8 @@
 		"lvl": 2,
 		"name": "Enhance Ability",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1149,7 +1292,8 @@
 		"lvl": 2,
 		"name": "Enlarge/Reduce",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1157,7 +1301,8 @@
 		"lvl": 1,
 		"name": "Ensnaring Strike",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1165,7 +1310,8 @@
 		"lvl": 1,
 		"name": "Entangle",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1173,7 +1319,8 @@
 		"lvl": 2,
 		"name": "Enthrall",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1181,7 +1328,8 @@
 		"lvl": 3,
 		"name": "Erupting Earth",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -1189,7 +1337,8 @@
 		"lvl": 7,
 		"name": "Etherealness",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1197,7 +1346,8 @@
 		"lvl": 4,
 		"name": "Evard's Black Tentacles",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1205,7 +1355,8 @@
 		"lvl": 1,
 		"name": "Expeditious Retreat",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1213,7 +1364,8 @@
 		"lvl": 6,
 		"name": "Eyebite",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1221,7 +1373,8 @@
 		"lvl": 4,
 		"name": "Fabricate",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1229,7 +1382,8 @@
 		"lvl": 1,
 		"name": "Faerie Fire",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1237,7 +1391,8 @@
 		"lvl": 1,
 		"name": "False Life",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1245,7 +1400,8 @@
 		"lvl": 5,
 		"name": "Far Step",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -1253,7 +1409,8 @@
 		"lvl": 3,
 		"name": "Fear",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1261,7 +1418,8 @@
 		"lvl": 1,
 		"name": "Feather Fall",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1269,7 +1427,8 @@
 		"lvl": 8,
 		"name": "Feeblemind",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1277,7 +1436,8 @@
 		"lvl": 3,
 		"name": "Feign Death",
 		"ritual": true,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1285,7 +1445,8 @@
 		"lvl": 1,
 		"name": "Find Familiar",
 		"ritual": true,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1293,7 +1454,8 @@
 		"lvl": 4,
 		"name": "Find Greater Steed",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -1301,7 +1463,8 @@
 		"lvl": 2,
 		"name": "Find Steed",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1309,7 +1472,8 @@
 		"lvl": 6,
 		"name": "Find the Path",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1317,7 +1481,8 @@
 		"lvl": 2,
 		"name": "Find Traps",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1325,7 +1490,8 @@
 		"lvl": 7,
 		"name": "Finger of Death",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1333,7 +1499,8 @@
 		"lvl": 0,
 		"name": "Fire Bolt",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1341,7 +1508,8 @@
 		"lvl": 4,
 		"name": "Fire Shield",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1349,7 +1517,8 @@
 		"lvl": 7,
 		"name": "Fire Storm",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1357,7 +1526,8 @@
 		"lvl": 3,
 		"name": "Fireball",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1365,7 +1535,8 @@
 		"lvl": 3,
 		"name": "Flame Arrows",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -1373,7 +1544,8 @@
 		"lvl": 2,
 		"name": "Flame Blade",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1381,7 +1553,8 @@
 		"lvl": 5,
 		"name": "Flame Strike",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1389,7 +1562,8 @@
 		"lvl": 2,
 		"name": "Flaming Sphere",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1397,7 +1571,8 @@
 		"lvl": 6,
 		"name": "Flesh to Stone",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1405,7 +1580,8 @@
 		"lvl": 3,
 		"name": "Fly",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1413,7 +1589,8 @@
 		"lvl": 1,
 		"name": "Fog Cloud",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1421,7 +1598,8 @@
 		"lvl": 6,
 		"name": "Forbiddance",
 		"ritual": true,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1429,7 +1607,8 @@
 		"lvl": 7,
 		"name": "Forcecage",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1437,7 +1616,8 @@
 		"lvl": 9,
 		"name": "Foresight",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1445,7 +1625,8 @@
 		"lvl": 4,
 		"name": "Freedom of Movement",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1453,7 +1634,8 @@
 		"lvl": 0,
 		"name": "Friends",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1461,7 +1643,8 @@
 		"lvl": 0,
 		"name": "Frostbite",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -1469,7 +1652,8 @@
 		"lvl": 3,
 		"name": "Gaseous Form",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1477,7 +1661,8 @@
 		"lvl": 9,
 		"name": "Gate",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1485,7 +1670,8 @@
 		"lvl": 5,
 		"name": "Geas",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1493,7 +1679,8 @@
 		"lvl": 2,
 		"name": "Gentle Repose",
 		"ritual": true,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1501,7 +1688,8 @@
 		"lvl": 4,
 		"name": "Giant Insect",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1509,7 +1697,8 @@
 		"lvl": 8,
 		"name": "Glibness",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1517,7 +1706,8 @@
 		"lvl": 6,
 		"name": "Globe of Invulnerability",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1525,7 +1715,8 @@
 		"lvl": 3,
 		"name": "Glyph of Warding",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1533,7 +1724,8 @@
 		"lvl": 1,
 		"name": "Goodberry",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1541,7 +1733,8 @@
 		"lvl": 4,
 		"name": "Grasping Vine",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1549,7 +1742,8 @@
 		"lvl": 1,
 		"name": "Grease",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1557,7 +1751,8 @@
 		"lvl": 4,
 		"name": "Greater Invisibility",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1565,7 +1760,8 @@
 		"lvl": 5,
 		"name": "Greater Restoration",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1573,7 +1769,8 @@
 		"lvl": 0,
 		"name": "Green-Flame Blade",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Sword Coast adv. guide"
 	},
 	{
 		"concentration": false,
@@ -1581,7 +1778,8 @@
 		"lvl": 4,
 		"name": "Guardian of Faith",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1589,7 +1787,8 @@
 		"lvl": 4,
 		"name": "Guardian of Nature",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -1597,7 +1796,8 @@
 		"lvl": 6,
 		"name": "Guards and Wards",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1605,7 +1805,8 @@
 		"lvl": 0,
 		"name": "Guidance",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1613,7 +1814,8 @@
 		"lvl": 1,
 		"name": "Guiding Bolt",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1621,7 +1823,8 @@
 		"lvl": 0,
 		"name": "Gust",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -1629,7 +1832,8 @@
 		"lvl": 2,
 		"name": "Gust of Wind",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1637,7 +1841,8 @@
 		"lvl": 1,
 		"name": "Hail of Thorns",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1645,7 +1850,8 @@
 		"lvl": 5,
 		"name": "Hallow",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1653,7 +1859,8 @@
 		"lvl": 4,
 		"name": "Hallucinatory Terrain",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1661,7 +1868,8 @@
 		"lvl": 6,
 		"name": "Harm",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1669,7 +1877,8 @@
 		"lvl": 3,
 		"name": "Haste",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1677,7 +1886,8 @@
 		"lvl": 6,
 		"name": "Heal",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1685,7 +1895,8 @@
 		"lvl": 2,
 		"name": "Healing Spirit",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -1693,7 +1904,8 @@
 		"lvl": 1,
 		"name": "Healing Word",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1701,7 +1913,8 @@
 		"lvl": 2,
 		"name": "Heat Metal",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1709,7 +1922,8 @@
 		"lvl": 1,
 		"name": "Hellish Rebuke",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1717,7 +1931,8 @@
 		"lvl": 6,
 		"name": "Heroes' Feast",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1725,7 +1940,8 @@
 		"lvl": 1,
 		"name": "Heroism",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1733,7 +1949,8 @@
 		"lvl": 1,
 		"name": "Hex",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1741,7 +1958,8 @@
 		"lvl": 5,
 		"name": "Hold Monster",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1749,7 +1967,8 @@
 		"lvl": 2,
 		"name": "Hold Person",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1757,7 +1976,8 @@
 		"lvl": 8,
 		"name": "Holy Aura",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1765,7 +1985,8 @@
 		"lvl": 5,
 		"name": "Holy Weapon",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -1773,7 +1994,8 @@
 		"lvl": 3,
 		"name": "Hunger of Hadar",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1781,7 +2003,8 @@
 		"lvl": 1,
 		"name": "Hunter's Mark",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1789,7 +2012,8 @@
 		"lvl": 3,
 		"name": "Hypnotic Pattern",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1797,7 +2021,8 @@
 		"lvl": 1,
 		"name": "Ice Knife",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -1805,7 +2030,8 @@
 		"lvl": 4,
 		"name": "Ice Storm",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1813,7 +2039,8 @@
 		"lvl": 1,
 		"name": "Identify",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1821,7 +2048,8 @@
 		"lvl": 8,
 		"name": "Illusory Dragon",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -1829,7 +2057,8 @@
 		"lvl": 1,
 		"name": "Illusory Script",
 		"ritual": true,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1837,7 +2066,8 @@
 		"lvl": 5,
 		"name": "Immolation",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -1845,7 +2075,8 @@
 		"lvl": 9,
 		"name": "Imprisonment",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1853,7 +2084,8 @@
 		"lvl": 8,
 		"name": "Incendiary Cloud",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1861,7 +2093,8 @@
 		"lvl": 5,
 		"name": "Infernal Calling",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -1869,7 +2102,8 @@
 		"lvl": 0,
 		"name": "Infestation",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -1877,7 +2111,8 @@
 		"lvl": 1,
 		"name": "Inflict Wounds",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1885,7 +2120,8 @@
 		"lvl": 5,
 		"name": "Insect Plague",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1893,7 +2129,8 @@
 		"lvl": 6,
 		"name": "Investiture of Flame",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -1901,7 +2138,8 @@
 		"lvl": 6,
 		"name": "Investiture of Ice",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -1909,7 +2147,8 @@
 		"lvl": 6,
 		"name": "Investiture of Stone",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -1917,7 +2156,8 @@
 		"lvl": 6,
 		"name": "Investiture of Wind",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -1925,7 +2165,8 @@
 		"lvl": 2,
 		"name": "Invisibility",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1933,7 +2174,8 @@
 		"lvl": 9,
 		"name": "Invulnerability",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -1941,7 +2183,8 @@
 		"lvl": 1,
 		"name": "Jump",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1949,7 +2192,8 @@
 		"lvl": 2,
 		"name": "Knock",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1957,7 +2201,8 @@
 		"lvl": 5,
 		"name": "Legend Lore",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1965,7 +2210,8 @@
 		"lvl": 4,
 		"name": "Leomund's Secret Chest",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1973,7 +2219,8 @@
 		"lvl": 3,
 		"name": "Leomund's Tiny Hut",
 		"ritual": true,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1981,7 +2228,8 @@
 		"lvl": 2,
 		"name": "Lesser Restoration",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -1989,7 +2237,8 @@
 		"lvl": 2,
 		"name": "Levitate",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -1997,7 +2246,8 @@
 		"lvl": 3,
 		"name": "Life Transference",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2005,7 +2255,8 @@
 		"lvl": 0,
 		"name": "Light",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2013,7 +2264,8 @@
 		"lvl": 3,
 		"name": "Lightning Arrow",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2021,7 +2273,8 @@
 		"lvl": 3,
 		"name": "Lightning Bolt",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2029,7 +2282,8 @@
 		"lvl": 0,
 		"name": "Lightning Lure",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Sword Coast adv. guide"
 	},
 	{
 		"concentration": false,
@@ -2037,7 +2291,8 @@
 		"lvl": 2,
 		"name": "Locate Animals or Plants",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2045,7 +2300,8 @@
 		"lvl": 4,
 		"name": "Locate Creature",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2053,7 +2309,8 @@
 		"lvl": 2,
 		"name": "Locate Object",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2061,7 +2318,8 @@
 		"lvl": 1,
 		"name": "Longstrider",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2069,7 +2327,8 @@
 		"lvl": 8,
 		"name": "Maddening Darkness",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -2077,7 +2336,8 @@
 		"lvl": 5,
 		"name": "Maelstrom",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -2085,7 +2345,8 @@
 		"lvl": 1,
 		"name": "Mage Armor",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2093,7 +2354,8 @@
 		"lvl": 0,
 		"name": "Mage Hand",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2101,7 +2363,8 @@
 		"lvl": 3,
 		"name": "Magic Circle",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2109,7 +2372,8 @@
 		"lvl": 6,
 		"name": "Magic Jar",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2117,7 +2381,8 @@
 		"lvl": 1,
 		"name": "Magic Missile",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2125,7 +2390,8 @@
 		"lvl": 2,
 		"name": "Magic Mouth",
 		"ritual": true,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2133,7 +2399,8 @@
 		"lvl": 0,
 		"name": "Magic Stone",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -2141,7 +2408,8 @@
 		"lvl": 2,
 		"name": "Magic Weapon",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2149,7 +2417,8 @@
 		"lvl": 3,
 		"name": "Major Image",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2157,7 +2426,8 @@
 		"lvl": 5,
 		"name": "Mass Cure Wounds",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2165,7 +2435,8 @@
 		"lvl": 9,
 		"name": "Mass Heal",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2173,7 +2444,8 @@
 		"lvl": 3,
 		"name": "Mass Healing Word",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2181,7 +2453,8 @@
 		"lvl": 9,
 		"name": "Mass Polymorph",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2189,7 +2462,8 @@
 		"lvl": 6,
 		"name": "Mass Suggestion",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2197,7 +2471,8 @@
 		"lvl": 2,
 		"name": "Maximilian's Earthen Grasp",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -2205,7 +2480,8 @@
 		"lvl": 8,
 		"name": "Maze",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2213,7 +2489,8 @@
 		"lvl": 3,
 		"name": "Meld into Stone",
 		"ritual": true,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2221,7 +2498,8 @@
 		"lvl": 2,
 		"name": "Melf's Acid Arrow",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2229,7 +2507,8 @@
 		"lvl": 3,
 		"name": "Melf's Minute Meteors",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -2237,7 +2516,8 @@
 		"lvl": 0,
 		"name": "Mending",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2245,7 +2525,8 @@
 		"lvl": 6,
 		"name": "Mental Prison",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2253,7 +2534,8 @@
 		"lvl": 0,
 		"name": "Message",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2261,7 +2543,8 @@
 		"lvl": 9,
 		"name": "Meteor Swarm",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2269,7 +2552,8 @@
 		"lvl": 8,
 		"name": "Mighty Fortress",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2277,7 +2561,8 @@
 		"lvl": 8,
 		"name": "Mind Blank",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2285,7 +2570,8 @@
 		"lvl": 2,
 		"name": "Mind Spike",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2293,7 +2579,8 @@
 		"lvl": 0,
 		"name": "Minor Illusion",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2301,7 +2588,8 @@
 		"lvl": 7,
 		"name": "Mirage Arcane",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2309,7 +2597,8 @@
 		"lvl": 2,
 		"name": "Mirror Image",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2317,7 +2606,8 @@
 		"lvl": 5,
 		"name": "Mislead",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2325,7 +2615,8 @@
 		"lvl": 2,
 		"name": "Misty Step",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2333,7 +2624,8 @@
 		"lvl": 5,
 		"name": "Modify Memory",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2341,7 +2633,8 @@
 		"lvl": 0,
 		"name": "Mold earth",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -2349,7 +2642,8 @@
 		"lvl": 2,
 		"name": "Moonbeam",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2357,7 +2651,8 @@
 		"lvl": 4,
 		"name": "Mordenkainen's Faithful Hound",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2365,7 +2660,8 @@
 		"lvl": 7,
 		"name": "Mordenkainen's Magnificent Mansion",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2373,7 +2669,8 @@
 		"lvl": 4,
 		"name": "Mordenkainen's Private Sanctum",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2381,7 +2678,8 @@
 		"lvl": 7,
 		"name": "Mordenkainen's Sword",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2389,7 +2687,8 @@
 		"lvl": 6,
 		"name": "Move Earth",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2397,7 +2696,8 @@
 		"lvl": 5,
 		"name": "Negative Energy Flood",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2405,7 +2705,8 @@
 		"lvl": 3,
 		"name": "Nondetection",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2413,7 +2714,8 @@
 		"lvl": 2,
 		"name": "Nystul's Magic Aura",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2421,7 +2723,8 @@
 		"lvl": 6,
 		"name": "Otiluke's Freezing Sphere",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2429,7 +2732,8 @@
 		"lvl": 4,
 		"name": "Otiluke's Resilient Sphere",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2437,7 +2741,8 @@
 		"lvl": 6,
 		"name": "Otto's Irresistible Dance",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2445,7 +2750,8 @@
 		"lvl": 2,
 		"name": "Pass Without Trace",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2453,7 +2759,8 @@
 		"lvl": 5,
 		"name": "Passwall",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2461,7 +2768,8 @@
 		"lvl": 2,
 		"name": "Phantasmal Force",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2469,7 +2777,8 @@
 		"lvl": 4,
 		"name": "Phantasmal Killer",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2477,7 +2786,8 @@
 		"lvl": 3,
 		"name": "Phantom Steed",
 		"ritual": true,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2485,7 +2795,8 @@
 		"lvl": 6,
 		"name": "Planar Ally",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2493,7 +2804,8 @@
 		"lvl": 5,
 		"name": "Planar Binding",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2501,7 +2813,8 @@
 		"lvl": 7,
 		"name": "Plane Shift",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2509,7 +2822,8 @@
 		"lvl": 3,
 		"name": "Plant Growth",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2517,7 +2831,8 @@
 		"lvl": 0,
 		"name": "Poison Spray",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2525,7 +2840,8 @@
 		"lvl": 4,
 		"name": "Polymorph",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2533,7 +2849,8 @@
 		"lvl": 9,
 		"name": "Power Word Heal",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2541,7 +2858,8 @@
 		"lvl": 9,
 		"name": "Power Word Kill",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2549,7 +2867,8 @@
 		"lvl": 7,
 		"name": "Power Word Pain",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2557,7 +2876,8 @@
 		"lvl": 8,
 		"name": "Power Word Stun",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2565,7 +2885,8 @@
 		"lvl": 2,
 		"name": "Prayer of Healing",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2573,7 +2894,8 @@
 		"lvl": 0,
 		"name": "Prestidigitation",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2581,7 +2903,8 @@
 		"lvl": 0,
 		"name": "Primal Savagery",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -2589,7 +2912,8 @@
 		"lvl": 6,
 		"name": "Primordial Ward",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -2597,7 +2921,8 @@
 		"lvl": 6,
 		"name": "Primordial Ward",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2605,7 +2930,8 @@
 		"lvl": 7,
 		"name": "Prismatic Spray",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2613,7 +2939,8 @@
 		"lvl": 9,
 		"name": "Prismatic Wall",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2621,7 +2948,8 @@
 		"lvl": 0,
 		"name": "Produce Flame",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2629,7 +2957,8 @@
 		"lvl": 6,
 		"name": "Programmed Illusion",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2637,7 +2966,8 @@
 		"lvl": 7,
 		"name": "Project Image",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2645,7 +2975,8 @@
 		"lvl": 3,
 		"name": "Protection from Energy",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2653,7 +2984,8 @@
 		"lvl": 1,
 		"name": "Protection from Evil and Good",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2661,7 +2993,8 @@
 		"lvl": 2,
 		"name": "Protection from Poison",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2669,7 +3002,8 @@
 		"lvl": 9,
 		"name": "Psychic Scream",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2677,7 +3011,8 @@
 		"lvl": 1,
 		"name": "Purify Food and Drink",
 		"ritual": true,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2685,7 +3020,8 @@
 		"lvl": 2,
 		"name": "Pyrotechnics",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -2693,7 +3029,8 @@
 		"lvl": 5,
 		"name": "Raise Dead",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2701,7 +3038,8 @@
 		"lvl": 5,
 		"name": "Rary's Telepathic Bond",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2709,7 +3047,8 @@
 		"lvl": 2,
 		"name": "Ray of Enfeeblement",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2717,7 +3056,8 @@
 		"lvl": 0,
 		"name": "Ray of Frost",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2725,7 +3065,8 @@
 		"lvl": 1,
 		"name": "Ray of Sickness",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2733,7 +3074,8 @@
 		"lvl": 7,
 		"name": "Regenerate",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2741,7 +3083,8 @@
 		"lvl": 5,
 		"name": "Reincarnate",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2749,7 +3092,8 @@
 		"lvl": 3,
 		"name": "Remove Curse",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2757,7 +3101,8 @@
 		"lvl": 0,
 		"name": "Resistance",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2765,7 +3110,8 @@
 		"lvl": 7,
 		"name": "Resurrection",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2773,7 +3119,8 @@
 		"lvl": 7,
 		"name": "Reverse Gravity",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2781,7 +3128,8 @@
 		"lvl": 3,
 		"name": "Revivify",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2789,7 +3137,8 @@
 		"lvl": 2,
 		"name": "Rope Trick",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2797,7 +3146,8 @@
 		"lvl": 0,
 		"name": "Sacred Flame",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2805,7 +3155,8 @@
 		"lvl": 1,
 		"name": "Sanctuary",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2813,7 +3164,8 @@
 		"lvl": 6,
 		"name": "Scatter",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2821,7 +3173,8 @@
 		"lvl": 2,
 		"name": "Scorching Ray",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2829,7 +3182,8 @@
 		"lvl": 5,
 		"name": "Scrying",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2837,7 +3191,8 @@
 		"lvl": 1,
 		"name": "Searing Smite",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2845,7 +3200,8 @@
 		"lvl": 2,
 		"name": "See invisibility",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2853,7 +3209,8 @@
 		"lvl": 5,
 		"name": "Seeming",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2861,7 +3218,8 @@
 		"lvl": 3,
 		"name": "Sending",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2869,7 +3227,8 @@
 		"lvl": 7,
 		"name": "Sequester",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2877,7 +3236,8 @@
 		"lvl": 2,
 		"name": "Shadow Blade",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -2885,7 +3245,8 @@
 		"lvl": 4,
 		"name": "Shadow of Moil",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -2893,7 +3254,8 @@
 		"lvl": 0,
 		"name": "Shape Water",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -2901,7 +3263,8 @@
 		"lvl": 9,
 		"name": "Shapechange",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2909,7 +3272,8 @@
 		"lvl": 2,
 		"name": "Shatter",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2917,7 +3281,8 @@
 		"lvl": 1,
 		"name": "Shield",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2925,7 +3290,8 @@
 		"lvl": 1,
 		"name": "Shield of Faith",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2933,7 +3299,8 @@
 		"lvl": 0,
 		"name": "Shillelagh",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2941,7 +3308,8 @@
 		"lvl": 0,
 		"name": "Shocking Grasp",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2949,7 +3317,8 @@
 		"lvl": 4,
 		"name": "Sickening Radiance",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -2957,7 +3326,8 @@
 		"lvl": 2,
 		"name": "Silence",
 		"ritual": true,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2965,7 +3335,8 @@
 		"lvl": 1,
 		"name": "Silent Image",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -2973,7 +3344,8 @@
 		"lvl": 7,
 		"name": "Simulacrum",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -2981,7 +3353,8 @@
 		"lvl": 5,
 		"name": "Skill Empowerment",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -2989,7 +3362,8 @@
 		"lvl": 2,
 		"name": "Skywrite",
 		"ritual": true,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -2997,7 +3371,8 @@
 		"lvl": 1,
 		"name": "Sleep",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3005,7 +3380,8 @@
 		"lvl": 3,
 		"name": "Sleet Storm",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3013,7 +3389,8 @@
 		"lvl": 3,
 		"name": "Slow",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3021,7 +3398,8 @@
 		"lvl": 1,
 		"name": "Snare",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -3029,7 +3407,8 @@
 		"lvl": 2,
 		"name": "Snilloc's Snowball Swarm",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -3037,7 +3416,8 @@
 		"lvl": 6,
 		"name": "Soul Cage",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -3045,7 +3425,8 @@
 		"lvl": 0,
 		"name": "Spare the Dying",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3053,7 +3434,8 @@
 		"lvl": 1,
 		"name": "Speak with Animals",
 		"ritual": true,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3061,7 +3443,8 @@
 		"lvl": 3,
 		"name": "Speak with Dead",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3069,7 +3452,8 @@
 		"lvl": 3,
 		"name": "Speak with Plants",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3077,7 +3461,8 @@
 		"lvl": 2,
 		"name": "Spider Climb",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3085,7 +3470,8 @@
 		"lvl": 2,
 		"name": "Spike Growth",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3093,7 +3479,8 @@
 		"lvl": 3,
 		"name": "Spirit Guardians",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3101,7 +3488,8 @@
 		"lvl": 2,
 		"name": "Spiritual Weapon",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3109,7 +3497,8 @@
 		"lvl": 4,
 		"name": "Staggering Smite",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3117,7 +3506,8 @@
 		"lvl": 5,
 		"name": "Steel Wind Strike",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -3125,7 +3515,8 @@
 		"lvl": 3,
 		"name": "Stinking Cloud",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3133,7 +3524,8 @@
 		"lvl": 4,
 		"name": "Stone Shape",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3141,7 +3533,8 @@
 		"lvl": 4,
 		"name": "Stoneskin",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3149,7 +3542,8 @@
 		"lvl": 9,
 		"name": "Storm of Vengeance",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3157,7 +3551,8 @@
 		"lvl": 4,
 		"name": "Storm Sphere",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -3165,7 +3560,8 @@
 		"lvl": 2,
 		"name": "Suggestion",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3173,7 +3569,8 @@
 		"lvl": 4,
 		"name": "Summon Greater Demon",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -3181,7 +3578,8 @@
 		"lvl": 3,
 		"name": "Summon Lesser Demons",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -3189,7 +3587,8 @@
 		"lvl": 6,
 		"name": "Sunbeam",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3197,7 +3596,8 @@
 		"lvl": 8,
 		"name": "Sunburst",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3205,7 +3605,8 @@
 		"lvl": 5,
 		"name": "Swift Quiver",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3213,7 +3614,8 @@
 		"lvl": 0,
 		"name": "Sword Burst",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Sword Coast adv. guide"
 	},
 	{
 		"concentration": false,
@@ -3221,7 +3623,8 @@
 		"lvl": 7,
 		"name": "Symbol",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3229,7 +3632,8 @@
 		"lvl": 5,
 		"name": "Synaptic Static",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -3237,7 +3641,8 @@
 		"lvl": 1,
 		"name": "Tasha's Hideous Laughter",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3245,7 +3650,8 @@
 		"lvl": 5,
 		"name": "Telekinesis",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3253,7 +3659,8 @@
 		"lvl": 8,
 		"name": "Telepathy",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3261,7 +3668,8 @@
 		"lvl": 7,
 		"name": "Teleport",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3269,7 +3677,8 @@
 		"lvl": 5,
 		"name": "Teleportation Circle",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3277,7 +3686,8 @@
 		"lvl": 7,
 		"name": "Temple of the Gods",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -3285,7 +3695,8 @@
 		"lvl": 1,
 		"name": "Tenser's Floating Disk",
 		"ritual": true,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3293,7 +3704,8 @@
 		"lvl": 6,
 		"name": "Tenser's Transformation",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -3301,7 +3713,8 @@
 		"lvl": 0,
 		"name": "Thaumaturgy",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3309,7 +3722,8 @@
 		"lvl": 0,
 		"name": "Thorn Whip",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3317,7 +3731,8 @@
 		"lvl": 3,
 		"name": "Thunder Step",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -3325,7 +3740,8 @@
 		"lvl": 0,
 		"name": "Thunderclap",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -3333,7 +3749,8 @@
 		"lvl": 1,
 		"name": "Thunderous Smite",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3341,7 +3758,8 @@
 		"lvl": 1,
 		"name": "Thunderwave",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3349,7 +3767,8 @@
 		"lvl": 3,
 		"name": "Tidal Wave",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -3357,7 +3776,8 @@
 		"lvl": 9,
 		"name": "Time Stop",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3365,7 +3785,8 @@
 		"lvl": 3,
 		"name": "Tiny Servant",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -3373,7 +3794,8 @@
 		"lvl": 0,
 		"name": "Toll the Dead",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -3381,7 +3803,8 @@
 		"lvl": 3,
 		"name": "Tongues",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3389,7 +3812,8 @@
 		"lvl": 5,
 		"name": "Transmute Rock",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -3397,7 +3821,8 @@
 		"lvl": 6,
 		"name": "Transport via Plants",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3405,7 +3830,8 @@
 		"lvl": 8,
 		"name": "Trap the Soul",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3413,7 +3839,8 @@
 		"lvl": 5,
 		"name": "Tree Stride",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3421,7 +3848,8 @@
 		"lvl": 9,
 		"name": "True Polymorph",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3429,7 +3857,8 @@
 		"lvl": 9,
 		"name": "True Resurrection",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3437,7 +3866,8 @@
 		"lvl": 6,
 		"name": "True Seeing",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3445,7 +3875,8 @@
 		"lvl": 0,
 		"name": "True Strike",
 		"ritual": false,
-		"school": "Divination"
+		"school": "Divination",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3453,7 +3884,8 @@
 		"lvl": 8,
 		"name": "Tsunami",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3461,7 +3893,8 @@
 		"lvl": 1,
 		"name": "Unseen Servant",
 		"ritual": true,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3469,7 +3902,8 @@
 		"lvl": 3,
 		"name": "Vampiric Touch",
 		"ritual": false,
-		"school": "Necromancy"
+		"school": "Necromancy",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3477,7 +3911,8 @@
 		"lvl": 0,
 		"name": "Vicious Mockery",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3485,7 +3920,8 @@
 		"lvl": 4,
 		"name": "Vitriolic Sphere",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -3493,7 +3929,8 @@
 		"lvl": 4,
 		"name": "Wall of Fire",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3501,7 +3938,8 @@
 		"lvl": 5,
 		"name": "Wall of Force",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3509,7 +3947,8 @@
 		"lvl": 6,
 		"name": "Wall of Ice",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3517,7 +3956,8 @@
 		"lvl": 5,
 		"name": "Wall of Light",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -3525,7 +3965,8 @@
 		"lvl": 3,
 		"name": "Wall of Sand",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -3533,7 +3974,8 @@
 		"lvl": 5,
 		"name": "Wall of Stone",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3541,7 +3983,8 @@
 		"lvl": 6,
 		"name": "Wall of Thorns",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3549,7 +3992,8 @@
 		"lvl": 3,
 		"name": "Wall of Water",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -3557,7 +4001,8 @@
 		"lvl": 2,
 		"name": "Warding Bond",
 		"ritual": false,
-		"school": "Abjuration"
+		"school": "Abjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3565,7 +4010,8 @@
 		"lvl": 2,
 		"name": "Warding Wind",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -3573,7 +4019,8 @@
 		"lvl": 3,
 		"name": "Water Breathing",
 		"ritual": true,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3581,7 +4028,8 @@
 		"lvl": 3,
 		"name": "Water Walk",
 		"ritual": true,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3589,7 +4037,8 @@
 		"lvl": 4,
 		"name": "Watery Sphere",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": true,
@@ -3597,7 +4046,8 @@
 		"lvl": 2,
 		"name": "Web",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3605,7 +4055,8 @@
 		"lvl": 9,
 		"name": "Weird",
 		"ritual": false,
-		"school": "Illusion"
+		"school": "Illusion",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3613,7 +4064,8 @@
 		"lvl": 7,
 		"name": "Whirlwind",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Elemental Evil"
 	},
 	{
 		"concentration": false,
@@ -3621,7 +4073,8 @@
 		"lvl": 6,
 		"name": "Wind Walk",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3629,7 +4082,8 @@
 		"lvl": 3,
 		"name": "Wind Wall",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3637,7 +4091,8 @@
 		"lvl": 9,
 		"name": "Wish",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3645,7 +4100,8 @@
 		"lvl": 1,
 		"name": "Witch Bolt",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": false,
@@ -3653,7 +4109,8 @@
 		"lvl": 0,
 		"name": "Word of Radiance",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -3661,7 +4118,8 @@
 		"lvl": 6,
 		"name": "Word of Recall",
 		"ritual": false,
-		"school": "Conjuration"
+		"school": "Conjuration",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3669,7 +4127,8 @@
 		"lvl": 5,
 		"name": "Wrath of Nature",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": true,
@@ -3677,7 +4136,8 @@
 		"lvl": 1,
 		"name": "Wrathful Smite",
 		"ritual": false,
-		"school": "Evocation"
+		"school": "Evocation",
+		"source": "Players Handbook"
 	},
 	{
 		"concentration": true,
@@ -3685,7 +4145,8 @@
 		"lvl": 1,
 		"name": "Zephyr Strike",
 		"ritual": false,
-		"school": "Transmutation"
+		"school": "Transmutation",
+		"source": "Xanathars Guide To Everything"
 	},
 	{
 		"concentration": false,
@@ -3693,6 +4154,7 @@
 		"lvl": 2,
 		"name": "Zone of Truth",
 		"ritual": false,
-		"school": "Enchantment"
+		"school": "Enchantment",
+		"source": "Players Handbook"
 	}
 ]
