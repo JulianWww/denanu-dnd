@@ -5,6 +5,7 @@ import NumberInput from "../../visualEditor/Nodes/Utility/NumberInput";
 import DurationTypes, {durationTexts} from "../data/Time";
 
 interface Props {
+  imunities: string[];
   open: boolean;
   hanldeClose: VoidFunction;
   add: (cond: string, lvl: number, duration: number, durationType: DurationTypes, additionalData?: string)=>void;
@@ -79,7 +80,7 @@ export default class AddConditionDialog extends React.Component<Props, State> {
   }
 
   render() {
-    const { open, hanldeClose, add } = this.props;
+    const { open, hanldeClose, add, imunities } = this.props;
     const { level, durationType, additionalData, duration, condition } = this.state;
 
     if (!open) {
@@ -93,7 +94,11 @@ export default class AddConditionDialog extends React.Component<Props, State> {
           Do you want to add a Condition to this Entity?
         </DialogContentText>
         <TextField select label="Condition" variant="standard" fullWidth onChange={(e: React.ChangeEvent<HTMLInputElement>) => this.setState({condition: Number(e.target.value)})}>
-          {conditions.map((option: string, idx: number) => (
+          {conditions.map((options: string, idx: number)=> 
+            [options, idx] as [string, number]
+          ).filter((option: [string, number]) => { 
+            return imunities.indexOf(option[0]) === -1;
+          }).map(([option, idx]: [string, number]) => (
             <MenuItem key={idx} value={idx}>
               {option}
             </MenuItem>

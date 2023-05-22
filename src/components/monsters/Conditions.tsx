@@ -54,6 +54,7 @@ function defaultConditionsStackInterface(): Record<string, ConditionData[]> {
 }
 interface Props {
   conditions: [string, number, string[]][];
+  imunities: string[];
   setConditions: (cond: [string, number, string[]][]) => void;
   conditionsRef?: CustomRef<{record: Record<string, ConditionData[]>, idx: number}>;
 }
@@ -102,7 +103,7 @@ export default class ConditionsDisplay extends React.Component<Props, State> {
 
   render(): React.ReactNode {
     const {addCondDialogOpen, conditionsStacks} = this.state
-    const { conditions } = this.props;
+    const { conditions, imunities } = this.props;
 
     const {conditionsRef} = this.props;
     if (conditionsRef && conditionsRef.val && conditionsRef.val.idx !== this.lastConditions) {
@@ -136,7 +137,7 @@ export default class ConditionsDisplay extends React.Component<Props, State> {
         }
         <div className="dnd-condIcon">
           <Button onClick={() => this.setState({addCondDialogOpen: true})} color="info" variant="text"><Icon name="add"/></Button>
-          <AddConditionDialog open={addCondDialogOpen} hanldeClose={hanldeAddCondDialogClose} add={addCondition}/>
+          <AddConditionDialog imunities={imunities} open={addCondDialogOpen} hanldeClose={hanldeAddCondDialogClose} add={addCondition}/>
         </div>
       </div>
     </div>

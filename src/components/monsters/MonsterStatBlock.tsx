@@ -21,6 +21,7 @@ import { Rolls } from '../visualEditor/Engine/Utils';
 import { Box, Button, ButtonGroup, Collapse, Dialog } from "@mui/material";
 import { SlideUp } from '../Transitions';
 import Markdown from './Markdown';
+import RightAlign from '../RightAlign';
 
 const seperator = <svg height="5" width="100%" className="tapered-rule" viewBox="0 0 2 2" preserveAspectRatio="none">
   <polyline points="0,0 2,1 0,2"/>
@@ -242,10 +243,17 @@ export default class StatsSheet extends React.Component<Props, State> {
     const md = () => this.setState({mdOpen: !mdOpen});
 
     return <>
+      <RightAlign>
+        <ButtonGroup>
+          <Button>End Turn</Button>
+          <Button>Short rest</Button>
+          <Button>Long rest</Button>
+        </ButtonGroup>
+      </RightAlign>
       <div id="stat-block-wrapper" ref={block}>
         <div id="stat-block" className="stat-block wide">
         <hr className="orange-border"/>
-          <ConditionsDisplay conditions={conditions} conditionsRef={this.props.conditionsRef} setConditions={this.setConditions}/>
+          <ConditionsDisplay imunities={character.condition_immunities} conditions={conditions} conditionsRef={this.props.conditionsRef} setConditions={this.setConditions}/>
           <div className="section-left">
             <div className="creature-heading">
               <table className='fixed'>

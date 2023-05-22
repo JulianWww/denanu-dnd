@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, useNavigate, PathRouteProps, useLocation, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, useNavigate, PathRouteProps, useLocation, BrowserRouter, Navigate } from 'react-router-dom';
 import { NotFound } from './components/notFound';
 import logo from './logo.svg';
 import { useContext } from "react";
@@ -99,7 +99,8 @@ function App() {
               exitAnimation=""
             >
             <main style={{marginTop: "80px"}}>
-              <Routes location={location}>
+              <Routes location={location}>$
+                <Route path="/" element={<Navigate to="/monsters"/>}/>
                 <Route path="/login" element={<Login {...token} nav={navigate}/>}/>
                 <Route path="/signup" element={<SignUp {...token} nav={navigate}/>}/>
                 <Route path="/monsters" element={<StatBlockSelector {...token}/>}/>
