@@ -1,0 +1,49 @@
+{
+	"Armor_Class": "13 (Natural Armor)",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 10 ft., one target. <em>Hit:</em> 14 (3d6 + 4) bludgeoning damage.",
+			"name": "Slam"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 7,
+	"con": 15,
+	"condition_immunities": [],
+	"cr": "2",
+	"damage_immunities": [],
+	"damage_resistances": [
+		"Bludgeoning",
+		"Piercing"
+	],
+	"damage_vulnerabilities": [
+		"Fire"
+	],
+	"dex": 6,
+	"hp": 59,
+	"hp_gen": "7d12 + 14",
+	"int": 10,
+	"lair_actions": [],
+	"languages": "One language known by its creator",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Awakened Tree",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Passive Perception 10",
+	"size": "Huge",
+	"skills": [],
+	"speed": "20 ft.",
+	"str": 19,
+	"traits": [
+		{
+			"description": "While the tree remains motionless, it is indistinguishable from a normal tree.",
+			"name": "False Appearance"
+		}
+	],
+	"type": "plant",
+	"wis": 10,
+	"xp": 450
+}

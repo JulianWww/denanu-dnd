@@ -46,6 +46,13 @@ export default interface Character {
 	customHp?: number,
 }
 
+export function cleanCharacter(char: Character) {
+	char.damage_resistances_temp = undefined;
+	char.damage_immunities_tmp = undefined;
+	char.customHp = undefined;
+	return char;
+}
+
 export const default_Character: Character = {
 	Armor_Class: "",
 	ac: 10,

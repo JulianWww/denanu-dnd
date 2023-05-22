@@ -1,0 +1,65 @@
+{
+	"Armor_Class": "12 ",
+	"ac": 12,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 0 ft., one creature in the swarm's space. <em>Hit:</em> 5 (2d4) piercing damage, or 2 (1d4) piercing damage if the swarm has half of its hit points or fewer.",
+			"name": "Bite."
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 4,
+	"con": 10,
+	"condition_immunities": [
+		"Charmed",
+		"Frightened",
+		"Grappled",
+		"Paralyzed",
+		"Petrified",
+		"Prone",
+		"Restrained",
+		"Stunned"
+	],
+	"cr": "1/4",
+	"damage_immunities": [],
+	"damage_resistances": [
+		"Bludgeoning",
+		"Piercing",
+		"Slashing"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 15,
+	"hp": 22,
+	"hp_gen": "5d8",
+	"int": 2,
+	"lair_actions": [],
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Swarm of Bats",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Blindsight 60 ft.,  Passive Perception 11",
+	"size": "Medium",
+	"skills": [],
+	"speed": "0 ft., fly 30 ft.",
+	"str": 5,
+	"traits": [
+		{
+			"description": "The swarm can\u2019t use its blindsight while deafened.",
+			"name": "Echolocation"
+		},
+		{
+			"description": "The swarm has advantage on Wisdom (Perception) checks that rely on hearing.",
+			"name": "Keen Hearing"
+		},
+		{
+			"description": "The swarm can occupy another creature\u2019s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can\u2019t regain hit points or gain temporary hit points.",
+			"name": "Swarm"
+		}
+	],
+	"type": "beast",
+	"wis": 12,
+	"xp": 50
+}

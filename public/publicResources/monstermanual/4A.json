@@ -1,0 +1,60 @@
+{
+	"Armor_Class": "17 (Natural Armor)",
+	"ac": 17,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d10 + 2) piercing damage plus 3 (1d6) poison damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "The dragon exhales poisonous gas in a 15-foot cone. Each creature in that area must make a DC 11 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.",
+			"name": "Poison Breath (Recharge 5\u20136)"
+		}
+	],
+	"alignment": "lawful evil",
+	"cha": 13,
+	"con": 13,
+	"condition_immunities": [
+		"Poisoned"
+	],
+	"cr": "2",
+	"damage_immunities": [
+		"Poison"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 12,
+	"hp": 38,
+	"hp_gen": "7d8 + 7",
+	"int": 14,
+	"lair_actions": [],
+	"languages": "Draconic",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Green Dragon Wyrmling",
+	"regional_actions": [],
+	"saving_throws": {
+		"cha": 3,
+		"con": 3,
+		"dex": 3,
+		"wis": 2
+	},
+	"senses": "Blindsight 10 ft., Darkvision 60 ft.,  Passive Perception 14",
+	"size": "Medium",
+	"skills": {
+		"perception": 4,
+		"stealth": 2
+	},
+	"speed": "30 ft., fly 60 ft., swim 30 ft.",
+	"str": 15,
+	"traits": [
+		{
+			"description": "The dragon can breathe air and water.",
+			"name": "Amphibious"
+		}
+	],
+	"type": "dragon",
+	"wis": 11,
+	"xp": 450
+}

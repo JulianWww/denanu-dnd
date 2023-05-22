@@ -1,0 +1,39 @@
+{
+	"Armor_Class": "13 ",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (1d4) piercing damage.",
+			"name": "Bite"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 5,
+	"con": 11,
+	"condition_immunities": [],
+	"cr": "0",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 16,
+	"hp": 4,
+	"hp_gen": "1d8",
+	"int": 2,
+	"lair_actions": [],
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Deer",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Passive Perception 12",
+	"size": "Medium",
+	"skills": [],
+	"speed": "50 ft.",
+	"str": 11,
+	"traits": [],
+	"type": "beast",
+	"wis": 14,
+	"xp": 10
+}

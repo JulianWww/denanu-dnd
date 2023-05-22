@@ -1,0 +1,56 @@
+{
+	"Armor_Class": "13 (Natural Armor)",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "The merrow makes two attacks: one with its bite and one with its claws or harpoon.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) piercing damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (2d4 + 4) slashing damage.",
+			"name": "Claws"
+		},
+		{
+			"description": "<em>Melee or <em>Ranged Weapon Attack:</em></em> +6 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 11 (2d6 + 4) piercing damage. If the target is a Huge or smaller creature, it must succeed on a Strength contest against the merrow or be pulled up to 20 feet toward the merrow.",
+			"name": "Harpoon"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 9,
+	"con": 15,
+	"condition_immunities": [],
+	"cr": "2",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 10,
+	"hp": 45,
+	"hp_gen": "6d10 + 12",
+	"int": 8,
+	"lair_actions": [],
+	"languages": "Abyssal, Aquan",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Merrow",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 10",
+	"size": "Large",
+	"skills": [],
+	"speed": "10 ft., swim 40 ft.",
+	"str": 18,
+	"traits": [
+		{
+			"description": "The merrow can breathe air and water.",
+			"name": "Amphibious"
+		}
+	],
+	"type": "monstrosity",
+	"wis": 10,
+	"xp": 450
+}

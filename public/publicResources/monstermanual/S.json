@@ -1,0 +1,50 @@
+{
+	"Armor_Class": "12 ",
+	"ac": 12,
+	"actions": [
+		{
+			"description": "The ape makes two fist attacks.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) bludgeoning damage.",
+			"name": "Fist"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +5 to hit, range 25/50 ft., one target. <em>Hit:</em> 6 (1d6 + 3) bludgeoning damage.",
+			"name": "Rock"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 7,
+	"con": 14,
+	"condition_immunities": [],
+	"cr": "1/2",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 14,
+	"hp": 19,
+	"hp_gen": "3d8 + 6",
+	"int": 6,
+	"lair_actions": [],
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Ape",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Passive Perception 13",
+	"size": "Medium",
+	"skills": {
+		"athletics": 2,
+		"perception": 2
+	},
+	"speed": "30 ft., climb 30 ft.",
+	"str": 16,
+	"traits": [],
+	"type": "beast",
+	"wis": 12,
+	"xp": 100
+}

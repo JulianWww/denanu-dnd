@@ -1,0 +1,50 @@
+{
+	"Armor_Class": "13 (Hide Armor)",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (1d12 + 3) slashing damage.",
+			"name": "Greataxe"
+		},
+		{
+			"description": "<em>Melee or <em>Ranged Weapon Attack:</em></em> +5 to hit, reach 5 ft. or range 30/120 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.",
+			"name": "Javelin"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 10,
+	"con": 16,
+	"condition_immunities": [],
+	"cr": "1/2",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 12,
+	"hp": 15,
+	"hp_gen": "2d8 + 6",
+	"int": 7,
+	"lair_actions": [],
+	"languages": "Common, Orc",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Orc",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 10",
+	"size": "Medium",
+	"skills": {
+		"intimidation": 2
+	},
+	"speed": "30 ft.",
+	"str": 16,
+	"traits": [
+		{
+			"description": ". As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.",
+			"name": "Aggressiv"
+		}
+	],
+	"type": "humanoid",
+	"wis": 11,
+	"xp": 100
+}

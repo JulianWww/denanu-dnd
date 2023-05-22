@@ -6,6 +6,7 @@ import { Token } from "./UseToken"
 interface BaseLocationData {
   group: string;
   source: string;
+  displayName?: string;
 }
 
 export interface LocationData extends BaseLocationData {
@@ -43,11 +44,11 @@ export function toUrl(idx: LocationData) {
 }
 
 export async function loadPublicMonsterIndex(source: string) {
-  return loadIndex<MonsterIndex>(source, {group: "public", source: "monstermanual"});
+  return loadIndex<MonsterIndex>(source, {group: "public", source: "monstermanual", displayName: "Monster Manual"});
 }
 
 export async function loadPublicSpellIndex(source: string) {
-  return loadIndex<SpellIndex>(source, {group: "public", source: source});
+  return loadIndex<SpellIndex>(source, {group: "public", source: source, displayName: "temp"});
 }
 
 export async function readPrivateData(token: Token, group: string, name: string) {
@@ -105,6 +106,7 @@ export async function readPrivateIndex<T extends ServerApiIndex>(group: string, 
       idx: {
         name: val.file,
         group: "private",
+        displayName: "homebrew",
         source: group,
       }
     };

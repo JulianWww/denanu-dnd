@@ -1,0 +1,57 @@
+{
+	"Armor_Class": "12 Natural Armor",
+	"ac": 12,
+	"actions": [
+		{
+			"description": "The yeti can use its Chilling Gaze and makes two claw attacks.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d6 + 4) slashing damage plus 3 (1d6) cold damage.",
+			"name": "Claw"
+		},
+		{
+			"description": "The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a DC 13 Constitution saving throw against this magic or take 10 (3d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target\u2019s saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.",
+			"name": "Chilling Gaze"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 7,
+	"con": 16,
+	"condition_immunities": [],
+	"cr": "3",
+	"damage_immunities": [
+		"Cold"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 13,
+	"hp": 51,
+	"hp_gen": "6d10 + 18",
+	"int": 8,
+	"lair_actions": [],
+	"languages": "Yeti",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Yeti",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 13",
+	"size": "Large",
+	"skills": {
+		"perception": 2,
+		"stealth": 2
+	},
+	"speed": "40 ft., climb 40 ft.",
+	"str": 18,
+	"traits": [
+		{
+			"description": "",
+			"name": "Fear of Fire"
+		}
+	],
+	"type": "monstrosity",
+	"wis": 12,
+	"xp": 700
+}

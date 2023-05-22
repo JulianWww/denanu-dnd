@@ -20,7 +20,7 @@ export interface MonsterIndex extends Index {
 	cr: number,
 	name: string,
 	size: string,
-	type: string
+	type: string,
 }
 
 export function getMonsterIndex(char: Character) {
@@ -56,7 +56,6 @@ export default class StatBlockSelector extends React.Component<Props, State>{
 
   loadMonsters = async () => {
     this.setState({monsters: (await loadMonsters((val: MonsterIndex) => {
-
       return <MonsterForwardingListElement {...val} target={toUrl(val.idx)}/>
     }, this.props.token)
       )});

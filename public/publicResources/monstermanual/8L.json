@@ -1,0 +1,61 @@
+{
+	"Armor_Class": "13 (Natural Armor)",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.",
+			"name": "Bite"
+		},
+		{
+			"description": "The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one.",
+			"name": "Cold Breath (Recharge 5\u20136)"
+		}
+	],
+	"alignment": "neutral evil",
+	"cha": 8,
+	"con": 14,
+	"condition_immunities": [],
+	"cr": "3",
+	"damage_immunities": [
+		"Cold"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 13,
+	"hp": 75,
+	"hp_gen": "10d10 + 20",
+	"int": 7,
+	"lair_actions": [],
+	"languages": "Common, Giant, Winter Wolf",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Winter Wolf",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Passive Perception 15",
+	"size": "Large",
+	"skills": {
+		"perception": 4,
+		"stealth": 2
+	},
+	"speed": "50 ft.",
+	"str": 18,
+	"traits": [
+		{
+			"description": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+			"name": "Keen Hearing and Smell"
+		},
+		{
+			"description": "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+			"name": "Pack Tactics"
+		},
+		{
+			"description": "The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
+			"name": "Snow Camouflage"
+		}
+	],
+	"type": "monstrosity",
+	"wis": 12,
+	"xp": 700
+}

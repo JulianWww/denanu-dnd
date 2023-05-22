@@ -1,0 +1,67 @@
+{
+	"Armor_Class": "15 ",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "The elemental makes two slam attacks.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 14 (2d8 + 5) bludgeoning damage.",
+			"name": "Slam"
+		},
+		{
+			"description": "Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.<br/><br/>If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.",
+			"name": "Whirlwind (Recharge 4\u20136)"
+		}
+	],
+	"alignment": "neutral",
+	"cha": 6,
+	"con": 14,
+	"condition_immunities": [
+		"Exhaustion",
+		"Grappled",
+		"Paralyzed",
+		"Petrified",
+		"Poisoned",
+		"Prone",
+		"Restrained",
+		"Unconscious"
+	],
+	"cr": "5",
+	"damage_immunities": [
+		"Poison"
+	],
+	"damage_resistances": [
+		"Lightning",
+		"Thunder",
+		"Bludgeoning, Piercing, and Slashing from Nonmagical Attacks"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 20,
+	"hp": 90,
+	"hp_gen": "12d10 + 24",
+	"int": 6,
+	"lair_actions": [],
+	"languages": "Auran",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Air Elemental",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 10",
+	"size": "Large",
+	"skills": [],
+	"speed": "0 ft., fly 90 ft. (hover)",
+	"str": 14,
+	"traits": [
+		{
+			"description": "The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.",
+			"name": "Air Form"
+		}
+	],
+	"type": "elemental",
+	"wis": 10,
+	"xp": 1800
+}

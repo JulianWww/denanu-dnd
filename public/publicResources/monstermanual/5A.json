@@ -1,0 +1,64 @@
+{
+	"Armor_Class": "15 (Natural Armor, Shield)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "The lizardfolk makes two melee attacks, each one with a different weapon.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) bludgeoning damage.",
+			"name": "Heavy Club"
+		},
+		{
+			"description": "<em>Melee or <em>Ranged Weapon Attack:</em></em> +4 to hit, reach 5 ft. or range 30/120 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.",
+			"name": "Javelin"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.",
+			"name": "Spiked Shield"
+		}
+	],
+	"alignment": "neutral",
+	"cha": 7,
+	"con": 13,
+	"condition_immunities": [],
+	"cr": "1/2",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 10,
+	"hp": 22,
+	"hp_gen": "4d8 + 4",
+	"int": 7,
+	"lair_actions": [],
+	"languages": "Draconic",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Lizardfolk",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Passive Perception 13",
+	"size": "Medium",
+	"skills": {
+		"perception": 2,
+		"stealth": 2,
+		"survival": 4
+	},
+	"speed": "30 ft., swim 30 ft.",
+	"str": 15,
+	"traits": [
+		{
+			"description": "The lizardfolk can hold its breath for 15 minutes.",
+			"name": "Hold Breath"
+		}
+	],
+	"type": "humanoid",
+	"wis": 12,
+	"xp": 100
+}

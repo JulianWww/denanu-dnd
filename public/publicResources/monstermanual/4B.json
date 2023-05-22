@@ -1,0 +1,65 @@
+{
+	"Armor_Class": "17 (Natural Armor)",
+	"ac": 17,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d8 + 4) slashing damage.",
+			"name": "Claws"
+		},
+		{
+			"description": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.<br/><br/>The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised. ",
+			"name": "Illusory Appearance"
+		},
+		{
+			"description": "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her.",
+			"name": "Invisible Passage"
+		}
+	],
+	"alignment": "neutral evil",
+	"cha": 14,
+	"con": 16,
+	"condition_immunities": [],
+	"cr": "3",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 12,
+	"hp": 82,
+	"hp_gen": "11d8 + 33",
+	"int": 13,
+	"lair_actions": [],
+	"languages": "Common, Draconic, Sylvan",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Green Hag",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 14",
+	"size": "Medium",
+	"skills": {
+		"arcana": 2,
+		"deception": 2,
+		"perception": 2,
+		"stealth": 2
+	},
+	"speed": "30 ft.",
+	"str": 18,
+	"traits": [
+		{
+			"description": "The hag can breathe air and water.",
+			"name": "Amphibious"
+		},
+		{
+			"description": "The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:<br/><br/>At will: dancing lights, minor illusion, vicious mockery",
+			"name": "Innate Spellcasting"
+		},
+		{
+			"description": "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.",
+			"name": "Mimicry"
+		}
+	],
+	"type": "fey",
+	"wis": 14,
+	"xp": 700
+}

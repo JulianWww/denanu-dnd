@@ -1,0 +1,66 @@
+{
+	"Armor_Class": "10 In Humanoid Form, 11 In Bear And Hybrid Form",
+	"ac": 1011,
+	"actions": [
+		{
+			"description": "In bear form, the werebear makes two claw attacks. In humanoid form, it makes two greataxe attacks. In hybrid form, it can attack like a bear or a humanoid.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 15 (2d10 + 4) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werebear lycanthropy.",
+			"name": "Bite (Bear or Hybrid Form Only)"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d8 + 4) slashing damage.",
+			"name": "Claw (Bear or Hybrid Form Only)"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (1d12 + 4) slashing damage.",
+			"name": "Greataxe (Humanoid or Hybrid Form Only)"
+		}
+	],
+	"alignment": "neutral good",
+	"cha": 12,
+	"con": 17,
+	"condition_immunities": [],
+	"cr": "5",
+	"damage_immunities": [
+		"Bludgeoning",
+		"Piercing",
+		"and Slashing from Nonmagical Attacks that aren't Silvered"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 10,
+	"hp": 135,
+	"hp_gen": "18d8 + 54",
+	"int": 11,
+	"lair_actions": [],
+	"languages": "Common (can't speak in bear form)",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Werebear",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Passive Perception 17",
+	"size": "Medium",
+	"skills": {
+		"perception": 6
+	},
+	"speed": "30 ft., 40 ft., climb 30 ft. in bear or hybrid form",
+	"str": 19,
+	"traits": [
+		{
+			"description": "The werebear can use its action to polymorph into a Large bear-humanoid hybrid or into a Large bear, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+			"name": "Shapechanger"
+		},
+		{
+			"description": "The werebear has advantage on Wisdom (Perception) checks that rely on smell.",
+			"name": "Keen Smell"
+		}
+	],
+	"type": "humanoid",
+	"wis": 12,
+	"xp": 1800
+}

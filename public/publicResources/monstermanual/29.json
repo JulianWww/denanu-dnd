@@ -1,0 +1,60 @@
+{
+	"Armor_Class": "15 (Chain Shirt)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+			"name": "War Pick"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +4 to hit, range 30/120 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+			"name": "Poisoned Dart"
+		}
+	],
+	"alignment": "neutral good",
+	"cha": 9,
+	"con": 14,
+	"condition_immunities": [],
+	"cr": "1/2",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 14,
+	"hp": 16,
+	"hp_gen": "3d6 + 6",
+	"int": 12,
+	"lair_actions": [],
+	"languages": "Gnomish, Terran, Undercommon",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Deep Gnome (Svirfneblin)",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 120 ft.,  Passive Perception 12",
+	"size": "Small",
+	"skills": {
+		"investigation": 2,
+		"perception": 2,
+		"stealth": 2
+	},
+	"speed": "20 ft.",
+	"str": 15,
+	"traits": [
+		{
+			"description": "The gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.",
+			"name": "Stone Camouflage"
+		},
+		{
+			"description": "The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.",
+			"name": "Gnome Cunning"
+		},
+		{
+			"description": "The gnome\u2019s innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:<br/><br/>At will: nondetection (self only)<br/><br/>1/day each: blindness/deafness, blur, disguise self",
+			"name": "Innate Spellcasting"
+		}
+	],
+	"type": "humanoid",
+	"wis": 10,
+	"xp": 100
+}

@@ -1,0 +1,39 @@
+{
+	"Armor_Class": "10 ",
+	"ac": 10,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (2d4 + 4) bludgeoning damage.",
+			"name": "Hooves"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 7,
+	"con": 12,
+	"condition_immunities": [],
+	"cr": "1/4",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 10,
+	"hp": 19,
+	"hp_gen": "3d10 + 3",
+	"int": 2,
+	"lair_actions": [],
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Draft Horse",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Passive Perception 10",
+	"size": "Large",
+	"skills": [],
+	"speed": "40 ft.",
+	"str": 18,
+	"traits": [],
+	"type": "beast",
+	"wis": 11,
+	"xp": 50
+}

@@ -1,0 +1,68 @@
+{
+	"Armor_Class": "12 ",
+	"ac": 12,
+	"actions": [
+		{
+			"description": "<em>Melee Spell Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 10 (3d6) necrotic damage. The target must succeed on a DC 10 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+			"name": "Life Drain"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 11,
+	"con": 11,
+	"condition_immunities": [
+		"Charmed",
+		"Exhaustion",
+		"Grappled",
+		"Paralyzed",
+		"Petrified",
+		"Poisoned",
+		"Prone",
+		"Restrained",
+		"Unconscious"
+	],
+	"cr": "1",
+	"damage_immunities": [
+		"Necrotic",
+		"Poison"
+	],
+	"damage_resistances": [
+		"Acid",
+		"Cold",
+		"Fire",
+		"Lightning",
+		"Thunder",
+		"Bludgeoning, Piercing, and Slashing from Nonmagical Attacks"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 14,
+	"hp": 22,
+	"hp_gen": "5d8",
+	"int": 10,
+	"lair_actions": [],
+	"languages": "Understands all languages it knew in life but can't speak",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Specter",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 10",
+	"size": "Medium",
+	"skills": [],
+	"speed": "0 ft., fly 50 ft. (hover)",
+	"str": 1,
+	"traits": [
+		{
+			"description": "The specter can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.",
+			"name": "Incorporeal Movement"
+		},
+		{
+			"description": "While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+			"name": "Sunlight Sensitivity"
+		}
+	],
+	"type": "undead",
+	"wis": 10,
+	"xp": 200
+}

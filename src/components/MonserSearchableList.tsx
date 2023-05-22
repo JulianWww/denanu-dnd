@@ -1,21 +1,22 @@
 import SearchableList, {Element, SearchableListProps} from "./SearchableList";
-import { Box, Card, Chip, FormControl, InputLabel, MenuItem, Checkbox, Select, SelectChangeEvent, TextField } from "@mui/material";
-import { FixedSizeList } from 'react-window';
-import {levenshteinEditDistance} from 'levenshtein-edit-distance';
+import { FormControl, InputLabel, MenuItem, Checkbox, Select, SelectChangeEvent, TextField } from "@mui/material";
 import { CRs, alignments, sizes, types } from "./monsters/BlockEditor";
 import { MonsterIndex } from "../pages/SelectMonserStatBlock";
 import { renderSelected } from "./Utils";
 import { ReactNode } from "react";
+import MultiSelectString from "./MultiSelect";
 
-export interface MonserElement extends Element, MonsterIndex {
-}
+export interface MonserElement extends Element, MonsterIndex {}
 
 export default class SearchableMonsterList extends SearchableList {
   sizes: string[];
   type: string[];
   alignment: string[];
   minCr: number;
-  maxCr: number
+  maxCr: number;
+  selectedSource: string[];
+
+  sources: string[];
 
   constructor(props: SearchableListProps) {
     super(props);
@@ -25,12 +26,21 @@ export default class SearchableMonsterList extends SearchableList {
     this.alignment = [];
     this.minCr = 0;
     this.maxCr = 30;
+    this.selectedSource = [];
+
+    this.sources = Array.from(new Set(props.elements.map((val: Element) => (val as MonserElement).idx.displayName).filter((val?: string) => val) as string[]));
   }
 
   update = () => this.setState({});
 
   filterList() {
     var filtered = this.props.elements.map((val: Element) => val as MonserElement);
+
+    if (this.selectedSource?.length > 0) {
+      filtered = filtered.filter((val: MonsterIndex) => {
+        return val.idx.displayName && this.selectedSource.indexOf(val.idx.displayName) > -1
+      })
+    }
 
     if (this.sizes?.length > 0) {
       filtered = filtered.filter((val: MonserElement) => {
@@ -66,61 +76,46 @@ export default class SearchableMonsterList extends SearchableList {
     
     return <>
     <div className="row">
-      <TextField select label="Min Cr" value={this.minCr} variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>) => {this.minCr = eval(e.target.value); this.maxCr = Math.max(this.minCr, this.maxCr); this.update()}}>
+      <TextField select fullWidth label="Min Cr" value={this.minCr} variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>) => {this.minCr = eval(e.target.value); this.maxCr = Math.max(this.minCr, this.maxCr); this.update()}}>
         {CRs.map((option: string) => (
           <MenuItem value={eval(option)} key={option}>
             {option}
           </MenuItem>
         ))}
       </TextField>
-      <TextField select label="Max Cr" value={this.maxCr} variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>) => {this.maxCr = eval(e.target.value); this.minCr = Math.min(this.minCr, this.maxCr); this.update()}}>
+      <TextField select fullWidth label="Max Cr" value={this.maxCr} variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>) => {this.maxCr = eval(e.target.value); this.minCr = Math.min(this.minCr, this.maxCr); this.update()}}>
         {CRs.map((option: string) => (
           <MenuItem value={eval(option)} key={option}>
             {option}
           </MenuItem>
         ))}
       </TextField>
-      <FormControl variant="standard">
-        <InputLabel>Size</InputLabel>
-        <Select multiple value={this.sizes} variant="standard" renderValue={renderSelected}
-          onChange={(event: SelectChangeEvent<string[]>) => { var val = event.target.value; if (typeof val === "string") {val = [val]}; this.sizes = val; this.update();}}
-        >
-          {sizes.map((option: string) => (
-            <MenuItem key={option} value={option}>
-              <Checkbox checked={this.sizes.indexOf(option) > -1} />
-              {option}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
+      <MultiSelectString
+        options={sizes}
+        value={this.sizes}
+        onChange={(val: string[]) => {this.sizes = val; this.update()}}
+        label="Size"
+      />
     </div>
     <div className="row">
-      <FormControl variant="standard">
-        <InputLabel>Type</InputLabel>
-        <Select multiple value={this.type} variant="standard" renderValue={renderSelected}
-          onChange={(event: SelectChangeEvent<string[]>) => { var val = event.target.value; if (typeof val === "string") {val = [val]}; this.type = val; this.update();}}
-        >
-          {types.map((option: string) => (
-            <MenuItem value={option} key={option}>
-              <Checkbox checked={this.type.indexOf(option) > -1} />
-              {option}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
-      <FormControl variant="standard">
-        <InputLabel>Alignment</InputLabel>
-        <Select multiple value={this.alignment} variant="standard" renderValue={renderSelected}
-          onChange={(event: SelectChangeEvent<string[]>) => { var val = event.target.value; if (typeof val === "string") {val = [val]}; this.alignment = val; this.update();}}
-        >
-          {alignments.map((option: string) => (
-            <MenuItem value={option} key={option}>
-              <Checkbox checked={this.alignment.indexOf(option) > -1} />
-              {option}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
+      <MultiSelectString
+        options={types}
+        value={this.type}
+        onChange={(val: string[]) => {this.type = val; this.update()}}
+        label="Type"
+      />
+      <MultiSelectString
+        options={alignments}
+        value={this.alignment}
+        onChange={(val: string[]) => {this.alignment = val; this.update()}}
+        label="Alignment"
+      />
+      <MultiSelectString
+        options={this.sources}
+        value={this.selectedSource}
+        onChange={(val: string[]) => {this.selectedSource = val; this.update()}}
+        label="Source"
+      />
     </div>
     <div className="list-length-indicator">
       found: {this.filtered.length}

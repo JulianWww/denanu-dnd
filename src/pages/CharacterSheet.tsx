@@ -2,7 +2,7 @@ import * as React from 'react';
 import MonsterStatBlock from "../components/monsters/MonsterStatBlock"
 import {Loader, Dimmer} from "semantic-ui-react";
 import {Token} from "../Login/UseToken";
-import Character from "../components/monsters/Character";
+import Character, { cleanCharacter } from "../components/monsters/Character";
 import { useParams, Params } from 'react-router-dom';
 import { getJson, backendUrl, readPrivateData, writePrivateData, loadCharacter } from "../Login/ServerApi";
 import { Container, Theme, ThemeProvider, useTheme } from '@mui/material';
@@ -48,7 +48,7 @@ class CharacterSheet extends React.PureComponent<Props & {params: Readonly<Param
     const {group, source, name} = this.props.params;
     const {token} = this.props;
     if (token && group && source && name && this.state.character) {
-      writePrivateData(token, "mobs", source, name, this.state.character, getMonsterIndex(this.state.character), group);
+      writePrivateData(token, "mobs", source, name, cleanCharacter({...this.state.character}), getMonsterIndex(this.state.character), group);
     }
   }
 

@@ -1,0 +1,44 @@
+{
+	"Armor_Class": "10 ",
+	"ac": 10,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 1 piercing damage.",
+			"name": "Bite"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 5,
+	"con": 12,
+	"condition_immunities": [],
+	"cr": "0",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 11,
+	"hp": 3,
+	"hp_gen": "1d4 + 1",
+	"int": 2,
+	"lair_actions": [],
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Badger",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 30 ft.,  Passive Perception 11",
+	"size": "Tiny",
+	"skills": [],
+	"speed": "20 ft., burrow 5 ft.",
+	"str": 4,
+	"traits": [
+		{
+			"description": "The badger has advantage on Wisdom (Perception) checks that rely on smell.",
+			"name": "Keen Smell"
+		}
+	],
+	"type": "beast",
+	"wis": 12,
+	"xp": 10
+}

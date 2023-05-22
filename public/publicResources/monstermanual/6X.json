@@ -1,0 +1,66 @@
+{
+	"Armor_Class": "12 (Natural Armor)",
+	"ac": 12,
+	"actions": [
+		{
+			"description": "The sahuagin makes two melee attacks: one with its bite and one with its claws or spear.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d4 + 1) piercing damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d4 + 1) slashing damage.",
+			"name": "Claws"
+		},
+		{
+			"description": "<em>Melee or <em>Ranged Weapon Attack:</em></em> +3 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
+			"name": "Spear"
+		}
+	],
+	"alignment": "lawful evil",
+	"cha": 9,
+	"con": 12,
+	"condition_immunities": [],
+	"cr": "1/2",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 11,
+	"hp": 22,
+	"hp_gen": "4d8 + 4",
+	"int": 12,
+	"lair_actions": [],
+	"languages": "Sahuagin",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Sahuagin",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 120 ft.,  Passive Perception 15",
+	"size": "Medium",
+	"skills": {
+		"perception": 4
+	},
+	"speed": "30 ft., swim 40 ft.",
+	"str": 13,
+	"traits": [
+		{
+			"description": "The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points.",
+			"name": "Blood Frenzy"
+		},
+		{
+			"description": "The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.",
+			"name": "Limited Amphibiousness"
+		},
+		{
+			"description": "The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy.",
+			"name": "Shark Telepathy"
+		}
+	],
+	"type": "humanoid",
+	"wis": 13,
+	"xp": 100
+}

@@ -1,0 +1,69 @@
+{
+	"Armor_Class": "18 (Plate)",
+	"ac": 18,
+	"actions": [
+		{
+			"description": "The erinyes makes three attacks.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 13 (3d8) poison damage.",
+			"name": "Longsword"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +7 to hit, range 150/600 ft., one target. <em>Hit:</em> 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned. The poison lasts until it is removed by the lesser restoration spell or similar magic.",
+			"name": "Longbow"
+		}
+	],
+	"alignment": "lawful evil",
+	"cha": 18,
+	"con": 18,
+	"condition_immunities": [
+		"Poisoned"
+	],
+	"cr": "12",
+	"damage_immunities": [
+		"Fire",
+		"Poison"
+	],
+	"damage_resistances": [
+		"Cold",
+		"Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't Silvered"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 16,
+	"hp": 153,
+	"hp_gen": "18d8 + 72",
+	"int": 14,
+	"lair_actions": [],
+	"languages": "Infernal, Telepathy 120 ft.",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Erinyes",
+	"regional_actions": [],
+	"saving_throws": {
+		"cha": 8,
+		"con": 8,
+		"dex": 7,
+		"wis": 6
+	},
+	"senses": "Truesight 120 ft.,  Passive Perception 12",
+	"size": "Medium",
+	"skills": [],
+	"speed": "30 ft., fly 60 ft.",
+	"str": 18,
+	"traits": [
+		{
+			"description": "The erinyes's weapon attacks are magical and deal an extra 13 (3d8) poison damage on a hit (included in the attacks).",
+			"name": "Hellish Weapons"
+		},
+		{
+			"description": "The erinyes has advantage on saving throws against spells and other magical effects.",
+			"name": "Magic Resistance"
+		}
+	],
+	"type": "fiend",
+	"wis": 14,
+	"xp": 8400
+}

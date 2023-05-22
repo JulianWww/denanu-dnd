@@ -1,0 +1,43 @@
+{
+	"Armor_Class": "15 (Breastplate)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d8 + 1) piercing damage.",
+			"name": "Rapier"
+		}
+	],
+	"alignment": "any",
+	"cha": 16,
+	"con": 11,
+	"condition_immunities": [],
+	"cr": "1/8",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 12,
+	"hp": 9,
+	"hp_gen": "2d8",
+	"int": 12,
+	"lair_actions": [],
+	"languages": "Any two languages",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Noble",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Passive Perception 12",
+	"size": "Medium",
+	"skills": {
+		"deception": 2,
+		"insight": 2,
+		"persuasion": 2
+	},
+	"speed": "30 ft.",
+	"str": 11,
+	"traits": [],
+	"type": "humanoid",
+	"wis": 14,
+	"xp": 25
+}

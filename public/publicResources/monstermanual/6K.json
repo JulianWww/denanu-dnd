@@ -1,0 +1,61 @@
+{
+	"Armor_Class": "16 (Natural Armor)",
+	"ac": 16,
+	"actions": [
+		{
+			"description": "The rakshasa makes two claw attacks.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (2d6 + 2) slashing damage, and the target is cursed if it is a creature. The magical curse takes effect whenever the target takes a short or long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a remove curse spell or similar magic.",
+			"name": "Claw"
+		}
+	],
+	"alignment": "lawful evil",
+	"cha": 20,
+	"con": 18,
+	"condition_immunities": [],
+	"cr": "13",
+	"damage_immunities": [
+		"Bludgeoning",
+		"Piercing",
+		"and Slashing from Nonmagical Attacks"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [
+		"Piercing from Magic Weapons Wielded by Good Creatures"
+	],
+	"dex": 17,
+	"hp": 110,
+	"hp_gen": "13d8 + 52",
+	"int": 13,
+	"lair_actions": [],
+	"languages": "Common, Infernal",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Rakshasa",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 13",
+	"size": "Medium",
+	"skills": {
+		"deception": 5,
+		"insight": 5
+	},
+	"speed": "40 ft.",
+	"str": 14,
+	"traits": [
+		{
+			"description": "The rakshasa can't be affected or detected by spells of 6th level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects.",
+			"name": "Limited Magic Immunity"
+		},
+		{
+			"description": "The rakshasa's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiring no material components:<br/><br/>At will: detect thoughts, disguise self, mage hand, minor illusion<br/><br/>3/day each: charm person, detect magic, invisibility, major image, suggestion<br/><br/>1/day each: dominate person, fly, plane shift, true seeing",
+			"name": "Innate Spellcasting"
+		}
+	],
+	"type": "fiend",
+	"wis": 16,
+	"xp": 10000
+}

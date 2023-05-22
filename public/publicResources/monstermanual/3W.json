@@ -1,0 +1,52 @@
+{
+	"Armor_Class": "11 ",
+	"ac": 11,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.",
+			"name": "Bite"
+		},
+		{
+			"description": "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.",
+			"name": "Swallow"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 3,
+	"con": 13,
+	"condition_immunities": [],
+	"cr": "1",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 13,
+	"hp": 39,
+	"hp_gen": "6d10 + 6",
+	"int": 2,
+	"lair_actions": [],
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Giant Toad",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 30 ft.,  Passive Perception 10",
+	"size": "Large",
+	"skills": [],
+	"speed": "20 ft., swim 40 ft.",
+	"str": 15,
+	"traits": [
+		{
+			"description": "The toad can breathe air and water.",
+			"name": "Amphibious"
+		},
+		{
+			"description": "The toad's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.",
+			"name": "Standing Leap"
+		}
+	],
+	"type": "beast",
+	"wis": 10,
+	"xp": 200
+}

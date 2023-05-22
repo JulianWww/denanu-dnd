@@ -1,0 +1,50 @@
+{
+	"Armor_Class": "17 (Natural Armor)",
+	"ac": 17,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 30 (4d12 + 4) piercing damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "If the bulette jumps at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 feet out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the bulette's space.",
+			"name": "Deadly Leap"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 5,
+	"con": 21,
+	"condition_immunities": [],
+	"cr": "5",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 11,
+	"hp": 94,
+	"hp_gen": "9d10 + 45",
+	"int": 2,
+	"lair_actions": [],
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Bulette",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft., Tremorsense 60 ft.,  Passive Perception 16",
+	"size": "Large",
+	"skills": {
+		"perception": 6
+	},
+	"speed": "40 ft., burrow 40 ft.",
+	"str": 19,
+	"traits": [
+		{
+			"description": "The bulette's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.",
+			"name": "Standing Leap"
+		}
+	],
+	"type": "monstrosity",
+	"wis": 10,
+	"xp": 1800
+}

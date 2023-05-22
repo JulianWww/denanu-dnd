@@ -1,0 +1,69 @@
+{
+	"Armor_Class": "18 (Natural Armor)",
+	"ac": 18,
+	"actions": [
+		{
+			"description": "The dragon makes three attacks: one with its bite and two with its claws.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft., one target. <em>Hit:</em> 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) slashing damage.",
+			"name": "Claw"
+		},
+		{
+			"description": "The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.",
+			"name": "Poison Breath (Recharge 5\u20136)"
+		}
+	],
+	"alignment": "lawful evil",
+	"cha": 15,
+	"con": 17,
+	"condition_immunities": [
+		"Poisoned"
+	],
+	"cr": "8",
+	"damage_immunities": [
+		"Poison"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 12,
+	"hp": 136,
+	"hp_gen": "16d10 + 48",
+	"int": 16,
+	"lair_actions": [],
+	"languages": "Common, Draconic",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Young Green Dragon",
+	"regional_actions": [],
+	"saving_throws": {
+		"cha": 5,
+		"con": 6,
+		"dex": 4,
+		"wis": 4
+	},
+	"senses": "Blindsight 30 ft., Darkvision 120 ft.,  Passive Perception 17",
+	"size": "Large",
+	"skills": {
+		"deception": 3,
+		"perception": 6,
+		"stealth": 3
+	},
+	"speed": "40 ft., fly 80 ft., swim 40 ft.",
+	"str": 19,
+	"traits": [
+		{
+			"description": "The dragon can breathe air and water.",
+			"name": "Amphibious"
+		}
+	],
+	"type": "dragon",
+	"wis": 13,
+	"xp": 3900
+}

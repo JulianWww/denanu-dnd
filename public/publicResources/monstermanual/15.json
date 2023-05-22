@@ -1,0 +1,81 @@
+{
+	"Armor_Class": "15 (Natural Armor)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "The devil makes three melee attacks: one with its tail and two with its claws. Alternatively, it can use Hurl Flame twice.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.",
+			"name": "Claw"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage.",
+			"name": "Tail"
+		},
+		{
+			"description": "Ranged Spell Attack: +5 to hit, range 150 ft., one target. <em>Hit:</em> 10 (3d6) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.",
+			"name": "Hurl Flame"
+		}
+	],
+	"alignment": "lawful evil",
+	"cha": 14,
+	"con": 18,
+	"condition_immunities": [
+		"Poisoned"
+	],
+	"cr": "5",
+	"damage_immunities": [
+		"Fire",
+		"Poison"
+	],
+	"damage_resistances": [
+		"Cold",
+		"Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't Silvered"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 17,
+	"hp": 110,
+	"hp_gen": "13d8 + 52",
+	"int": 12,
+	"lair_actions": [],
+	"languages": "Infernal, Telepathy 120 ft.",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Barbed Devil",
+	"regional_actions": [],
+	"saving_throws": {
+		"cha": 5,
+		"con": 7,
+		"str": 6,
+		"wis": 5
+	},
+	"senses": "Darkvision 120 ft.,  Passive Perception 18",
+	"size": "Medium",
+	"skills": {
+		"deception": 3,
+		"insight": 3,
+		"perception": 6
+	},
+	"speed": "30 ft.",
+	"str": 16,
+	"traits": [
+		{
+			"description": "At the start of each of its turns, the barbed devil deals 5 (1d10) piercing damage to any creature grappling it.",
+			"name": "Barbed Hide"
+		},
+		{
+			"description": "Magical darkness doesn't impede the devil's darkvision.",
+			"name": "Devil's Sight"
+		},
+		{
+			"description": "The devil has advantage on saving throws against spells and other magical effects.",
+			"name": "Magic Resistance"
+		}
+	],
+	"type": "fiend",
+	"wis": 14,
+	"xp": 1800
+}

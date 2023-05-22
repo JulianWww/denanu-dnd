@@ -1,0 +1,55 @@
+{
+	"Armor_Class": "13 (Natural Armor)",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake.",
+			"name": "Sting"
+		}
+	],
+	"alignment": "neutral good",
+	"cha": 10,
+	"con": 13,
+	"condition_immunities": [],
+	"cr": "1/4",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 15,
+	"hp": 7,
+	"hp_gen": "2d4 + 2",
+	"int": 10,
+	"lair_actions": [],
+	"languages": "Understands Common and Draconic but can't speak them",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Pseudodragon",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Blindsight 10 ft., Darkvision 60 ft.,  Passive Perception 13",
+	"size": "Tiny",
+	"skills": {
+		"perception": 2,
+		"stealth": 2
+	},
+	"speed": "15 ft., fly 60 ft.",
+	"str": 6,
+	"traits": [
+		{
+			"description": "The pseudodragon has advantage on saving throws against spells and other magical effects.",
+			"name": "Magic Resistance"
+		},
+		{
+			"description": "The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.",
+			"name": "Limited Telepathy"
+		}
+	],
+	"type": "dragon",
+	"wis": 12,
+	"xp": 50
+}

@@ -1,0 +1,69 @@
+{
+	"Armor_Class": "13 ",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d4 + 3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.",
+			"name": "Sting (Bite in Beast Form)"
+		},
+		{
+			"description": "The imp magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.",
+			"name": "Invisibility"
+		}
+	],
+	"alignment": "lawful evil",
+	"cha": 14,
+	"con": 13,
+	"condition_immunities": [
+		"Poisoned"
+	],
+	"cr": "1",
+	"damage_immunities": [
+		"Fire",
+		"Poison"
+	],
+	"damage_resistances": [
+		"Cold",
+		"Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't Silvered"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 17,
+	"hp": 10,
+	"hp_gen": "3d4 + 3",
+	"int": 11,
+	"lair_actions": [],
+	"languages": "Common, Infernal",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Imp",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 120 ft.,  Passive Perception 11",
+	"size": "Tiny",
+	"skills": {
+		"deception": 2,
+		"insight": 2,
+		"persuasion": 2,
+		"stealth": 2
+	},
+	"speed": "20 ft., fly 40 ft.",
+	"str": 6,
+	"traits": [
+		{
+			"description": "The imp can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+			"name": "Shapechanger"
+		},
+		{
+			"description": "Magical darkness doesn't impede the imp's darkvision.",
+			"name": "Devil's Sight"
+		},
+		{
+			"description": "The imp has advantage on saving throws against spells and other magical effects.",
+			"name": "Magic Resistance"
+		}
+	],
+	"type": "fiend",
+	"wis": 12,
+	"xp": 200
+}

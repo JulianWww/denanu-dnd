@@ -1,0 +1,66 @@
+{
+	"Armor_Class": "12 (Natural Armor)",
+	"ac": 12,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.",
+			"name": "Pseudopod"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.",
+			"name": "Bite"
+		}
+	],
+	"alignment": "neutral",
+	"cha": 8,
+	"con": 15,
+	"condition_immunities": [
+		"Prone"
+	],
+	"cr": "2",
+	"damage_immunities": [
+		"Acid"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 12,
+	"hp": 58,
+	"hp_gen": "9d8 + 18",
+	"int": 5,
+	"lair_actions": [],
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Mimic",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 11",
+	"size": "Medium",
+	"skills": {
+		"stealth": 4
+	},
+	"speed": "15 ft.",
+	"str": 17,
+	"traits": [
+		{
+			"description": "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+			"name": "Shapechanger"
+		},
+		{
+			"description": "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.",
+			"name": "Adhesive (Object Form Only)"
+		},
+		{
+			"description": "While the mimic remains motionless, it is indistinguishable from an ordinary object.",
+			"name": "False Appearance (Object Form Only)"
+		},
+		{
+			"description": "The mimic has advantage on attack rolls against any creature grappled by it.",
+			"name": "Grappler"
+		}
+	],
+	"type": "monstrosity",
+	"wis": 13,
+	"xp": 450
+}

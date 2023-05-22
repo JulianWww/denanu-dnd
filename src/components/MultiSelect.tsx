@@ -5,6 +5,7 @@ interface BaseProps<T> {
   options: T[],
   onChange: (val: string[])=>void;
   label: string;
+  fullWidth?: boolean
 }
 
 interface Props<T> extends BaseProps<T> {
@@ -21,9 +22,9 @@ interface Props<T> extends BaseProps<T> {
       
 
 export function MultiSelect<T>(props: Props<T>) {
-  const { value, options, onChange, label, render } = props;
+  const { value, options, onChange, label, render, fullWidth } = props;
 
-  return <FormControl fullWidth>
+  return <FormControl fullWidth={fullWidth === undefined ? true : fullWidth}>
     <InputLabel sx={{mt:1, ml: -2}} >{label}</InputLabel>
     <Select multiple value={value} fullWidth 
       renderValue={(selected) => selected.join(', ')}

@@ -1,0 +1,50 @@
+{
+	"Armor_Class": "15 (Leather Armor, Shield)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) slashing damage.",
+			"name": "Scimitar"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +4 to hit, range 80/320 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.",
+			"name": "Shortbow"
+		}
+	],
+	"alignment": "neutral evil",
+	"cha": 8,
+	"con": 10,
+	"condition_immunities": [],
+	"cr": "1/4",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 14,
+	"hp": 7,
+	"hp_gen": "2d6",
+	"int": 10,
+	"lair_actions": [],
+	"languages": "Common, Goblin",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Goblin",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 9",
+	"size": "Small",
+	"skills": {
+		"stealth": 4
+	},
+	"speed": "30 ft.",
+	"str": 8,
+	"traits": [
+		{
+			"description": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns.",
+			"name": "Nimble Escape"
+		}
+	],
+	"type": "humanoid",
+	"wis": 8,
+	"xp": 50
+}

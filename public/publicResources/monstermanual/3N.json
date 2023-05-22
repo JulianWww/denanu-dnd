@@ -1,0 +1,39 @@
+{
+	"Armor_Class": "12 (Natural Armor)",
+	"ac": 12,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d8 + 2) piercing damage.",
+			"name": "Bite"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 5,
+	"con": 13,
+	"condition_immunities": [],
+	"cr": "1/4",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 12,
+	"hp": 19,
+	"hp_gen": "3d10 + 3",
+	"int": 2,
+	"lair_actions": [],
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Giant Lizard",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 30 ft.,  Passive Perception 10",
+	"size": "Large",
+	"skills": [],
+	"speed": "30 ft., climb 30 ft.",
+	"str": 15,
+	"traits": [],
+	"type": "beast",
+	"wis": 10,
+	"xp": 50
+}

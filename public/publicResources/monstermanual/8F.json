@@ -1,0 +1,67 @@
+{
+	"Armor_Class": "12 ",
+	"ac": 12,
+	"actions": [
+		{
+			"description": "The wererat makes two attacks, only one of which can be a bite.",
+			"name": "Multiattack (Humanoid or Hybrid Form Only)"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.",
+			"name": "Bite (Rat or Hybrid Form Only)"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.",
+			"name": "Shortsword (Humanoid or Hybrid Form Only)"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +4 to hit, range 30/120 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.",
+			"name": "Hand Crossbow (Humanoid or Hybrid Form Only)"
+		}
+	],
+	"alignment": "lawful evil",
+	"cha": 8,
+	"con": 12,
+	"condition_immunities": [],
+	"cr": "2",
+	"damage_immunities": [
+		"Bludgeoning",
+		"Piercing",
+		"and Slashing from Nonmagical Attacks that aren't Silvered"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 15,
+	"hp": 33,
+	"hp_gen": "6d8 + 6",
+	"int": 11,
+	"lair_actions": [],
+	"languages": "Common (can't speak in rat form)",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Wererat",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 12",
+	"size": "Medium",
+	"skills": {
+		"perception": 2,
+		"stealth": 2
+	},
+	"speed": "30 ft.",
+	"str": 10,
+	"traits": [
+		{
+			"description": "The wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+			"name": "Shapechanger"
+		},
+		{
+			"description": "The wererat has advantage on Wisdom (Perception) checks that rely on smell.",
+			"name": "Keen Smell"
+		}
+	],
+	"type": "humanoid",
+	"wis": 10,
+	"xp": 450
+}

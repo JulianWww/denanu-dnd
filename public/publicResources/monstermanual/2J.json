@@ -1,0 +1,59 @@
+{
+	"Armor_Class": "15 (Chain Shirt)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.",
+			"name": "Shortsword"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.",
+			"name": "Hand Crossbow"
+		}
+	],
+	"alignment": "neutral evil",
+	"cha": 12,
+	"con": 10,
+	"condition_immunities": [],
+	"cr": "1/4",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 14,
+	"hp": 13,
+	"hp_gen": "3d8",
+	"int": 11,
+	"lair_actions": [],
+	"languages": "Elvish, Undercommon",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Drow",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 120 ft.,  Passive Perception 12",
+	"size": "Medium",
+	"skills": {
+		"perception": 2,
+		"stealth": 2
+	},
+	"speed": "30 ft.",
+	"str": 10,
+	"traits": [
+		{
+			"description": "The drow has advantage on saving throws against being charmed, and magic can\u2019t put the drow to sleep.",
+			"name": "Fey Ancestry"
+		},
+		{
+			"description": "The drow\u2019s spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:<br/><br/>At will: dancing lights<br/><br/>1/day each: darkness, faerie fire",
+			"name": "Innate Spellcasting"
+		},
+		{
+			"description": "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+			"name": "Sunlight Sensitivity"
+		}
+	],
+	"type": "humanoid",
+	"wis": 11,
+	"xp": 50
+}

@@ -1,0 +1,70 @@
+{
+	"Armor_Class": "15 (Studded Leather)",
+	"ac": 15,
+	"actions": [
+		{
+			"description": "The assassin makes two shortsword attacks.",
+			"name": "Multiattack"
+		},
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.",
+			"name": "Shortsword"
+		},
+		{
+			"description": "<em>Ranged Weapon Attack:</em> +6 to hit, range 80/320 ft., one target. <em>Hit:</em> 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.",
+			"name": "Light Crossbow"
+		}
+	],
+	"alignment": "any",
+	"cha": 10,
+	"con": 14,
+	"condition_immunities": [],
+	"cr": "8",
+	"damage_immunities": [],
+	"damage_resistances": [
+		"Poison"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 16,
+	"hp": 78,
+	"hp_gen": "12d8 + 24",
+	"int": 13,
+	"lair_actions": [],
+	"languages": "Thieves' cant plus any two languages",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Assassin",
+	"regional_actions": [],
+	"saving_throws": {
+		"dex": 6,
+		"int": 4
+	},
+	"senses": "Passive Perception 13",
+	"size": "Medium",
+	"skills": {
+		"acrobatics": 3,
+		"deception": 3,
+		"perception": 3,
+		"stealth": 6
+	},
+	"speed": "30 ft.",
+	"str": 11,
+	"traits": [
+		{
+			"description": "During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit.",
+			"name": "Assassinate"
+		},
+		{
+			"description": "If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+			"name": "Evasion"
+		},
+		{
+			"description": "Once per turn, the assassin deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll.",
+			"name": "Sneak Attack"
+		}
+	],
+	"type": "humanoid",
+	"wis": 11,
+	"xp": 3900
+}

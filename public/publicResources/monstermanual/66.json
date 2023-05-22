@@ -1,0 +1,45 @@
+{
+	"Armor_Class": "12 ",
+	"ac": 12,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) bludgeoning damage.",
+			"name": "Hooves"
+		}
+	],
+	"alignment": "chaotic good",
+	"cha": 13,
+	"con": 16,
+	"condition_immunities": [],
+	"cr": "2",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 15,
+	"hp": 59,
+	"hp_gen": "7d10 + 21",
+	"int": 10,
+	"lair_actions": [],
+	"languages": "Celestial, Common, Elvish  and Sylvan but can't speak",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Pegasus",
+	"regional_actions": [],
+	"saving_throws": {
+		"cha": 3,
+		"dex": 4,
+		"wis": 4
+	},
+	"senses": "Passive Perception 16",
+	"size": "Large",
+	"skills": {
+		"perception": 4
+	},
+	"speed": "60 ft., fly 90 ft.",
+	"str": 18,
+	"traits": [],
+	"type": "celestial",
+	"wis": 15,
+	"xp": 450
+}

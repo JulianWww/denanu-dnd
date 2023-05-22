@@ -20,7 +20,8 @@ import { Delete, Edit, Code } from "@mui/icons-material";
 import { Markup } from "interweave";
 import { TransitionGroup } from "semantic-ui-react";
 import { chipSelector } from "../../MuiProps";
-import { Center } from "../Utils";
+import { Center, toDnDString } from "../Utils";
+import RightAlign from "../RightAlign";
 const Dice = require('dice-notation-js');
 
 export const sizes = ["tiny", "small", "medium", "large", "huge", "gargantuan"];
@@ -81,6 +82,14 @@ interface Props {
   openEditor: (t: Trait) => ((e: React.BaseSyntheticEvent) => void);
 }
 
+interface Senses {
+  blindsight?: number;
+  darkvision?: number;
+  tremorsense?: number;
+  truesight?: number;
+  passive?: number;
+}
+
 interface State {
   legendaryCreature: boolean;
   mythic: boolean;
@@ -99,9 +108,11 @@ export default class BlockEditor extends React.Component<Props, State> {
   savingThrowProficencies: string[];
   skillProficencies: string[];
   skillExpertiese: string[];
+  senses: Senses;
 
   constructor(props: Props) {
     super(props);
+    console.clear();
     const { character } = props;
 
     const hpGenData = Dice.parse(character.hp_gen)
@@ -115,7 +126,9 @@ export default class BlockEditor extends React.Component<Props, State> {
 
     this.skillProficencies = [];
     this.skillExpertiese = [];
+    this.senses = {};
     this.computeSkills();
+    this.computeSenses();
 
     this.state = {
       legendaryCreature:  character.legendary_actions.length > 0,
@@ -125,8 +138,34 @@ export default class BlockEditor extends React.Component<Props, State> {
       editingTrait: defaultTrait(),
     };
 
-    console.clear();
     console.log(character)
+  }
+
+  computeSenses() {
+    const { character } = this.props;
+    const { senses } = this;
+    const sensesStrs = character.senses.split(",")
+    for (var str of sensesStrs) {
+      str = str.trim();
+      if (str.startsWith("Passive Perception")) {
+        senses.passive = Number(str.slice(19));
+      }
+      else if (str.startsWith("Darkvision")) {
+        senses.darkvision = Number(str.slice(11, -4));
+      }
+      else if (str.startsWith("Blindsight")) {
+        senses.blindsight = Number(str.slice(11, -4));
+      }
+      else if (str.startsWith("Tremorsense")) {
+        senses.tremorsense = Number(str.slice(12, -4))
+      }
+      else if (str.startsWith("Truesight")) {
+        senses.truesight = Number(str.slice(10, -4));
+      }
+      else {
+        console.log(str);
+      }
+    }
   }
 
   computeSkills() {
@@ -276,7 +315,7 @@ export default class BlockEditor extends React.Component<Props, State> {
                 </TextField>
               </td>
               <td>
-              <TextField select label="Type" value={character.alignment} fullWidth onChange={(e: React.ChangeEvent<HTMLInputElement>) => {character.alignment = e.target.value; this.update()}}>
+              <TextField select label="Alignment" value={character.alignment} fullWidth onChange={(e: React.ChangeEvent<HTMLInputElement>) => {character.alignment = e.target.value; this.update()}}>
                   {strSelect(alignments)}
                 </TextField>
               </td>
@@ -298,7 +337,20 @@ export default class BlockEditor extends React.Component<Props, State> {
               </td>
               <td>
                 <TextField select label="Armor" value={this.armorType} fullWidth onChange={(e: React.ChangeEvent<HTMLInputElement>) => {this.armorType = e.target.value; this.updateArmor()}}>
-                  {strSelect(Object.keys(armors))}
+                  {Object.entries(armors).map((val: [string, Armor]) =>
+                    <MenuItem key={val[0]} value={val[0]} className="fullWidth">
+                      <Grid container columns={2} justifyContent="space-between">
+                        <Grid item>
+                          {val[0]}  
+                        </Grid>
+                        <Grid item>
+                          {
+                            val[1].ac(toMod(this.props.character.dex), this.customAcMod)
+                          }
+                        </Grid>
+                      </Grid>
+                    </MenuItem>)
+                  }
                 </TextField>
               </td>
               {armors[this.armorType]?.customMod ?
@@ -452,6 +504,11 @@ export default class BlockEditor extends React.Component<Props, State> {
             </tr>
           </tbody>
         </table>
+        <Grid container>
+          <Grid item>
+            <NumberInput label="Blindsights" setNumber={()=>1}/>
+          </Grid>
+        </Grid>
         <table>
           <tbody>
             <tr>

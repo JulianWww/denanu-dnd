@@ -1,0 +1,46 @@
+{
+	"Armor_Class": "13 ",
+	"ac": 13,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 1 slashing damage.",
+			"name": "Talons"
+		}
+	],
+	"alignment": "unaligned",
+	"cha": 6,
+	"con": 8,
+	"condition_immunities": [],
+	"cr": "0",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 16,
+	"hp": 1,
+	"hp_gen": "1d4 - 1",
+	"int": 2,
+	"lair_actions": [],
+	"languages": "--",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Hawk",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Passive Perception 14",
+	"size": "Tiny",
+	"skills": {
+		"perception": 2
+	},
+	"speed": "10 ft., fly 60 ft.",
+	"str": 5,
+	"traits": [
+		{
+			"description": "The hawk has advantage on Wisdom (Perception) checks that rely on sight.",
+			"name": "Keen Sight"
+		}
+	],
+	"type": "beast",
+	"wis": 14,
+	"xp": 10
+}

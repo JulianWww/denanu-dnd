@@ -1,0 +1,54 @@
+{
+	"Armor_Class": "14 (Natural Armor)",
+	"ac": 14,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 3 (1d6) fire damage at the end of each of its turns.",
+			"name": "Touch"
+		}
+	],
+	"alignment": "chaotic neutral",
+	"cha": 10,
+	"con": 12,
+	"condition_immunities": [],
+	"cr": "1/2",
+	"damage_immunities": [
+		"Fire"
+	],
+	"damage_resistances": [
+		"Bludgeoning",
+		"Piercing",
+		"and Slashing from Nonmagical Attacks"
+	],
+	"damage_vulnerabilities": [],
+	"dex": 15,
+	"hp": 9,
+	"hp_gen": "2d6 + 2",
+	"int": 8,
+	"lair_actions": [],
+	"languages": "Ignan",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Magmin",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Darkvision 60 ft.,  Passive Perception 10",
+	"size": "Small",
+	"skills": [],
+	"speed": "30 ft.",
+	"str": 7,
+	"traits": [
+		{
+			"description": "When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren't being worn or carried in that area are ignited.",
+			"name": "Death Burst"
+		},
+		{
+			"description": "As a bonus action, the magmin can set itself ablaze or extinguish its flames. While ablaze, the magmin sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+			"name": "Ignited Illumination"
+		}
+	],
+	"type": "elemental",
+	"wis": 11,
+	"xp": 100
+}

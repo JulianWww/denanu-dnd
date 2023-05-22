@@ -1,0 +1,58 @@
+{
+	"Armor_Class": "17 (Natural Armor)",
+	"ac": 17,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d10 + 2) piercing damage plus 2 (1d4) acid damage.",
+			"name": "Bite"
+		},
+		{
+			"description": "The dragon exhales acid in a 15-\u00adfoot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one.",
+			"name": "Acid Breath (Recharge 5\u20136)"
+		}
+	],
+	"alignment": "chaotic evil",
+	"cha": 13,
+	"con": 13,
+	"condition_immunities": [],
+	"cr": "2",
+	"damage_immunities": [
+		"Acid"
+	],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 14,
+	"hp": 33,
+	"hp_gen": "6d8 + 6",
+	"int": 10,
+	"lair_actions": [],
+	"languages": "Draconic",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Black Dragon Wyrmling",
+	"regional_actions": [],
+	"saving_throws": {
+		"cha": 3,
+		"con": 3,
+		"dex": 4,
+		"wis": 2
+	},
+	"senses": "Blindsight 10 ft., Darkvision 60 ft.,  Passive Perception 14",
+	"size": "Medium",
+	"skills": {
+		"perception": 4,
+		"stealth": 2
+	},
+	"speed": "30 ft., fly 60 ft., swim 30 ft.",
+	"str": 15,
+	"traits": [
+		{
+			"description": "The dragon can breathe air and water.",
+			"name": "Amphibious"
+		}
+	],
+	"type": "dragon",
+	"wis": 11,
+	"xp": 450
+}

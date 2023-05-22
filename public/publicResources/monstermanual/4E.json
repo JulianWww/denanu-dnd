@@ -1,0 +1,58 @@
+{
+	"Armor_Class": "11 ",
+	"ac": 11,
+	"actions": [
+		{
+			"description": "<em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage.",
+			"name": "Spiked Bone Club"
+		}
+	],
+	"alignment": "neutral evil",
+	"cha": 6,
+	"con": 12,
+	"condition_immunities": [
+		"Blinded"
+	],
+	"cr": "1/4",
+	"damage_immunities": [],
+	"damage_resistances": [],
+	"damage_vulnerabilities": [],
+	"dex": 12,
+	"hp": 11,
+	"hp_gen": "2d8 + 2",
+	"int": 9,
+	"lair_actions": [],
+	"languages": "Undercommon",
+	"legendary_actions": [],
+	"legendary_description": "",
+	"mythic_actions": [],
+	"name": "Grimlock",
+	"regional_actions": [],
+	"saving_throws": [],
+	"senses": "Blindsight 30 ft.,  Passive Perception 13",
+	"size": "Medium",
+	"skills": {
+		"athletics": 2,
+		"perception": 4,
+		"stealth": 2
+	},
+	"speed": "30 ft.",
+	"str": 16,
+	"traits": [
+		{
+			"description": ". The grimlock can't use its blindsight while deafened and unable to smell.",
+			"name": "Blind Sense"
+		},
+		{
+			"description": "The grimlock has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+			"name": "Keen Hearing and Smell"
+		},
+		{
+			"description": "The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.",
+			"name": "Stone Camouflage"
+		}
+	],
+	"type": "humanoid",
+	"wis": 8,
+	"xp": 50
+}
