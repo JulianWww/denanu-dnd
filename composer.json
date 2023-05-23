@@ -1,0 +1,21 @@
+{
+    "name": "denanu/denanu-dnd",
+    "type": "project",
+    "require": {
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Denanu\\DenanuDnd\\": "public/server_backend/dependancies/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julian Wandhoven",
+            "email": "Julian.wandhoven@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "public/server_backend/dependancies"
+    }
+}

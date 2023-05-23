@@ -1,13 +1,11 @@
 import * as React from 'react';
 import {IToken, Token} from "../Login/UseToken";
-import { Container, Button, CircularProgress, Box } from '@mui/material';
+import { Container, } from '@mui/material';
 import { MonsterForwardingListElement, loadMonsters } from "../components/monsters/MonsterSearchListElement";
 import {Element} from "../components/SearchableList";
-import { Index, randomFileName, toUrl, writePrivateData } from "../Login/ServerApi";
+import { Index, toUrl } from "../Login/ServerApi";
 import Character, { default_Character } from '../components/monsters/Character';
-import { useNavigate } from 'react-router-dom';
 import SearchableMonsterList from '../components/MonserSearchableList';
-import RightAlign from '../components/RightAlign';
 import { NewCustomItemCreator } from '../components/Utils';
 
 interface Props {

@@ -1,8 +1,7 @@
 import * as React from "react";
-import { Box, BoxProps, Card, Tab, Tabs, Typography } from "@mui/material";
-import SwipeableViews, { SwipeableViewsProps } from 'react-swipeable-views';
+import { Box, BoxProps, Tab, Tabs } from "@mui/material";
+import SwipeableViews from 'react-swipeable-views';
 import { useTheme } from '@mui/material/styles';
-import CustomRef from "../Utils/CustomRef";
 
 export interface TabsProps extends BoxProps {
   children: React.ReactNode[];

@@ -1,6 +1,5 @@
-import { Delete } from "@mui/icons-material";
-import { Avatar, ListItem, ListItemAvatar, ListItemText, useTheme } from "@mui/material";
-import { CSSProperties, ReactNode, StrictMode } from "react";
+import { useTheme } from "@mui/material";
+import { StrictMode } from "react";
 import {
   DragDropContext,
   Droppable,

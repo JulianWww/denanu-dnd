@@ -22,11 +22,11 @@ export interface Index {
   file: string;
 }
 
-export const backendUrl="http://localhost:8000/server_backend"
+export const backendUrl= process.env.REACT_APP_BACKEND_URL + "/server_backend"
 
 
 export async function getJson(source: string, name: string) {
-  return fetch("/publicResources/" + source + "/" + name + ".json", {
+  return fetch(process.env.PUBLIC_URL + "/publicResources/" + source + "/" + name + ".json", {
     method: 'GET'
   })
     .then(data => {return data.json()})

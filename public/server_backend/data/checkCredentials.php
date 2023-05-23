@@ -29,4 +29,8 @@
     }
     return false;
   }
+
+  function genToken() {
+    return bin2hex(random_bytes(1024));
+  }
 ?>

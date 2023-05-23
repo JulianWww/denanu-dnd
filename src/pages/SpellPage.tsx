@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { IToken } from "../Login/UseToken";
 import SpellRenderer from "../components/spells/SpellRenderer";
-import { Button, ButtonGroup, Container } from "@mui/material";
+import { ButtonGroup, Container } from "@mui/material";
 import Loading from "../components/Loading";
 import NavigateButton from "../components/NavitageButton";
 

@@ -1,8 +1,7 @@
 import * as React from "react";
-import { Button, ButtonGroup, Container } from "@mui/material";
+import { Container } from "@mui/material";
 import {IToken} from "../Login/UseToken";
-import MainMenu from "../components/MainMenu";
-import SearchableList, { Element } from "../components/SearchableList";
+import { Element } from "../components/SearchableList";
 import { Loader } from "semantic-ui-react";
 import { loadEncounters } from "../components/encounters/Utils";
 import { EncounterIndex } from "../components/encounters/Encounter";

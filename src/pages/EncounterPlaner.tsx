@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Container } from "@mui/material";
 import {IToken} from "../Login/UseToken";
-import MainMenu from "../components/MainMenu";
 import { Element } from "../components/SearchableList";
 import MonsterSearchListElement, { loadMonsters } from "../components/monsters/MonsterSearchListElement";
 import { MonsterIndex } from "./SelectMonserStatBlock";

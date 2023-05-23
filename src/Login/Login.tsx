@@ -1,24 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {sha512} from 'crypto-hash';
-import {
-  Button,
-  Container,
-  Card,
-  Form,
-  Header,
-  Icon,
-  Image,
-  List,
-  Menu,
-  Segment,
-  Statistic,
-  Sidebar,
-  Visibility,
-} from 'semantic-ui-react';
-import MainMenu from "../components/MainMenu"
+import { lastUrl } from "../components/MainMenu"
 import {Token} from "./UseToken"
 import { NavigateFunction } from 'react-router-dom';
 import { backendUrl } from './ServerApi';
+import { Avatar, Box, Button, Container, CssBaseline, Grid, TextField, Typography } from '@mui/material';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import InternalLink from '../components/Link';
 
 interface State {
   username?: string;
@@ -45,7 +33,7 @@ export default class Login extends React.Component<Props, State> {
       headers: {
       }
     })
-      .then(data => {console.log(data); return data.json()})
+      .then(data => data.json())
   }
 
   render = () => {
@@ -59,25 +47,71 @@ export default class Login extends React.Component<Props, State> {
           password
         }, backendUrl);
         console.log(token);
-        if (token.status == "success") {
+        if (token.status === "success") {
           this.props.setToken(token.data);
-          this.props.nav(-1);
+          this.props.nav(lastUrl);
         }
       }  
     }
 
     return(
-      <MainMenu token={this.props.token} setToken={this.props.setToken}>
-        <Container>
-          <Card className="thin">
-            <Form onSubmit={handleSubmit} className="loginForm">
-              <Form.Input fluid label='Username' placeholder='Username' onChange={(e) => this.setState({username: e.target.value})}/>
-              <Form.Input fluid label='password' placeholder='password' onChange={(e) => this.setState({password: e.target.value})} type='password'/>
-              <Form.Button primary>Log In</Form.Button>
-            </Form>
-          </Card>
-        </Container>
-      </MainMenu>
+      <Container maxWidth="xs">
+        <CssBaseline />
+        <Box
+          sx={{
+            marginTop: 8,
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+          }}
+        >
+          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+            <LockOutlinedIcon />
+          </Avatar>
+          <Typography component="h1" variant="h5">
+            Sign in
+          </Typography>
+          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              id="uname"
+              label="User Name"
+              name="uname"
+              autoComplete="uname"
+              autoFocus
+            />
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              name="password"
+              label="Password"
+              type="password"
+              id="password"
+              autoComplete="current-password"
+            />
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 3, mb: 2 }}
+            >
+              Sign In
+            </Button>
+            <Grid container>
+              <Grid item xs>
+              </Grid>
+              <Grid item>
+                <InternalLink url="/signup">
+                  Don't have an account? Sign Up
+                </InternalLink>
+              </Grid>
+            </Grid>
+          </Box>
+        </Box>
+      </Container>
     )
   }
 }

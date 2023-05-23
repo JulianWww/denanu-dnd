@@ -1,3 +1,8 @@
 
 node_modules/*
 yarn-error.log
+/vendor/
+build/
+denanu-dnd/
+public/server_backend/data/login/
+public/server_backend/data/files/

@@ -1,6 +1,5 @@
-import { Box, Button, ButtonGroup, FormControl, InputLabel, Select } from "@mui/material";
+import { Box, Button, ButtonGroup } from "@mui/material";
 import SearchableList, {Element, SearchableListProps} from "./SearchableList";
-import { EncounterIndex } from "./encounters/Encounter";
 import NumberInput from "./visualEditor/Nodes/Utility/NumberInput";
 import MultiSelectString from "./MultiSelect";
 import { SpellElement } from "../pages/SpellList";

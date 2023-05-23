@@ -1,8 +1,5 @@
-import React from 'react';
-import { Route, Routes, useNavigate, PathRouteProps, useLocation, BrowserRouter, Navigate } from 'react-router-dom';
+import { Route, Routes, useNavigate, useLocation, Navigate } from 'react-router-dom';
 import { NotFound } from './components/notFound';
-import logo from './logo.svg';
-import { useContext } from "react";
 import './App.css';
 import StatBlock from './pages/CharacterSheet';
 import Login from './Login/Login';
@@ -20,8 +17,9 @@ import Campains from './pages/Campains';
 import MainMenu from './components/MainMenu';
 import SpellList from './pages/SpellList';
 import SpellPage from './pages/SpellPage';
-import { PageTransition } from '@steveeeie/react-page-transition';
 import { Box } from '@mui/material';
+import Ukraine from 'save-ukraine';
+import { SaveUkraine } from './components/SaveUkraine';
 
 const themeProps: ThemeOptions = {
   typography: {
@@ -78,7 +76,7 @@ function App() {
   const token = useToken();
   const navigate = useNavigate();
   const location = useLocation();
-  console.log(location);
+
   if (true)
     return (<>
       <ThemeProvider theme={darkTheme}>
@@ -92,29 +90,28 @@ function App() {
           height: '100vh',
           overflow: 'auto',
         }}>
-          <PageTransition
-              preset="carouselToTop"
-              transitionKey={location.pathname}
-              enterAnimation=""
-              exitAnimation=""
-            >
-            <main style={{marginTop: "80px"}}>
-              <Routes location={location}>$
-                <Route path="/" element={<Navigate to="/monsters"/>}/>
-                <Route path="/login" element={<Login {...token} nav={navigate}/>}/>
-                <Route path="/signup" element={<SignUp {...token} nav={navigate}/>}/>
-                <Route path="/monsters" element={<StatBlockSelector {...token}/>}/>
-                <Route path="/monsters/:group/:source/:name" element={<StatBlock {...token}/>}/>
-                <Route path="/encounters" element={<EncounterList {...token}/>}/>
-                <Route path="/encounters/:group/:source/:name" element={<EncounterVerview {...token}/>}/>
-                <Route path="/encounter-planer/" element={<EncounterPlaner {...token}/>}/>
-                <Route path="/campains" element={<Campains {...token}/>}/>
-                <Route path="/spells" element={<SpellList {...token}/>}/>
-                <Route path="/spells/:group/:source/:name" element={<SpellPage {...token}></SpellPage>}/>
-                <Route path="*" element={<NotFound item="page" id="unknown" />}/>
-              </Routes>
-            </main>
-            </PageTransition>
+          <SaveUkraine
+            ribbon="BOTTOM_LEFT"
+            isCancelable={false}
+            moreInfoUrl='http://stand-with-ukraine.pp.ua/'
+          />
+          <main style={{marginTop: "80px"}}>
+            <Routes location={location}>
+              <Route path="/" element={<Navigate to="/monsters"/>}/>
+              <Route path="/login" element={<Login {...token} nav={navigate}/>}/>
+              <Route path="/signup" element={<SignUp {...token} nav={navigate}/>}/>
+              <Route path="/monsters" element={<StatBlockSelector {...token}/>}/>
+              <Route path="/monsters/:group/:source/:name" element={<StatBlock {...token}/>}/>
+              <Route path="/encounters" element={<EncounterList {...token}/>}/>
+              <Route path="/encounters/:group/:source/:name" element={<EncounterVerview {...token}/>}/>
+              <Route path="/encounter-planer/" element={<EncounterPlaner {...token}/>}/>
+              <Route path="/campains" element={<Campains {...token}/>}/>
+              <Route path="/spells" element={<SpellList {...token}/>}/>
+              <Route path="/spells/:group/:source/:name" element={<SpellPage {...token}></SpellPage>}/>
+              <Route path="*" element={<NotFound item="page" id="unknown" />}/>
+            </Routes>
+          </main>
+            
           <ToastContainer />
         </Box>
       </ThemeProvider>

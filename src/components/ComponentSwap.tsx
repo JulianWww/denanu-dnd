@@ -1,4 +1,4 @@
-import SwipeableViews, { SwipeableViewsProps } from "react-swipeable-views";
+import SwipeableViews from "react-swipeable-views";
 import { TabPanel } from "./Tabs";
 
 

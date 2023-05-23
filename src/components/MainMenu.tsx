@@ -2,6 +2,7 @@ import * as React from 'react';
 import {Token} from "../Login/UseToken"
 import { AppBar, Box, Button, Tab, Tabs, Toolbar, Typography } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
+import NavigateButton from './NavitageButton';
 
 interface HomepageHeadingProps {
   mobile: boolean;
@@ -29,15 +30,28 @@ const pages = [
   "spells"
 ]
 
+function getLoc(url: string) {
+  const [,base] = url.split("/", 2);
+  return pages.indexOf(base);
+}
+
+export var lastUrl = "/monsters";
+
 function DesktopContainer(props: DesktopContainerProps) {
   const nav = useNavigate();
   const loc = useLocation();
-  const [,base] = loc.pathname.split("/", 2)
+  var idx = getLoc(loc.pathname);
+  if (idx === -1) {
+    idx = getLoc(lastUrl);
+  }
+  else {
+    lastUrl = loc.pathname;
+  }
 
 
-  return <AppBar>
+  return <AppBar sx={{zIndex: 21474836479}}>
     <Toolbar>
-      <Tabs value={pages.indexOf(base)} sx={{ flexGrow: 1, alignSelf: 'flex-end' }}>
+      <Tabs value={idx} sx={{ flexGrow: 1, alignSelf: 'flex-end' }}>
         {
           pages.map((val: string)=> <Tab key={val} label={val.replace("-", " ")} onClick={()=>nav("/" + val)}/>)
         }
@@ -54,12 +68,12 @@ function DesktopContainer(props: DesktopContainerProps) {
           </>
           :
           <>
-            <Button href="/login">
+            <NavigateButton url="/login">
               Log in
-            </Button>
-            <Button href="/signup" style={{ marginLeft: '0.5em' }}>
+            </NavigateButton>
+            <NavigateButton url="/signup" style={{ marginLeft: '0.5em' }}>
               Sign up
-            </Button>
+            </NavigateButton>
           </>
         }
       </>

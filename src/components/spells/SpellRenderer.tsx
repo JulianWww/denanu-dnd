@@ -183,7 +183,7 @@ function ClassChip(props: ClassChipProps) {
     label={name}
     key={name}
     sx={{m:0.5}}
-    avatar={<img className="classNameIcon" src={"/assets/classes/" + name.toLowerCase() + ".png"}/>}
+    avatar={<img className="classNameIcon" src={process.env.PUBLIC_URL + "/assets/classes/" + name.toLowerCase() + ".png"}/>}
   />
 }
 

@@ -1,31 +1,23 @@
 <?php
-  header('Access-Control-Allow-Origin: *');
-
-  header('Access-Control-Allow-Methods: GET, POST');
-  
-  header("Access-Control-Allow-Headers: X-Requested-With");
-
-  function clean($string) {
-    $string = str_replace(' ', '-', $string); // Replaces all spaces with hyphens.
- 
-    return preg_replace('/[^A-Za-z0-9\-]/', '', $string); // Removes special chars.
-  }
+  include "./data/headers.php";
+  include "./data/checkCredentials.php";
 
   $name = clean($_REQUEST["username"]);
   $userfile = './data/login/' . $name . '.json';
-  $json = file_get_contents($userfile);
-  if ($json) {
-    print("{\"status\": \"fail\"}");
+
+  if (file_exists($userfile)) {
+    print("{\"status\": \"fail\", \"reason\": \"uname Exists\"}");
     die();
   }
 
   $json = array();
   $json["password"] = hash("sha512", $_REQUEST["password"]);
+  $json["email"] = $_REQUEST["email"];
 
-  $token = bin2hex(random_bytes(1024));
+  $token = genToken();
   $json["token"] = $token;
 
-  file_put_contents($userfile, json_encode($json));
+  file_put_contents($userfile, json_encode($json, JSON_PRETTY_PRINT));
 
   mkdir("data/files/".$name."/mobs", 0777, true);
   file_put_contents("data/files/".$name."/mobs/_index.json", "[]");

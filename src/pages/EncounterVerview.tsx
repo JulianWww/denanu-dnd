@@ -1,18 +1,16 @@
 import * as React from "react"
 import { IToken } from "../Login/UseToken";
-import MainMenu from "../components/MainMenu";
-import { Box, Card, ClickAwayListener, Collapse, Container, Grow, Paper, Tab, Tabs, TextField, Typography } from "@mui/material";
-import Encounter, { EncounterIndex, getEncounterIndex } from "../components/encounters/Encounter";
+import { TextField, Container } from "@mui/material";
+import Encounter, { getEncounterIndex } from "../components/encounters/Encounter";
 import { Params, useParams } from "react-router-dom";
 import { readPrivateData, writePrivateData } from "../Login/ServerApi";
-import { ControllSection, EncounterPlanerModule } from "./EncounterPlaner";
+import { EncounterPlanerModule } from "./EncounterPlaner";
 import { Loader } from "semantic-ui-react";
 import CustomRef from "../Utils/CustomRef";
-import TabBar, { TabPanel } from "../components/Tabs";
+import TabBar from "../components/Tabs";
 import TextWraper from "../components/TextWraper";
 import EncounterInitiative from "../components/encounters/EncounterInitative";
 import ComponentSwap from "../components/ComponentSwap";
-import { ThirtyFpsSharp } from "@mui/icons-material";
 import CampainSelector from "../components/campain/CamapaingSelector";
 
 interface Props extends IToken {

@@ -1,14 +1,12 @@
 import * as React from 'react';
 import MonsterStatBlock from "../components/monsters/MonsterStatBlock"
-import {Loader, Dimmer} from "semantic-ui-react";
+import { Loader } from "semantic-ui-react";
 import {Token} from "../Login/UseToken";
 import Character, { cleanCharacter } from "../components/monsters/Character";
 import { useParams, Params } from 'react-router-dom';
-import { getJson, backendUrl, readPrivateData, writePrivateData, loadCharacter } from "../Login/ServerApi";
-import { Container, Theme, ThemeProvider, useTheme } from '@mui/material';
-import { darkTheme } from '../App';
+import { writePrivateData, loadCharacter } from "../Login/ServerApi";
+import { Container, Theme, useTheme } from '@mui/material';
 import { getMonsterIndex } from './SelectMonserStatBlock';
-import MainMenu from '../components/MainMenu';
 
 interface Props {
   token?: Token;

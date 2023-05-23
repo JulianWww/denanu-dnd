@@ -1,18 +1,17 @@
 import React from 'react';
 import {sha512} from 'crypto-hash';
-import {
-  Container,
-  Card,
-  Form,
-} from 'semantic-ui-react';
-import MainMenu from "../components/MainMenu"
+import { lastUrl } from "../components/MainMenu"
 import {Token} from "./UseToken"
 import { NavigateFunction } from 'react-router-dom';
 import { backendUrl } from './ServerApi';
+import { Avatar, Box, Button, Container, CssBaseline, Grid, TextField, Typography } from '@mui/material';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import InternalLink from '../components/Link';
 
 interface State {
-  username?: string;
-  password?: string;
+  noUname: boolean;
+  noPassword: boolean;
+  unameMessage?: string;
 }
 interface Props {
   setToken: any;
@@ -23,51 +22,123 @@ interface Props {
 export default class SignUp extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
-    this.state = {};
+    this.state = {
+      noUname: false,
+      noPassword: false,
+    };
   }
 
   loginUser = async (credentials: any, backendURL: string) => {
     return fetch(backendURL + '/signup.php?' +  new URLSearchParams({
         username: credentials.username,
-        password: await sha512(credentials.password)
+        password: await sha512(credentials.password),
+        email: credentials.email,
       }), {
       method: 'POST',
       headers: {
       }
     })
-      .then(data => {console.log(data); return data.json()})
+      .then(data => data.json())
   }
 
   render = () => {
-    const {username, password} = this.state;
+    const { noUname, noPassword, unameMessage } = this.state;
 
-    const handleSubmit = async (e: any) => {
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+      event.preventDefault();
+      const data = new FormData(event.currentTarget);
+
+      const username = data.get("uname");
+      const password = data.get("password");
+      const email = data.get("email");
+
+      this.setState({
+        noUname: !Boolean(username),
+        noPassword: !Boolean(password),
+        unameMessage: undefined,
+      })
+
+
       if (username && password) {
-        e.preventDefault();
         const token = await this.loginUser({
           username,
-          password
+          password,
+          email,
         }, backendUrl);
-        console.log(token);
-        if (token.status == "success") {
+
+
+        if (token.status === "success") {
           this.props.setToken(token.data);
-          this.props.nav(-1);
+          this.props.nav(lastUrl);
+          return;
         }
-      }  
+        if (token.reason === "uname Exists") {
+          this.setState({
+            unameMessage: "User Name already Exists",
+            noUname: true,
+          })
+        }
+      }
     }
 
     return(
-      <MainMenu token={this.props.token} setToken={this.props.setToken}>
-        <Container>
-          <Card className="thin">
-            <Form onSubmit={handleSubmit} className="loginForm">
-              <Form.Input fluid label='Username' placeholder='Username' onChange={(e) => this.setState({username: e.target.value})}/>
-              <Form.Input fluid label='password' placeholder='password' onChange={(e) => this.setState({password: e.target.value})} type='password'/>
-              <Form.Button primary>Sign Up</Form.Button>
-            </Form>
-          </Card>
-        </Container>
-      </MainMenu>
+      <Container maxWidth="xs">
+        <CssBaseline />
+        <Box
+          sx={{
+            marginTop: 8,
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+          }}
+        >
+          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+            <LockOutlinedIcon />
+          </Avatar>
+          <Typography component="h1" variant="h5">
+            Sign Up
+          </Typography>
+          <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+            <TextField
+              autoComplete="uname"
+              name="uname"
+              required
+              fullWidth
+              id="uname"
+              label="User Name"
+              autoFocus
+              error={noUname}
+              helperText={unameMessage}
+            />
+            <TextField
+              required
+              fullWidth
+              name="password"
+              label="Password"
+              type="password"
+              id="password"
+              autoComplete="new-password"
+              sx={{mt:3}}
+              error={noPassword}
+            />
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 4, mb: 2 }}
+            >
+              Sign Up
+            </Button>
+            <Grid container justifyContent="flex-end">
+              <Grid item>
+                <InternalLink url="/login" variant="body2">
+                  Already have an account? Sign in
+                </InternalLink>
+              </Grid>
+            </Grid>
+          </Box>
+        </Box>
+      </Container>
     )
   }
 }

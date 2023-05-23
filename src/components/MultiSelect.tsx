@@ -1,4 +1,4 @@
-import { Box, Chip, FormControl, InputLabel, Select, SelectChangeEvent, MenuItem, Checkbox } from "@mui/material";
+import { FormControl, InputLabel, Select, SelectChangeEvent, MenuItem, Checkbox } from "@mui/material";
 
 interface BaseProps<T> {
   value: any[],
