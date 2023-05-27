@@ -1,15 +1,9 @@
-import { useCallback } from 'react';
 import { Handle, Position } from 'reactflow';
 import { Card, Grid } from "semantic-ui-react"
 import { canConnect, getNodeId } from "./Utils"
 
-const handleStyle = { left: 10 };
 
 export default function ExecutionStart({ data }: any) {
-  const onChange = useCallback((evt: any) => {
-    console.log(evt.target.value);
-  }, []);
-
   return (
     <Card className='node'>
       <Card.Content className='type event' inverted>

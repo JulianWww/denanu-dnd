@@ -5,6 +5,7 @@ import Delete from "@mui/icons-material/Delete";
 import { calculateXpThreshhold } from "./xpCalculation";
 import Inline from "../InlineDisplay";
 import Encounter from "./Encounter";
+import addUUID, { getuuid } from "../Uuid";
 
 interface Props {
   encounter: Encounter;
@@ -14,19 +15,9 @@ interface Props {
 export interface Party {
   size: number;
   lvl: number;
+  key: string;
 }
 
-function setLevel(p: Party[], idx: number, v: number) {
-  return p.map((val: Party, i: number) => {
-    return i === idx ? {...val, lvl: v} : val 
-  })
-}
-
-function setSize(p: Party[], idx: number, v: number) {
-  return p.map((val: Party, i: number) => {
-    return i === idx ? {...val, size: v} : val 
-  })
-}
 
 export default function PartyData(props: Props) {
   const {parties} = props.encounter;
@@ -43,13 +34,15 @@ export default function PartyData(props: Props) {
           <CardContent>
             {
               parties.map((party: Party, idx: number) => {
-                return <div>
+                addUUID(party);
+                return <div key={party.key}>
                   <NumberInput label="Count" val={party.size} className="party-selector" setNumber={(num: number) => {parties[idx].size = num; props.update()}}/>
                   <NumberInput label="level" val={party.lvl}  className="party-selector" setNumber={(num: number) => {parties[idx].lvl = num; props.update()}}/>
                   <IconButton color="error" aria-label="upload picture" component="label" disabled={parties.length < 2} onClick={
                     () => {
                       //console.log(partis.filter((val: any, i: number)=> i !== idx));
-                      props.encounter.parties = parties.filter((val: any, i: number)=> i !== idx)
+                      props.encounter.parties = parties.filter((val: any, i: number)=> i !== idx);
+                      console.log("bye");
                       props.update();
                     }
                   }>
@@ -61,7 +54,8 @@ export default function PartyData(props: Props) {
           </CardContent>
           <CardContent>
             <Button onClick={() => {
-              parties.push({size: 4, lvl: 1});
+              parties.push({size: 4, lvl: 1, key: getuuid()});
+              console.log("hi");
               props.update();
             }}>
               ADD GROUP

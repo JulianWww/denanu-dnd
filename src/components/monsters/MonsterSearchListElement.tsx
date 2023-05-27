@@ -1,4 +1,4 @@
-import { useNavigate, NavigateFunction } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Grid } from 'semantic-ui-react';
 import { Card, CardContent, Button } from "@mui/material";
 import { MonsterIndex } from "../../pages/SelectMonserStatBlock";

@@ -3,7 +3,6 @@ import { Handle, Position } from 'reactflow';
 import { Card, Input, Grid } from "semantic-ui-react"
 import { canConnect } from "./Utils"
 
-const handleStyle = { left: 10 };
 
 export default function Attack({ data }: any) {
   const [val, setVal] = useState(data.get()?.mod);

@@ -3,9 +3,9 @@ import { IToken } from "../../Login/UseToken";
 import { CampainIndex, loadCamapins } from "./Campain";
 import CampainListElement from "./CampainListElement";
 import SearchableList, { Element } from "../SearchableList";
-import { Divider, Loader } from "semantic-ui-react";
 import { Button, Card, CardActions, CardContent, CardHeader, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, TextField } from "@mui/material";
 import { writePrivateData } from "../../Login/ServerApi";
+import Loading from "../Loading";
 
 interface Props extends IToken {
   onClick?: (e: React.MouseEvent<HTMLElement>, id: CampainIndex, upload: (c?: CampainIndex | null, idx?: number) => void, idx: number) => void;
@@ -105,7 +105,7 @@ export default class CampainList<T={}> extends React.Component<Props & T, State>
       </CardActions>
       <CardContent>
         {
-          campains ? <SearchableList elements={campains}/> : <Loader/>
+          campains ? <SearchableList elements={campains}/> : <Loading/>
         }
       </CardContent>
 

@@ -10,11 +10,13 @@ import 'semantic-ui-css/semantic.min.css';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+// <React.StrictMode>
+
 root.render(
-  <React.StrictMode>
+  
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
-  </React.StrictMode>
 );
 reportWebVitals();

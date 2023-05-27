@@ -1,3 +1,4 @@
+import addUUID, { UUID } from "../components/Uuid";
 import Character from "../components/monsters/Character";
 import Spell, { SpellIndex } from "../components/spells/Spell";
 import { MonsterIndex } from "../pages/SelectMonserStatBlock";
@@ -13,12 +14,15 @@ export interface LocationData extends BaseLocationData {
   name: string;
 }
 
+export interface IndexLocationData {
+  idx: LocationData;
+}
+
 export function locationDataEquals(a: LocationData, b: LocationData) {
   return a.name === b.name && a.group === b.group && a.source === b.source;
 }
 
-export interface Index {
-  idx: LocationData;
+export interface Index extends IndexLocationData{
   file: string;
 }
 
@@ -75,6 +79,7 @@ export function randomFileName() {
 
 export function writePrivateData(token: Token, type: string, source: string, name: string, content: any, indexData?: Record<string, any>, group?:string) {
   group = group ? group : "private";
+  console.log("content write", content);
   fetch(backendUrl + '/upload.php?' +  new URLSearchParams({
       username: token.username,
       group: group,
@@ -114,13 +119,13 @@ export async function readPrivateIndex<T extends ServerApiIndex>(group: string, 
   return data;
 }
 
-async function loadPrivatePublic<T>(privateGroup: string, group?: string, source?: string, name?: string, token?: Token) {
+async function loadPrivatePublic<T extends UUID>(privateGroup: string, group?: string, source?: string, name?: string, token?: Token) {
   if (source && name) {
     if (group === "public") {
-      return (await getJson(source, name)) as T;
+      return addUUID(await getJson(source, name)) as T;
     }
     else if (group === "private" && token) {
-      return (await readPrivateData(token, privateGroup, name)) as T;
+      return addUUID(await readPrivateData(token, privateGroup, name)) as T;
     }
   }
   throw Error("Could not fetch Character")

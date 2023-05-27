@@ -4,6 +4,7 @@ import { CRs, alignments, sizes, types } from "./monsters/BlockEditor";
 import { MonsterIndex } from "../pages/SelectMonserStatBlock";
 import { ReactNode } from "react";
 import MultiSelectString from "./MultiSelect";
+import numericQuantity from "numeric-quantity";
 
 export interface MonserElement extends Element, MonsterIndex {}
 
@@ -75,16 +76,16 @@ export default class SearchableMonsterList extends SearchableList {
     
     return <>
     <div className="row">
-      <TextField select fullWidth label="Min Cr" value={this.minCr} variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>) => {this.minCr = eval(e.target.value); this.maxCr = Math.max(this.minCr, this.maxCr); this.update()}}>
+      <TextField select fullWidth label="Min Cr" value={this.minCr} variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>) => {this.minCr = numericQuantity(e.target.value); this.maxCr = Math.max(this.minCr, this.maxCr); this.update()}}>
         {CRs.map((option: string) => (
-          <MenuItem value={eval(option)} key={option}>
+          <MenuItem value={numericQuantity(option)} key={option}>
             {option}
           </MenuItem>
         ))}
       </TextField>
-      <TextField select fullWidth label="Max Cr" value={this.maxCr} variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>) => {this.maxCr = eval(e.target.value); this.minCr = Math.min(this.minCr, this.maxCr); this.update()}}>
+      <TextField select fullWidth label="Max Cr" value={this.maxCr} variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>) => {this.maxCr = numericQuantity(e.target.value); this.minCr = Math.min(this.minCr, this.maxCr); this.update()}}>
         {CRs.map((option: string) => (
-          <MenuItem value={eval(option)} key={option}>
+          <MenuItem value={numericQuantity(option)} key={option}>
             {option}
           </MenuItem>
         ))}

@@ -1,4 +1,4 @@
-import { TextField, StandardTextFieldProps, Autocomplete, AutocompleteProps } from "@mui/material";
+import { TextField, StandardTextFieldProps, Autocomplete } from "@mui/material";
 import CampainList from "./CampainList";
 
 
@@ -10,13 +10,14 @@ interface Props extends StandardTextFieldProps {
 export default class CampainSelector extends CampainList<Props> {
   render(): JSX.Element {
     const names = this.campainList.map((val) => val.name);
-    const {value } = this.props;
+    const {value, onValueStringChange, token, ...other } = this.props;
 
-    return <Autocomplete renderInput={(params) => <TextField {...params} variant="standard" label="Select Campaign" value={value} error={!Boolean(value) || names.findIndex((val: string)=>{
+    return <Autocomplete renderInput={(params) => {return <TextField {...other} variant="standard" label="Select Campaign" value={value} error={!Boolean(value) || names.findIndex((val: string)=>{
       return val === value;
-    }) === -1} {...this.props}/>}
+    }) === -1} {...params}/>}}
       options={names}
       fullWidth
+      value={value}
       onChange={(event: React.SyntheticEvent, value: string | null)=> {this.props.onValueStringChange(value)}}
     />
   }

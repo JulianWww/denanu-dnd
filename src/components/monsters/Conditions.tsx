@@ -1,13 +1,12 @@
 import * as React from "react";
 import DurationTypes from "./data/Time";
 import ConditionDataDisplay from "./Utility/ConditionDataDisplay";
-import { Button, IconButton, Tooltip } from "@mui/material";
+import { Button, Tooltip } from "@mui/material";
 import { Icon } from "semantic-ui-react";
 import AddConditionDialog from "./Utility/ConditionAddDialog";
 import { JSXToList, toList } from "./Utility/ConditionsListing";
 import Character, { addDamageImmunity, addDamageResistance, removeDamageImmunity, removeDamageResistance } from "./Character";
 import { damage_resistances } from "./Utility/Damage";
-import CustomRef from "../../Utils/CustomRef";
 
 
 export const conditions: string[] = [
@@ -52,11 +51,16 @@ function defaultConditionsStackInterface(): Record<string, ConditionData[]> {
     Exhausted: [],
   }
 }
-interface Props {
+
+export interface ConditionStackUpdator {
+  setConditionsStack?: (val: Record<string, ConditionData[]>) => void;
+  getConditionsStack?: () => Record<string, ConditionData[]>;
+}
+
+interface Props extends ConditionStackUpdator {
   conditions: [string, number, string[]][];
   imunities: string[];
   setConditions: (cond: [string, number, string[]][]) => void;
-  conditionsRef?: CustomRef<{record: Record<string, ConditionData[]>, idx: number}>;
 }
 
 interface State {
@@ -66,12 +70,14 @@ interface State {
 
 
 export default class ConditionsDisplay extends React.Component<Props, State> {
-  lastConditions?: number;
+  lastConditions?: React.Key;
   constructor(props: Props) {
     super(props);
 
+    const setStack = props.getConditionsStack ? props.getConditionsStack() : {};
+
     this.state = {
-      conditionsStacks: defaultConditionsStackInterface(),
+      conditionsStacks: {...defaultConditionsStackInterface(), ...setStack},
       addCondDialogOpen: false
     }
   }
@@ -88,28 +94,37 @@ export default class ConditionsDisplay extends React.Component<Props, State> {
     })
   }
 
-  updateConditions(conditionsStacks: Record<string, ConditionData[]>) {
-    const { setConditions, conditionsRef } = this.props;
-    setConditions(this.calcConditions(conditionsStacks));
-
-    if (conditionsRef && conditionsRef.val)
-      conditionsRef.val.record = conditionsStacks;
-
-    this.setState({
-      conditionsStacks: conditionsStacks,
-      addCondDialogOpen: false
-    });
+  async updateConditionStack(conditionStack: Record<string, ConditionData[]>) {
+    if (this.props.setConditionsStack){
+      this.props.setConditionsStack(conditionStack);
+    }
+    else {
+      this.setState({conditionsStacks: conditionStack})
+    }
   }
 
-  render(): React.ReactNode {
-    const {addCondDialogOpen, conditionsStacks} = this.state
-    const { conditions, imunities } = this.props;
-
-    const {conditionsRef} = this.props;
-    if (conditionsRef && conditionsRef.val && conditionsRef.val.idx !== this.lastConditions) {
-      this.lastConditions = conditionsRef.val.idx;
-      this.updateConditions(conditionsRef.val.record);
+  getConditionStack() {
+    if (this.props.getConditionsStack) {
+      return {...this.props.getConditionsStack()};
     }
+    return this.state.conditionsStacks;
+  }
+
+  async updateConditions(conditionsStacks: Record<string, ConditionData[]>) {
+    const { setConditions } = this.props;
+    setConditions(this.calcConditions(conditionsStacks));
+
+    this.setState({
+      addCondDialogOpen: false
+    });
+    this.updateConditionStack(conditionsStacks);
+  }
+
+
+  render(): React.ReactNode {
+    const {addCondDialogOpen } = this.state;
+    const conditionsStacks = this.getConditionStack();
+    const { conditions, imunities } = this.props;
 
     const hanldeAddCondDialogClose = () => {
       this.setState({addCondDialogOpen: false})

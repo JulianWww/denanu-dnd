@@ -1,6 +1,5 @@
-import { useNavigate } from "react-router-dom";
-import { Card, CardContent, Button, Grid, Checkbox, Typography, makeStyles, CheckboxProps } from "@mui/material";
-import { LocationData, loadPublicSpellIndex } from "../../Login/ServerApi";
+import { Card, CardContent, Button, Grid, Checkbox, Typography, CheckboxProps } from "@mui/material";
+import {  loadPublicSpellIndex } from "../../Login/ServerApi";
 import { Token } from "../../Login/UseToken";
 import { SpellIndex } from "./Spell";
 import { SpellElement } from "../../pages/SpellList";

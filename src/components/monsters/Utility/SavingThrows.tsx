@@ -1,5 +1,4 @@
-import * as React from "react";
-import { Rolls, getRollType, rollAdvantageDisadvantageDice, rollDice, rollTypedDice } from "../../visualEditor/Engine/Utils";
+import { Rolls, getRollType, rollTypedDice } from "../../visualEditor/Engine/Utils";
 import { attributes, getAttribute } from "../Attributes";
 import Character from '../Character';
 import { SaveToast, SaveToastAutoFail } from "../../visualEditor/Engine/Toasts";

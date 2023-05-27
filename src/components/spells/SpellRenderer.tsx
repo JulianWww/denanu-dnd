@@ -1,9 +1,7 @@
 import * as React from "react";
 import Spell from "./Spell";
-import { Params } from "react-router-dom";
 import { LocationData, loadSpell, locationDataEquals, toUrl } from "../../Login/ServerApi";
 import { IToken } from "../../Login/UseToken";
-import Loading from "../Loading";
 import TextWraper from "../TextWraper";
 import "./css/style.css";
 import { Button, ButtonGroup, Card, CardContent, Chip, Collapse, Divider, Typography, TypographyProps } from "@mui/material";
@@ -183,7 +181,7 @@ function ClassChip(props: ClassChipProps) {
     label={name}
     key={name}
     sx={{m:0.5}}
-    avatar={<img className="classNameIcon" src={process.env.PUBLIC_URL + "/assets/classes/" + name.toLowerCase() + ".png"}/>}
+    avatar={<img className="classNameIcon" src={process.env.PUBLIC_URL + "/assets/classes/" + name.toLowerCase() + ".png"} alt={name.toLowerCase()}/>}
   />
 }
 

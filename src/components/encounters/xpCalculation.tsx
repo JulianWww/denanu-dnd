@@ -1,4 +1,3 @@
-import { MonsterIndex } from "../../pages/SelectMonserStatBlock";
 import { add } from "../Utils";
 import Encounter, { EncounterMonster } from "./Encounter";
 import { Party } from "./PartyData";

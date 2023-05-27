@@ -38,35 +38,35 @@ export default function ConditionListing(props: Props) {
     effects.push(<span>can <b>not</b> harm and have social check advantage: {toList(cond[2])}</span>);
   }
 
-  var cond = hasCondition(conditions, [["Frightened", 1]]);
+  cond = hasCondition(conditions, [["Frightened", 1]]);
   if (cond) {
     effects.push(<span>can <b>not</b> move closer to: {toList(cond[2])}</span>);
   }
 
-  var cond = hasCondition(conditions, [["Invisible", 1]]);
+  cond = hasCondition(conditions, [["Invisible", 1]]);
   if (cond) {
     effects.push(<span>You cannot be seen except by special means</span>);
     effects.push(<span>You count as heavily obscured for the purposes of hiding</span>);
   }
 
-  var cond = hasCondition(conditions, [["Paralyzed", 1]]);
+  cond = hasCondition(conditions, [["Paralyzed", 1]]);
   if (cond) {
     effects.push(<span>Attacks Aginst this target are Automatically crits if the attacker is within 5ft.</span>);
   }
 
-  var cond = hasCondition(conditions, [["Petrified", 1]]);
+  cond = hasCondition(conditions, [["Petrified", 1]]);
   if (cond) {
     effects.push(<span>Is Made out of stone and Mass is multiplied by 10</span>);
     effects.push(<span>Does not age due to Petrification</span>)
     effects.push(<span>Imunte to Diseases</span>)
   }
 
-  var cond = hasCondition(conditions, [["Prone", 1]]);
+  cond = hasCondition(conditions, [["Prone", 1]]);
   if (cond) {
     effects.push(<span><strong><b>Get Up </b></strong>You can spend Half your Movement Speed to stand up and end the Prone Condition</span>);
   }
 
-  var cond = hasCondition(conditions, [["Unconscious", 1]]);
+  cond = hasCondition(conditions, [["Unconscious", 1]]);
   if (cond) {
     effects.push(<span>Is unaware of its seroundings</span>);
     effects.push(<span>Is Prone and drops all Items</span>)

@@ -1,8 +1,8 @@
 import * as React from "react"
 import { CampainIndex } from "../campain/Campain"
-import { Button, ButtonGroup, CardActions, CardContent, Divider, TextField } from "@mui/material";
-import PlayerSheet from "./PlayerSheet";
-import { Campaign } from "@mui/icons-material";
+import { Button, ButtonGroup, CardActions, CardContent, TextField } from "@mui/material";
+import PlayerSheet, { PlayerData } from "./PlayerSheet";
+import addUUID from "../Uuid";
 
 interface Props {
   campain: CampainIndex;
@@ -14,19 +14,19 @@ export default function AddPlayer(props: Props) {
   const [name, setName] = React.useState("");
   const [file, setFile] = React.useState("");
   
-  const player = {
+  const player: PlayerData = {
     name: name, file: file
   }
 
   const add = () => {
     if (canAdd()) {
-      props.campain.players.push(player);
+      props.campain.players.push(addUUID(player));
       props.update();
     }
   }
 
   const canAdd = () => {
-    return name != "" && file != ""
+    return name !== "" && file !== ""
   }
 
   return <>

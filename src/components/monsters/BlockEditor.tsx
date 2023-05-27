@@ -1,27 +1,22 @@
 import * as React from "react";
 import Character, { Trait, defaultTrait } from "./Character";
-import { TextField, MenuItem, Select, InputLabel, FormControl, Box, Chip, SelectChangeEvent, Checkbox, Grid, IconButton, Card, CardContent, Divider, CardActions, Button, ButtonGroup, Collapse, BoxProps, Typography } from "@mui/material";
+import { TextField, MenuItem, Chip, Grid, IconButton, Card, CardContent, Divider, CardActions, Button, Collapse, BoxProps, Typography } from "@mui/material";
 import NumberInput from "../visualEditor/Nodes/Utility/NumberInput";
 import { toMod } from "./Utility/Utils";
 import { range } from "../visualEditor/Nodes/Utils";
 import { attributes, getAttribute } from "./Attributes";
-import { skillNames, skills } from "./Skills";
+import { skillNames, } from "./Skills";
 import TextWraper from "../TextWraper";
 import { conditions } from "./Conditions";
 import { damage_resistances } from "./Utility/Damage";
-import MultiSelectString, { MultiSelectRecord } from "../MultiSelect";
+import MultiSelectString from "../MultiSelect";
 import { calcMobXp } from "../encounters/xpCalculation";
 import IOSSwitch from "./Utility/IOSSwitch";
-import StatsSheet from "./MonsterStatBlock";
-import Draggable from "react-draggable";
 import DraggableList from "../DraggableList";
-import Inline from "../InlineDisplay";
 import { Delete, Edit, Code } from "@mui/icons-material";
 import { Markup } from "interweave";
-import { TransitionGroup } from "semantic-ui-react";
-import { chipSelector } from "../../MuiProps";
-import { Center, toDnDString } from "../Utils";
-import RightAlign from "../RightAlign";
+import { Center } from "../Utils";
+import numericQuantity from 'numeric-quantity';
 const Dice = require('dice-notation-js');
 
 export const sizes = ["tiny", "small", "medium", "large", "huge", "gargantuan"];
@@ -47,7 +42,7 @@ const armors: Record<string, Armor> = {
 }
 export const CRs = ["0", "1/8", "1/4", "1/2", ...range(1, 30).map((val: number) => val.toString())]
 function getProficencyBonus(cr: string) {
-  const c = eval(cr);
+  const c = numericQuantity(cr);
   if (c < 5) return 2;
   if (c < 9) return 3;
   if (c < 13) return 4;
@@ -112,7 +107,6 @@ export default class BlockEditor extends React.Component<Props, State> {
 
   constructor(props: Props) {
     super(props);
-    console.clear();
     const { character } = props;
 
     const hpGenData = Dice.parse(character.hp_gen)
@@ -137,8 +131,6 @@ export default class BlockEditor extends React.Component<Props, State> {
       regional:           character.regional_actions.length > 0,
       editingTrait: defaultTrait(),
     };
-
-    console.log(character)
   }
 
   computeSenses() {
@@ -161,9 +153,6 @@ export default class BlockEditor extends React.Component<Props, State> {
       }
       else if (str.startsWith("Truesight")) {
         senses.truesight = Number(str.slice(10, -4));
-      }
-      else {
-        console.log(str);
       }
     }
   }
@@ -516,7 +505,7 @@ export default class BlockEditor extends React.Component<Props, State> {
               <td>
                 <TextField select label="Challenge Rating" value={character.cr} fullWidth onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                   character.cr = e.target.value;
-                  character.xp = calcMobXp(eval(character.cr));
+                  character.xp = calcMobXp(numericQuantity(character.cr));
                   this.updateProficencyBonus()
                 }} 
                 sx={{mt: 5}}
@@ -731,7 +720,7 @@ export default class BlockEditor extends React.Component<Props, State> {
             Traits:
             </TextWraper>
           </h4>
-          <DraggableList id="traits-list" 
+          <DraggableList
             items={character.traits}
             setItems={(val: Trait[]) => {
               character.traits = val;
@@ -747,7 +736,7 @@ export default class BlockEditor extends React.Component<Props, State> {
               Actions:
             </TextWraper>
           </h4>
-          <DraggableList id="actions-list" 
+          <DraggableList
             items={character.actions}
             setItems={(val: Trait[]) => {
               character.actions = val;
@@ -764,7 +753,7 @@ export default class BlockEditor extends React.Component<Props, State> {
                 Legendary Actions:
               </TextWraper>
             </h4>
-            <DraggableList id="legendary-actions-list" 
+            <DraggableList
               items={character.legendary_actions}
               setItems={(val: Trait[]) => {
                 character.legendary_actions = val;
@@ -780,7 +769,7 @@ export default class BlockEditor extends React.Component<Props, State> {
                 Mythic Actions:
               </TextWraper>
             </h4>
-            <DraggableList id="mythic-actions-list" 
+            <DraggableList
               items={character.mythic_actions}
               setItems={(val: Trait[]) => {
                 character.mythic_actions = val;
@@ -796,7 +785,7 @@ export default class BlockEditor extends React.Component<Props, State> {
                 Lair Actions:
               </TextWraper>
             </h4>
-            <DraggableList id="lair-actions-list" 
+            <DraggableList
               items={character.lair_actions}
               setItems={(val: Trait[]) => {
                 character.lair_actions = val;
@@ -812,7 +801,7 @@ export default class BlockEditor extends React.Component<Props, State> {
                 Regional Effects:
               </TextWraper>
             </h4>
-            <DraggableList id="regional-actions-list" 
+            <DraggableList
               items={character.regional_actions}
               setItems={(val: Trait[]) => {
                 character.regional_actions = val;

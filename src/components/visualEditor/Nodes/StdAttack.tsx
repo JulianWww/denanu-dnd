@@ -1,11 +1,8 @@
-import { useCallback, useState } from 'react';
 import { Handle, Position } from 'reactflow';
-import { Card, Input, Grid, Popup } from "semantic-ui-react";
+import { Card, Grid } from "semantic-ui-react";
 import { canConnect } from "./Utils";
 import NumberInput from "./Utility/NumberInput";
 import StringInput from "./Utility/StringInput";
-
-const handleStyle = { left: 10 };
 
 export default function StdAttack({ data }: any) {
   return (

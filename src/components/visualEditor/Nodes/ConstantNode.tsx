@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { Handle, Position } from 'reactflow';
-import { Card, Checkbox, Grid, SemanticWIDTHS } from "semantic-ui-react";
+import { Card, Grid, SemanticWIDTHS } from "semantic-ui-react";
 import { canConnect } from "./Utils";
 import NumberInput from "./Utility/NumberInput";
 import Switch from "@mui/joy/Switch";
 import Typography from "@mui/joy/Typography";
 import { TextField } from '@mui/material';
 
-function Constant<T>({}: any, type: string, selector: React.ReactNode, width: string, inpwidth?: SemanticWIDTHS) {
+function Constant(props: {}, type: string, selector: React.ReactNode, width: string, inpwidth?: SemanticWIDTHS) {
   return (
     <Card className='node'>
       <Card.Content className='propcess constant' inverted>
@@ -34,7 +34,7 @@ export function NumberNode(props: any) {
   const change = (num: number) => {
     data.set("value", num);
   };
-  return Constant<Number>(props, "number", <NumberInput setNumber={change} val={data.get()?.value}/>, "230px", 14);
+  return Constant(props, "number", <NumberInput setNumber={change} val={data.get()?.value}/>, "230px", 14);
 }
 
 export function BooleanNode(props: any) {
@@ -46,7 +46,7 @@ export function BooleanNode(props: any) {
     if (box.target.checked !== undefined)
       set(box.target.checked);
   };
-  return Constant<Number>(props, "boolean", 
+  return Constant(props, "boolean", 
     <Switch
       slotProps={{
         track: {
@@ -84,7 +84,7 @@ export function StringNode(props: any) {
     data.set("value", box.target.value);
     set(box.target.value);
   };
-  return Constant<Number>(props, "string", 
+  return Constant(props, "string", 
     <TextField
       label="Text"
       placeholder="Placeholder"

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { NativeSelect } from '@mui/material';
-import { Rolls, getRollType, rollAdvantageDisadvantageDice, rollTypedDice } from "../visualEditor/Engine/Utils";
+import { Rolls, getRollType, rollTypedDice } from "../visualEditor/Engine/Utils";
 import { useState } from 'react';
 import { attributes, getAttribute } from "./Attributes";
 import Character from './Character';

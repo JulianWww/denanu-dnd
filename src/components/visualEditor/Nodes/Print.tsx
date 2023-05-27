@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 import { Handle, Position } from 'reactflow';
 import { Card, TextArea, Grid } from "semantic-ui-react"
 import { canConnect } from "./Utils"
@@ -7,11 +7,10 @@ import { canConnect } from "./Utils"
 export default function PrintNode({ data }: any) {
   const [txt, setText] = useState(data.get()?.txt);
 
-  const onChange = useCallback((evt: any) => {
+  const onChange = (evt: any) => {
     setText(evt.target.value);
     data.set("txt", evt.target.value);
-    console.log(evt.target.value)
-  }, []);
+  }
 
   return (
     <Card className='node'>

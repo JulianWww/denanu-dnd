@@ -1,7 +1,8 @@
 import { Index } from "../../Login/ServerApi";
+import { UUID } from "../Uuid";
 import { TimeData } from "../monsters/data/Time";
 
-export default interface Spell extends TimeData {
+export default interface Spell extends TimeData, UUID {
 	atHigherLevels: string;
 	availableClasses: string[];
 	bookSource: string;

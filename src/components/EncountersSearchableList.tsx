@@ -2,6 +2,7 @@ import SearchableList, {Element, SearchableListProps} from "./SearchableList";
 import { EncounterIndex } from "./encounters/Encounter";
 import CampainSelector from "./campain/CamapaingSelector";
 import { IToken } from "../Login/UseToken";
+import { getDefaultCampainList } from "./campain/useCampain";
 
 export interface EncounterElement extends Element, EncounterIndex {
 }
@@ -11,12 +12,13 @@ interface Props extends IToken {
 }
 
 export default class EncountersSearchableList extends SearchableList<Props> { 
-  campain: string | null;
+  campain?: string | null;
 
   constructor(props: SearchableListProps & Props) {
     super(props);
 
-    this.campain = null;
+    
+    this.campain = getDefaultCampainList();
   }
 
   update = () => this.setState({});

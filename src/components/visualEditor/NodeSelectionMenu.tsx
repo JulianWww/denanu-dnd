@@ -54,7 +54,7 @@ export default function NodeSelectionMenu(props: Props) {
   const genElements = () => {
     var elements = new Array<NodeElement>();
     for (const key in nodeTypes) {
-      if (key != "init") {
+      if (key !== "init") {
         const callback = () => {
           addNode(key)
         }

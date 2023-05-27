@@ -1,3 +1,9 @@
+export enum Rolls {
+  Advantage,
+  Normal,
+  Disadvantage,
+}
+
 function rollDie(faces: number) {
   return Math.floor(Math.random() * faces) + 1;
 }
@@ -20,12 +26,6 @@ export function rollTypedDice(faces: number, die: number, mod: number, roll: Rol
     case Rolls.Disadvantage: return Math.min(rollDice(faces, die, mod), rollDice(faces, die, mod));
     default: return rollDice(faces, die, mod);
   }
-}
-
-export enum Rolls {
-  Advantage,
-  Normal,
-  Disadvantage,
 }
 
 export function getRollType(advantage: boolean, disadvantage: boolean) {

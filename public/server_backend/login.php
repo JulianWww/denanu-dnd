@@ -4,12 +4,7 @@
   header('Access-Control-Allow-Methods: GET, POST');
   
   header("Access-Control-Allow-Headers: X-Requested-With");
-
-  function clean($string) {
-    $string = str_replace(' ', '-', $string); // Replaces all spaces with hyphens.
- 
-    return preg_replace('/[^A-Za-z0-9\-]/', '', $string); // Removes special chars.
-  }
+  include "./data/checkCredentials.php";
 
   $userfile = './data/login/' . clean($_REQUEST["username"]) . '.json';
   $json = file_get_contents($userfile);

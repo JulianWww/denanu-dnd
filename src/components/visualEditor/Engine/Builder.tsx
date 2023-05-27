@@ -3,11 +3,11 @@ import {
   Edge
   } from 'reactflow';
 import { getNodeData } from '../Nodes/Utils';
-import { useState } from 'react';
+
 
 const getNodeByType = (nodes: Node[], type: string) => {
   for (const node of nodes) {
-    if (node.type == "init") {
+    if (node.type === "init") {
       return node;
     }
   }

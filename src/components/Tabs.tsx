@@ -20,7 +20,7 @@ export function TabPanel(props: TabPanelProps) {
 
   return (
     <div
-      {...props}
+      {...other}
       key={index}
     >
       {children}
@@ -29,7 +29,7 @@ export function TabPanel(props: TabPanelProps) {
 }
 
 export default function TabBar(props: TabsProps) {
-  const [tab, setTab] = React.useState(0);
+  const [tab, setTab] = React.useState(1);
   const { children, labels, childProps, sx, ...other} = props;
 
   const theme = useTheme();

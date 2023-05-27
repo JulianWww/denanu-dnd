@@ -1,19 +1,20 @@
 import * as React from "react";
-import { Card, CardContent, Divider, Grid, List, ListItem, ButtonGroup, Button, Dialog, DialogTitle, DialogContent, DialogActions, DialogContentText, TextField } from "@mui/material";
+import { Card, CardContent, Divider, Grid, List, ListItem, ButtonGroup, Button, Dialog, DialogTitle, DialogContent, DialogActions, TextField, Collapse, CardActions } from "@mui/material";
 import Encounter, { EncounterMonster } from "./Encounter";
 import Character, { default_Character } from "../monsters/Character";
-import { loadCharacter, parallel, randomNumber, writePrivateData } from "../../Login/ServerApi";
+import { IndexLocationData, loadCharacter, parallel, toUrl, writePrivateData } from "../../Login/ServerApi";
 import { MonsterIndex, getMonsterIndex } from "../../pages/SelectMonserStatBlock";
 import { IToken } from "../../Login/UseToken";
 import { rollDice } from "../visualEditor/Engine/Utils";
 import { toMod } from "../monsters/Utility/Utils";
 import { range } from "../visualEditor/Nodes/Utils";
 import StatsSheet from "../monsters/MonsterStatBlock";
-import CustomRef from "../../Utils/CustomRef";
 import { ConditionData } from "../monsters/Conditions";
 import NumberInput from "../visualEditor/Nodes/Utility/NumberInput";
-import { sortedIndex } from "../Utils";
-import PlayerSheet, { PlayerData } from "../player/PlayerSheet";
+import PlayerSheet, { PlayerData, makeDefaultPlayerData } from "../player/PlayerSheet";
+import { CampainIndex, loadCamapin } from "../campain/Campain";
+import CloseButton from "../CloseButton";
+import { UUID, getuuid } from "../Uuid";
 
 
 interface Props extends IToken{
@@ -22,103 +23,68 @@ interface Props extends IToken{
 
 interface State {
   initativeOffset: number;
-  addingPlayer: boolean;
+  inititativeList: ((MonsterData & Initative) | (PlayerData & Initative))[];
+  initInitative: boolean;
 
-  newPlayerName?: string;
-  newPlayerInitative?: number;
+  players?: (PlayerData & Initative)[];
 }
 
+interface Initative {
+  init: number;
+}
 
-interface MonsterData {
-  mob?: MonsterIndex;
+interface MonsterData extends UUID {
+  mob?: Character & IndexLocationData;
   player?: PlayerData;
   idx: number;
-  init: number;
-  conditionsRef: CustomRef<{record: Record<string, ConditionData[]>, idx: number}>;
+  conditionStack: Record<string, ConditionData[]>;
 }
 
-const emptyInitativeList = <Card elevation={10}>
+const emptyInitativeList = <Card>
   <CardContent className="NoMonstersWrapper">
     <span style={{marginRight: "1em"}}>!</span>
     The Initaitve list is Empty
   </CardContent>
 </Card>
 
-function monsterComparator(a: MonsterData, b: MonsterData) {
+function monsterComparator(a: Initative, b: Initative) {
   return b.init - a.init;
 }
 
+
 export default class EncounterInitiative extends React.Component<Props, State> {
   baselineMonsterData: Record<string, Character>;
-  inititativeList: MonsterData[];
+  monsterList: ((MonsterData & Initative)) [];
+  
 
   constructor(props: Props) {
     super(props);
 
     this.state = {
       initativeOffset: 0,
-      addingPlayer: false,
+      inititativeList: [],
+      initInitative: false,
     }
 
     this.baselineMonsterData = {};
-    this.inititativeList = [];
+    this.monsterList = [];
 
     this.loadMonsterData();
+    if (props.encounter.campain)
+      loadCamapin(props.encounter.campain, props.token, (val: CampainIndex) => {
+        const players = val.players.map((val: PlayerData) => {return {...val, init: 0}});
+        this.setState({players: players});
+        this.subBuildInitativeList(players);
+      });
   }
 
-  openAddPlayerDialog = () => {
-    this.setState({
-      addingPlayer: true,
-      newPlayerInitative: undefined,
-      newPlayerName: undefined,
-    })
-  }
-
-  closeAddPlayerDialog = () => {
-    this.setState({
-      addingPlayer: false,
-    })
-  }
-
-  addPlayer = () => {
-    const { newPlayerInitative, newPlayerName, initativeOffset } = this.state;
-    if (newPlayerInitative && newPlayerName) {
-      const val = {
-        idx: -1,
-        init: newPlayerInitative,
-        player: {
-          name: newPlayerName,
-          file: "https://www.dndbeyond.com/sheet-pdfs/Denanu_89861273.pdf",
-        },
-        conditionsRef: {
-          val: {
-            record: {},
-            idx: randomNumber(),
-          }
-        }
-      };
-
-      const idx = sortedIndex(this.inititativeList, val, monsterComparator);
-      this.inititativeList.splice(idx, 0, val);
-
-      if (idx <= initativeOffset && initativeOffset !== 0) {
-        this.setState({initativeOffset: initativeOffset + 1});
-      }
-
-      this.closeAddPlayerDialog();
-    }
-  }
 
   async loadOrKeepMonsterData(idx: MonsterIndex, data: Record<string, Character>) {
     if (idx.file in data) {
       return data[idx.file]
     }
-    const [group, source, name] = this.getLocationData(idx.file);
+    const {group, source, name} = idx.idx;
     return await loadCharacter(group, source, name, this.props.token);
-  }
-
-  getLocationData(file: string) {
-    return file.split("/");
   }
 
   async loadMonsterData() {
@@ -130,93 +96,84 @@ export default class EncounterInitiative extends React.Component<Props, State> {
       }
     );
 
-    this.rollInitatives();
-    this.buildInitiativeList();
+    this.buildMonsterList();
   }
 
-  rollInitatives() {
-    for (const [, type] of Object.entries(this.props.encounter.monsters)) {
-      const { count, mob } = type;
-      if (!type.initatives) type.initatives = []
-      if (type.initatives) {
-        if (type.initatives.length === count) {continue;}
-        if (type.initatives.length > count) {type.initatives = type.initatives.slice(0, count)}
-        while (type.initatives.length < count) {
-          const mod = toMod(this.baselineMonsterData[mob.file].dex);
-          type.initatives.push(
-            rollDice(1, 20, mod) + mod/100
-          )
-        }
-      }
+  buildMonsterList() {
+    this.setState({inititativeList: 
+      this.monsterList = Object.entries(this.props.encounter.monsters).map(([_, val]: [string, EncounterMonster])=> {
+        const char = this.baselineMonsterData[toUrl(val.mob.idx)];
+        const mod = toMod(char.dex);
+        
+        return range(0, val.count).map((init: number, idx: number) => {
+          return {
+            mob: {...char, idx: val.mob.idx},
+            idx: idx,
+            init: rollDice(20, 1, mod) + mod/100,
+            key: getuuid(),
+            conditionStack: {},
+          } as (MonsterData & Initative);
+        })
+      }).flat().sort(monsterComparator)
+    });
+  }
+
+  buildInitativeList() {
+    this.subBuildInitativeList(this.state.players);
+  }
+
+  subBuildInitativeList(players?: (PlayerData & Initative)[] | undefined) {
+    if (players) {
+      const initList = [...this.monsterList, ...players].sort(monsterComparator);
+      this.setState({ inititativeList: initList});
     }
   }
 
-  buildInitiativeList() {
-    var key = {val: 0}
-    this.inititativeList = Object.entries(this.props.encounter.monsters).map(([_, val]: [string, EncounterMonster])=> {
-      if (val.initatives) {
-        return val.initatives.map((init: number, idx: number) => {
-          key.val += 1;
-          return {
-            mob: val.mob,
-            idx: idx,
-            init: init,
-            conditionsRef: {
-              val: {
-                record: {},
-                idx: key.val,
-              }
-            }
-          };
-        })
-      }
-      return []
-    }).flat().sort(monsterComparator);
-
-    this.setState({});
-  }
-
-  addToInitativeList() {
-
-  }
-
   getInitativePerson(i: number) {
-    var idx = (i + this.state.initativeOffset)%this.inititativeList.length;
-    return this.inititativeList[idx];
+    var idx = (i + this.state.initativeOffset)%this.state.inititativeList.length;
+    return this.state.inititativeList[idx];
   }
 
-  initaitveListElement = (idx: number) => {
+  initaitveListElement = (idx: number) : [JSX.Element, React.Key | undefined] => {
     const mob = this.getInitativePerson(idx);
-    return <Grid container columns={3} className="fullWidth" textAlign={"center"}>
+
+    const monster = mob as MonsterData;
+    const player = mob as PlayerData;
+
+    return [<Grid container columns={3} className="fullWidth" textAlign={"center"} key={mob.key}>
       <Grid item xs={2}>
-        {mob.mob ?
-          mob.mob?.name + " (" + mob.idx + ")"
+        {monster?.mob ?
+          monster.mob?.name + " (" + monster.idx + ")"
           :
-          mob.player?.name
+          player?.name
         } 
       </Grid>
       <Grid item xs={1}>
         {mob.init}
       </Grid>
-    </Grid>
+    </Grid>, mob.key]
   }
 
-  next = () => this.setState({initativeOffset: (this.state.initativeOffset + 1)%this.inititativeList.length});
+  next = () => this.setState({initativeOffset: (this.state.initativeOffset + 1)%this.state.inititativeList.length});
 
   render() {
-    const mob = this.inititativeList.length > 0 ? this.getInitativePerson(0) : undefined;
-    const character = mob?.mob ? this.baselineMonsterData[mob.mob.file] : undefined;
+    const { players, inititativeList, initInitative } = this.state;
+    const mob = inititativeList.length > 0 ? this.getInitativePerson(0) : undefined;
+
+    const monster = mob as MonsterData;
+    const player = mob as PlayerData;
+
+    const character = monster?.mob;
 
     const uploadCharacter = async () => {
-      const {token} = this.props;
-      const mob = this.getInitativePerson(0)
-      if (token && character && mob.mob) {
-        const [group, source, name] = this.getLocationData(mob.mob.file);
-        writePrivateData(token, "mobs", source, name, character, getMonsterIndex(character), group);
+      if (monster) {
+        const {token} = this.props;
+        if (token && character && monster.mob) {
+          const { group, source, name } = monster.mob.idx;
+          writePrivateData(token, "mobs", source, name, character, getMonsterIndex(character), group);
+        }
       }
     }
-
-    const { addingPlayer } = this.state;
 
     return <Grid container spacing={2} columns={4} className="growable">
       <Grid item xs={1}>
@@ -226,24 +183,24 @@ export default class EncounterInitiative extends React.Component<Props, State> {
               Initative List
             </h3>
             <ButtonGroup>
-              <Button onClick={this.openAddPlayerDialog}>Add</Button>
               <Button onClick={this.next}>Next</Button>
             </ButtonGroup>
           </CardContent>
           <Divider/>
           <CardContent>
-            <Card className="fullWidth" elevation={8} sx={{p:1}}>
-              {this.inititativeList.length > 0 ? this.initaitveListElement(0) : emptyInitativeList}
+            <Card className="fullWidth" sx={{p:1}}>
+              {inititativeList.length > 0 ? this.initaitveListElement(0)[0] : emptyInitativeList}
             </Card>
           </CardContent>
           <Divider/>
           <CardContent>
             <List>
-              {this.inititativeList.length > 1 ?
-                range(1, this.inititativeList.length-1).map((idx: number) => {
-                  return <ListItem>
+              {inititativeList.length > 1 ?
+                range(1, inititativeList.length-1).map((idx: number) => {
+                  const [element, key] = this.initaitveListElement(idx);
+                  return <ListItem key={key}>
                     <Card className="fullWidth" sx={{p: 1}}>
-                      {this.initaitveListElement(idx)}
+                      {element}
                     </Card>
                   </ListItem>
                 })
@@ -251,37 +208,83 @@ export default class EncounterInitiative extends React.Component<Props, State> {
               }
             </List>
           </CardContent>
+          <Collapse in={players !== undefined}>
+            <Divider/>
+            <CardActions className="fullWidth">
+                <ButtonGroup>
+                  <Button onClick={() => this.setState({initInitative: true})}>
+                    Init Players
+                  </Button>
+                </ButtonGroup>
+            </CardActions>
+          </Collapse>
         </Card>
       </Grid>
       <Grid item xs={3} >
-        {mob ?
-          mob.mob ? 
-            <StatsSheet character={character ? character : default_Character} conditionsRef={mob?.conditionsRef} upload={uploadCharacter}/>
-            :
-            null
-          :
+        {monster?.mob ?
+          <StatsSheet character={character ? character : default_Character} upload={uploadCharacter} getConditionsStack={()=>monster.conditionStack} setConditionsStack={(stack: Record<string, ConditionData[]>) => {
+            monster.conditionStack = stack
+            
+          }}
+            key={monster.key}
+          />
+        :
           <PlayerSheet player={{
-            name: "test",
-            file: "https://wandhoven.ddns.net/friendlyAI.pdf",
+            name: player?.name,
+            key: "",
+            file: player?.file,
           }}/>
         }
       </Grid>
-      <Dialog open={addingPlayer}>
+      <Dialog open={initInitative}>
         <DialogTitle>
-          Add Player
+          <CloseButton onClick={()=>this.setState({initInitative: false})}>
+            Init Player Initative
+          </CloseButton>
         </DialogTitle>
+        <Divider/>
         <DialogContent>
-          <DialogContentText>
-            Add a player to the encounter.
-          </DialogContentText>
-          <div>
-            <TextField label="name" variant="standard" onChange={(e: React.ChangeEvent<HTMLInputElement>)=> this.setState({newPlayerName: e.currentTarget.value})}/>
-          </div>
-          <NumberInput label="initative" setNumber={(init: number)=>this.setState({newPlayerInitative: init})}/>
+          {
+            players ? 
+              players.map((val: PlayerData & Initative) => {
+                return <Grid container columns={3} key={val.key}>
+                  <Grid item xs={2}>
+                    {val.file ? 
+                     val.name
+                    :
+                      <TextField value={val.name} onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                        val.name = e.target.value;
+                        this.setState({});
+                      }}
+                        size="small"
+                      />                    
+                    }
+                  </Grid>
+                  <Grid item xs={1}>
+                    <NumberInput val={val.init} setNumber={(init: number) => {
+                      val.init = init;
+                      this.buildInitativeList();
+                    }}/>
+                  </Grid>
+                </Grid>
+              })
+            :
+            null
+          }
         </DialogContent>
+        <Divider/>
         <DialogActions>
-          <Button variant="outlined" onClick={this.addPlayer}>Add</Button>
-          <Button variant="outlined" onClick={this.closeAddPlayerDialog} color="error">Close</Button>
+          <ButtonGroup>
+            <Button onClick={()=> {
+              const { players } = this.state;
+
+              this.setState({
+                players: [...(players ? players : []), {...makeDefaultPlayerData(), init: 0}]
+              })
+            }}>
+              Add
+            </Button>
+          </ButtonGroup>
         </DialogActions>
       </Dialog>
     </Grid>

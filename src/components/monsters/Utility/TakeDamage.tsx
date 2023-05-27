@@ -1,13 +1,14 @@
 import * as React from "react";
 import Character from "../Character";
-import { Dialog, DialogContent, DialogTitle, Switch, TextField, MenuItem, DialogActions, FormControlLabel } from "@mui/material";
-import { pink } from '@mui/material/colors';
+import { Dialog, DialogContent, DialogTitle, TextField, MenuItem, DialogActions, FormControlLabel } from "@mui/material";
 import { applyDamageModifications, damage_inputs } from "./Damage";
 import NumberInput from "../../visualEditor/Nodes/Utility/NumberInput";
-import { Button, Menu } from "semantic-ui-react";
+import { Button } from "semantic-ui-react";
 import IOSSwitch from "./IOSSwitch";
 import CustomRef from "../../../Utils/CustomRef";
 import { changeHP } from "../Character";
+import CloseButton from "../../CloseButton";
+import { SlideUp } from "../../Transitions";
 
 interface Props {
   character: Character;
@@ -15,12 +16,7 @@ interface Props {
   setCharacter: VoidFunction;
 }
 
-const switchSX = {
-  color: "#000000",
-  '&.Mui-checked': {
-    color: pink[600],
-  },
-}
+
 export default function TakeDamageDialog(props: Props) {
   const {open, character} = props;
 
@@ -48,8 +44,12 @@ export default function TakeDamageDialog(props: Props) {
 
   open.val = () => {setIsOpen(true)};
 
-  return <Dialog open={isOpen}>
-    <DialogTitle>Aply Damage</DialogTitle>
+  return <Dialog open={isOpen} TransitionComponent={SlideUp}>
+      <DialogTitle>
+        <CloseButton onClick={close}>
+          Aply Damage
+        </CloseButton>
+      </DialogTitle>
       <DialogContent>
         <NumberInput setNumber={setDamage} label="Amount" fullWidth/>
         <TextField select label="Damage type" variant="standard" defaultValue={"Generic"} fullWidth onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDamageType(e.target.value)}>

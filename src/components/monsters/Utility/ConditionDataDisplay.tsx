@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ConditionData  } from "../Conditions";
-import { Tooltip, ClickAwayListener, Button } from "@mui/material";
+import { Tooltip, ClickAwayListener } from "@mui/material";
 import { Icon } from "semantic-ui-react";
 import { toTime } from "../data/Time";
 
@@ -96,7 +96,7 @@ export default class ConditionDataDisplay extends React.Component<Props, State> 
     const child = <div className="dnd-condIcon-inner" onClick={() => {
       this.setState({details_open: true});
     }}>
-        <img src={"/dndimages/conditions/" + name + ".png"}/>
+        <img src={"/dndimages/conditions/" + name + ".png"} alt={name}/>
         {condition > 1 ?
           <div className="level">
             {condition}

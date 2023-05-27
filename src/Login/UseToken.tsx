@@ -1,26 +1,35 @@
 import { useState } from 'react';
 
-export default function useToken() {
-  const getToken = () => {
-    const tokenString = localStorage.getItem('token');
-    if (tokenString) {
-      const userToken: Token = JSON.parse(tokenString);
-      return userToken
-    }
-    return undefined;
-  };
+export function getValue<T>(key: string) {
+  const str = localStorage.getItem(key);
+  if (str) {
+    const val: T = JSON.parse(str);
+    return val
+  }
+  return undefined;
+}
 
-  const [token, setToken] = useState(getToken());
+export function useLocalStorage<T>(name: string): [T | undefined, (val: T) => void] {
 
-  const saveToken = (userToken: Token) => {
+  const [value, setValue] = useState(getValue<T>(name));
+
+  const save = (userToken: T) => {
     if (userToken) {
-      localStorage.setItem('token', JSON.stringify(userToken));
+      localStorage.setItem(name, JSON.stringify(userToken));
     }
     else {
-      localStorage.removeItem("token");
+      localStorage.removeItem(name);
     }
-    setToken(userToken);
+    setValue(userToken);
   };
+
+  return [
+    value, save
+  ]
+}
+
+export default function useToken() {
+  const [ token, saveToken ] = useLocalStorage<Token>("token");
 
   return {
     setToken: saveToken,
@@ -36,4 +45,9 @@ export interface Token {
 export interface IToken {
   token?: Token;
   setToken: (t: Token) => void;
+}
+
+export interface OptionalIToken {
+  token?: Token;
+  setToken?: (t: Token) => void;
 }

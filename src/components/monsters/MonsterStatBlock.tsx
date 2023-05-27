@@ -12,7 +12,7 @@ import RunnerSelector from "./Utility/RunnerSelection";
 import { runScript } from "../visualEditor/Engine/Engine";
 import { NoScriptToast } from "../visualEditor/Engine/Toasts";
 import BlockEditor, { baseLairDescription, baseLairDescriptionEnd, baseLegendaryDescripton, baseMythicDescription, baseRegionalDescription, baseRegionalDescriptionEnd, or } from "./BlockEditor";
-import ConditionsDisplay, {acModDisplay, attackModDisplay, skillModDisplay, CanNotMove, CanNotTakeActions, canNotSpeak, updateCharacterByConditions, HalfSpeed, hasHPMaxHalved, isDead, ConditionData} from "./Conditions";
+import ConditionsDisplay, {acModDisplay, attackModDisplay, skillModDisplay, CanNotMove, CanNotTakeActions, canNotSpeak, updateCharacterByConditions, HalfSpeed, hasHPMaxHalved, isDead, ConditionStackUpdator} from "./Conditions";
 import ConditionListing, { toList } from './Utility/ConditionsListing';
 import TakeDamageDialog from './Utility/TakeDamage';
 import CustomRef from '../../Utils/CustomRef';
@@ -27,10 +27,11 @@ const seperator = <svg height="5" width="100%" className="tapered-rule" viewBox=
   <polyline points="0,0 2,1 0,2"/>
 </svg>
 
-interface Props {
+interface Props extends ConditionStackUpdator {
   character: Character;
   upload?: () => Promise<any>;
-  conditionsRef?: CustomRef<{record: Record<string, ConditionData[]>, idx: number}>;
+  setConditions?: (conditions: [string, number, string[]][]) => void;
+  conditions?: [string, number, string[]][];
 }
 
 interface State {
@@ -38,7 +39,7 @@ interface State {
   mdOpen: boolean;
   edititingTrait?: Trait;
   blockEditing: boolean;
-  conditions: [string, number, string[]][]
+  conditions: [string, number, string[]][];
 }
 
 export default class StatsSheet extends React.Component<Props, State> {
@@ -51,15 +52,17 @@ export default class StatsSheet extends React.Component<Props, State> {
       mdOpen: false,
       loading: false,
       blockEditing: false,
-      conditions: []
+      conditions: props.conditions ? props.conditions : [],
     }
-
     this.openDamageDialog = new CustomRef();
   }
 
   setConditions = (conditions: [string, number, string[]][]) => {
     updateCharacterByConditions(this.props.character, conditions);
     this.setState({conditions: conditions});
+    if (this.props.setConditions) {
+      this.props.setConditions(conditions);
+    }
   }
 
   static buildStrNumRecord(record: [string, number][]) {
@@ -174,7 +177,7 @@ export default class StatsSheet extends React.Component<Props, State> {
   }
 
   render() {
-    const {character} = this.props;
+    const {character, setConditionsStack, getConditionsStack} = this.props;
     const { conditions, mdOpen } = this.state;
     const {
       name, size, type, alignment, Armor_Class, hp, hp_gen, speed, str, dex, con, int, wis, cha, cr, xp, senses, languages
@@ -229,7 +232,7 @@ export default class StatsSheet extends React.Component<Props, State> {
         </div>
       </div>
     if (CanNotTakeActions(conditions)) {
-      var actions = <s>{actions}</s>
+      actions = <s>{actions}</s>
     }
     const halfHPmax = hasHPMaxHalved(conditions);
     const maxHp = halfHPmax ? Math.floor(hp/2) : hp
@@ -253,7 +256,7 @@ export default class StatsSheet extends React.Component<Props, State> {
       <div id="stat-block-wrapper" ref={block}>
         <div id="stat-block" className="stat-block wide">
         <hr className="orange-border"/>
-          <ConditionsDisplay imunities={character.condition_immunities} conditions={conditions} conditionsRef={this.props.conditionsRef} setConditions={this.setConditions}/>
+          <ConditionsDisplay imunities={character.condition_immunities} conditions={conditions} setConditions={this.setConditions} setConditionsStack={setConditionsStack} getConditionsStack={getConditionsStack}/>
           <div className="section-left">
             <div className="creature-heading">
               <table className='fixed'>

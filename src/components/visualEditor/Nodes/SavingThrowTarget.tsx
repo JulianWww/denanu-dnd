@@ -4,7 +4,6 @@ import { canConnect } from "./Utils";
 import NumberInput from "./Utility/NumberInput";
 import StringInput from "./Utility/StringInput";
 
-const handleStyle = { left: 10 };
 
 export default function SavingThrowTarget({ data }: any) {
   return (

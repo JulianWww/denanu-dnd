@@ -4,7 +4,6 @@ import RightAlign from "../../RightAlign";
 import { useState } from "react";
 import NumberInput from "../../visualEditor/Nodes/Utility/NumberInput";
 import { combineTimes, splitTime } from "./Time";
-import TextWraper from "../../TextWraper";
 
 interface Props {
   setTime: (seconds: number) => void;

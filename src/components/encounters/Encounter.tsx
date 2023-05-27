@@ -1,4 +1,4 @@
-import { Index, randomFileName, toUrl } from "../../Login/ServerApi";
+import { Index, toUrl } from "../../Login/ServerApi";
 import { MonsterIndex } from "../../pages/SelectMonserStatBlock";
 import { Party } from "./PartyData";
 import { IXP } from "./xpCalculation";
@@ -6,7 +6,6 @@ import { IXP } from "./xpCalculation";
 export interface EncounterMonster {
   count: number;
   mob: MonsterIndex;
-  initatives?: number[];
 }
 
 export default interface Encounter {

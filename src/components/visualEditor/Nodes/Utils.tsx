@@ -4,7 +4,7 @@ export const canConnect = (connection:Connection) => {
   if (connection.sourceHandle && connection.targetHandle) {
     const sourceData = getNodeData(connection.sourceHandle);
     const targetData = getNodeData(connection.targetHandle);
-    return sourceData.type === targetData.type && connection.source != connection.target || ((sourceData.type === "wildcard" || targetData.type === "wildcard") && sourceData.type !== "exec" && targetData.type !== "exec")
+    return (sourceData.type === targetData.type && connection.source !== connection.target) || ((sourceData.type === "wildcard" || targetData.type === "wildcard") && sourceData.type !== "exec" && targetData.type !== "exec")
   }
   return false;
 }

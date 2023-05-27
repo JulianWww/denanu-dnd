@@ -3,7 +3,6 @@ import { Handle, Position } from 'reactflow';
 import { Card, Input, Grid, Popup } from "semantic-ui-react"
 import { canConnect } from "./Utils"
 
-const handleStyle = { left: 10 };
 
 export default function Damage({ data }: any) {
   const [faces, setFaces] = useState(data.get()?.faces);

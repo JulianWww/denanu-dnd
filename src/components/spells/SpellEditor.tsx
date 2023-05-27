@@ -1,4 +1,4 @@
-import { Button, Collapse, FormGroup, Grid, TextField } from "@mui/material";
+import { Button, Grid, TextField } from "@mui/material";
 import TextWraper from "../TextWraper";
 import Spell from "./Spell";
 import { ChangeEvent, useState } from "react";
@@ -9,11 +9,10 @@ import IOSSwitch from "../monsters/Utility/IOSSwitch";
 import { spellDurations } from "../monsters/data/Time";
 import NumberInput from "../visualEditor/Nodes/Utility/NumberInput";
 import magicSchools from "./data/magicSchools";
-import MultiSelectString, { MultiSelect, MultiSelectRecord } from "../MultiSelect";
+import MultiSelectString from "../MultiSelect";
 import { attributes } from "../monsters/Attributes";
 import { damage_inputs } from "../monsters/Utility/Damage";
 import classes from "./data/classes";
-import CollapseExchanger from "../CollapseExchanger";
 import { SlideTransition } from "../SlideTransition";
 import TimeDialog from "../monsters/data/TimeDialog";
 

@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 import { Handle, Position } from 'reactflow';
 import { Card, Button, Grid, GridColumn, ButtonProps } from "semantic-ui-react"
 import { canConnect } from "./Utils"

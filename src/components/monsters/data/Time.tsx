@@ -20,8 +20,8 @@ export const spellDurations = [
 
 export function renderTime(data?: TimeData) {
   if (!data) return null;
-  if (data.duration_type == 2) return data.duration.toString() + " " + (data.duration < 2 ? "round" : "rounds")
-  if (data.duration_type == 1) return sformat(data.duration)
+  if (data.duration_type === 2) return data.duration.toString() + " " + (data.duration < 2 ? "round" : "rounds")
+  if (data.duration_type === 1) return sformat(data.duration)
   return spellDurations[data.duration_type]
 }
 
@@ -55,7 +55,7 @@ function sformat(s: number) {
   ];
   var out = ""
   for (const [time, label, plural] of fm) {
-    if (time != 0) {
+    if (time !== 0) {
       out += time + " " + (time === 1 ? label : plural) + " "
     }
   }

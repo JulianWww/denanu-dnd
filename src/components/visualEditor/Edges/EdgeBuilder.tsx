@@ -1,4 +1,3 @@
-import React from 'react';
 import { EdgeProps, getBezierPath } from 'reactflow';
 
 export default function EdgeBuilder(props: EdgeProps, className: string) {
@@ -11,7 +10,6 @@ export default function EdgeBuilder(props: EdgeProps, className: string) {
     sourcePosition,
     targetPosition,
     style = {},
-    data,
     markerEnd,
   } = props;  
   const [edgePath] = getBezierPath({

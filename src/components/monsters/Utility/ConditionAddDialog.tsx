@@ -1,6 +1,6 @@
 import * as React from "react";
 import { conditions } from "../Conditions";
-import { Button, Dialog, DialogTitle, DialogContent, DialogActions, DialogContentText, TextField, MenuItem, duration } from "@mui/material";
+import { Button, Dialog, DialogTitle, DialogContent, DialogActions, DialogContentText, TextField, MenuItem } from "@mui/material";
 import NumberInput from "../../visualEditor/Nodes/Utility/NumberInput";
 import DurationTypes, {durationTexts} from "../data/Time";
 

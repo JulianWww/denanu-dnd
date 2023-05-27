@@ -2,10 +2,7 @@ import { Handle, Position } from 'reactflow';
 import { Card, Grid } from "semantic-ui-react";
 import { canConnect } from "./Utils";
 import NumberInput from "./Utility/NumberInput";
-import StringInput from "./Utility/StringInput";
-import { toDnDString } from '../../Utils';
 
-const handleStyle = { left: 10 };
 
 export default function RollDice({ data }: any) {
   return (

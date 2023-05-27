@@ -5,6 +5,7 @@ import { baseLairDescription, baseLairDescriptionEnd, baseLegendaryDescripton, b
 import Character, { Trait } from "./Character";
 import StatsSheet from "./MonsterStatBlock";
 import { JSXToList, toList } from "./Utility/ConditionsListing";
+import addUUID from "../Uuid";
 
 interface Props {
   character: Character;
@@ -195,9 +196,10 @@ function HomebreweryV3StatBlock(props: Props) {
 }
 
 const renderTrait = (trait: Trait) => {
-  return <>
+  addUUID(trait);
+  return <div key={trait.key}>
     ***{trait.name}*** {trait.description} <br/>
-  </>
+  </div>
 }
 
 function actionList(l: Trait[]) {

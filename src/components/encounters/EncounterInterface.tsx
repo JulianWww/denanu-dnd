@@ -1,12 +1,12 @@
 import * as React from "react";
-import { ButtonGroup, Card, CardContent, Divider, Button, Grid, Chip, Stack, useTheme, IconButton, Dialog, DialogTitle, DialogActions, TextField, DialogContent, List, ListItem, Collapse } from "@mui/material";
+import { ButtonGroup, Card, CardContent, Divider, Button, Grid, Chip, Stack, useTheme, IconButton, Dialog, DialogTitle, DialogActions, TextField, DialogContent, Collapse } from "@mui/material";
 import Encounter, { EncounterMonster, getEncounterIndex } from "./Encounter";
 import { IXP, ajustXp, calcBaseEncounterXp, calcMobXp, estimateDifficulty } from "./xpCalculation";
 import { PaletteMode } from "@mui/material";
 import Delete from "@mui/icons-material/Delete";
 import NumberInput from "../visualEditor/Nodes/Utility/NumberInput";
 import { randomFileName, writePrivateData } from "../../Login/ServerApi";
-import { IToken, Token } from "../../Login/UseToken";
+import { IToken } from "../../Login/UseToken";
 import { NavigateFunction, useNavigate } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import CampainSelector from "../campain/CamapaingSelector";
@@ -17,7 +17,7 @@ interface Props extends IToken {
   fileName?: string;
 }
 
-const noMonsters = <Card elevation={10}>
+const noMonsters = <Card>
   <CardContent className="NoMonstersWrapper">
     <span style={{marginRight: "1em"}}>!</span>
     Add Monsers form the Database.

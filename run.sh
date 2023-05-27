@@ -8,9 +8,10 @@ ssh ubuntu@wandhoven.ddns.net "
 cd /media/B/html/RPG; 
 
 mkdir _tmp
-mv denanu-dnd/server_backend/data/.htaccess _tmp
-mv denanu-dnd/server_backend/data/login _tmp
-mv denanu-dnd/server_backend/data/files _tmp
+sudo mv denanu-dnd/server_backend/data/.htaccess _tmp
+sudo mv denanu-dnd/server_backend/data/login _tmp
+sudo mv denanu-dnd/server_backend/data/files _tmp
+sudo mv denanu-dnd/publicResources _tmp
 
 
 sudo rm -r denanu-dnd; 
@@ -18,8 +19,11 @@ tar -xzf denanu-dnd.tar.gz;
 
 sudo rm -r denanu-dnd/server_backend/data/login
 sudo rm -r denanu-dnd/server_backend/data/files
-mv _tmp/login denanu-dnd/server_backend/data 
-mv _tmp/files denanu-dnd/server_backend/data
+sudo rm -r denanu-dnd/publicResources
+sudo mv _tmp/publicResources denanu-dnd
+sudo mv _tmp/login denanu-dnd/server_backend/data 
+sudo mv _tmp/files denanu-dnd/server_backend/data
+
 sudo rm -r _tmp
 
 rm denanu-dnd.tar.gz; 
@@ -27,7 +31,11 @@ rm denanu-dnd.tar.gz;
 cd denanu-dnd;
 mv htaccess .htaccess; 
 
-cd server_backend/data; 
-sudo chmod 777 files login; 
+cd server_backend;
+mv htaccess .htaccess;
+
+cd data; 
+sudo chmod -R 777 files login ../../publicResources; 
+sudo chown -R ubuntu:ubuntu files login ../../publicResources; 
 mv htaccess .htaccess"
 rm -r denanu-dnd

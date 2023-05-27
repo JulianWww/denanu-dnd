@@ -46,7 +46,6 @@ export default class EncounterList extends React.Component<Props, State> {
   }
   
   render() {
-    const { token, setToken } = this.props;
     const { loading, encounters } = this.state; 
 
     return <Container>

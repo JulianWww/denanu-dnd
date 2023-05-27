@@ -18,8 +18,7 @@ import MainMenu from './components/MainMenu';
 import SpellList from './pages/SpellList';
 import SpellPage from './pages/SpellPage';
 import { Box } from '@mui/material';
-import Ukraine from 'save-ukraine';
-import { SaveUkraine } from './components/SaveUkraine';
+import{ SaveUkraineBanScreen, SaveUkraineRibbon } from "stand-with-ukraine-react";
 
 const themeProps: ThemeOptions = {
   typography: {
@@ -90,11 +89,8 @@ function App() {
           height: '100vh',
           overflow: 'auto',
         }}>
-          <SaveUkraine
-            ribbon="BOTTOM_LEFT"
-            isCancelable={false}
-            moreInfoUrl='http://stand-with-ukraine.pp.ua/'
-          />
+          <SaveUkraineRibbon style={{height: "100px"}}/>
+          <SaveUkraineBanScreen isCancelable/>
           <main style={{marginTop: "80px"}}>
             <Routes location={location}>
               <Route path="/" element={<Navigate to="/monsters"/>}/>
@@ -112,7 +108,9 @@ function App() {
             </Routes>
           </main>
             
-          <ToastContainer />
+          <ToastContainer style={{
+            marginTop: "70px"
+          }}/>
         </Box>
       </ThemeProvider>
       </>

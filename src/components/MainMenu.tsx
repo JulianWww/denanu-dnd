@@ -1,15 +1,8 @@
 import * as React from 'react';
 import {Token} from "../Login/UseToken"
-import { AppBar, Box, Button, Tab, Tabs, Toolbar, Typography } from '@mui/material';
+import { AppBar, Button, Tab, Tabs, Toolbar } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
 import NavigateButton from './NavitageButton';
-
-interface HomepageHeadingProps {
-  mobile: boolean;
-}
-
-const REPO_LINK = 'https://github.com/MaxwellBo/Muncoordinated-2';
-
 
 
 interface DesktopContainerProps {

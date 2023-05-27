@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Rolls } from "../../visualEditor/Engine/Utils";
-import { Menu, MenuItem, ClickAwayListener } from "@mui/material";
+import { Menu, MenuItem } from "@mui/material";
 import CustomRef from "../../../Utils/CustomRef";
 
 export interface RunApi{

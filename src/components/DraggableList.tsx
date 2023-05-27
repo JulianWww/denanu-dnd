@@ -23,7 +23,6 @@ const StrictModeDroppable = ({ children, ...props }: DroppableProps) => {
 
 
 interface ListProps<T> {
-  id: string;
   items: T[];
   setItems: (vals: T[]) => void;
   render: (val: T)=>JSX.Element;
@@ -39,7 +38,7 @@ function reorder<T>(list: T[], startIndex: number, endIndex: number): T[] {
 };
 
 export default function DraggableList<T>(props: ListProps<T>) {
-  const { setItems, id, idProvider, items, render } = props;
+  const { setItems, idProvider, items, render } = props;
 
   const end = ({ destination, source }: DropResult) => {
     if (!destination) return;

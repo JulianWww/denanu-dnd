@@ -9,8 +9,6 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import InternalLink from '../components/Link';
 
 interface State {
-  username?: string;
-  password?: string;
 }
 interface Props {
   setToken: any;
@@ -37,11 +35,14 @@ export default class Login extends React.Component<Props, State> {
   }
 
   render = () => {
-    const {username, password} = this.state;
 
-    const handleSubmit = async (e: any) => {
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+      const data = new FormData(event.currentTarget);
+      const username = data.get("uname");
+      const password = data.get("password");
       if (username && password) {
-        e.preventDefault();
+        event.preventDefault();
+        
         const token = await this.loginUser({
           username,
           password

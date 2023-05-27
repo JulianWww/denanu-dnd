@@ -1,6 +1,7 @@
+import { UUID } from "../Uuid";
 import {MacroEditorData} from "../visualEditor/Editor"
 
-export default interface Character {
+export default interface Character extends UUID {
 	Armor_Class: string,
 	ac: number,
 	alignment: string,
@@ -145,7 +146,7 @@ export function removeDamageImmunity(character: Character, id: string) {
 	}
 }
 
-export interface Trait{
+export interface Trait extends UUID {
   name: string,
   description: string,
 	script?: MacroEditorData,

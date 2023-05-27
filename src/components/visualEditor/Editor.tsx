@@ -139,12 +139,13 @@ export default class Editor extends React.Component<Props, State> {
 
   setNodeState = (id: string) => {
     return (key: string, val: any) => {
-      var data = this.state.data[id];
-      if (!data) {
-        data = {};
+      const {data} = this.state;
+      var d = data[id];
+      if (!d) {
+        d = {};
       }
-      data[key] = val;
-      this.state.data[id] = data;
+      d[key] = val;
+      data[id] = d;
     }
   }
 
@@ -212,8 +213,8 @@ export default class Editor extends React.Component<Props, State> {
   removeUnconnectedEdges = (nodeid: string, handle: string) => {
     this.onEdgesChange(
     this.state.edges.filter(
-      (edge: Edge, idx: number, arr: Edge[]) => (edge.target === nodeid && edge.targetHandle === handle)).
-      map(
+      (edge: Edge, idx: number, arr: Edge[]) => (edge.target === nodeid && edge.targetHandle === handle))
+      .map(
         (edge: Edge, idx: number, arr: Edge[]) => {return {id: edge.id, type: "remove"} as EdgeChange}
     ));
   }
