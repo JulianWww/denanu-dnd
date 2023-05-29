@@ -44,9 +44,9 @@ export default function NumberInput(props: Props) {
   }
 
   const invalidMacro = Number.isNaN(macroVal)
-  const error = Number.isNaN(Number(val)) && invalidMacro && val!==undefined;
+  const error = Number.isNaN(Number(value)) && invalidMacro && value !== "";
   const helpText = invalidMacro ?
-    error ? "\"" + val + "\" is not a valid number or die macro like: 1d6+4" : null
+    error ? "\"" + value + "\" is not a valid number or die macro like: 1d6+4" : null
     :
     macroVal;
     

@@ -22,7 +22,8 @@ const pages = [
   "encounters",
   "encounter-planer",
   "campains",
-  "spells"
+  "spells",
+  "player",
 ]
 
 function getLoc(url: string) {

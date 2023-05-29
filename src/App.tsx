@@ -19,6 +19,8 @@ import SpellList from './pages/SpellList';
 import SpellPage from './pages/SpellPage';
 import { Box } from '@mui/material';
 import{ SaveUkraineBanScreen, SaveUkraineRibbon } from "stand-with-ukraine-react";
+import PlayerCharacterSheet from './components/player/CharSheet';
+import TextWraper from './components/TextWraper';
 
 const themeProps: ThemeOptions = {
   typography: {
@@ -74,6 +76,11 @@ export const lightTheme = createTheme({
   ...themeProps,
 });
 
+/*
+<SaveUkraineRibbon style={{height: "100px"}}/>
+        <SaveUkraineBanScreen isCancelable/>
+*/
+
 // Apply Dark mode more prevelently
 
 function App() {
@@ -93,24 +100,25 @@ function App() {
         height: '100vh',
         overflow: 'auto',
       }}>
-        <SaveUkraineRibbon style={{height: "100px"}}/>
-        <SaveUkraineBanScreen isCancelable/>
-        <main style={{marginTop: "80px"}}>
-          <Routes location={location}>
-            <Route path="/" element={<Navigate to="/monsters"/>}/>
-            <Route path="/login" element={<Login {...token} nav={navigate}/>}/>
-            <Route path="/signup" element={<SignUp {...token} nav={navigate}/>}/>
-            <Route path="/monsters" element={<StatBlockSelector {...token}/>}/>
-            <Route path="/monsters/:group/:source/:name" element={<StatBlock {...token}/>}/>
-            <Route path="/encounters" element={<EncounterList {...token}/>}/>
-            <Route path="/encounters/:group/:source/:name" element={<EncounterVerview {...token}/>}/>
-            <Route path="/encounter-planer/" element={<EncounterPlaner {...token}/>}/>
-            <Route path="/campains" element={<Campains {...token}/>}/>
-            <Route path="/spells" element={<SpellList {...token}/>}/>
-            <Route path="/spells/:group/:source/:name" element={<SpellPage {...token}></SpellPage>}/>
-            <Route path="*" element={<NotFound item="page" id="unknown" />}/>
-          </Routes>
-        </main>
+        <TextWraper>
+          <main style={{marginTop: "80px"}}>
+            <Routes location={location}>
+              <Route path="/" element={<Navigate to="/monsters"/>}/>
+              <Route path="/login" element={<Login {...token} nav={navigate}/>}/>
+              <Route path="/signup" element={<SignUp {...token} nav={navigate}/>}/>
+              <Route path="/monsters" element={<StatBlockSelector {...token}/>}/>
+              <Route path="/monsters/:group/:source/:name" element={<StatBlock {...token}/>}/>
+              <Route path="/encounters" element={<EncounterList {...token}/>}/>
+              <Route path="/encounters/:group/:source/:name" element={<EncounterVerview {...token}/>}/>
+              <Route path="/encounter-planer/" element={<EncounterPlaner {...token}/>}/>
+              <Route path="/campains" element={<Campains {...token}/>}/>
+              <Route path="/spells" element={<SpellList {...token}/>}/>
+              <Route path="/spells/:group/:source/:name" element={<SpellPage {...token}></SpellPage>}/>
+              <Route path="/player" element={<PlayerCharacterSheet/>}/>
+              <Route path="*" element={<NotFound item="page" id="unknown" />}/>
+            </Routes>
+          </main>
+        </TextWraper>
           
         <ToastContainer style={{
           marginTop: "70px"
