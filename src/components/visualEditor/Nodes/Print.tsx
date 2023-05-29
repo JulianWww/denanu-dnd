@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Handle, Position } from 'reactflow';
-import { Card, TextArea, Grid } from "semantic-ui-react"
+import { Grid } from "semantic-ui-react"
 import { canConnect } from "./Utils"
+import { Card, CardContent, TextField } from '@mui/material';
 
 
 export default function PrintNode({ data }: any) {
@@ -14,10 +15,10 @@ export default function PrintNode({ data }: any) {
 
   return (
     <Card className='node'>
-      <Card.Content className='function' inverted>
-        <Card.Header>Print</Card.Header>
-      </Card.Content>
-      <Card.Content className='data'>        
+      <CardContent className='function'>
+        <h3>Print</h3>
+      </CardContent>
+      <CardContent className='data'>        
         <Grid className="bound">
           <Grid.Row>
             <Grid.Column width={8}>
@@ -28,13 +29,13 @@ export default function PrintNode({ data }: any) {
             </Grid.Column>
           </Grid.Row>
           <Grid.Row>
-            <Grid.Column width={8}>
+            <Grid.Column width={15}>
               <Handle type="target" className="wildcard" position={Position.Left} id="wildcard-txt" isValidConnection={canConnect}/>
-             <TextArea className="leftalign" placeholder='Text Goes Here' onChange={onChange} value={txt}/>
+              <TextField className="leftalign" placeholder='Test Goes Here' onChange={onChange} value={txt} multiline minRows={3} fullWidth label="text"/>
            </Grid.Column>
           </Grid.Row>
         </Grid>
-      </Card.Content>
+      </CardContent>
     </Card>
   );
 }

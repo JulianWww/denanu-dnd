@@ -24,6 +24,7 @@
 .ui.grid.bound>.row{
   padding-top: 0.3em;
   padding-bottom: 0.3em;
+  margin-top: 10px
 }
 
 .node {
@@ -50,7 +51,7 @@
 }
 
 .node>.data {
-	padding: 0px 0px 5px 0px!important;
+	padding: 0px 0px 10px 5px!important;
 }
 
 .mathematics-operation {
@@ -79,6 +80,7 @@
   height: 0; 
   border-top: 12px solid transparent;
   border-bottom: 12px solid transparent;
+  border-right: 0px solid transparent;
   
   border-left: 15px solid green;
 	border-radius: 0;
@@ -143,9 +145,16 @@
 
 .node>.data>.grid>.row>.column>.rightalign {
   margin-right: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .node>.data>.grid>.row>.column>.leftalign {
   margin-left: 15px;
+  margin-top: -18px;
+}
+
+.node>.data>.grid>.row>.column> p.leftalign {
+  margin-top: 0;
 }
 

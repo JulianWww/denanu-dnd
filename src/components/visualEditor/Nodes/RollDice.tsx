@@ -1,16 +1,17 @@
 import { Handle, Position } from 'reactflow';
-import { Card, Grid } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import { canConnect } from "./Utils";
 import NumberInput from "./Utility/NumberInput";
+import { Card, CardContent } from '@mui/material';
 
 
 export default function RollDice({ data }: any) {
   return (
     <Card className='node'>
-      <Card.Content className='function' inverted>
-        <Card.Header>Roll dice</Card.Header>
-      </Card.Content>
-      <Card.Content className='data'>
+      <CardContent className='function'>
+        <h3>Roll dice</h3>
+      </CardContent>
+      <CardContent className='data'>
         <Grid className="bound" style={{width: "300px"}}>
           <Grid.Row>
             <Grid.Column width={2}>
@@ -43,7 +44,7 @@ export default function RollDice({ data }: any) {
             </Grid.Column>
           </Grid.Row>
         </Grid>
-      </Card.Content>
+      </CardContent>
     </Card>
   );
 }

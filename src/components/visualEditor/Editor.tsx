@@ -248,7 +248,7 @@ export default class Editor extends React.Component<Props, State> {
     return (
       <ReactFlowProvider>
         <Card>
-          <CardContent>
+          <CardContent sx={{mb: 2}}>
             <Markup content={this.props.description}/>
           </CardContent>
         </Card>

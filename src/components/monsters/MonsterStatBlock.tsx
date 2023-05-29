@@ -22,6 +22,7 @@ import { Box, Button, ButtonGroup, Collapse, Dialog } from "@mui/material";
 import { SlideUp } from '../Transitions';
 import Markdown from './Markdown';
 import RightAlign from '../RightAlign';
+import { setMainMenuHidden } from '../MainMenu';
 
 const seperator = <svg height="5" width="100%" className="tapered-rule" viewBox="0 0 2 2" preserveAspectRatio="none">
   <polyline points="0,0 2,1 0,2"/>
@@ -244,6 +245,7 @@ export default class StatsSheet extends React.Component<Props, State> {
     const print = () => printDiv(block, character.name)
     const png = () => toPng(block, character.name);
     const md = () => this.setState({mdOpen: !mdOpen});
+
 
     return <>
       <RightAlign>

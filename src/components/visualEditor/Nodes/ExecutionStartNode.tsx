@@ -1,15 +1,16 @@
 import { Handle, Position } from 'reactflow';
-import { Card, Grid } from "semantic-ui-react"
 import { canConnect, getNodeId } from "./Utils"
+import { Card, CardContent } from '@mui/material';
+import { Grid } from 'semantic-ui-react';
 
 
 export default function ExecutionStart({ data }: any) {
   return (
     <Card className='node'>
-      <Card.Content className='type event' inverted>
-        <Card.Header>Execution Start</Card.Header>
-      </Card.Content>
-      <Card.Content className='data'>
+      <CardContent className='type event'>
+        <h3>Execution Start</h3>
+      </CardContent>
+      <CardContent className='data'>
         <Grid className="bound">
           <Grid.Row>
             <Grid.Column>
@@ -17,7 +18,7 @@ export default function ExecutionStart({ data }: any) {
             </Grid.Column>
           </Grid.Row>
         </Grid>
-      </Card.Content>
+      </CardContent>
     </Card>
   );
 }

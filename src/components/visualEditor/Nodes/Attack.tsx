@@ -1,7 +1,8 @@
 import { useCallback, useState } from 'react';
 import { Handle, Position } from 'reactflow';
-import { Card, Input, Grid } from "semantic-ui-react"
+import { Input, Grid } from "semantic-ui-react"
 import { canConnect } from "./Utils"
+import { Card, CardContent, TextField } from '@mui/material';
 
 
 export default function Attack({ data }: any) {
@@ -15,10 +16,10 @@ export default function Attack({ data }: any) {
 
   return (
     <Card className='node'>
-      <Card.Content className='function' inverted>
-        <Card.Header>Attack</Card.Header>
-      </Card.Content>
-      <Card.Content className='data'>
+      <CardContent className='function'>
+        <h3>Attack</h3>
+      </CardContent>
+      <CardContent className='data'>
         <Grid className="bound" style={{width: "300px"}}>
           <Grid.Row>
             <Grid.Column width={2}>
@@ -32,7 +33,7 @@ export default function Attack({ data }: any) {
           <Grid.Row>
            <Grid.Column width={8}>
               <Handle type="target" className="number" position={Position.Left} id="number-mod" isValidConnection={canConnect}/>
-              <Input placeholder='0' className="leftalign" onChange={onChange} value={val} label="mod" style={{width: "100px"}}/>
+              <TextField placeholder='0' className='leftalign' onChange={onChange} value={val} label="Mod" fullWidth/>
             </Grid.Column>
             <Grid.Column width={8}>
               <p className='rightalign'>Crit Execution</p>
@@ -48,7 +49,7 @@ export default function Attack({ data }: any) {
             </Grid.Column>
           </Grid.Row>
         </Grid>
-      </Card.Content>
+      </CardContent>
     </Card>
   );
 }

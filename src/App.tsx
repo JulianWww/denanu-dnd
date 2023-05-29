@@ -52,6 +52,11 @@ const themeProps: ThemeOptions = {
         variant: "standard"
       },
     },
+    MuiTooltip: {
+      defaultProps: {
+        arrow: true,
+      }
+    }
   },
 }
 
@@ -76,47 +81,45 @@ function App() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  if (true)
-    return (<>
-      <ThemeProvider theme={darkTheme}>
-        <MainMenu {...token}/>
-        <Box sx={{
-          backgroundColor: (theme) =>
-            theme.palette.mode === 'light'
-              ? theme.palette.grey[100]
-              : theme.palette.grey[900],
-          flexGrow: 1,
-          height: '100vh',
-          overflow: 'auto',
-        }}>
-          <SaveUkraineRibbon style={{height: "100px"}}/>
-          <SaveUkraineBanScreen isCancelable/>
-          <main style={{marginTop: "80px"}}>
-            <Routes location={location}>
-              <Route path="/" element={<Navigate to="/monsters"/>}/>
-              <Route path="/login" element={<Login {...token} nav={navigate}/>}/>
-              <Route path="/signup" element={<SignUp {...token} nav={navigate}/>}/>
-              <Route path="/monsters" element={<StatBlockSelector {...token}/>}/>
-              <Route path="/monsters/:group/:source/:name" element={<StatBlock {...token}/>}/>
-              <Route path="/encounters" element={<EncounterList {...token}/>}/>
-              <Route path="/encounters/:group/:source/:name" element={<EncounterVerview {...token}/>}/>
-              <Route path="/encounter-planer/" element={<EncounterPlaner {...token}/>}/>
-              <Route path="/campains" element={<Campains {...token}/>}/>
-              <Route path="/spells" element={<SpellList {...token}/>}/>
-              <Route path="/spells/:group/:source/:name" element={<SpellPage {...token}></SpellPage>}/>
-              <Route path="*" element={<NotFound item="page" id="unknown" />}/>
-            </Routes>
-          </main>
-            
-          <ToastContainer style={{
-            marginTop: "70px"
-          }}/>
-        </Box>
-      </ThemeProvider>
-      </>
-    );
+  return (<>
+    <ThemeProvider theme={darkTheme}>
+      <MainMenu {...token}/>
+      <Box sx={{
+        backgroundColor: (theme) =>
+          theme.palette.mode === 'light'
+            ? theme.palette.grey[100]
+            : theme.palette.grey[900],
+        flexGrow: 1,
+        height: '100vh',
+        overflow: 'auto',
+      }}>
+        <SaveUkraineRibbon style={{height: "100px"}}/>
+        <SaveUkraineBanScreen isCancelable/>
+        <main style={{marginTop: "80px"}}>
+          <Routes location={location}>
+            <Route path="/" element={<Navigate to="/monsters"/>}/>
+            <Route path="/login" element={<Login {...token} nav={navigate}/>}/>
+            <Route path="/signup" element={<SignUp {...token} nav={navigate}/>}/>
+            <Route path="/monsters" element={<StatBlockSelector {...token}/>}/>
+            <Route path="/monsters/:group/:source/:name" element={<StatBlock {...token}/>}/>
+            <Route path="/encounters" element={<EncounterList {...token}/>}/>
+            <Route path="/encounters/:group/:source/:name" element={<EncounterVerview {...token}/>}/>
+            <Route path="/encounter-planer/" element={<EncounterPlaner {...token}/>}/>
+            <Route path="/campains" element={<Campains {...token}/>}/>
+            <Route path="/spells" element={<SpellList {...token}/>}/>
+            <Route path="/spells/:group/:source/:name" element={<SpellPage {...token}></SpellPage>}/>
+            <Route path="*" element={<NotFound item="page" id="unknown" />}/>
+          </Routes>
+        </main>
+          
+        <ToastContainer style={{
+          marginTop: "70px"
+        }}/>
+      </Box>
+    </ThemeProvider>
+    </>
+  );
 
-  return null;
 }
 
 export default App;

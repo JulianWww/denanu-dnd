@@ -1,9 +1,11 @@
 import * as React from 'react';
 import {Token} from "../Login/UseToken"
-import { AppBar, Button, Tab, Tabs, Toolbar } from '@mui/material';
+import { AppBar, Button, Collapse, Tab, Tabs, Toolbar } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
 import NavigateButton from './NavitageButton';
 
+
+export var setMainMenuHidden: ( val: boolean ) => void = (val: boolean) => {}
 
 interface DesktopContainerProps {
   children?: React.ReactNode;
@@ -42,36 +44,38 @@ function DesktopContainer(props: DesktopContainerProps) {
   }
 
 
-  return <AppBar sx={{zIndex: 21474836479}}>
-    <Toolbar>
-      <Tabs value={idx} sx={{ flexGrow: 1, alignSelf: 'flex-end' }}>
-        {
-          pages.map((val: string)=> <Tab key={val} label={val.replace("-", " ")} onClick={()=>nav("/" + val)}/>)
-        }
-      </Tabs>
-      <>
-        {props.token ?
+  return (
+      <AppBar>
+        <Toolbar>
+          <Tabs value={idx} sx={{ flexGrow: 1, alignSelf: 'flex-end' }}>
+            {
+              pages.map((val: string)=> <Tab key={val} label={val.replace("-", " ")} onClick={()=>nav("/" + val)}/>)
+            }
+          </Tabs>
           <>
-            <Button onClick={(e) => props.setToken(undefined)}>
-              Log Out
-            </Button>
-            <p style={{ marginLeft: '0.5em' }}>
-              Logged in as {props.token.username}
-            </p>
+            {props.token ?
+              <>
+                <Button onClick={(e) => props.setToken(undefined)}>
+                  Log Out
+                </Button>
+                <p style={{ marginLeft: '0.5em' }}>
+                  Logged in as {props.token.username}
+                </p>
+              </>
+              :
+              <>
+                <NavigateButton url="/login">
+                  Log in
+                </NavigateButton>
+                <NavigateButton url="/signup" style={{ marginLeft: '0.5em' }}>
+                  Sign up
+                </NavigateButton>
+              </>
+            }
           </>
-          :
-          <>
-            <NavigateButton url="/login">
-              Log in
-            </NavigateButton>
-            <NavigateButton url="/signup" style={{ marginLeft: '0.5em' }}>
-              Sign up
-            </NavigateButton>
-          </>
-        }
-      </>
-    </Toolbar>
-  </AppBar>
+        </Toolbar>
+      </AppBar>
+    )
 }
 
 interface ResponsiveContainerProps extends DesktopContainerProps{

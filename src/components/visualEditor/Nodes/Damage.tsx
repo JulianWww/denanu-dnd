@@ -1,7 +1,8 @@
 import { useCallback, useState } from 'react';
 import { Handle, Position } from 'reactflow';
-import { Card, Input, Grid, Popup } from "semantic-ui-react"
+import { Grid } from "semantic-ui-react"
 import { canConnect } from "./Utils"
+import { Card, CardContent, TextField, Tooltip } from '@mui/material';
 
 
 export default function Damage({ data }: any) {
@@ -30,10 +31,10 @@ export default function Damage({ data }: any) {
 
   return (
     <Card className='node'>
-      <Card.Content className='function' inverted>
-        <Card.Header>Apply Damage</Card.Header>
-      </Card.Content>
-      <Card.Content className='data'>
+      <CardContent className='function'>
+        <h3>Apply Damage</h3>
+      </CardContent>
+      <CardContent className='data'>
         <Grid className="bound" style={{width: "300px"}}>
           <Grid.Row>
             <Grid.Column width={2}>
@@ -47,7 +48,7 @@ export default function Damage({ data }: any) {
           <Grid.Row>
            <Grid.Column width={8}>
               <Handle type="target" className="number" position={Position.Left} id="number-faces" isValidConnection={canConnect}/>
-              <Input className='leftalign' onChange={onChangeDie} value={faces} label="Die Faces" style={{width: "100px"}}/>
+              <TextField className='leftalign' onChange={onChangeDie} value={faces} label="Die Faces" fullWidth/>
             </Grid.Column>
             <Grid.Column width={8}>
               <p className='rightalign'>Damage</p>
@@ -57,7 +58,7 @@ export default function Damage({ data }: any) {
           <Grid.Row>
            <Grid.Column width={8}>
            <Handle type="target" className="number" position={Position.Left} id="number-dice" isValidConnection={canConnect}/>
-              <Input className='leftalign' onChange={onChangeDieCount} value={dice} label="Die count" style={{width: "100px"}}/>
+              <TextField className='leftalign' onChange={onChangeDieCount} value={dice} label="Die count" fullWidth/>
             </Grid.Column>
             <Grid.Column width={8}>
             </Grid.Column>
@@ -65,7 +66,7 @@ export default function Damage({ data }: any) {
           <Grid.Row>
             <Grid.Column width={8}>
               <Handle type="target" className="number" position={Position.Left} id="number-mod" isValidConnection={canConnect}/>
-              <Input className='leftalign' onChange={onChangeMod} value={mod} label="Modifier" style={{width: "100px"}}/>
+              <TextField className='leftalign' onChange={onChangeMod} value={mod} label="Modifier" fullWidth/>
             </Grid.Column>
             <Grid.Column width={8}>
             </Grid.Column>
@@ -73,7 +74,7 @@ export default function Damage({ data }: any) {
           <Grid.Row>
            <Grid.Column width={8}>
               <Handle type="target" className="string" position={Position.Left} id="string-type" isValidConnection={canConnect}/>
-              <Input className='leftalign' onChange={onChangeType} value={type} label="Type" style={{width: "100px"}}/>
+              <TextField className='leftalign' onChange={onChangeType} value={type} label="Type" fullWidth/>
             </Grid.Column>
             <Grid.Column width={8}>
             </Grid.Column>
@@ -81,7 +82,7 @@ export default function Damage({ data }: any) {
           <Grid.Row>
            <Grid.Column width={8}>
               <Handle type="target" className="boolean" position={Position.Left} id="boolean-crit" isValidConnection={canConnect}/>
-              <p className='leftalign'><Popup content="Default: false" trigger={<span>Crit</span>}></Popup></p>
+              <p className='leftalign'><Tooltip title="Default: false"><span>Crit</span></Tooltip></p>
             </Grid.Column>
             <Grid.Column width={8}>
             </Grid.Column>
@@ -89,13 +90,13 @@ export default function Damage({ data }: any) {
           <Grid.Row>
            <Grid.Column width={8}>
               <Handle type="target" className="boolean" position={Position.Left} id="boolean-half" isValidConnection={canConnect}/>
-              <p className='leftalign'><Popup content="Default: false" trigger={<span>Half Damage</span>}></Popup></p>
+              <p className='leftalign'><Tooltip title="Default: false"><span>Half Damage</span></Tooltip></p>
             </Grid.Column>
             <Grid.Column width={8}>
             </Grid.Column>
           </Grid.Row>
         </Grid>
-      </Card.Content>
+      </CardContent>
     </Card>
   );
 }

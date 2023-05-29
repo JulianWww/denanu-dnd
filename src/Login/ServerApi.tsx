@@ -31,7 +31,8 @@ export const backendUrl= process.env.REACT_APP_BACKEND_URL + "/server_backend"
 
 export async function getJson(source: string, name: string) {
   return fetch(process.env.PUBLIC_URL + "/publicResources/" + source + "/" + name + ".json", {
-    method: 'GET'
+    method: 'GET',
+    cache: "no-store",
   })
     .then(data => {return data.json()})
 }
@@ -63,6 +64,7 @@ export async function readPrivateData(token: Token, group: string, name: string)
       token: token.token,
     }), {
     method: 'GET',
+    cache: "no-store",
     headers: {
     }
   })

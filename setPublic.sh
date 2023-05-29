@@ -1,0 +1,1 @@
+rsync -z -r public/publicResources ubuntu@wandhoven.ddns.net:/media/B/html/RPG/denanu-dnd/ --delete
